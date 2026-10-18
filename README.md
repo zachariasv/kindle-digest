@@ -5,7 +5,6 @@ Daily curated news feeds for KOReader, regenerated every morning by a scheduled 
 | Feed | URL | KOReader setting |
 |---|---|---|
 | Morning Digest (summaries) | https://zachariasv.github.io/kindle-digest/digest.xml | `download_full_article = false` |
-| Must-Reads (3 originals/day) | https://zachariasv.github.io/kindle-digest/mustreads.xml | `download_full_article = true` |
 
 ## KOReader setup
 
@@ -13,10 +12,11 @@ Add these to the News Downloader's `feed_config.lua` (Tools → News downloader 
 
 ```lua
 { "https://zachariasv.github.io/kindle-digest/digest.xml", limit = 1, download_full_article = false, include_images = false, enable_filter = false },
-{ "https://zachariasv.github.io/kindle-digest/mustreads.xml", limit = 3, download_full_article = true, include_images = true, enable_filter = true, filter_element = "#main-content-area, .c-article-content, article, main", block_element = "nav, aside, footer, div.rich-share, section.more-on, div.container--ads, div.sib-newsletter-form" },
 ```
 
 Then use "Download news" each morning.
+
+The full-text must-reads live in the private `kindle-private` repo.
 
 ## How it works
 
