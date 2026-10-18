@@ -21,15 +21,22 @@ def paragraphs(text):
     return "".join(f"<p>{escape(p.strip())}</p>" for p in text.split("\n\n") if p.strip())
 
 
+def long_date(ed):
+    return datetime.strptime(ed["date"], "%Y-%m-%d").strftime("%A %-d %B %Y")
+
+
 def render_digest(ed):
-    out = []
+    # KOReader puts the item title ("Morning Digest") in the heading, so the date goes on its own line below
+    out = [f"<p><b>{long_date(ed)}</b></p>"]
     if ed.get("intro"):
         out.append(paragraphs(ed["intro"]))
     for sec in ed["sections"]:
         out.append(f"<h2>{escape(sec['heading'])}</h2>")
         for it in sec["items"]:
             out.append(f"<h3>{escape(it['title'])}</h3>")
-            out.append(paragraphs(it["body"]))
+            out.append(paragraphs(it.get("body", "")))
+            if it.get("bullets"):
+                out.append("<ul>" + "".join(f"<li>{escape(b)}</li>" for b in it["bullets"]) + "</ul>")
             if it.get("source"):
                 out.append(f"<p><small><i>{escape(it['source'])}</i></small></p>")
     if ed.get("must_reads"):
@@ -75,7 +82,7 @@ def main():
     for ed in eds:
         date = pub_date(ed)
         digest_items.append(item(
-            ed["title"], f"{BASE_URL}/#{ed['date']}", f"digest-{ed['date']}", date, render_digest(ed)))
+            "Morning Digest", f"{BASE_URL}/#{ed['date']}", f"digest-{ed['date']}", date, render_digest(ed)))
         for i, m in enumerate(ed.get("must_reads", [])):
             must_items.append(item(
                 f"{m['title']} ({m['source']})", m["url"], f"must-{ed['date']}-{i}", date,
