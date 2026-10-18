@@ -34,10 +34,12 @@ Sections, in this order:
 7. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip the section when nothing matters.
 8. **Week in review** (Sundays only): 3 short threads that connect the week's stories.
 
-Must-reads: exactly 3 original articles per day, the best pieces to read in full. The full text is extracted into a private feed (repo `kindle-private`), so pick pages that are a single regular article:
-- Good: Al Jazeera, SVT, SR, Euronews regular articles, BBC, Ars Technica, Quanta, Anthropic / OpenAI / DeepMind research posts.
-- Never: live blogs or live pages, video pages, galleries, or paywalled sites (FT, WSJ, DN+, Breakit).
-- If an article fails extraction, replace it with another one and rerun.
+Must-reads: exactly 3 original articles per day. These are **deep-dive material**, the pieces worth 10-20 minutes of focused reading, not news items:
+- **What qualifies:** substantial analysis, explainers, long-form reporting, research write-ups, technical blog posts and papers. Each should leave the reader understanding something in depth: a mechanism, a strategic picture, a technical result.
+- **Weighting:** lean towards the reader's core interests: technical AI and ML results, mathematics and science (papers welcome, figures matter), geopolitics and strategy, and tech and VC. Swedish politics only when it's a genuinely substantial analysis of a major development.
+- **Not:** short news reports, status updates, colour pieces or 'interesting tidbits', however relevant the topic. Those belong in the digest.
+- **Format:** single regular article pages from free sites: arXiv (HTML versions), lab and research blogs (Anthropic, OpenAI, DeepMind), Quanta, Ars Technica, Al Jazeera, BBC, Euronews, SVT, SR. Never live pages, video pages, galleries or paywalled sites (FT, WSJ, DN+, Breakit).
+- The full text and figures are extracted into a private feed (repo `kindle-private`). If an article fails extraction, replace it and rerun.
 
 ## Length
 
