@@ -26,8 +26,7 @@ def long_date(ed):
 
 
 def render_digest(ed):
-    # KOReader puts the item title ("Morning Digest") in the heading, so the date goes on its own line below
-    out = [f"<p><b>{long_date(ed)}</b></p>"]
+    out = []
     if ed.get("intro"):
         out.append(paragraphs(ed["intro"]))
     for sec in ed["sections"]:
@@ -82,7 +81,7 @@ def main():
     for ed in eds:
         date = pub_date(ed)
         digest_items.append(item(
-            "Morning Digest", f"{BASE_URL}/#{ed['date']}", f"digest-{ed['date']}", date, render_digest(ed)))
+            f"Morning Digest, {long_date(ed)}", f"{BASE_URL}/#{ed['date']}", f"digest-{ed['date']}", date, render_digest(ed)))
         for i, m in enumerate(ed.get("must_reads", [])):
             must_items.append(item(
                 f"{m['title']} ({m['source']})", m["url"], f"must-{ed['date']}-{i}", date,
