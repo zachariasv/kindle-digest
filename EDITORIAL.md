@@ -34,8 +34,8 @@ Sections, in this order:
 7. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip the section when nothing matters.
 8. **Week in review** (Sundays only): 3 short threads that connect the week's stories.
 
-Must-reads: exactly 3 original articles per day, the best pieces to read in full. KOReader extracts the article body with the CSS selectors `.wysiwyg, .c-article-content, article, main` (first match wins), so pick pages where one of these wraps the article text and little else:
-- Good: Al Jazeera news articles (`.wysiwyg`), Euronews regular articles (`.c-article-content`), SVT and SR articles (`article`), Anthropic / OpenAI / DeepMind research posts (`article`), Quanta.
+Must-reads: exactly 3 original articles per day, the best pieces to read in full. KOReader extracts the article body with the CSS selectors `#main-content-area, .c-article-content, article, main` (first match wins), so pick pages where one of these wraps the article text and little else:
+- Good: Al Jazeera news articles (`#main-content-area`), Euronews regular articles (`.c-article-content`), SVT and SR articles (`article`), Anthropic / OpenAI / DeepMind research posts (`article`), Quanta.
 - Never: live blogs or live pages, video pages, galleries, paywalled sites (FT, WSJ, DN+, Breakit), or pages that need JavaScript to show the text.
 - Before choosing, fetch the page and confirm it's a single regular article.
 
