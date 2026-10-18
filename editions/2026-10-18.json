@@ -1,0 +1,182 @@
+{
+  "date": "2026-10-18",
+  "title": "Morning Digest, Sunday 18 October 2026",
+  "intro": "Oil is back at 110 dollars, Sweden still has no government, and the US midterms are 16 days away. It's Sunday, so there's a week in review at the end.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Brent crude hits 110 dollars as the Hormuz shipping war peaks",
+          "body": "October is the worst month for attacks on ships since the US-Israel war on Iran began on 28 February. Washington and Tehran both claim to control the strait, and oil touched its highest level since May on Friday.",
+          "source": "Al Jazeera, 17 Oct"
+        },
+        {
+          "title": "France: a nationwide 'day of anger' over living costs",
+          "body": "Students, unions, farmers and the yellow vests marched on Saturday. Police used tear gas in Paris and Lyon, and thousands have been detained across several weeks of protests.",
+          "source": "SVT, 17 Oct"
+        },
+        {
+          "title": "Sweden: the Speaker names the next government-builder on Monday",
+          "body": "The Riksdag voted down Magdalena Andersson as prime minister on Thursday. Andreas Norlén announces who gets the next exploratory mandate on Monday at 13:30.",
+          "source": "SVT, 16 Oct"
+        },
+        {
+          "title": "US midterms on 3 November",
+          "body": "Prediction markets give Democrats about an 85 percent chance of taking the House. The Senate is a coin flip with a slight Republican lean.",
+          "source": "DeFi Rate (Kalshi and Polymarket odds), 15 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Geopolitics",
+      "items": [
+        {
+          "title": "The Iran war: a fight over the strait, with no deal in sight",
+          "body": "The UK's maritime agency confirmed at least 12 ship attacks in the week to 16 October. One container ship sank and two were disabled, and it believes the real number is higher. A new tactic appeared on Saturday: a tanker off Saudi Arabia's Jubail was hit by a grenade fired from a small boat.\n\nThe US says it has cleared the mines and that 400 ships passed last week. Iran says the strait is unsafe for anyone who doesn't coordinate with its own authority. Flows are running at roughly two-thirds of the pre-war level. The US keeps a naval blockade on Iran's southern ports, and Pakistan and Qatar are still relaying messages without a breakthrough.\n\nWhat to watch: reports say Trump has told the military to prepare bigger strikes after the midterms, so early November is the escalation risk.",
+          "source": "Al Jazeera, 17-18 Oct"
+        },
+        {
+          "title": "The Houthis have opened a second front against Saudi Arabia",
+          "body": "A Houthi missile hit Riyadh airport last weekend, reportedly killing 12, and airlines suspended flights. The Saudi-led coalition is downing drones near Riyadh almost daily. As a knock-on effect, the EU-Gulf summit planned for 24 October has been postponed.\n\nAlso on Saturday, masked settlers attacked a group of European politicians in the occupied West Bank.",
+          "source": "Al Jazeera; Euronews"
+        },
+        {
+          "title": "Ukraine is running out of air defence",
+          "body": "Ukraine is reported to be out of Patriot interceptors, the only weapon it has against ballistic missiles. Zelenskyy says Russia launched around 1,000 drones in a single day. The Iran war has made Patriots scarcer worldwide.\n\nRelations with Washington are strained by a Trump-announced deal with Russia over diesel supplies. According to France's foreign minister, Europe now supplies about two-thirds of Ukraine's intelligence.",
+          "source": "Euronews, 15-16 Oct; AP"
+        },
+        {
+          "title": "Week ahead",
+          "body": "China's foreign minister Wang Yi tours Azerbaijan, Croatia, Montenegro and Bulgaria, a sign of Beijing courting Europe's edges. APEC finance ministers meet, and Canada's Carney meets Erdogan.",
+          "source": "Scowcroft Group week-ahead"
+        }
+      ]
+    },
+    {
+      "heading": "US and Europe",
+      "items": [
+        {
+          "title": "Midterms: Democrats favoured for the House, Senate up for grabs",
+          "body": "Markets see a Democratic sweep as the single most likely outcome at just under 50 percent. Next comes a split Congress with a Republican Senate at about 36 percent. Ohio, Wisconsin and Arizona are the Senate races to watch. Trump spent Saturday campaigning in Kentucky, a sign the GOP is defending ground it should own.",
+          "source": "DeFi Rate; CNN"
+        },
+        {
+          "title": "EU summit ends without a budget deal",
+          "body": "Leaders failed to agree on the 2028-2034 budget. The Irish presidency's proposal of about 1,622 billion euros is roughly 16 percent below what Parliament wants. The cohesion countries reject it, and the frugals, Sweden among them, want deeper cuts. Council president Costa now takes over and aims for a special summit on 26 November.\n\nEnergy prices dominated the room. Eurozone inflation is around 3 percent, and Italy and Sweden clashed over delaying the ETS2 carbon market. Separately, the EU's new deal with China caps Chinese hybrid car imports at 350,000 a year.",
+          "source": "Euronews, 15 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: back to square one",
+          "body": "Andersson's attempt at a one-party Social Democratic government failed in Thursday's vote. Instead of a new round of talks, the Speaker has phoned the party leaders and will name the next candidate on Monday. It could be Andersson again, Kristersson, or, less likely, the Centre Party's Elisabeth Thand Ringqvist, who wants a broad middle government.\n\nThe main knot is the Left Party's demand to sit in government. In a Novus poll, 64 percent of voters didn't want that. SVT's commentator doesn't expect a snap election.",
+          "source": "SVT, 16 Oct"
+        },
+        {
+          "title": "Forest policy could split the red-greens",
+          "body": "Even if the left side gets a mandate, forestry is shaping up as a hard issue between the Greens, the Left and the Centre Party. A small orchid, the knärot, has become the symbol of the fight.",
+          "source": "SVT"
+        },
+        {
+          "title": "In brief",
+          "body": "A woman died after a shooting in a sports hall in southern Stockholm, and two suspects under 18 have been arrested. A new law requires gang recruitment ads to be taken down within an hour. A Moderate MP proposes a ten-year citizenship requirement for Riksdag members after a new Left MP entered parliament seven months after becoming a citizen. SVT also traced fake AI-made news about him to Vietnam.",
+          "source": "SVT"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "DeepSeek ships another open-weight upgrade",
+          "body": "DeepSeek-V4.1-Flash-1017 is out under the MIT licence with a 1M-token context. It is a minor update, but its scores jump: Humanity's Last Exam rises from 36.8 to 42.6 and Terminal-Bench from 31.2 to 42.3. DeepSeek's own table still shows Claude Opus 5 ahead on most benchmarks. The pitch is less output per task, so lower cost.\n\nWhy it matters: Chinese open weights keep compressing the price of 'good enough', which is the pressure investors are worried about for the closed labs.",
+          "source": "Hugging Face model card"
+        },
+        {
+          "title": "Anthropic signs its first Canadian data centre",
+          "body": "Anthropic took a 20-year lease on a campus in Point Tupper, Nova Scotia. It starts at 95 MW in late 2027 and scales to 420 MW by 2028. Compute deals are now as much a part of AI strategy as the models themselves.",
+          "source": "via AI Weekly, 17 Oct"
+        },
+        {
+          "title": "Stolen API keys are the new attack surface",
+          "body": "The coding tool OpenCode says a large-scale attack aimed at distilling models compromised keys for 1.4 percent of its users. Bitsight separately found a criminal hacking tool that runs on stolen OpenAI, Anthropic and Google keys, with the bills landing on the victims.",
+          "source": "via AI Weekly"
+        },
+        {
+          "title": "The AI earnings slowdown is priced in",
+          "body": "Jefferies notes that consensus earnings growth for AI-linked global stocks falls from almost 100 percent this year to about 30 percent in 2027. That's still strong, but it's the deceleration markets will trade on.",
+          "source": "via AI Weekly"
+        }
+      ]
+    },
+    {
+      "heading": "Breakthrough of the day: AI-designed quantum circuits",
+      "items": [
+        {
+          "title": "Claude beats the published circuits on eight quantum building blocks",
+          "body": "The setup was a closed loop. Claude wrote circuit designs as Python programs, an automatic checker verified them, and the score was qubits times gates, a stand-in for runtime. There was no human input between rounds. The project ran with Mikhail Lukin's group at Harvard.\n\nThe nicest result is in elliptic-curve point addition, the core of Shor-style attacks on ECC. Its bottleneck is modular inversion via 'divsteps', a gcd-like loop that branches each step. A quantum circuit must be reversible, so it cannot throw information away. Normally every branch decision is stored in extra qubits so the computation can later be undone. Claude's insight was that each branch can be recomputed from the current pair of numbers, so the history never needs storing. It proved the decoding rule from algebraic identities and formalised it in Lean. Choosing when to store and when to recompute gives a whole family of trade-offs. One design uses 12 percent more qubits than the smallest known circuit but 17 times fewer gates.\n\nThe second result is the decoder inside decoded quantum interferometry, a leading candidate for quantum optimisation advantage. Google's version used the extended Euclidean algorithm, whose step count varies with the input, which quantum circuits handle badly. Claude switched to Berlekamp-Massey, which does the same step every round. It reconstructs temporary values instead of storing them and keeps space for just one rare exception. That choice was sized by simulating 403 million decodings, and only about 1 in 10,000 runs fails. The result is 12 times fewer gates than Google's construction.\n\nWhy it matters: resource estimates for useful quantum computers keep falling. The FeMoco chemistry benchmark went from about 50 trillion Toffoli gates in 2017 to about 340 million now. The bigger lesson is the pattern: an AI searching in a loop against a hard verifier, plus formal proofs, is producing real new mathematics-adjacent engineering.",
+          "source": "Anthropic Research, 16 Oct (arXiv 2610.22367)"
+        },
+        {
+          "title": "Also on the radar",
+          "body": "Edge0 predicts which experts a mixture-of-experts model will route to ahead of time, letting a 35B MoE run from an SSD on consumer hardware. A benchmark of ten self-distillation methods for agentic RL finds little consistent gain over plain GRPO and some training instability.",
+          "source": "Hugging Face trending papers"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "The week on Breakit",
+          "body": "Modal, Erik Bernhardsson's AI infrastructure company, raised again at a valuation of about 158 billion SEK. Tavion, the battery company of ex-Northvolt Emad Zand, is valued at 1.9 billion SEK just five months in. Norrsken is teaming up with Nvidia on a new AI hub in Stockholm. Sprints, the owner of Flightradar24, raised 8 billion SEK from private equity for more acquisitions, and Prisjakt is heading to the stock market.\n\nEarly-stage rounds: Miracly (Björn Bergström) raised 20 million SEK from Creandum and the Lassie founders, Matters (Per Österström) raised 50 million, and Ocius X took 125 million from Viking Growth. On the people side, Margarethe Böhme takes over at Wave Ventures and is billed as Europe's youngest VC partner.",
+          "source": "Breakit headlines (mostly paywalled)"
+        }
+      ]
+    },
+    {
+      "heading": "Week in review",
+      "items": [
+        {
+          "title": "1. The energy shock is the thread that ties the week together",
+          "body": "Attacks in Hormuz push Brent to 110. That keeps eurozone inflation near 3 percent, which put energy at the top of the EU summit and fed the cost-of-living anger on French streets. If you only follow one number this autumn, make it the oil price.",
+          "source": ""
+        },
+        {
+          "title": "2. Washington is on pause until 3 November",
+          "body": "Bigger moves against Iran are reportedly held until after the midterms. Meanwhile Ukraine is short of interceptors and uneasy about a US-Russia diesel deal, and Europe is quietly filling gaps, most visibly in intelligence. Expect decisions to bunch up in November.",
+          "source": ""
+        },
+        {
+          "title": "3. Sweden's arithmetic hasn't changed",
+          "body": "No bloc has a clean majority, and the Left Party's price is a seat in government that most voters don't want. Monday's mandate tells you which side the Speaker thinks is closest.",
+          "source": ""
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "US and Iran both claim control of the Strait of Hormuz",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+      "why": "The clearest single picture of the shipping war that is setting oil prices this autumn."
+    },
+    {
+      "title": "EU summit: Costa takes charge of budget talks",
+      "source": "Euronews",
+      "url": "https://www.euronews.com/2026/10/15/eu-summit-leaders-seek-fast-solutions-to-spiralling-energy-prices",
+      "why": "One article covering the EU budget fight, energy prices, the China car deal and Ukraine, with Sweden in the middle of several of them."
+    },
+    {
+      "title": "Designing efficient quantum circuits with Claude",
+      "source": "Anthropic Research",
+      "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+      "why": "Real algorithmic content (reversible gcd, Berlekamp-Massey) and a template for how AI-plus-verifier research will work."
+    }
+  ]
+}
