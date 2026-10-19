@@ -1,7 +1,7 @@
 """Build the two KOReader feeds from the edition JSON files.
 
 editions/YYYY-MM-DD.json  ->  digest.xml   (one item per day, full summary inside)
-                          ->  mustreads.xml (three links per day, KOReader fetches the originals)
+                          ->  mustreads.xml (the daily must-read link)
 
 Run: python build.py
 """
@@ -29,6 +29,10 @@ def render_digest(ed):
     out = []
     if ed.get("intro"):
         out.append(paragraphs(ed["intro"]))
+    if ed.get("must_reads"):
+        m = ed["must_reads"][0]
+        out.append("<h2>Today's must-read</h2>")
+        out.append(f"<p><b>{escape(m['title'])}</b> ({escape(m['source'])})</p><p>{escape(m['why'])}</p>")
     for sec in ed["sections"]:
         out.append(f"<h2>{escape(sec['heading'])}</h2>")
         for it in sec["items"]:
@@ -38,10 +42,6 @@ def render_digest(ed):
                 out.append("<ul>" + "".join(f"<li>{escape(b)}</li>" for b in it["bullets"]) + "</ul>")
             if it.get("source"):
                 out.append(f"<p><small><i>{escape(it['source'])}</i></small></p>")
-    if ed.get("must_reads"):
-        out.append("<h2>Today's must-reads</h2>")
-        for m in ed["must_reads"]:
-            out.append(f"<p><b>{escape(m['title'])}</b> ({escape(m['source'])}): {escape(m['why'])}</p>")
     return "".join(out)
 
 
@@ -90,7 +90,7 @@ def main():
     (ROOT / "digest.xml").write_text(channel(
         "Morning Digest", "Daily curated news digest", BASE_URL, digest_items), encoding="utf-8")
     (ROOT / "mustreads.xml").write_text(channel(
-        "Must-Reads", "Three curated original articles a day", BASE_URL, must_items), encoding="utf-8")
+        "Must-Reads", "One must-read a day", BASE_URL, must_items), encoding="utf-8")
     print(f"Built feeds from {len(eds)} edition(s)")
 
 
