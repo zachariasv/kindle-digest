@@ -33,6 +33,8 @@ def render_digest(ed):
         m = ed["must_reads"][0]
         out.append("<h2>Today's must-read</h2>")
         out.append(f"<p><b>{escape(m['title'])}</b> ({escape(m['source'])})</p><p>{escape(m['why'])}</p>")
+        if m.get("who"):
+            out.append(f"<p><i>Who's behind it:</i> {escape(m['who'])}</p>")
     for sec in ed["sections"]:
         out.append(f"<h2>{escape(sec['heading'])}</h2>")
         for it in sec["items"]:

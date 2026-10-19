@@ -85,7 +85,8 @@ def main(day):
     classic = next_classic(history, today, top_impact)
     if classic:
         pick = {"url": classic["url"], "title": classic["title"], "source": classic["source"],
-                "why": classic["why"], "category": "classic", "minutes": classic["minutes"]}
+                "why": classic["why"], "who": classic.get("who", ""), "category": "classic",
+                "minutes": classic["minutes"]}
         backups = ranked[:2]
     elif ranked:
         pick, backups = ranked[0], ranked[1:3]
@@ -103,9 +104,9 @@ def main(day):
 
     ed_path = ROOT / "editions" / f"{day}.json"
     ed = json.loads(ed_path.read_text(encoding="utf-8"))
-    fields = ("title", "source", "url", "why")
-    ed["must_reads"] = [{k: pick[k] for k in fields}]
-    ed["must_read_backups"] = [{k: c[k] for k in fields} for c in backups]
+    fields = ("title", "source", "url", "why", "who")
+    ed["must_reads"] = [{k: pick.get(k, "") for k in fields}]
+    ed["must_read_backups"] = [{k: c.get(k, "") for k in fields} for c in backups]
     ed_path.write_text(json.dumps(ed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(("Classic: " if classic else "Picked: ") + pick["title"])
     return 0

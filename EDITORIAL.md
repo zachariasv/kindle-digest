@@ -50,7 +50,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 - **History that explains the present**: well-chosen historical parallels to a current crisis. The concept is strong; the parallel itself must be convincing.
 - **Big investigations** only when the impact is large and the subject touches his core interests. Far-away conflicts, however well reported, are only for very slow weeks.
 
-**Captivation is the tiebreaker.** Ask: would this make him sit up straight? Interesting-but-flat pieces (good chip-fab features, dry investor notes) lose to pieces with surprise, a clear "aha", a famous author or a sharp intersection. When the author is a recognised authority (Turing Award winner, Nobel laureate, a field's best-known researcher), say so in `why`, because who wrote it matters to him.
+**Captivation is the tiebreaker.** Ask: would this make him sit up straight? Interesting-but-flat pieces (good chip-fab features, dry investor notes) lose to pieces with surprise, a clear "aha", a famous author or a sharp intersection. Who wrote it matters a lot to him: knowing why a person or team is worth listening to is what makes him care. Every candidate therefore carries a `who` field: 1-2 sentences on who the authors or organisation are and why their view carries weight (track record, what else they built, awards, their role in the story). Give this context even for well-known names, and be honest when a source is less established.
 
 **What he skips:**
 - News reports of any length under ~10 minutes (they belong in the digest).
@@ -84,7 +84,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 Good pieces don't arrive evenly across topics, so there is no fixed weekly schedule. Instead, candidates queue up in `mustread/registry.json` and a fixed scoring rule (`pick.py`) balances impact against variety.
 
 Each run:
-1. Add every new piece found today that clearly passes the rules above as a candidate: `{url, title, source, why, category, kind, published, added, impact, minutes}`. Usually 2-6 a day. Don't re-add a URL that's already in the registry or its history.
+1. Add every new piece found today that clearly passes the rules above as a candidate: `{url, title, source, why, who, category, kind, published, added, impact, minutes}`. Usually 2-6 a day. Don't re-add a URL that's already in the registry or its history.
    - `category` is exactly one of: `ai-research` (lab and startup technical write-ups, papers, AI doing security research), `ai-economics`, `science` (maths and science features), `investigation` (big investigations and geopolitical deep dives), `blind-spot` (explainers and foundational classics).
    - `kind` is `fresh` (news-driven, loses value as it ages) or `evergreen` (explainers, classics, timeless features).
    - `impact` from 1 to 10. **10:** will be referenced for months, genuinely groundbreaking. **8:** the most important piece of the week in its field. **6:** strong and worthwhile but not essential. Don't add anything below 6. Be strict, and score against the reader's preferences above, not general newsworthiness.
