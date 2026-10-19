@@ -37,26 +37,42 @@ Sections, in this order (the technical sections come last on purpose, so the edi
 
 ## Today's must-read
 
-Exactly ONE original piece a day, read in full on the Kindle. It must be the most impactful long read published in roughly the last 48 hours, the piece people will be referencing this week. Think: a Reuters or ProPublica investigation that just broke; OpenAI or DeepMind walking through the maths behind a new result; a security firm's full technical breakdown of a major attack.
+Exactly ONE original piece a day, read in full on the Kindle. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
 
-**Impact test.** It must pass all of these:
-- **Primary and original:** the investigation itself, the lab's own write-up, the researchers' own incident analysis. Not a summary or reaction piece.
-- **Consequential:** it changes how informed people understand something important, or it will drive news and discussion for days.
-- **Deep:** 10+ minutes of substance: evidence, mechanism, data, figures.
-- **Fresh:** published in the last ~48 hours. On a quiet day, take the strongest piece from the past 7 days that hasn't been a must-read yet. Never fall back to a merely decent article.
+**What he picks (from his own calibration answers):**
+- **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. This is the single strongest preference.
+- **The economics of AI**: compute and energy supply and demand, funding and circular deals, whether the spending is sustainable, the actual numbers. Must be analysis with data, not a short opinion column.
+- **Mathematics and science features** (Quanta-style), across fields, including ones outside his own interests. He's curious and wants broad scientific literacy.
+- **Blind-spot explainers**: how something important actually works (e.g. how the EU budget is negotiated), at 15-20 minutes.
+- **Foundational classics**: the most influential essays and papers of the past decade, even if old, when they're relevant to current events. Fresh pieces still come first.
+- **Big investigations** (Reuters, WSJ, FT, ProPublica class) only when the impact is large: they change how a major situation is understood, or they're close to home (Sweden, Europe, AI). Prefer the free original, since paywalls block extraction.
+
+**What he skips:**
+- News reports of any length under ~10 minutes (they belong in the digest).
+- Profiles and personality pieces.
+- Work-adjacent VC content (thesis essays, portfolio data). He reads that at work, not in his free time.
+- Macroeconomics without a direct AI or tech angle (central bank notes, inflation pass-through).
+- Big-tech antitrust and fines; benchmark-gaming exposés. These are unsurprising to him.
+- Technical write-ups about infrastructure he doesn't care about (generic cloud outages). A security or postmortem piece qualifies only when it's about AI itself (e.g. a lab's postmortem of an attack on an AI platform).
+- Small-scale stories, however well reported: municipal corruption, single-sector OSINT findings, local conflicts.
+
+**Impact and proximity decide close calls.** The same story type moves from maybe to yes when it's bigger or closer: spyware used on Swedish journalists is a yes, on journalists far away a maybe. Prefer the piece that will still matter in a month.
+
+**Length rule.** Most days 15-30 minutes. At most one long read (40-60 minutes) a week, and only for something truly groundbreaking.
+
+**Freshness.** Prefer pieces from the last ~48 hours. On a quiet day, take the strongest unused piece from the past week, or a blind-spot explainer or foundational classic. Never a merely decent article.
 
 **Where to look first** (scan these every run):
-- *Investigations:* Reuters Investigates, ProPublica, ICIJ, Bellingcat, AP and NYT/WaPo investigations, The Markup, Bloomberg Big Take, SVT Uppdrag granskning / DN granskning (only if free to read).
-- *AI labs and research:* OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft Research, Mistral, DeepSeek / Qwen / Moonshot technical reports, plus major papers getting attention (arXiv HTML versions).
-- *Security research:* Google Project Zero and Threat Intelligence, Mandiant, Microsoft Threat Intelligence, Wiz, Trail of Bits, Palo Alto Unit 42, Check Point, JFrog, Kaspersky GReAT, Citizen Lab.
-- *Science and maths:* Quanta, Nature news features, Terence Tao's blog and similar first-hand accounts.
+- *AI labs and research:* OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft Research, Mistral, DeepSeek / Qwen / Moonshot technical reports, AI startup engineering blogs, plus major papers getting attention (arXiv HTML versions).
+- *Science and maths:* Quanta, Nature and Science news features, Terence Tao's blog and similar first-hand accounts.
+- *AI economics:* SemiAnalysis-style analyses, Epoch AI, IEA and energy-sector analyses of data-centre demand, serious long-form on AI funding.
+- *Investigations:* Reuters Investigates, ProPublica, ICIJ, Bellingcat, AP, NYT/WaPo/WSJ/FT investigations (only if free to read), SVT Uppdrag granskning.
+- *Security, AI-related only:* lab and platform postmortems, Project Zero, Mandiant, Wiz, Trail of Bits, JFrog on attacks on AI models and platforms.
 - *Signal of impact:* Hacker News front page, and what other outlets are citing and following up on.
 
-**Weighting:** technical AI and ML, mathematics and science, security, geopolitics and strategy, tech and VC. Swedish topics only for a genuinely major investigation.
+**Format:** a single regular article page. Never live pages, video pages or galleries.
 
-**Format:** a single regular article page. Paywalls usually block extraction (FT, WSJ, Bloomberg, DN+, Breakit), so prefer the free original. Reuters is often readable; if it fails, a backup takes over. Never live pages, video pages or galleries.
-
-In the edition JSON: `must_reads` holds exactly 1 item `{title, source, url, why}`, where `why` is one sentence on why it matters. `must_read_backups` holds 2 more that also pass the impact test, best first. A job in the private repo extracts the full text and figures and falls back to the backups if needed.
+In the edition JSON: `must_reads` holds exactly 1 item `{title, source, url, why}`, where `why` is one sentence on why it matters. `must_read_backups` holds 2 more that also pass these rules, best first. A job in the private repo extracts the full text and figures and falls back to the backups if needed.
 
 ## Length
 
