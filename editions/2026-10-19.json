@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-19",
+  "title": "Morning Digest, Monday 19 October 2026",
+  "intro": "Note: the private full-text feed was not updated today. This run had no access to the kindle-private repo, so today's must-reads appear only as links.\n\nFrance has had its worst unrest in years, Washington has paused sanctions on Russian fuel, and the Speaker names Sweden's next government-builder at 13:30 today.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "France: over 2,000 arrests after a weekend of rioting",
+          "body": "Saturday's cost-of-living marches turned into looting and arson in several cities. Limoges' historic town hall burned and its spire collapsed. In a TV address on Sunday, Macron blamed far-left 'insurrectionist elements' and criminals, and promised that those responsible would pay.",
+          "source": "Euronews, 18 Oct; SVT"
+        },
+        {
+          "title": "US suspends sanctions on Russian fuel for 60 days",
+          "body": "An executive order on Friday lets Russian diesel back onto world markets while Washington studies the effect on prices. Republicans and Democrats in Congress both attacked the move, and Zelenskyy called it a gift to Putin.",
+          "source": "Benzinga, citing NYT, 18 Oct; Time News"
+        },
+        {
+          "title": "Canada: four soldiers killed in a fire at CFB Wainwright",
+          "body": "A fire spread fast in strong winds during a live-fire exercise at the Alberta base on Saturday. 39 people are in hospital, 19 of them in critical condition. Carney called it one of the worst peacetime tragedies for the Canadian forces on home soil.",
+          "source": "Al Jazeera, 18 Oct"
+        },
+        {
+          "title": "Anthropic puts 5 percent of its shares into a public benefit fund",
+          "body": "The stake goes to a new company-owned LLC, which may not be used for lobbying or political giving. More is covered under Tech and AI.",
+          "source": "Anthropic, 18 Oct; Al Jazeera, 19 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Geopolitics",
+      "items": [
+        {
+          "title": "Ukraine: Washington's peace push now runs through energy",
+          "body": "There are three new steps since last week. First, the 60-day waiver on Russian fuel sanctions. It follows a Trump-Putin call in which Moscow promised to release diesel in stages: 300,000 tonnes now, 500,000 in November and a million after that. Second, the New York Times reports that envoys Kushner and Witkoff have suggested Europe could resume buying Russian gas as part of a settlement, possibly by reopening the pipelines through Ukraine. European officials pushed back hard. Russian gas was 13 percent of EU gas imports last year, down from 45 percent in 2021. Third, the 'energy ceasefire' Trump announced on 11 October has collapsed. Russia kept hitting Ukrainian power plants, and Kyiv resumed its own strikes.\n\nOn Saturday night Ukraine carried out one of its largest drone attacks on the St Petersburg area since 2022. It reportedly hit an oil terminal at the city's main port, a VK data centre and an Ozon warehouse. One person was killed, and Pulkovo airport was shut for seven hours. Zelenskyy says Russia fired about 2,700 drones and 66 missiles at Ukraine last week.\n\nWhy it matters: Washington is offering Moscow economic relief before any ceasefire exists, and Europe is being asked to reverse its energy break with Russia. That creates a direct transatlantic clash at a time when Europe already carries most of Ukraine's support.",
+          "source": "Benzinga (NYT report), 18 Oct; Time News, 18 Oct; Euronews, 18 Oct"
+        },
+        {
+          "title": "Hormuz: Iran says two tankers hit mines",
+          "body": "The Revolutionary Guards say two loaded tankers, each carrying about two million barrels, struck mines in the strait after switching off their transponders and using a route Iran had not approved. Iran's navy now says any ship that goes dark will be treated as hostile. The claim cannot be independently confirmed. Daily transits remain highly volatile: Kpler counted 20.8 million barrels on 8 October and 2.9 million on 11 October.\n\nWhat's new: this is the first claim of mine hits since the US said last week that it had cleared the strait. Trump has ruled out nuclear weapons and ground troops and says he expects a deal after the 3 November midterms.",
+          "source": "Al Jazeera, 18 Oct"
+        },
+        {
+          "title": "Week ahead",
+          "body": "Today: the Riksdag Speaker announces the next step in government formation (13:30), and EU employment and social ministers meet. 22-23 October: informal meeting of EU trade ministers. The EU-Gulf summit planned for 24 October has been postponed, as noted yesterday. Wang Yi continues his tour of Europe's edges. US early voting is under way in more states, including Texas from today.",
+          "source": "Council of the EU forward look; CNN, 18 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "US and Europe",
+      "items": [
+        {
+          "title": "Trump's approval falls to 33 percent, a record low in the ABC/Post/Ipsos poll",
+          "body": "Among likely voters, Democrats lead the generic House ballot 52 to 44, up from a 3-point lead in July. The generic ballot asks which party's candidate people would vote for, without naming candidates. Prices drive the numbers: 71 percent now call gasoline unaffordable, against 28 percent in February. Only 27 percent approve of his handling of Iran. Immigration is his best issue, at 38 percent approval.\n\nWhy it matters: with 15 days left, the poll fits the market odds noted yesterday, with Democrats favoured to win the House. It also explains why the White House is reaching for anything that might lower fuel prices, including the Russian diesel waiver.",
+          "source": "ABC News/Washington Post/Ipsos poll, fieldwork 9-13 Oct, published 18 Oct"
+        },
+        {
+          "title": "France: a political crisis six months before the presidential election",
+          "body": "The unrest has become a contest over who gets the blame. Le Pen, who leads the polls for April's election, says Macron has been too soft. The left accuses the police of excessive force, and Mélenchon is accused of stoking the anger. More than 600 police officers, gendarmes and firefighters were injured. Macron announced no new security measures. Protests over living costs and student conditions are also under way in several other European countries.",
+          "source": "Euronews, 18 Oct; SVT"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: the Speaker's choice comes at 13:30",
+          "body": "Andreas Norlén announces today which party leader gets the next exploratory mandate (sonderingsuppdrag), the task of finding a government that the Riksdag would tolerate. The main candidates are Ulf Kristersson (M), Magdalena Andersson (S) again, or less likely Elisabeth Thand Ringqvist (C).\n\nNew over the weekend: Jimmie Åkesson (SD) published an open letter inviting Thand Ringqvist to a meeting. He says the red-greens cannot form a working government and that SD has no red lines, but he still insists SD must be either in government or in opposition. That is an attempt to pull the Centre Party towards a right-of-centre solution. Justice minister Gunnar Strömmer (M) says the talks are 'locked'.",
+          "source": "SVT, 16-18 Oct"
+        },
+        {
+          "title": "In brief",
+          "bullets": [
+            "Sigtunaskolan: the investigation into abuse at the elite boarding school has widened. Five people are now suspected of crimes including gross sexual harassment, assault and unlawful coercion against younger pupils, and the Schools Inspectorate is considering a new review.",
+            "Russian property: SVT reports that the state has no legal power to stop Russia from buying Swedish houses that could serve as bases for spying. Finland has blocked 68 such deals under its own law.",
+            "Skellefteå: Lyten has restarted production at the former Northvolt battery factory, a little over a year after buying it.",
+            "Courts: the parents of a 15-year-old who pulled out of a planned shooting were each sentenced to 18 months in prison for aiding a serious weapons offence."
+          ],
+          "source": "SVT; TV4, 15-18 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Anthropic commits 5 percent of its equity to a public benefit fund",
+          "body": "The shares go to the Anthropic Public Benefit Fund, a wholly owned LLC rather than a charity, which gives it freedom in how it gives. The 5 percent needs stockholder approval. The board may add 2 percentage points for every 50 percent rise in the company's value above a baseline. The money can go to nonprofits, direct payments to specific groups, and responses to AI-driven job losses. It cannot be used for lobbying or political donations. Together with the founders' pledges and a staff donation match, Anthropic says about 20 percent of its shares are now earmarked for public benefit.\n\nWhy it matters: the timing is pre-IPO. Anthropic is expected to list before year-end, and if the reported valuations hold, the fund would be among the largest philanthropic pools in the world. It also commits real equity to the labour-market disruption that AI labs are increasingly blamed for.",
+          "source": "Anthropic, 18 Oct; Al Jazeera, 19 Oct"
+        },
+        {
+          "title": "Doubts grow over AI infrastructure valuations",
+          "body": "Bloomberg reports that investors want to value the AI cloud provider Nscale at 16-19 billion dollars in its New York listing, against the 30-35 billion it is seeking. Its Norwegian flagship site is about six months late and running at a fifth of its target power. The Information reports that executives expect only 7-10 of the hundreds of smaller GPU cloud providers ('neoclouds') to survive. Chip stocks fell for an eighth straight day on Friday.\n\nWhy it matters: Nscale is a European AI-infrastructure champion. A cut-price listing would be the clearest sign yet that public markets will no longer pay for contracted capacity that has not been built.",
+          "source": "Bloomberg and The Information, as reported by AI Weekly, 18 Oct"
+        },
+        {
+          "title": "Catch-up: last week's model releases",
+          "body": "Google made Gemini 4 Argon generally available on 13 October, with up to a million output tokens and launch pricing of 2/10 dollars per million input/output tokens. Google says prices will double later. Independent tests show it strong but not clearly ahead across the board. Nvidia released Nemotron 3.5 Super VL, a 120-billion-parameter open-weight vision-language model. Three unannounced OpenAI model IDs ('aurora') have appeared in its API, but there is no documentation yet.",
+          "source": "Google; AI Weekly, 13-18 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Breakthrough of the day: OpenAI's 372 machine-made results",
+      "items": [
+        {
+          "title": "An unreleased model claims the Unique Games Conjecture, and mathematicians are trying to check it",
+          "body": "What happened. On 6 October OpenAI published 719-722 manuscripts, grouped into 372 'families' (a main result plus its variants and consequences), in an Apache-licensed GitHub repository. An unreleased internal model was given about 4,000 open problems, almost always as a single prompt to a single agent. It spent about three hours of top-tier reasoning compute on each result it kept. About 42 percent of the main results come with Lean proofs, meaning a computer has checked every step. The step change came last week. An independent arXiv survey examined 38 of the families. On 15-16 October the Simons Foundation launched a 15-million-dollar programme, funded with OpenAI and Anthropic, to help mathematicians study and build on AI-generated results.\n\nThe headline claim: Unique Games. Khot's 2002 conjecture concerns constraint problems on graphs, where each edge forces a one-to-one relation between the labels at its two ends. It says that when 99 percent of the constraints can be satisfied, it is NP-hard to find a labelling that satisfies even 1 percent. The conjecture matters because of what it implies. Raghavendra showed in 2008 that if it holds, a single semidefinite-programming algorithm is optimal for every constraint satisfaction problem. Goemans-Williamson's 0.878 ratio for Max-Cut would then be the best possible, and so would a factor of 2 for vertex cover. The conjecture also has links to the geometry of foams and to the stability of voting rules.\n\nThe human race. The 2-to-2 theorem (Khot, Minzer, Safra, 2018) proved the conjecture's 'half-satisfiable' version, using the expansion of the Grassmann graph. The perfect-completeness variant, Khot's 2-to-1 conjecture, stayed open. It asks what happens when every constraint can be satisfied. When rumours of an OpenAI proof reached him in September, Dor Minzer (MIT), with Yumou Fei and Shuo Wang, posted a 95-page proof of a weaker 4-to-1 version within three days. They had cracked it in April by adding a new error-correcting code. It already implies that colouring a 3-colourable graph is NP-hard with any constant number of colours. OpenAI's release includes a Lean-checked proof of the full 2-to-1 conjecture.\n\nThe rest of the list. Scott Aaronson's summary includes several claims that would each be a career-defining result: L = BPL (randomness does not help logspace computation), integer multiplication and the Fourier transform below n log n, a matrix multiplication exponent of 9/4, parity outside QAC0, and Hilbert's tenth problem being undecidable over the rationals.\n\nThe caveats are serious. A Lean check proves only the statement as formalised. Whether that statement is the real conjecture is a human judgement, and few of these proofs have been read by anyone. Dana Moshkovitz said the Unique Games manuscript was unreadable without AI help. OpenAI withdrew three manuscripts over a sign error and revised 14. It has not released the prompts, the model name or per-problem compute, as the Institute for Advanced Study's advisory group had asked, and nothing has been peer reviewed. Andrew Sutherland (MIT) says the single-agent claims should count as unverified until the model can be tested.\n\nWhy it matters: if even a fraction survives review, the bottleneck in mathematics shifts from proving to understanding and checking. That is exactly what the Simons money is trying to fund.",
+          "source": "OpenAI and github.com/openai/math, 6 Oct; Quanta, 7 Oct; Shtetl-Optimized, 7-12 Oct; Implicator, Let's Data Science; Euronews, 16 Oct"
+        },
+        {
+          "title": "Also on the radar",
+          "bullets": [
+            "TreeOPSD (Tsinghua, arXiv 2610.23181): an agentic RL method that branches rollouts into a tree and distils from the posterior over successful branches, which gives credit to individual steps without a learned critic. On Qwen3-30B-A3B it beats GRPO by about 5 points of exact match on average across BrowseComp, GAIA and xbench. That is notable given recent findings that many self-distillation tricks don't beat plain GRPO.",
+            "IneqAgent (arXiv 2610.20681): a Lean-based agent that solves 175 of 186 formal inequality problems (94 percent). It also produced machine-checked strengthenings of Dittert's conjecture on the permanents of nonnegative matrices in dimensions 4 and 5.",
+            "LSCBench (arXiv 2610.14766): six coding agents on 450 tasks built from 150 real vulnerabilities in seven languages. They pass functional tests 74-91 percent of the time, but the best agent's code is also secure on hidden security tests only 25 percent of the time.",
+            "Benchmark saturation (arXiv 2610.20667): once tests are saturated, having a judge compare pairs of solved transcripts predicts real capability gaps 5.3 times more accurately than the saturated scores. It is a practical answer to the problem Moritz Hardt discusses in today's must-read."
+          ],
+          "source": "arXiv and Hugging Face papers, 14-19 Oct (summaries from abstracts)"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "New on Breakit since Saturday",
+          "bullets": [
+            "120ft — builds AI-driven robotic micro-factories to replace slow, costly shipping from Asia — amount not disclosed — angels Sophia Bendz and Ted Persson, plus a senior EQT figure.",
+            "Gaudii (Faw Azzat) — clinics treating incontinence — 12 million SEK — Martin Lorentzon (Spotify co-founder).",
+            "Hemla (Budbee founder) — new round of 'millions' — investors not disclosed.",
+            "Sferical One — Sweden's most powerful AI supercomputer, an Nvidia system costing over 1 billion SEK, is now in operation. It is co-owned by AstraZeneca, Ericsson, Saab, SEB and SKF in the Wallenberg sphere and run by Jenny Nordlöw."
+          ],
+          "source": "Breakit headlines (mostly paywalled)"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "As AI closed in on 'Unique Games' proof, researchers raced to beat the machines",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+      "why": "The mathematics behind today's breakthrough item: what the 2-to-1 and 4-to-1 conjectures say, how the human proof works, and how the AI release changed the race."
+    },
+    {
+      "title": "He wants AI benchmarking to be a science, not a dark art",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/he-wants-ai-benchmarking-to-be-a-science-not-a-dark-art-20261016/",
+      "why": "Moritz Hardt on why model rankings used to be reliable even when scores weren't, why LLMs broke that, and his proposed fix of giving every model the same preparation before it is tested."
+    },
+    {
+      "title": "US-Iran stalemate: What are Trump's next military options?",
+      "source": "Al Jazeera",
+      "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
+      "why": "A structured look at the escalation ladder after the midterms, from keeping the blockade to strikes or Kharg Island, and what each would cost in munitions and Gulf retaliation."
+    }
+  ]
+}
