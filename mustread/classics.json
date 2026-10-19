@@ -49,7 +49,7 @@
    "why": "The first direct detection of gravitational waves, a century after Einstein predicted them.",
    "minutes": 30,
    "status": "unread",
-   "who": "The LIGO collaboration of over a thousand scientists; three of its founders, Weiss, Thorne and Barish, won the 2017 Nobel Prize in Physics for this result."
+   "who": "The LIGO collaboration of over a thousand scientists; three of its leading figures, Weiss, Thorne and Barish, won the 2017 Nobel Prize in Physics for this result."
   },
   {
    "id": "scaling-laws",
@@ -75,7 +75,7 @@
    "why": "The default optimizer of deep learning, and one of the most-cited papers ever.",
    "minutes": 25,
    "status": "unread",
-   "who": "Diederik Kingma, who also invented the variational autoencoder, with Jimmy Ba, a student of Geoffrey Hinton. Kingma was an OpenAI founding member."
+   "who": "Diederik Kingma, who also co-invented the variational autoencoder and was an early OpenAI researcher, with Jimmy Ba, a student of Geoffrey Hinton."
   },
   {
    "id": "sphere-packing",
@@ -114,7 +114,7 @@
    "why": "The paper that made diffusion models work, the basis of modern image and video generation.",
    "minutes": 35,
    "status": "unread",
-   "who": "Jonathan Ho, a Berkeley PhD student of Pieter Abbeel; Ho went on to lead diffusion research at Google, including Imagen Video."
+   "who": "Jonathan Ho, a Berkeley PhD student of Pieter Abbeel; Ho went on to Google, where he co-authored Imagen and Imagen Video."
   },
   {
    "id": "alphafold",
@@ -179,7 +179,7 @@
    "why": "Brought transformers to vision and started the convergence of architectures across fields.",
    "minutes": 30,
    "status": "unread",
-   "who": "Google Brain Zurich, led by Alexey Dosovitskiy and Lucas Beyer; it reset computer vision research."
+   "who": "Alexey Dosovitskiy, Lucas Beyer and colleagues at Google Brain Zurich; it reset computer vision research."
   },
   {
    "id": "chinchilla",
@@ -282,7 +282,7 @@
    "why": "The first image of a black hole, from a planet-sized telescope.",
    "minutes": 35,
    "status": "unread",
-   "who": "The Event Horizon Telescope collaboration of over 200 scientists, which linked radio dishes on four continents into one Earth-sized telescope."
+   "who": "The Event Horizon Telescope collaboration of hundreds of scientists, which linked radio dishes on several continents into one Earth-sized telescope."
   },
   {
    "id": "flashattention",
@@ -295,7 +295,7 @@
    "why": "Showed that thinking about memory, not just maths, made attention several times faster.",
    "minutes": 30,
    "status": "unread",
-   "who": "Tri Dao, then a Stanford PhD student; FlashAttention runs in nearly every LLM today and Dao became a co-founder of Together AI."
+   "who": "Tri Dao, then a Stanford PhD student; FlashAttention runs in nearly every LLM today, and Dao became chief scientist of Together AI."
   },
   {
    "id": "constitutional-ai",
