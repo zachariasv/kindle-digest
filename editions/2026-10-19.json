@@ -158,5 +158,19 @@
       "url": "https://www.aljazeera.com/news/2026/10/15/us-iran-stalemate-what-are-trumps-next-military-options",
       "why": "A structured look at the escalation ladder after the midterms, from keeping the blockade to strikes or Kharg Island, and what each would cost in munitions and Gulf retaliation."
     }
+  ],
+  "must_read_backups": [
+    {
+      "title": "IneqAgent: Agentic Inequality Proving in Lean with Symbolic Computation",
+      "source": "arXiv (2610.20681)",
+      "url": "https://arxiv.org/html/2610.20681v1",
+      "why": "How an agent splits the work between language-model reasoning and computer-algebra tools to produce machine-checked inequality proofs, including new strengthenings of Dittert's conjecture on matrix permanents. A concrete companion to today's breakthrough on formal proof."
+    },
+    {
+      "title": "Last Secure Code Benchmark: Is the Code You Vibe Secure?",
+      "source": "arXiv (2610.14766)",
+      "url": "https://arxiv.org/html/2610.14766v1",
+      "why": "How the benchmark turns 150 real vulnerabilities into 450 tasks with hidden security tests, and why coding agents that pass functional tests most of the time produce code that is also secure in only about a quarter of cases."
+    }
   ]
 }
