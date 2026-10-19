@@ -56,7 +56,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 - Technical write-ups about infrastructure he doesn't care about (generic cloud outages). A security or postmortem piece qualifies only when it's about AI itself (e.g. a lab's postmortem of an attack on an AI platform).
 - Small-scale stories, however well reported: municipal corruption, single-sector OSINT findings, local conflicts.
 
-**Impact and proximity decide close calls.** The same story type moves from maybe to yes when it's bigger or closer: spyware used on Swedish journalists is a yes, on journalists far away a maybe. Prefer the piece that will still matter in a month.
+**Surprise decides close calls.** What matters is how unexpected and consequential a story is, not geography. Abuse of power in an established democracy (spyware on journalists in Sweden, the UK or Germany) is far more significant than the same thing in an authoritarian state, where it's expected. Being close to home (Sweden, Europe, AI) adds a little on top. Prefer the piece that will still matter in a month.
 
 **Length rule.** Most days 15-30 minutes. At most one long read (40-60 minutes) a week, and only for something truly groundbreaking.
 
@@ -72,7 +72,20 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 
 **Format:** a single regular article page. Never live pages, video pages or galleries.
 
-In the edition JSON: `must_reads` holds exactly 1 item `{title, source, url, why}`, where `why` is one sentence on why it matters. `must_read_backups` holds 2 more that also pass these rules, best first. A job in the private repo extracts the full text and figures and falls back to the backups if needed.
+## How the must-read is chosen: candidate registry
+
+Good pieces don't arrive evenly across topics, so there is no fixed weekly schedule. Instead, candidates queue up in `mustread/registry.json` and a fixed scoring rule (`pick.py`) balances impact against variety.
+
+Each run:
+1. Add every new piece found today that clearly passes the rules above as a candidate: `{url, title, source, why, category, kind, published, added, impact, minutes}`. Usually 2-6 a day. Don't re-add a URL that's already in the registry or its history.
+   - `category` is exactly one of: `ai-research` (lab and startup technical write-ups, papers, AI security postmortems), `ai-economics`, `science` (maths and science features), `investigation` (big investigations and geopolitical deep dives), `blind-spot` (explainers and foundational classics).
+   - `kind` is `fresh` (news-driven, loses value as it ages) or `evergreen` (explainers, classics, timeless features).
+   - `impact` from 1 to 10. **10:** will be referenced for months, genuinely groundbreaking. **8:** the most important piece of the week in its field. **6:** strong and worthwhile but not essential. Don't add anything below 6. Be strict, and score against the reader's preferences above, not general newsworthiness.
+   - `minutes`: estimated reading time; `published`: the piece's own date; `added`: today.
+2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +1.5 for a category that hasn't been picked recently, minus a small daily penalty for ageing fresh pieces), allows at most one 40+ minute read per week, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
+3. Don't edit `must_reads` by hand afterwards. To change the outcome, fix the candidates' scores or categories and rerun `pick.py`.
+
+A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails.
 
 ## Length
 
