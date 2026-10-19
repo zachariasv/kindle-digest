@@ -10,8 +10,7 @@
    "source": "He et al., 2015",
    "why": "The most-cited paper of the century: skip connections made very deep networks trainable, and they're in every modern architecture.",
    "minutes": 40,
-   "status": "unread",
-   "who": "Kaiming He led this at Microsoft Research Asia; he is among the most-cited computer scientists alive and later co-created Mask R-CNN."
+   "status": "unread"
   },
   {
    "id": "transformer",
@@ -23,8 +22,7 @@
    "source": "Vaswani et al., 2017",
    "why": "Introduced the transformer, the architecture behind essentially every modern language model.",
    "minutes": 35,
-   "status": "unread",
-   "who": "Eight Google researchers; between them they went on to found or lead Cohere, Character.AI, Essential AI and others. Noam Shazeer later rejoined Google to co-lead Gemini."
+   "status": "unread"
   },
   {
    "id": "lora",
@@ -48,8 +46,7 @@
    "source": "LIGO and Virgo, 2016",
    "why": "The first direct detection of gravitational waves, a century after Einstein predicted them.",
    "minutes": 30,
-   "status": "unread",
-   "who": "The LIGO collaboration of over a thousand scientists; three of its leading figures, Weiss, Thorne and Barish, won the 2017 Nobel Prize in Physics for this result."
+   "status": "unread"
   },
   {
    "id": "scaling-laws",
@@ -61,8 +58,7 @@
    "source": "Kaplan et al., 2020",
    "why": "Showed loss falls as a smooth power law in model size, data and compute: the intellectual basis for the scaling era.",
    "minutes": 40,
-   "status": "unread",
-   "who": "Written at OpenAI by Jared Kaplan, Dario Amodei and colleagues, several of whom left soon after to found Anthropic."
+   "status": "unread"
   },
   {
    "id": "adam",
@@ -74,8 +70,7 @@
    "source": "Kingma and Ba, 2014",
    "why": "The default optimizer of deep learning, and one of the most-cited papers ever.",
    "minutes": 25,
-   "status": "unread",
-   "who": "Diederik Kingma, who also co-invented the variational autoencoder and was an early OpenAI researcher, with Jimmy Ba, a student of Geoffrey Hinton."
+   "status": "unread"
   },
   {
    "id": "sphere-packing",
@@ -87,8 +82,7 @@
    "source": "Maryna Viazovska, 2016",
    "why": "A short, beautiful proof using modular forms that won a Fields Medal.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Maryna Viazovska, a Ukrainian mathematician at EPFL, won the 2022 Fields Medal largely for this paper."
+   "status": "unread"
   },
   {
    "id": "bert",
@@ -100,8 +94,7 @@
    "source": "Devlin et al., 2018",
    "why": "Made pre-train-then-fine-tune the standard recipe for language understanding.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Jacob Devlin and colleagues at Google AI Language; BERT was in Google Search within a year."
+   "status": "unread"
   },
   {
    "id": "ddpm",
@@ -113,8 +106,7 @@
    "source": "Ho, Jain and Abbeel, 2020",
    "why": "The paper that made diffusion models work, the basis of modern image and video generation.",
    "minutes": 35,
-   "status": "unread",
-   "who": "Jonathan Ho, a Berkeley PhD student of Pieter Abbeel; Ho went on to Google, where he co-authored Imagen and Imagen Video."
+   "status": "unread"
   },
   {
    "id": "alphafold",
@@ -126,8 +118,7 @@
    "source": "Jumper et al., 2021",
    "why": "Solved a 50-year grand challenge in biology and won a Nobel Prize.",
    "minutes": 40,
-   "status": "unread",
-   "who": "John Jumper and the DeepMind team under Demis Hassabis; Jumper and Hassabis shared the 2024 Nobel Prize in Chemistry for it."
+   "status": "unread"
   },
   {
    "id": "rlhf",
@@ -139,8 +130,7 @@
    "source": "Christiano et al., 2017",
    "why": "The origin of RLHF, the technique that turned language models into assistants.",
    "minutes": 25,
-   "status": "unread",
-   "who": "Paul Christiano, then at OpenAI, one of the most influential AI alignment researchers, later head of AI safety at the US AI Safety Institute; co-authored with DeepMind."
+   "status": "unread"
   },
   {
    "id": "instructgpt",
@@ -152,8 +142,7 @@
    "source": "Ouyang et al., 2022",
    "why": "InstructGPT: how RLHF was scaled up into what became ChatGPT.",
    "minutes": 45,
-   "status": "unread",
-   "who": "The OpenAI team that built the model behind ChatGPT, months before its launch."
+   "status": "unread"
   },
   {
    "id": "sensitivity",
@@ -165,8 +154,7 @@
    "source": "Hao Huang, 2019",
    "why": "A two-page proof that settled a 30-year-old open problem in computer science.",
    "minutes": 15,
-   "status": "unread",
-   "who": "Hao Huang, then a young professor at Emory, solved in two pages a problem that top theorists had worked on for 30 years."
+   "status": "unread"
   },
   {
    "id": "vit",
@@ -178,8 +166,7 @@
    "source": "Dosovitskiy et al., 2020",
    "why": "Brought transformers to vision and started the convergence of architectures across fields.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Alexey Dosovitskiy, Lucas Beyer and colleagues at Google Brain Zurich; it reset computer vision research."
+   "status": "unread"
   },
   {
    "id": "chinchilla",
@@ -191,8 +178,7 @@
    "source": "Hoffmann et al., 2022",
    "why": "Chinchilla: corrected the scaling laws and changed how every lab splits compute between parameters and data.",
    "minutes": 35,
-   "status": "unread",
-   "who": "DeepMind's Jordan Hoffmann, Sebastian Borgeaud, Arthur Mensch and colleagues; Mensch left soon after to co-found Mistral."
+   "status": "unread"
   },
   {
    "id": "quantum-supremacy",
@@ -204,8 +190,7 @@
    "source": "Arute et al., 2019",
    "why": "Google's first demonstration of a quantum computer beating classical simulation on a task.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Google Quantum AI under John Martinis, one of the founders of superconducting quantum computing, who later won the 2025 Nobel Prize in Physics."
+   "status": "unread"
   },
   {
    "id": "cot",
@@ -217,8 +202,7 @@
    "source": "Wei et al., 2022",
    "why": "Showed that letting models reason step by step unlocks new abilities, the seed of today's reasoning models.",
    "minutes": 25,
-   "status": "unread",
-   "who": "Jason Wei and Denny Zhou's team at Google Brain; Wei later moved to OpenAI to work on its reasoning models."
+   "status": "unread"
   },
   {
    "id": "clip",
@@ -230,8 +214,7 @@
    "source": "Radford et al., 2021",
    "why": "CLIP: joined images and language in one space, the backbone of text-to-image systems.",
    "minutes": 45,
-   "status": "unread",
-   "who": "Alec Radford's team at OpenAI; Radford also led GPT and GPT-2 and is widely seen as one of the field's most influential researchers."
+   "status": "unread"
   },
   {
    "id": "small-gaps",
@@ -243,8 +226,7 @@
    "source": "James Maynard, 2013",
    "why": "A landmark in number theory: bounded gaps between primes with a surprisingly simple method.",
    "minutes": 40,
-   "status": "unread",
-   "who": "James Maynard, then a postdoc, found this simpler, stronger method; he won the 2022 Fields Medal."
+   "status": "unread"
   },
   {
    "id": "ppo",
@@ -268,8 +250,7 @@
    "source": "Shazeer et al., 2017",
    "why": "The idea behind most frontier models today: only part of the network runs for each token.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Noam Shazeer (also a Transformer author) with Geoffrey Hinton and Jeff Dean, three of the most respected names in deep learning."
+   "status": "unread"
   },
   {
    "id": "eht",
@@ -281,8 +262,7 @@
    "source": "EHT Collaboration, 2019",
    "why": "The first image of a black hole, from a planet-sized telescope.",
    "minutes": 35,
-   "status": "unread",
-   "who": "The Event Horizon Telescope collaboration of hundreds of scientists, which linked radio dishes on several continents into one Earth-sized telescope."
+   "status": "unread"
   },
   {
    "id": "flashattention",
@@ -294,8 +274,7 @@
    "source": "Dao et al., 2022",
    "why": "Showed that thinking about memory, not just maths, made attention several times faster.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Tri Dao, then a Stanford PhD student; FlashAttention runs in nearly every LLM today, and Dao became chief scientist of Together AI."
+   "status": "unread"
   },
   {
    "id": "constitutional-ai",
@@ -307,8 +286,7 @@
    "source": "Bai et al., 2022",
    "why": "Training a model to follow written principles using AI feedback instead of only human labels.",
    "minutes": 40,
-   "status": "unread",
-   "who": "Anthropic's research team, describing the method used to train Claude."
+   "status": "unread"
   },
   {
    "id": "kelley-meka",
@@ -320,8 +298,7 @@
    "source": "Kelley and Meka, 2023",
    "why": "A huge jump on a classic problem in additive combinatorics, by two computer scientists.",
    "minutes": 40,
-   "status": "unread",
-   "who": "Zander Kelley and Raghu Meka, two theoretical computer scientists, beat bounds that leading additive combinatorialists had chipped at for decades."
+   "status": "unread"
   },
   {
    "id": "dpo",
@@ -333,8 +310,7 @@
    "source": "Rafailov et al., 2023",
    "why": "Replaced the RL step of RLHF with a simple loss, now used across the field.",
    "minutes": 30,
-   "status": "unread",
-   "who": "Rafael Rafailov, Archit Sharma and Eric Mitchell at Stanford, with Chelsea Finn and Christopher Manning; it became standard practice within a year."
+   "status": "unread"
   }
  ]
 }
