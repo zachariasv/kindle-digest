@@ -12,6 +12,12 @@ Score = impact + variety bonus - age penalty, where
 Rules: never repeat a pick; at most one long read (40+ min) per 7 days;
 fresh candidates expire after 7 days, evergreen after 30.
 The top pick goes into must_reads, the next two into must_read_backups.
+
+Classics (mustread/classics.json): landmark papers sprinkled in about twice a month, never
+more than once a week. One is due on a slow day (best fresh impact below SLOW_DAY_SCORE) once
+7 days have passed since the last, or on any day once 14 have passed, unless a fresh piece
+scores 9+. Roughly two AI papers for every science or maths paper. Classics skip the
+long-read limit.
 """
 import json
 import pathlib
@@ -28,6 +34,11 @@ FRESH_GRACE_DAYS = 2
 EXPIRY_DAYS = {"fresh": 7, "evergreen": 30}
 LONG_READ_MINUTES = 40
 LONG_READ_GAP_DAYS = 7
+CLASSICS = ROOT / "mustread" / "classics.json"
+CLASSIC_MIN_GAP_DAYS = 7
+CLASSIC_DUE_DAYS = 14
+SLOW_DAY_SCORE = 7.5
+BIG_FRESH_SCORE = 9
 
 
 def d(s):
@@ -64,27 +75,59 @@ def main(day):
     pool = [c for c in reg["candidates"]
             if c["category"] in CATEGORIES and not (recent_long and c.get("minutes", 0) >= LONG_READ_MINUTES)]
     ranked = sorted(pool, key=lambda c: score(c, history, today)[0], reverse=True)
-    if not ranked:
-        print("No eligible candidates")
-        return 1
-
     for c in ranked[:6]:
         s, b, p = score(c, history, today)
         print(f"{s:5.2f}  impact {c['impact']:>2}  +{b} -{p}  [{c['category']}] {c['title'][:70]}")
 
-    top = ranked[0]
-    reg["history"] = history + [{"date": day, "url": top["url"], "title": top["title"],
-                                 "category": top["category"], "minutes": top.get("minutes", 0)}]
+    top_impact = max((c["impact"] for c in ranked), default=0)  # raw impact, without variety bonus
+    classic = next_classic(history, today, top_impact)
+    if classic:
+        pick = {"url": classic["url"], "title": classic["title"], "source": classic["source"],
+                "why": classic["why"], "category": "classic", "minutes": classic["minutes"]}
+        backups = ranked[:2]
+    elif ranked:
+        pick, backups = ranked[0], ranked[1:3]
+    else:
+        print("No eligible candidates and no classic due")
+        REGISTRY.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        return 1
+
+    entry = {"date": day, "url": pick["url"], "title": pick["title"],
+             "category": pick["category"], "minutes": pick.get("minutes", 0)}
+    if classic:
+        entry["field"] = classic["field"]
+    reg["history"] = history + [entry]
     REGISTRY.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     ed_path = ROOT / "editions" / f"{day}.json"
     ed = json.loads(ed_path.read_text(encoding="utf-8"))
     fields = ("title", "source", "url", "why")
-    ed["must_reads"] = [{k: top[k] for k in fields}]
-    ed["must_read_backups"] = [{k: c[k] for k in fields} for c in ranked[1:3]]
+    ed["must_reads"] = [{k: pick[k] for k in fields}]
+    ed["must_read_backups"] = [{k: c[k] for k in fields} for c in backups]
     ed_path.write_text(json.dumps(ed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Picked: {top['title']}")
+    print(("Classic: " if classic else "Picked: ") + pick["title"])
     return 0
+
+
+def next_classic(history, today, top_impact):
+    """The next unread classic if one is due today, else None."""
+    if not CLASSICS.exists():
+        return None
+    past = sorted((h for h in history if h["category"] == "classic"), key=lambda h: h["date"])
+    # before the first classic, count from the first day the registry has any pick
+    since = past[-1]["date"] if past else min((h["date"] for h in history), default=today.isoformat())
+    gap = (today - d(since)).days
+    due = gap >= CLASSIC_DUE_DAYS or (gap >= CLASSIC_MIN_GAP_DAYS and top_impact < SLOW_DAY_SCORE)
+    if not due or top_impact >= BIG_FRESH_SCORE:
+        return None
+    sent = {h["url"] for h in past}
+    papers = [p for p in json.loads(CLASSICS.read_text(encoding="utf-8"))["papers"]
+              if p.get("status", "unread") == "unread" and p["url"] not in sent]
+    if not papers:
+        return None
+    last_two = [h.get("field") for h in past[-2:]]
+    want = "science" if last_two == ["ai", "ai"] else "ai"
+    return next((p for p in papers if p["field"] == want), papers[0])
 
 
 if __name__ == "__main__":

@@ -44,7 +44,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 - **The economics of AI**: compute and energy supply and demand, funding and circular deals, whether the spending is sustainable, the actual numbers. Must be analysis with data, not a short opinion column.
 - **Mathematics and science features** (Quanta-style), across fields, including ones outside his own interests. He's curious and wants broad scientific literacy.
 - **Blind-spot explainers**: how something important actually works (e.g. how the EU budget is negotiated), at 15-20 minutes.
-- **Foundational classics**: the most influential essays and papers of the past decade, even if old, when they're relevant to current events. Fresh pieces still come first.
+- **Foundational classics**: handled automatically by the classics list (see below), so don't add those papers as candidates. Other classic essays relevant to current events can be `blind-spot` candidates.
 - **Big investigations** (Reuters, WSJ, FT, ProPublica class) only when the impact is large: they change how a major situation is understood, or they're close to home (Sweden, Europe, AI). Prefer the free original, since paywalls block extraction.
 
 **What he skips:**
@@ -86,6 +86,10 @@ Each run:
 3. Don't edit `must_reads` by hand afterwards. To change the outcome, fix the candidates' scores or categories and rerun `pick.py`.
 
 A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails.
+
+### Classics
+
+`mustread/classics.json` is a reading list of landmark papers from roughly the last decade, mostly AI and ML plus general science and maths, in priority order. `pick.py` sprinkles them in automatically: about two a month, never more than one a week, on slow days (best fresh candidate's impact below 7.5) once a week has passed, or on any day once two weeks have passed, unless a fresh piece scores 9+. They alternate roughly two AI papers to one science paper. Papers marked `"status": "read"` are skipped. You can append further landmark papers to the end of the list (ar5iv or arXiv HTML URLs read best), but don't reorder or remove entries.
 
 ## Length
 
