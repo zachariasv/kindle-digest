@@ -238,7 +238,7 @@
    "source": "Schulman et al., 2017",
    "why": "The workhorse reinforcement-learning algorithm, used in RLHF for years.",
    "minutes": 20,
-   "status": "unread"
+   "status": "read"
   },
   {
    "id": "moe",

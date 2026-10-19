@@ -39,26 +39,33 @@ Sections, in this order (the technical sections come last on purpose, so the edi
 
 Exactly ONE original piece a day, read in full on the Kindle. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
 
-**What he picks (from his own calibration answers):**
-- **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. This is the single strongest preference.
-- **The economics of AI**: compute and energy supply and demand, funding and circular deals, whether the spending is sustainable, the actual numbers. Must be analysis with data, not a short opinion column.
-- **Mathematics and science features** (Quanta-style), across fields, including ones outside his own interests. He's curious and wants broad scientific literacy.
-- **Blind-spot explainers**: how something important actually works (e.g. how the EU budget is negotiated), at 15-20 minutes.
-- **Foundational classics**: handled automatically by the classics list (see below), so don't add those papers as candidates. Other classic essays relevant to current events can be `blind-spot` candidates.
-- **Big investigations** (Reuters, WSJ, FT, ProPublica class) only when the impact is large: they change how a major situation is understood, or they're close to home (Sweden, Europe, AI). Prefer the free original, since paywalls block extraction.
+**What he picks (from two rounds of calibration):**
+- **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. The strongest preference. First-hand beats second-hand: a lab's own explanation beats a tech outlet's explainer of the same result.
+- **AI changing what's possible in other fields**: AI-designed enzymes, AI-found proofs, AI doing security research or hacking. The interest is in AI as the actor, not attacks on AI labs.
+- **The concrete economics of AI**: what a gigawatt data centre really costs line by line, where compute money comes from, how long things take to build. Mechanics and real numbers that make abstract headlines tangible. Investor opinion essays are too dry.
+- **The nuance under the talking points**: topics people discuss in slogans ("Europe must reduce dependence on China") explained at the level of real mechanisms, e.g. how rare-earth export controls actually work. Strategy explainers tied to current events are high value.
+- **Intersections**: pieces where AI, money, geopolitics and Europe meet (e.g. a state fund quietly buying into European AI startups) are especially captivating.
+- **Science features** across fields, ideally with a clear real-world hook. Accessible maths is welcome (famous problems, results with a concrete picture); deep abstract pure maths (knot theory, say) is not.
+- **Industry mechanics explainers**: how a whole market works under the hood (e.g. reinsurance). How *policy* systems work (pensions, budgets) only when they matter internationally.
+- **History that explains the present**: well-chosen historical parallels to a current crisis. The concept is strong; the parallel itself must be convincing.
+- **Big investigations** only when the impact is large and the subject touches his core interests. Far-away conflicts, however well reported, are only for very slow weeks.
+
+**Captivation is the tiebreaker.** Ask: would this make him sit up straight? Interesting-but-flat pieces (good chip-fab features, dry investor notes) lose to pieces with surprise, a clear "aha", a famous author or a sharp intersection. When the author is a recognised authority (Turing Award winner, Nobel laureate, a field's best-known researcher), say so in `why`, because who wrote it matters to him.
 
 **What he skips:**
 - News reports of any length under ~10 minutes (they belong in the digest).
 - Profiles and personality pieces.
-- Work-adjacent VC content (thesis essays, portfolio data). He reads that at work, not in his free time.
-- Macroeconomics without a direct AI or tech angle (central bank notes, inflation pass-through).
-- Big-tech antitrust and fines; benchmark-gaming exposés. These are unsurprising to him.
-- Technical write-ups about infrastructure he doesn't care about (generic cloud outages). A security or postmortem piece qualifies only when it's about AI itself (e.g. a lab's postmortem of an attack on an AI platform).
+- Work-adjacent VC content (thesis essays, portfolio data). Pieces where VC is part of a bigger AI or geopolitics story are fine.
+- Macroeconomics and domestic policy without a direct AI, tech or geopolitical angle (central bank notes, pension systems).
+- Big-tech antitrust and fines; benchmark-gaming exposés. Unsurprising to him.
+- Security postmortems of ordinary breaches, including breaches at AI labs, and generic infrastructure postmortems.
 - Small-scale stories, however well reported: municipal corruption, single-sector OSINT findings, local conflicts.
 
-**Surprise decides close calls.** What matters is how unexpected and consequential a story is, not geography. Abuse of power in an established democracy (spyware on journalists in Sweden, the UK or Germany) is far more significant than the same thing in an authoritarian state, where it's expected. Being close to home (Sweden, Europe, AI) adds a little on top. Prefer the piece that will still matter in a month.
+**Surprise decides close calls.** What matters is how unexpected and consequential a story is. Abuse of power in an established democracy (spyware on journalists in Sweden, the UK or Germany) is far more significant than the same thing in an authoritarian state, where it's expected. Being close to home adds a little on top. Prefer the piece that will still matter in a month.
 
-**Length rule.** Most days 15-30 minutes. At most one long read (40-60 minutes) a week, and only for something truly groundbreaking.
+**Variety within a week.** He wants a spread: AI research and AI economics are equally valued, and he'd rather get both in a week than one of them twice. `pick.py` handles this, but score impact honestly so the balancing can work.
+
+**Length rule.** Most days 15-30 minutes. At most one long read (40+ minutes) every two weeks, only for something truly groundbreaking, and very rarely over 45 minutes.
 
 **Freshness.** Prefer pieces from the last ~48 hours. On a quiet day, take the strongest unused piece from the past week, or a blind-spot explainer or foundational classic. Never a merely decent article.
 
@@ -78,11 +85,11 @@ Good pieces don't arrive evenly across topics, so there is no fixed weekly sched
 
 Each run:
 1. Add every new piece found today that clearly passes the rules above as a candidate: `{url, title, source, why, category, kind, published, added, impact, minutes}`. Usually 2-6 a day. Don't re-add a URL that's already in the registry or its history.
-   - `category` is exactly one of: `ai-research` (lab and startup technical write-ups, papers, AI security postmortems), `ai-economics`, `science` (maths and science features), `investigation` (big investigations and geopolitical deep dives), `blind-spot` (explainers and foundational classics).
+   - `category` is exactly one of: `ai-research` (lab and startup technical write-ups, papers, AI doing security research), `ai-economics`, `science` (maths and science features), `investigation` (big investigations and geopolitical deep dives), `blind-spot` (explainers and foundational classics).
    - `kind` is `fresh` (news-driven, loses value as it ages) or `evergreen` (explainers, classics, timeless features).
    - `impact` from 1 to 10. **10:** will be referenced for months, genuinely groundbreaking. **8:** the most important piece of the week in its field. **6:** strong and worthwhile but not essential. Don't add anything below 6. Be strict, and score against the reader's preferences above, not general newsworthiness.
    - `minutes`: estimated reading time; `published`: the piece's own date; `added`: today.
-2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +1.5 for a category that hasn't been picked recently, minus a small daily penalty for ageing fresh pieces), allows at most one 40+ minute read per week, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
+2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +2 for a category that hasn't been picked in the last week, minus a small daily penalty once fresh pieces pass a grace period), allows at most one 40+ minute read every two weeks, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
 3. Don't edit `must_reads` by hand afterwards. To change the outcome, fix the candidates' scores or categories and rerun `pick.py`.
 
 A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails.
