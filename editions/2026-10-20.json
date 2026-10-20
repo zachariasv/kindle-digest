@@ -1,0 +1,172 @@
+{
+  "date": "2026-10-20",
+  "title": "Morning Digest, Tuesday 20 October 2026",
+  "intro": "The Centre Party leader gets Sweden's exploratory mandate, Putin floats a Ukraine summit with Trump and Xi that leaves Kyiv out, France imposes curfews, and Claude traces the origin of the NIST elliptic-curve seeds.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Putin proposes a Trump-Xi-Putin summit on Ukraine, without Zelenskyy",
+          "body": "The Wall Street Journal reported the proposal and the Kremlin says the three could meet at the APEC summit in Shenzhen in mid-November. Trump says he is open to it but framed it mainly around nuclear arms cuts. Beijing has not said it would host.",
+          "source": "WSJ via Ukrainska Pravda; Axios; Bangkok Post, 19 Oct"
+        },
+        {
+          "title": "France: curfews in Paris and several other cities",
+          "body": "After a weekend with around 2,400 arrests, parts of central Paris are under an 11pm-6am curfew, with similar orders in Lyon, Nice and Lille. Macron refused his interior minister's resignation after the minister admitted the police had lost control.",
+          "source": "Al Jazeera; AP, 19 Oct"
+        },
+        {
+          "title": "Houthi missiles kill 53 at a Yemeni army camp; Saudi Arabia postpones its flagship investment conference",
+          "body": "The strike hit a government training camp in Shabwa; local authorities raised the toll during the day. Riyadh intercepted drones and two ballistic missiles, and the Future Investment Initiative ('Davos in the desert'), due 26-29 October, has been moved to 2027.",
+          "source": "Al Jazeera; CBS; Times of Israel, 19-20 Oct"
+        },
+        {
+          "title": "Alberta votes to stay in Canada",
+          "body": "Bloomberg reports that about 68 percent voted against separation in Monday's referendum, and that separatists say they will keep campaigning. Official results are due on 29 October; the figure is so far from one outlet.",
+          "source": "Bloomberg, 19 Oct"
+        },
+        {
+          "title": "Sweden: Centre Party leader Thand Ringqvist gets the exploratory mandate",
+          "body": "A surprise choice by the Speaker. Details under Sweden.",
+          "source": "Altinget; TV4, 19 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Geopolitics",
+      "items": [
+        {
+          "title": "Ukraine: a summit offer that sidelines Kyiv, and Europe says no to Russian gas",
+          "body": "What's new since yesterday: Putin has proposed settling the war at a three-way meeting with Trump and Xi, with Ukraine not at the table. The Kremlin points to APEC in Shenzhen next month. Trump told reporters he wants such a meeting in China but described it as being about nuclear arms reductions more than Ukraine. China has not committed.\n\nOn the gas idea reported by the New York Times at the weekend, the European Commission answered that its position is unchanged: Russian gas imports are being phased out and sanctions stay until the war ends. According to the Times' anonymous sources, the US draft would freeze the current front line, leave occupied Donetsk and Luhansk under Russian control while talks continue, and add reconstruction money and a NATO-style security guarantee.\n\nOn the ground, Russia hit Kyiv overnight into Monday with missiles and 269 drones, killing one person; Ukraine says it shot down 243 of the drones and four missiles.\n\nWhy it matters: a great-power format without Ukraine or Europe would be the clearest sign yet that Washington is willing to negotiate over Kyiv's head. Europe's refusal on gas sets up a direct clash with the US plan.",
+          "source": "WSJ via Ukrainska Pravda; Axios; UNITED24/Interfax; AP, 19 Oct"
+        },
+        {
+          "title": "Iran war: Lavrov in Tehran, Hegseth reportedly in Israel",
+          "body": "Russia's foreign minister made his first visit to Tehran since the war began about eight months ago, calling the US-Israeli strikes illegal. Iran repeated its offer: reopen Hormuz on day six and start nuclear talks on day seven, if the US lifts its naval blockade and eases sanctions. Axios reports, citing two sources, that US Defence Secretary Hegseth secretly met Netanyahu eight days before Israel's 27 October election; the Pentagon has confirmed only a visit to US Central Command.\n\nAt sea, the UK maritime agency counts ten attacks on ships last week, making October the worst month since March. The UN shipping agency says about 6,000 seafarers are stuck in the Gulf. The US military says about 97 percent of ships that sought to transit got through. Brent crude settled at 109.55 dollars a barrel on Monday.\n\nWhy it matters: Moscow is positioning itself as Tehran's diplomatic backer at the same moment it is bargaining with Washington over Ukraine, linking the two wars.",
+          "source": "CBS; Axios; Times of Israel; Fox News; Rigzone, 19-20 Oct"
+        },
+        {
+          "title": "Week ahead",
+          "body": "Today: Rubio meets India's foreign minister Jaishankar in Mumbai. 22-23 October: informal meeting of EU trade ministers. Saturday 24 October: new 'yellow vest' protests called in France. Sunday 25 October: Brazil's presidential runoff. Monday 26 October: Thand Ringqvist reports back to the Speaker. Tuesday 27 October: Israeli general election (Benny Gantz withdrew on Monday). 3 November: US midterms. Mid-November: APEC summit in Shenzhen.",
+          "source": "FDD overnight brief; Altinget; Times of Israel; Council of the EU, 19-20 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "US and Europe",
+      "items": [
+        {
+          "title": "France: curfews, and the unrest spreads to Belgium and Italy",
+          "body": "The government has imposed local curfews rather than a national state of emergency, which Prime Minister Lecornu has not ruled out. In Paris the curfew covers the République and Les Halles areas, with demonstrations banned from 8pm. The justice ministry counts more than 2,330 people taken into custody over the weekend; AP puts total arrests at about 2,400 and Saturday's marchers at 550,000 by official count. Almost 1,000 police and gendarmes were hurt on Saturday, and about 1,500 shops were damaged.\n\nWhat's new: interior minister Nuñez offered to resign and Macron refused. Trump posted that 'France is burning' and told Macron to close the borders, although French authorities have made no link to immigration. There have also been clashes in Brussels and Liège, and arrests in Milan, as protests over wages and prices spread. New French protests are called for Saturday.",
+          "source": "Al Jazeera; AP; Euronews, 19 Oct"
+        },
+        {
+          "title": "Midterms: early voting opens in more states",
+          "body": "Early in-person voting began on Monday in Texas, Colorado, South Carolina, Connecticut, Arkansas, Alaska and parts of Florida. An AP-NORC poll finds about six in ten Hispanic voters disapprove of Trump, and more than seven in ten disapprove of his handling of the economy; Hispanic voters swung towards him in 2024. Trump is rallying in states Republicans should hold, such as Kansas and Texas, which suggests the party is defending rather than expanding.",
+          "source": "Fox News; AP-NORC, 19 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: the Speaker gives the mandate to the Centre Party",
+          "body": "Speaker Andreas Norlén gave the exploratory mandate to Centre Party leader Elisabeth Thand Ringqvist, not to Kristersson (M) or Andersson (S). Her task is to find out whether a 'middle' government is possible. She reports back on Monday 26 October. Norlén noted that her name had been suggested from both left and right, and that she is not herself a candidate for prime minister. He has not set a date for the second of the four possible prime-ministerial votes; Andersson lost the first last week.\n\nThand Ringqvist called the choice unexpected and the starting position very difficult, and will invite all party leaders. She had earlier said Kristersson should get the mandate. Kristersson called the decision logical, since the parties that support an S-led government hold a majority between them. KD's Busch asked for 'fewer red lines, not more'. MP calls the middle option a dead end but accepts testing it. SD's Åkesson has invited her to talks; the Centre Party has so far refused to work with SD.\n\nWhy it matters: the mandate tests the one option nobody has formally ruled out. If it fails, as most parties expect, the Speaker has a cleaner case for handing it to Kristersson.",
+          "source": "Altinget; TV4/TT; SVT, 19 Oct"
+        },
+        {
+          "title": "In brief",
+          "bullets": [
+            "Krona: the weakest G10 currency so far this year, down about 7 percent against the dollar (around 9.9 SEK per dollar), according to Bloomberg's index. The Norwegian krone is up about 7 percent.",
+            "Electricity: the October spot price in southern Sweden is about 1.45 SEK per kWh before VAT, the highest this year. Futures prices point to a winter close to 2022/23 crisis levels, because gas is expensive and hydro reservoirs are low.",
+            "Youth care homes: the inspectorate Ivo has shut 39 residential homes for young people in a push against gang-linked operators, mostly over flawed staff background checks. It does not know how many were actually run by criminals and has not followed up on the children moved (first reported by DN).",
+            "Sven Hirdman, Sweden's ambassador in Moscow 1994-2004, has died aged 87."
+          ],
+          "source": "SVT Text-TV (Bloomberg, Nord Pool, DN), 18-19 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "New on Breakit and Tech.eu",
+          "bullets": [
+            "Vessla (Orman Gazvini, Kasper Janehag) — AI agents that automate workflows across property owners' and managers' systems — 3.3 million dollars pre-seed (about 33 million SEK) — led by Seedcamp, with Inception Fund, Tiny VC, Lukas Saari (Tandem Health), Fredrik Hjelm (Voi) and operators from Lovable and OpenAI.",
+            "Matters (Per Österström, Sambla founder) — AI personal-finance app for young people — 50 million SEK — investors not disclosed in the headline (15 Oct, not covered earlier).",
+            "Tavion (Emad Zand) — battery company — valued at 1.9 billion SEK five months after founding (16 Oct, not covered earlier).",
+            "Also: Aloi has hired senior people from Sana and Lovable; Palantir CEO Alex Karp is buying more forest in Härjedalen from SCA."
+          ],
+          "source": "Tech.eu, 19 Oct; Breakit headlines, 15-19 Oct (mostly paywalled)"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI seeks at least 30 billion dollars at a 1.4 trillion valuation, to close before Anthropic lists",
+          "body": "Reuters reports, citing sources, that OpenAI is accelerating a private raise so it lands ahead of Anthropic's expected listing, and that its own IPO is likely to slip to 2027. Anthropic filed a confidential draft prospectus in June after being valued at 965 billion dollars in May. A point to watch in its filing is how revenue is counted: reported annualised revenue of about 47 billion dollars is a gross figure, and the Wall Street Journal estimates net revenue far lower, because a large share passes through cloud partners. Separately, Microsoft has pulled out of Nscale's planned data centre in Essex, adding to doubts about the European cloud provider's listing reported yesterday.\n\nWhy it matters: the two largest AI labs are now competing for the same pool of late-stage capital, and the order in which they raise will set the reference valuation for the other.",
+          "source": "Reuters, 19 Oct; CNBC, 19 Oct; BBC, 18-19 Oct"
+        },
+        {
+          "title": "DeepSeek ships a stronger agentic checkpoint; the US government bans DeepSeek from its systems",
+          "body": "V4.1-Flash-1017 is a new post-training run on the existing model (8 billion active parameters per token in prefill, 16 billion in decode, one-million-token context), trained with reinforcement learning on end-to-end project tasks. DeepSeek's own figures: DeepSWE 74.2 to 77.0 and Terminal-Bench 4.0 31.2 to 42.3. Pricing stays around 0.30/1.20 dollars per million input/output tokens. DeepSeek also opened a web search API at 0.75 dollars per 1,000 calls, well under rivals. On Monday the Department of Homeland Security ordered DeepSeek technology removed from federal civilian IT systems. Also new: MiniMax made M3.1 Flash generally available, and Inception released Mercury 3, a diffusion language model that refines many tokens in parallel and claims over 1,000 tokens per second.",
+          "source": "DeepSeek via MarkTechPost, 17 Oct; WSJ, 19-20 Oct; MiniMax; The Neuron, 20 Oct (benchmarks are company-reported)"
+        },
+        {
+          "title": "The OpenAI quasi-Riemann proof: experts say it is probably right",
+          "body": "A step forward on last week's OpenAI maths release. Quanta reports that analytic number theorists largely accept OpenAI's 49-page proof that all non-trivial zeros of the zeta function have real part between 1/12 and 11/12 (the Riemann hypothesis says exactly 1/2; until now only the trivial strip 0 to 1 was known in this form). A longer 1/8-7/8 version is checked in Lean. The proof combines 'metaplectic forms' with a 2021 formula of Dunn and Radziwiłł. Radziwiłł says most consequences of the Riemann hypothesis already follow and that the argument fits in half a page once understood; Stanford's Jared Lichtman calls it the most significant AI-for-maths result so far. Peter Sarnak will not call it a theorem until humans have checked every detail. It is also the one paper in the release that a person edited, which OpenAI has not explained.",
+          "source": "Quanta Magazine, 19 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Breakthrough of the day: Claude explains where the NIST curves came from",
+      "items": [
+        {
+          "title": "The 'random' seeds behind P-256 and its siblings were lrand48 output seeded with 1997-98 timestamps",
+          "body": "The puzzle. The NIST elliptic curves (P-192 to P-521, widely used in TLS and in ECDSA signatures) were published in the late 1990s as 'verifiably random': each curve's coefficient is SHA-1 of a 160-bit seed. That proves the curve wasn't chosen directly, but it says nothing about how the seed was chosen. If the designers could try many seeds, they could in principle search for a curve with a hidden weakness. After the Dual_EC_DRBG backdoor came to light in 2013, this became a standing suspicion, and a public bounty was offered for the seeds' origin. The leading theory was that someone had hashed a phrase.\n\nWhat was found. Anthropic's Frontier Red Team gave an internal research model the problem without the hash-of-a-phrase hint. Within half an hour it proposed a different explanation: the seeds are simply raw output of a weak 1990s random-number generator. It built a scanner that slid windows over the published seeds and tested 34 combinations of old generators and output slices for consecutive-output structure. The signal: in four seeds, the top bit of every one of the twenty 32-bit words was zero (probability about 1 in 5,810 by chance), which is exactly what the C library function lrand48 produces, since it returns the top 31 bits of a 48-bit state.\n\nThe mechanism. lrand48 is a linear congruential generator: x(n+1) = a·x(n) + c mod 2^48, with a = 0x5DEECE66D and c = 0xB, seeded as (t << 16) | 0x330E from a Unix timestamp t. For the four seeds with full 31-bit words, only 17 bits of state are hidden, so trying all 2^17 values against the first word and checking the next four is trivial. The prime-curve seeds are harder: each word keeps only 8 bits of an output. Recovering an LCG state from truncated outputs is a classic lattice problem: the unknown low bits are small, and the linear recurrence makes the hidden values a short vector in a lattice built from powers of a mod 2^48. LLL basis reduction finds it. Each recovered 48-bit state regenerates all 160 bits of the published seed, which cannot happen by chance. Because an LCG can be run backwards, each state was stepped back to its seeding form, yielding timestamps between May 1997 and April 1998 (P-224: 3 April 1998). The binary curves' timestamps decode to 1984 unless doubled, which gives 17 April 1998, suggesting the program halved the clock. Six base points were also traced to the generator in Arjen Lenstra's FreeLIP library.\n\nWhy it matters. A process that was unverifiable for 28 years is now reproducible. It does not break ECDSA. It weakens the backdoor theory: the generator ran sequentially and only a few valid candidates were skipped (P-256 is candidate 1,842, while 876 also gave a valid curve), so the designers had little room to search for a weak curve, though the authors cannot rule out that timestamps were tried. Open questions remain: the B-163 seed, the base points of P-224 to P-521, and why some candidates were skipped. The 36,864-dollar bounty goes to Let's Encrypt's parent ISRG. For the reader, the notable part is the method: the model chose a hypothesis humans had not pursued, designed a statistical test for it, and applied lattice reduction, all in one session.",
+          "source": "Anthropic, 'Claude reveals ECDSA curve origins', 16 Oct"
+        },
+        {
+          "title": "Also on the radar",
+          "bullets": [
+            "HybridAgents (Stanford and Together, arXiv 2610.18861): an agent that switches within one generation between latent reasoning (feeding the last hidden state back as input, no token sampled) and text, which it needs for tool calls. A small residual adapter maps hidden states into the input-embedding space, fixing the mismatch that limits earlier latent-reasoning methods, and reinforcement learning decides when to think silently. On Qwen3 4B-14B across 11 benchmarks: +10.4 points average accuracy, 35-55 percent fewer tokens, about 2-3x faster.",
+            "Scaling discovery requires forgetting (arXiv 2610.20563): running research agents longer, in parallel, or with shared notes all plateau, because agents anchor on their own past attempts and make ever smaller edits. Periodically wiping all history and restarting from the best candidate, much like restarts in simulated annealing, gives up to +15 percent over parallel agents and +39 percent over one agent on kernel optimisation, heuristic programming and model training.",
+            "Harness² (Google Research, arXiv 2610.14224): keeps the model frozen and evolves the harness (prompts, tools, memory) instead, with a propose-probe-compose loop that needs no ground-truth checker and a second level that distils lessons across tasks. One round improves GLM-5 and Gemini 3.5 Flash by up to 11.8 points on agentic benchmarks.",
+            "Has GPT-6-Astra achieved embodied intelligence? (SenseNova, arXiv 2610.22471): tests the model on 12 simulated robot benchmarks and 8 real robots, alone and as a high-level planner over the π0.5 controller. Verdict: competent but not practical, because it depends on costly demonstrations; the authors propose a benchmark with no in-domain demos and a clock that penalises thinking time."
+          ],
+          "source": "arXiv and Hugging Face papers, 9-19 Oct (summaries from abstracts and secondary write-ups)"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster",
+      "source": "Engineering at Meta",
+      "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+      "why": "Meta's own engineers on what it takes to turn an ordinary data centre into a gigawatt training cluster in two years: 800G networking per GPU, fabrics of 20,736 GPUs spanning sites up to 100+ km apart, 120-170 kW liquid-cooled racks, and how they cut interruptions by 99 percent to keep over 85 percent useful training time.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "How do Chinese AI companies make money?",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
+      "why": "A line-by-line look at the revenue of Alibaba, ByteDance, Z.ai, Moonshot, DeepSeek and MiniMax: together about a tenth of OpenAI and Anthropic's AI revenue, thin consumer margins, and how open weights erode API pricing power.",
+      "who": ""
+    },
+    {
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "why": "What OpenAI's proof that the zeta zeros lie between 1/12 and 11/12 actually shows, which overlooked tools it combined, and how leading number theorists judge its correctness and its significance.",
+      "who": ""
+    }
+  ]
+}

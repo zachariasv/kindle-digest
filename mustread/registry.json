@@ -1,7 +1,92 @@
 {
- "candidates": [],
+ "candidates": [
+  {
+   "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+   "title": "Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster",
+   "source": "Engineering at Meta",
+   "why": "Meta's own engineers on what it takes to turn an ordinary data centre into a gigawatt training cluster in two years: 800G networking per GPU, fabrics of 20,736 GPUs spanning sites up to 100+ km apart, 120-170 kW liquid-cooled racks, and how they cut interruptions by 99 percent to keep over 85 percent useful training time.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "fresh",
+   "published": "2026-10-19",
+   "added": "2026-10-20",
+   "impact": 7,
+   "minutes": 14
+  },
+  {
+   "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+   "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+   "source": "Quanta Magazine",
+   "why": "What OpenAI's proof that the zeta zeros lie between 1/12 and 11/12 actually shows, which overlooked tools it combined, and how leading number theorists judge its correctness and its significance.",
+   "who": "",
+   "category": "science",
+   "kind": "fresh",
+   "published": "2026-10-19",
+   "added": "2026-10-20",
+   "impact": 8,
+   "minutes": 10
+  },
+  {
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "title": "Claude reveals ECDSA curve origins",
+   "source": "Anthropic",
+   "why": "A lab's first-hand account of a model solving a 28-year-old cryptography mystery: how it guessed a 1990s random-number generator, spotted the statistical fingerprint, and recovered the generator states with lattice reduction.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-16",
+   "added": "2026-10-20",
+   "impact": 7,
+   "minutes": 10
+  },
+  {
+   "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
+   "title": "How do Chinese AI companies make money?",
+   "source": "Epoch AI",
+   "why": "A line-by-line look at the revenue of Alibaba, ByteDance, Z.ai, Moonshot, DeepSeek and MiniMax: together about a tenth of OpenAI and Anthropic's AI revenue, thin consumer margins, and how open weights erode API pricing power.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "evergreen",
+   "published": "2026-10-06",
+   "added": "2026-10-20",
+   "impact": 7,
+   "minutes": 24
+  },
+  {
+   "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
+   "title": "The AI buildout rests on hidden debt",
+   "source": "GIS Reports",
+   "why": "How data centres are financed off balance sheet through special-purpose vehicles and private credit, and how banks pass the risk on, which is the mechanism behind this week's doubts about AI infrastructure valuations.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "evergreen",
+   "published": "2026-08-18",
+   "added": "2026-10-20",
+   "impact": 6,
+   "minutes": 10
+  }
+ ],
  "history": [
-  {"date": "2026-10-18", "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits", "title": "Designing efficient quantum circuits with Claude", "category": "ai-research", "minutes": 25},
-  {"date": "2026-10-19", "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/", "title": "As AI closed in on 'Unique Games' proof, researchers raced to beat the machines", "category": "science", "minutes": 20}
+  {
+   "date": "2026-10-18",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "title": "Designing efficient quantum circuits with Claude",
+   "category": "ai-research",
+   "minutes": 25
+  },
+  {
+   "date": "2026-10-19",
+   "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
+   "title": "As AI closed in on 'Unique Games' proof, researchers raced to beat the machines",
+   "category": "science",
+   "minutes": 20
+  },
+  {
+   "date": "2026-10-20",
+   "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
+   "title": "Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster",
+   "category": "ai-economics",
+   "minutes": 14
+  }
  ]
 }
