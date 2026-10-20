@@ -75,6 +75,20 @@
    "minutes": 25
   },
   {
+   "date": "2026-10-18",
+   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
+   "title": "Tracing the origins of the NIST elliptic-curve seeds",
+   "category": "ai-research",
+   "minutes": 25
+  },
+  {
+   "date": "2026-10-18",
+   "url": "https://www.aljazeera.com/news/2026/10/17/us-and-iran-both-claim-control-of-strait-of-hormuz-amid-attacks-on-vessels",
+   "title": "US and Iran both claim control of the Strait of Hormuz",
+   "category": "investigation",
+   "minutes": 12
+  },
+  {
    "date": "2026-10-19",
    "url": "https://www.quantamagazine.org/as-ai-closed-in-on-unique-games-proof-researchers-raced-to-beat-the-machines-20261007/",
    "title": "As AI closed in on 'Unique Games' proof, researchers raced to beat the machines",
