@@ -14,7 +14,7 @@ Cut:
 - **Status updates on long-running situations** with nothing new (e.g. "Ukraine still short of Patriots", "API key theft continues"). Cover a long-running story again only when there's a step change.
 - **Regional follow-ups** after the headline event has been reported. Report the big strike; don't keep tracking the local conflict that follows unless it widens.
 - **Routine corporate items** (a single data-centre lease, minor partnerships) unless they're unusually large or strategic.
-- **Duplicates.** If a story is in "Everyone's talking about", only give it a fuller item elsewhere when that item adds material context. Otherwise the one-liner is enough.
+- **Duplicates.** Every story appears exactly once in the whole edition. Before writing, list the day's stories and assign each to one section. A story in "Everyone's talking about" never reappears in a later section, not even as a mention.
 
 Things the reader explicitly wants never to miss: Swedish government formation and major Swedish political steps, US elections, AI model releases (especially open-weight and Chinese labs), and technical breakthroughs.
 
@@ -22,18 +22,20 @@ Things the reader explicitly wants never to miss: Swedish government formation a
 
 Write `editions/YYYY-MM-DD.json` (same schema as earlier editions), then run `python build.py`. Any item can use `"bullets": [...]` in addition to or instead of `"body"`.
 
-Sections, in this order (the technical sections come last on purpose, so the edition ends on them):
+**The default item is short:** a bold headline and 1-2 sentences, like the "Everyone's talking about" items. That is the right length for almost all news. In the whole edition, at most **two** items may run longer (a short paragraph, max ~80 words), and only when the extra context genuinely matters (e.g. a real step in Swedish government formation).
 
-1. **Today's must-read**: rendered automatically at the top from `must_reads` (see below). Don't write it as a section.
-2. **Everyone's talking about**: 3-5 one-to-two-sentence items.
-3. **Geopolitics**: 2-3 items max. Include "Week ahead" when there are notable scheduled events (diplomatic tours, summits); the reader values these.
-4. **US and Europe**: big developments only, 1-3 items.
-5. **Sweden**: politics first, then a short "In brief" with 3-4 other notable domestic stories.
-6. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip the section when nothing matters.
-7. **Week in review** (Sundays only): 3 short threads that connect the week's stories.
-8. **Tech and AI**: 2-3 items. Model releases and big strategic moves.
-9. **Breakthrough of the day**: the most important section. ONE technical item explained properly: the mechanism, why it beats prior work, key numbers. Write for a reader with a strong maths background.
-   **Also on the radar**: 3-4 further papers or results, each 2-3 sentences on the actual method and result.
+Sections, in this order (tech comes last on purpose):
+
+1. **Today's must-read**: rendered automatically at the top from `must_reads`. Don't write it as a section.
+2. **Everyone's talking about**: the 4-6 biggest stories of the day, 1-2 sentences each. These are told here and nowhere else.
+3. **World**: other notable geopolitics and US/European stories, 2-4 short items.
+4. **Sweden**: politics first, then other notable domestic stories, 2-4 short items.
+5. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip when nothing matters.
+6. **Week ahead**: only when there are notable scheduled events (summits, votes, diplomatic tours), as 2-4 bullets.
+7. **Week in review** (Sundays only): 3 threads connecting the week's stories, 2-3 sentences each.
+8. **Tech and AI**: 3-5 short items: model releases, big strategic moves, and notable papers or results, each in 1-2 sentences on what's new. No long technical deep dives in the digest. A result that deserves a proper explanation goes into the must-read registry as an `ai-research` candidate instead (ideally the lab's or authors' own write-up), so it can become a must-read.
+
+Skip any section with nothing that clears the bar rather than padding it.
 
 ## Today's must-read
 
@@ -100,7 +102,7 @@ A job in the private repo extracts the winner's full text and figures and falls 
 
 ## Length
 
-About a 7-8 minute read on weekdays, slightly more on Sundays. When in doubt, cut. The breakthrough section is the one place to spend words.
+The digest is a quick scan: about **4-5 minutes, roughly 900-1,100 words** on weekdays, up to ~1,300 on Sundays. Depth belongs in the must-read, not the digest. Before publishing, count the words and cut until it fits, removing whole items before trimming sentences.
 
 ## Style
 
