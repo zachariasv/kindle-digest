@@ -33,7 +33,8 @@ Sections, in this order (tech comes last on purpose):
 5. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip when nothing matters.
 6. **Week ahead**: only when there are notable scheduled events (summits, votes, diplomatic tours), as 2-4 bullets.
 7. **Week in review** (Sundays only): 3 threads connecting the week's stories, 2-3 sentences each.
-8. **Tech and AI**: 3-5 short items: model releases, big strategic moves, and notable papers or results, each in 1-2 sentences on what's new. No long technical deep dives in the digest. A result that deserves a proper explanation goes into the must-read registry as an `ai-research` candidate instead (ideally the lab's or authors' own write-up), so it can become a must-read.
+8. **Tech and AI**: 3-5 short items on company and industry news: model releases, big strategic moves, funding, policy. 1-2 sentences each.
+9. **On the radar**: exactly 3 one-line bullets on technical developments in AI and ML, to keep a finger on the research pulse: a new training method or RL algorithm, a new architecture, a notable paper, benchmark or open-source release, something trending among researchers. Each bullet says what it is and why it's interesting in one sentence, with the source. Not company news (that's Tech and AI) and never a deep dive: a result that deserves a proper explanation goes into the must-read registry as an `ai-research` candidate instead, ideally the lab's or authors' own write-up.
 
 Skip any section with nothing that clears the bar rather than padding it.
 
@@ -45,6 +46,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 - **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. The strongest preference. First-hand beats second-hand: a lab's own explanation beats a tech outlet's explainer of the same result.
 - **AI changing what's possible in other fields**: AI-designed enzymes, AI-found proofs, AI doing security research or hacking. The interest is in AI as the actor, not attacks on AI labs.
 - **The concrete economics of AI**: what a gigawatt data centre really costs line by line, where compute money comes from, how long things take to build. Mechanics and real numbers that make abstract headlines tangible. Investor opinion essays are too dry.
+- **The AI-specific "why" matters most.** For infrastructure and engineering pieces, he cares about why AI workloads need it (what training or inference demands of storage, networking, power) more than the engineering feat itself, and he doesn't have a deep hardware or networking background. Prefer pieces that explain those reasons and prerequisites; pieces that list engineering achievements and treat the AI requirements as obvious land flat, even from great sources (e.g. Meta's Prometheus supercluster write-up: right topic, wrong angle). When an infrastructure topic is chosen, put the missing context in `why` in plain language.
 - **The nuance under the talking points**: topics people discuss in slogans ("Europe must reduce dependence on China") explained at the level of real mechanisms, e.g. how rare-earth export controls actually work. Strategy explainers tied to current events are high value.
 - **Intersections**: pieces where AI, money, geopolitics and Europe meet (e.g. a state fund quietly buying into European AI startups) are especially captivating.
 - **Science features** across fields, ideally with a clear real-world hook. Accessible maths is welcome (famous problems, results with a concrete picture); deep abstract pure maths (knot theory, say) is not.
@@ -77,9 +79,18 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 - *AI economics:* SemiAnalysis-style analyses, Epoch AI, IEA and energy-sector analyses of data-centre demand, serious long-form on AI funding.
 - *Investigations:* Reuters Investigates, ProPublica, ICIJ, Bellingcat, AP, NYT/WaPo/WSJ/FT investigations (only if free to read), SVT Uppdrag granskning.
 - *Security, AI-related only:* lab and platform postmortems, Project Zero, Mandiant, Wiz, Trail of Bits, JFrog on attacks on AI models and platforms.
-- *Signal of impact:* Hacker News front page, and what other outlets are citing and following up on.
+- *Signal of impact:* the Hacker News front page (see below), and what other outlets are citing and following up on.
 
 **Format:** a single regular article page. Never live pages, video pages or galleries.
+
+## Hacker News
+
+Every run, fetch the current Hacker News front page with points and comment counts: `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30` (fall back to `https://news.ycombinator.com/` if needed). It's a signal of what the tech world is reading and arguing about, not a source of truth. Use it three ways:
+- **Tech and AI / On the radar:** a technical story with high points and a long discussion is a strong hint it belongs in today's digest. Verify it against the original source, and write about the story itself, not the discussion.
+- **Must-read scouting:** an original long read climbing the front page is a candidate worth checking, and high attention on HN can nudge its impact score up by about 1 point (never more).
+- **Blind spots:** if something dominates the front page and isn't covered anywhere in the edition, ask whether it's a story the reader would be embarrassed not to know.
+
+Skip HN items that are only tools, Show HN projects or old evergreen posts, unless they're genuinely notable.
 
 ## How the must-read is chosen: candidate registry
 
@@ -102,7 +113,7 @@ A job in the private repo extracts the winner's full text and figures and falls 
 
 ## Length
 
-The digest is a quick scan: about **4-5 minutes, roughly 900-1,100 words** on weekdays, up to ~1,300 on Sundays. Depth belongs in the must-read, not the digest. Before publishing, count the words and cut until it fits, removing whole items before trimming sentences.
+The digest is a quick scan: about **4-5 minutes, roughly 950-1,150 words** on weekdays including On the radar, up to ~1,300 on Sundays. Depth belongs in the must-read, not the digest. Before publishing, count the words and cut until it fits, removing whole items before trimming sentences.
 
 ## Style
 
