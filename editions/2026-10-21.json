@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-21",
+  "title": "Morning Digest, Wednesday 21 October 2026",
+  "intro": "Witkoff takes a new Ukraine framework to Putin today, Iran claims more tankers hit mines, France will put troops on the streets on Saturday, and the Liberals close the door on a Centre-led middle government.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Ukraine: after Oslo, Witkoff meets Putin today",
+          "body": "US envoy Steve Witkoff held talks with Zelenskyy and Nordic leaders in Oslo on Tuesday and meets Putin in St Petersburg today with an updated 'framework' proposal; a US official spoke of meaningful progress. Trump said on Monday that someone else should negotiate for Ukraine; Zelenskyy has offered to pause strikes on Russian refineries if Moscow does the same.",
+          "source": "Axios; Al Jazeera; Just Security, 20 Oct"
+        },
+        {
+          "title": "Hormuz: Iran claims three tankers hit mines; the US says it is false",
+          "body": "The Revolutionary Guards say two tankers and a supertanker caught fire after striking mines on routes Tehran calls unauthorised. CENTCOM rejects the claim, and no independent source has confirmed it. Pakistan's army chief brought a Qatari-Pakistani compromise to Tehran, but President Pezeshkian said there will be no talks while US pressure continues. Oil briefly topped 110 dollars a barrel.",
+          "source": "CBS; gCaptain; Euronews, 20 Oct (mine strikes unverified)"
+        },
+        {
+          "title": "France will deploy soldiers at Saturday's protests",
+          "body": "Prime Minister Lecornu promised a 'massive' security operation, with the military working alongside the police. Interior Minister Nuñez apologised and admitted that intelligence failed and that police were deployed too rigidly last weekend.",
+          "source": "Reuters via Korea Times; Euronews, 20 Oct"
+        },
+        {
+          "title": "A Google Cloud power failure in London knocks out UK banking apps",
+          "body": "A 'power event' in Google's London region caused about seven hours of errors on Tuesday. Revolut card payments, the Lloyds and Halifax apps, the NHS app and court video hearings were all hit, a reminder of how much UK infrastructure depends on a single cloud site.",
+          "source": "Tom's Guide; TechRadar; Euronews, 20 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Sudan: drone strike on a market kills at least 73",
+          "body": "The attack hit a market in the Abyei area on the border with South Sudan; local officials blame Sudan's army, and South Sudan summoned Sudan's ambassador. Some reports put the toll at 80.",
+          "source": "Just Security; Democracy Now, 20 Oct"
+        },
+        {
+          "title": "Finland will buy a million anti-personnel mines",
+          "body": "The order, worth more than 100 million dollars, follows Finland's exit from the treaty banning such mines in January.",
+          "source": "Democracy Now, 20 Oct"
+        },
+        {
+          "title": "Vance declines to back Netanyahu before Israel's election",
+          "body": "The US vice president said he would not take sides in a foreign election, a week before Israelis vote on 27 October. Trump has openly supported Netanyahu in the past.",
+          "source": "Just Security, 20 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: the Liberals reject a middle government",
+          "body": "On day two of her exploratory mandate, Elisabeth Thand Ringqvist (C) set out the government she is testing: S, MP, C, L and KD. Liberal leader Simona Mohamsson told TT that L will not join such a government and will not let an S-led government through. Kristersson (M) says every exploratory round should end with a vote, meaning a second vote on Andersson once Thand Ringqvist is done; S's Anders Ygeman says the mandate should instead pass to Kristersson. The Centre Party is also drafting its own 2027 budget. If no new government is in place by 12 November, Kristersson's caretaker government must submit the budget bill. Thand Ringqvist reports to the Speaker on Monday.",
+          "source": "SVT Text-TV (TT); SVT; HurBra.se citing SVT, 19-20 Oct"
+        },
+        {
+          "title": "In brief",
+          "bullets": [
+            "Election-fraud probe: police searched three addresses in Borlänge in the anti-corruption prosecutors' investigation into improper influence over votes in a Left Party campaign there. The elected V member, Mohamed Ali, is on leave; no one has yet been formally suspected.",
+            "A yellow fever mosquito (Aedes aegypti) has been found in Sweden, SVT reports. The species can carry dengue and yellow fever.",
+            "Skolverket wants municipalities to expand vocational upper-secondary programmes such as industry, energy and transport, and shrink economics, social science and arts places."
+          ],
+          "source": "SVT Text-TV; Åklagarmyndigheten, 20 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "On Breakit",
+          "bullets": [
+            "Backing Minds (Sara Wimmercranz, Susanne Najafi) — Stockholm early-stage VC firm closing its third fund — 220 million SEK commitment — from the European Investment Fund.",
+            "Mini Rodini — loss-making children's clothing brand — new majority owners Marcus and Annette Gårdö put in fresh money (amount undisclosed) and plan deep cost cuts to reach profit within a year."
+          ],
+          "source": "Breakit; Di, 20-21 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "22-23 October: informal meeting of EU trade ministers.",
+            "Saturday 24 October: new protests in France, now with troops deployed.",
+            "Sunday 25 October: Brazil's presidential runoff, Lula against Flávio Bolsonaro.",
+            "Tuesday 27 October: Israeli general election. Then 3 November: US midterms."
+          ],
+          "source": "Council of the EU; Euronews; Democracy Now, 20 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "SpaceX's AI business now earns more than Starlink",
+          "body": "In SpaceX's third-quarter report, revenue rose 161 percent to 14.6 billion dollars. The 'Super Intelligence' segment, which includes computing capacity rented to Anthropic, Google and others, brought in 7.6 billion against 5.3 billion for Starlink. Quarterly capital spending was 19.6 billion dollars.",
+          "source": "Fortune; SiliconANGLE, 20 Oct"
+        },
+        {
+          "title": "One hacker's AI agents broke into more than 100 companies",
+          "body": "Security firm Norforge found exposed control panels of Cairn, an open-source agent platform, showing over 1,100 automated attack projects against shops and payment sites; about one in ten succeeded, including at John Deere and SharkNinja. Each break-in reportedly cost around 50 dollars in model usage.",
+          "source": "SecurityWeek; The Next Web; Reuters via Quartz, 19-20 Oct"
+        },
+        {
+          "title": "OpenAI says its models can now migrate COBOL",
+          "body": "On OpenAI's own COBOL migration test, GPT-6.1 Sol scores 86.6 percent at low reasoning effort, up from 5.4 percent for GPT-5.6 Sol, and 97.9 percent at high effort. COBOL still runs much of the world's banking; the benchmark is being published on GitHub.",
+          "source": "OpenAI via AI Brief, 20 Oct (company-reported)"
+        },
+        {
+          "title": "Germany courts Nvidia and Amazon",
+          "body": "At the Invest in Germany summit, Merz's government signed a declaration of intent with Nvidia to build AI models for industrial robots and machines, without a funding figure, and Amazon announced over 16 billion euros of German investment for 2027.",
+          "source": "AP via BNN Bloomberg; Tech Startups, 19-20 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+      "why": "What OpenAI's proof that the zeta zeros lie between 1/12 and 11/12 actually shows, which overlooked tools it combined, and how leading number theorists judge its correctness and its significance.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "How Claude designed protein binders against scorpion neurotoxins",
+      "source": "Anthropic",
+      "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "why": "A lab's own account of a model running a protein-design campaign largely by itself: 318,000 designs over 64 hours with 12 tools, 211 tested in the wet lab, 17 confirmed binders including two with nanomolar affinity, and an honest list of what it did not achieve (no multi-toxin binder, no neutralisation test yet).",
+      "who": ""
+    },
+    {
+      "title": "How do Chinese AI companies make money?",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
+      "why": "A line-by-line look at the revenue of Alibaba, ByteDance, Z.ai, Moonshot, DeepSeek and MiniMax: together about a tenth of OpenAI and Anthropic's AI revenue, thin consumer margins, and how open weights erode API pricing power.",
+      "who": ""
+    }
+  ]
+}

@@ -1,19 +1,6 @@
 {
  "candidates": [
   {
-   "url": "https://engineering.fb.com/2026/10/19/data-center-engineering/inside-prometheus-meta-gigawatt-scale-supercluster/",
-   "title": "Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster",
-   "source": "Engineering at Meta",
-   "why": "Meta's own engineers on what it takes to turn an ordinary data centre into a gigawatt training cluster in two years: 800G networking per GPU, fabrics of 20,736 GPUs spanning sites up to 100+ km apart, 120-170 kW liquid-cooled racks, and how they cut interruptions by 99 percent to keep over 85 percent useful training time.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "fresh",
-   "published": "2026-10-19",
-   "added": "2026-10-20",
-   "impact": 7,
-   "minutes": 14
-  },
-  {
    "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
    "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
    "source": "Quanta Magazine",
@@ -24,19 +11,6 @@
    "published": "2026-10-19",
    "added": "2026-10-20",
    "impact": 8,
-   "minutes": 10
-  },
-  {
-   "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-   "title": "Claude reveals ECDSA curve origins",
-   "source": "Anthropic",
-   "why": "A lab's first-hand account of a model solving a 28-year-old cryptography mystery: how it guessed a 1990s random-number generator, spotted the statistical fingerprint, and recovered the generator states with lattice reduction.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-16",
-   "added": "2026-10-20",
-   "impact": 7,
    "minutes": 10
   },
   {
@@ -64,6 +38,45 @@
    "added": "2026-10-20",
    "impact": 6,
    "minutes": 10
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "title": "How Claude designed protein binders against scorpion neurotoxins",
+   "source": "Anthropic",
+   "why": "A lab's own account of a model running a protein-design campaign largely by itself: 318,000 designs over 64 hours with 12 tools, 211 tested in the wet lab, 17 confirmed binders including two with nanomolar affinity, and an honest list of what it did not achieve (no multi-toxin binder, no neutralisation test yet).",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-20",
+   "added": "2026-10-21",
+   "impact": 7,
+   "minutes": 10
+  },
+  {
+   "url": "https://www.anthropic.com/research/self-replicating-ai",
+   "title": "AI models may be capable of self-replicating without access to a datacenter",
+   "source": "Anthropic",
+   "why": "Anthropic's Frontier Red Team tests whether small open models could copy themselves across cheap TV boxes: a 26B model running on fifteen 55-dollar devices, which steps models still fail at, a trend line suggesting small models get there by end-2026, and what defences would work.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-12",
+   "added": "2026-10-21",
+   "impact": 7,
+   "minutes": 20
+  },
+  {
+   "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure",
+   "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
+   "source": "Epoch AI",
+   "why": "Puts numbers under the 'chip war' talking point: Chinese demand needs about 2.7 times as much chip input per dollar as US demand, and in a Taiwan-plus-decoupling shock Chinese advanced processor prices rise roughly 17-fold against about 20 percent in the US.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "evergreen",
+   "published": "2026-10-06",
+   "added": "2026-10-21",
+   "impact": 6,
+   "minutes": 12
   }
  ],
  "history": [
@@ -101,6 +114,13 @@
    "title": "Inside Prometheus: Meta's Journey to a Gigawatt-Scale Supercluster",
    "category": "ai-economics",
    "minutes": 14
+  },
+  {
+   "date": "2026-10-21",
+   "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
+   "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
+   "category": "science",
+   "minutes": 10
   }
  ]
 }
