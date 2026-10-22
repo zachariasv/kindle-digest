@@ -1,19 +1,6 @@
 {
  "candidates": [
   {
-   "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
-   "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
-   "source": "Quanta Magazine",
-   "why": "What OpenAI's proof that the zeta zeros lie between 1/12 and 11/12 actually shows, which overlooked tools it combined, and how leading number theorists judge its correctness and its significance.",
-   "who": "",
-   "category": "science",
-   "kind": "fresh",
-   "published": "2026-10-19",
-   "added": "2026-10-20",
-   "impact": 8,
-   "minutes": 10
-  },
-  {
    "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
    "title": "How do Chinese AI companies make money?",
    "source": "Epoch AI",
@@ -77,6 +64,19 @@
    "added": "2026-10-21",
    "impact": 6,
    "minutes": 12
+  },
+  {
+   "url": "https://www.wiz.io/blog/php2shell-php-rce",
+   "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
+   "source": "Wiz Research",
+   "why": "The finders' own write-up of the PHP flaws that frontier models (Gemini 4 Argon, GPT-5.6 Sol and Wiz's own agent) helped discover and weaponise: how out-of-memory errors leave stale state that later requests can hijack, why the bugs survived a decade and a 2024 audit, and what AI changed in turning them into working exploits. Heavier on the vulnerability than on the AI workflow.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-21",
+   "added": "2026-10-22",
+   "impact": 6,
+   "minutes": 11
   }
  ],
  "history": [
@@ -120,6 +120,13 @@
    "url": "https://www.quantamagazine.org/ai-proved-the-quasi-riemann-hypothesis-what-happens-now-20261019/",
    "title": "AI Proved the Quasi-Riemann Hypothesis. What Happens Now?",
    "category": "science",
+   "minutes": 10
+  },
+  {
+   "date": "2026-10-22",
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "title": "How Claude designed protein binders against scorpion neurotoxins",
+   "category": "ai-research",
    "minutes": 10
   }
  ]
