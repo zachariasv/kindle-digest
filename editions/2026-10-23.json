@@ -1,0 +1,146 @@
+{
+  "date": "2026-10-23",
+  "title": "Morning Digest, Friday 23 October 2026",
+  "intro": "Iran sets tankers ablaze in the Gulf while US and Israeli planners prepare strikes for after the midterms, the US pulls diplomats out of Saudi Arabia as Houthi attacks mount, Macron restricts Saturday's protests, and Ebola reaches Nigeria.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Iran: four tankers set on fire, and strike plans for after the midterms",
+          "body": "The Revolutionary Guard says it hit and set alight four vessels doing ship-to-ship oil transfers in the northern Gulf, while three more struck mines west of Hormuz; it warned of wider attacks on US bases. The New York Times reports that US and Israeli militaries have drawn up concrete plans to resume strikes on Iran's energy, nuclear and missile sites after the 3 November elections.",
+          "source": "Just Security roundup, citing NYT and Axios; Democracy Now, 22 Oct (strike plans reported)"
+        },
+        {
+          "title": "US orders diplomats out of Saudi Arabia as Houthi attacks escalate",
+          "body": "Non-essential embassy staff and families must leave Saudi Arabia, and families are being withdrawn from several other Gulf missions. The Houthis have hit Saudi targets almost daily this month: a strike on Dammam's airport killed at least one person, debris from a drone downed over the Shaybah oil field killed two, and an earlier strike on Riyadh's main airport killed at least 13.",
+          "source": "ABC (Australia), citing Reuters; Just Security, 22 Oct"
+        },
+        {
+          "title": "France: Macron allows only union marches on Saturday",
+          "body": "After meeting intelligence chiefs, Macron said only trade-union demonstrations will be authorised on 24 October, let prefects ban other gatherings, and called the far-left groups he blames for last week's riots seditious. His defence council meets today; police numbers will be a fifth higher than on 17 October, when 550,000-800,000 people marched.",
+          "source": "Euronews, 22 Oct"
+        },
+        {
+          "title": "Ebola reaches Nigeria",
+          "body": "Africa's most populous country confirmed its first case in over a decade, a woman who arrived in Abuja from Uganda; 44 contacts are being traced. The WHO calls it the fastest-spreading Ebola outbreak on record, with over 9,000 infected and 4,300 dead across several countries. It is caused by the rare Bundibugyo species, for which no vaccine or treatment is approved.",
+          "source": "AP via OPB, 20 Oct; Democracy Now, 22 Oct; Wellcome"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Starlink: Trump says Ukraine's access is restored; Kyiv disagrees",
+          "body": "Trump said Musk has lifted the slowdown on the military Starlink service and declined to say whether he phoned Musk, as the WSJ reports. A Ukrainian official told the Kyiv Independent nothing has changed and the cap that hampers drone interceptions remains.",
+          "source": "Al Jazeera (Reuters, AP), 23 Oct; Kyiv Independent, 22 Oct"
+        },
+        {
+          "title": "Serbia votes on Sunday, with Vučić running for prime minister",
+          "body": "Barred from a third presidential term, Vučić resigned as president in September and leads his party into a snap parliamentary election; polls suggest a close race with the student-led list that grew out of a year of protests. The students' final rally in Belgrade drew one of the largest crowds yet, around 150,000 by SVT's count.",
+          "source": "Al Jazeera, 4 Oct; Washington Post; SVT Text-TV, 22 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Caretaker government may extend electricity support this winter",
+          "body": "Energy minister Ebba Busch (KD) said the high-cost protection, which pays households when power prices pass a set level and expires at the end of 2026, may be extended despite the government's caretaker status, citing low hydro reservoirs and the Middle East war; prices in southern Sweden are already above the support threshold. Thand Ringqvist (C) still reports to the Speaker on Monday.",
+          "source": "SVT Text-TV, 22 Oct"
+        },
+        {
+          "title": "In brief",
+          "bullets": [
+            "Ulf Kristersson (M) now has the highest trust of any party leader in Verian's poll, 45 percent and his best result yet; Nooshi Dadgostar (V) fell eight points to 11."
+          ],
+          "source": "SVT Text-TV, 22 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "On Breakit",
+          "bullets": [
+            "Prisjakt (owned by eEquity) — price-comparison site — lists on Nasdaq First North today at 31 SEK a share, valuing it at 675 million SEK, after a heavily oversubscribed offering of existing shares — cornerstones Handelsbanken Fonder and TIND; it is also pursuing a 21 billion claim against Google, of which shareholders would get only about 5 percent.",
+            "Warmare (led by Björn Elfgren, Wint founder) — AI auditing — new round at a 140 million SEK valuation — tech angels, not named."
+          ],
+          "source": "Breakit; Placera, 13-22 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Saturday 24 October: protests across France under the new restrictions, with soldiers deployed.",
+            "Sunday 25 October: Serbia's snap election and Brazil's presidential runoff (Flávio Bolsonaro narrowly ahead of Lula in the last polls).",
+            "Monday 26 October: Thand Ringqvist reports to the Speaker. Tuesday 27 October: Israel's election.",
+            "3 November: US midterms; around 10 November: planned Russia-Ukraine-US talks."
+          ],
+          "source": "Euronews; Al Jazeera; SVT; Axios, 16-22 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "DeepSeek closes in on a 15 billion dollar round",
+          "body": "The Chinese lab is wrapping up about 100 billion yuan, double its target, at roughly 500 billion yuan (about 70 billion dollars) before the new money; CATL and Tencent are the largest backers, joined by Midea, Meituan and Geely. It comes days after Washington ordered federal agencies to remove DeepSeek's technology, and the company is reportedly preparing a Shanghai listing.",
+          "source": "Reuters via The Star, 22 Oct (terms could still change)"
+        },
+        {
+          "title": "Outside auditors found six ways to blind OpenAI's agent monitor",
+          "body": "Staff from METR and Redwood Research spent three weeks inside OpenAI testing the system that watches its internal agents for misbehaviour. About a tenth of internal Codex traffic likely went unchecked from May to July, and one exploit could hide hundreds of actions; OpenAI says all issues affecting production are patched, which METR has not verified.",
+          "source": "METR, 22 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "MAI-DxO in Science: Microsoft's panel-of-agents diagnostician, which must order tests step by step and pay for them, got 83 percent of 304 hard NEJM cases right against 36 percent for generalist doctors, though it was not compared with specialists or teams and all authors are Microsoft staff (Science, 22 Oct).",
+            "MemT-1.0: MemTensor builds memory into the model as a recurrent state instead of a growing KV cache, using 66 times less storage at 128,000 tokens and gaining about 8 points on SWE-bench by absorbing past coding experience; the most-upvoted paper on Hugging Face this week (arXiv 2610.26825).",
+            "Edge0: serves a 35-billion-parameter mixture-of-experts model from SSD on a 24 GB Mac at about 20 tokens per second in 3 GB of active memory, by training a small router to predict which experts the next token will need so loading overlaps with compute (arXiv 2609.18063, trending on Hugging Face)."
+          ],
+          "source": "Science via Unite.AI; Hugging Face Papers; alphaXiv"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "LLMs are making formal software verification feasible at a much larger scale",
+      "source": "Anthropic Frontier Red Team",
+      "url": "https://www.anthropic.com/research/formal-verification",
+      "why": "The team's own account of Claude turning ordinary fuzz tests from 123 open-source libraries into machine-checked Rocq proofs that 239 entry points never crash on any input under 64 MB: how specs are written against the compiled RISC-V binary, why a 600,000-line proof needs no human review (only the checker and machine model must be trusted), the hundreds of bugs it surfaced along the way, how reward hacking was policed, and a frank list of what 'verified' still does not guarantee.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "How do Chinese AI companies make money?",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
+      "why": "A line-by-line look at the revenue of Alibaba, ByteDance, Z.ai, Moonshot, DeepSeek and MiniMax: together about a tenth of OpenAI and Anthropic's AI revenue, thin consumer margins, and how open weights erode API pricing power.",
+      "who": ""
+    },
+    {
+      "title": "The AI buildout rests on hidden debt",
+      "source": "GIS Reports",
+      "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
+      "why": "How data centres are financed off balance sheet through special-purpose vehicles and private credit, and how banks pass the risk on, which is the mechanism behind this week's doubts about AI infrastructure valuations.",
+      "who": ""
+    }
+  ]
+}

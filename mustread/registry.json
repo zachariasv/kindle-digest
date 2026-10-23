@@ -27,19 +27,6 @@
    "minutes": 10
   },
   {
-   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-   "title": "How Claude designed protein binders against scorpion neurotoxins",
-   "source": "Anthropic",
-   "why": "A lab's own account of a model running a protein-design campaign largely by itself: 318,000 designs over 64 hours with 12 tools, 211 tested in the wet lab, 17 confirmed binders including two with nanomolar affinity, and an honest list of what it did not achieve (no multi-toxin binder, no neutralisation test yet).",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-20",
-   "added": "2026-10-21",
-   "impact": 7,
-   "minutes": 10
-  },
-  {
    "url": "https://www.anthropic.com/research/self-replicating-ai",
    "title": "AI models may be capable of self-replicating without access to a datacenter",
    "source": "Anthropic",
@@ -77,6 +64,19 @@
    "added": "2026-10-22",
    "impact": 6,
    "minutes": 11
+  },
+  {
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "source": "Anthropic Frontier Red Team",
+   "why": "The team's own account of Claude turning ordinary fuzz tests from 123 open-source libraries into machine-checked Rocq proofs that 239 entry points never crash on any input under 64 MB: how specs are written against the compiled RISC-V binary, why a 600,000-line proof needs no human review (only the checker and machine model must be trusted), the hundreds of bugs it surfaced along the way, how reward hacking was policed, and a frank list of what 'verified' still does not guarantee.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-22",
+   "added": "2026-10-23",
+   "impact": 8,
+   "minutes": 20
   }
  ],
  "history": [
@@ -128,6 +128,13 @@
    "title": "How Claude designed protein binders against scorpion neurotoxins",
    "category": "ai-research",
    "minutes": 10
+  },
+  {
+   "date": "2026-10-23",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "title": "LLMs are making formal software verification feasible at a much larger scale",
+   "category": "ai-research",
+   "minutes": 20
   }
  ]
 }

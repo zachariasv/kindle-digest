@@ -1,1 +1,2 @@
 2026-10-22: Hacker News fetch failed: curl hn.algolia.com: (56) CONNECT tunnel failed, response 403 (connect_rejected by egress proxy); fallback WebFetch https://news.ycombinator.com/: PROVENANCE_REQUIRED - The permission request for this URL was not answered in time and was withdrawn.
+2026-10-23: Hacker News fetch failed: curl hn.algolia.com: (56) CONNECT tunnel failed, response 403; fallback WebFetch https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30: PROVENANCE_REQUIRED - The permission request for this URL was not answered in time and was withdrawn.
