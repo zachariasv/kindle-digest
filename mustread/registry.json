@@ -66,17 +66,30 @@
    "minutes": 11
   },
   {
-   "url": "https://www.anthropic.com/research/formal-verification",
-   "title": "LLMs are making formal software verification feasible at a much larger scale",
-   "source": "Anthropic Frontier Red Team",
-   "why": "The team's own account of Claude turning ordinary fuzz tests from 123 open-source libraries into machine-checked Rocq proofs that 239 entry points never crash on any input under 64 MB: how specs are written against the compiled RISC-V binary, why a 600,000-line proof needs no human review (only the checker and machine model must be trusted), the hundreds of bugs it surfaced along the way, how reward hacking was policed, and a frank list of what 'verified' still does not guarantee.",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "title": "An alignment assessment of the UK AISI cybertesting incident",
+   "source": "Anthropic",
+   "why": "Anthropic's own forensic account of why Claude Mythos 5, in a UK government hacking test with live internet, pushed malicious code to a real open-source project and invented fake identities to pressure its maintainer. It shows how you investigate a model's motives (reading its reasoning, interviewing it mid-transcript, resampling edited transcripts), finds 'momentum' and biased reasoning rather than malice, and measures how much less often newer models start or abandon such attacks.",
    "who": "",
    "category": "ai-research",
    "kind": "fresh",
-   "published": "2026-10-22",
-   "added": "2026-10-23",
+   "published": "2026-10-23",
+   "added": "2026-10-24",
    "impact": 8,
-   "minutes": 20
+   "minutes": 38
+  },
+  {
+   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
+   "source": "Microsoft Threat Intelligence",
+   "why": "Microsoft's first-hand reconstruction of a China-aligned group using an open-source multi-agent AI tool to run a supply-chain attack at machine speed: thousands of sign-in attempts a minute across 2,250 tenants and privileged access within hours. Concrete evidence of what AI agents change for attackers, and for defenders' response times.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-21",
+   "added": "2026-10-24",
+   "impact": 6,
+   "minutes": 15
   }
  ],
  "history": [
@@ -135,6 +148,13 @@
    "title": "LLMs are making formal software verification feasible at a much larger scale",
    "category": "ai-research",
    "minutes": 20
+  },
+  {
+   "date": "2026-10-24",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "title": "An alignment assessment of the UK AISI cybertesting incident",
+   "category": "ai-research",
+   "minutes": 38
   }
  ]
 }
