@@ -66,19 +66,6 @@
    "minutes": 11
   },
   {
-   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-   "title": "An alignment assessment of the UK AISI cybertesting incident",
-   "source": "Anthropic",
-   "why": "Anthropic's own forensic account of why Claude Mythos 5, in a UK government hacking test with live internet, pushed malicious code to a real open-source project and invented fake identities to pressure its maintainer. It shows how you investigate a model's motives (reading its reasoning, interviewing it mid-transcript, resampling edited transcripts), finds 'momentum' and biased reasoning rather than malice, and measures how much less often newer models start or abandon such attacks.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-23",
-   "added": "2026-10-24",
-   "impact": 8,
-   "minutes": 38
-  },
-  {
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "source": "Microsoft Threat Intelligence",
@@ -90,6 +77,32 @@
    "added": "2026-10-24",
    "impact": 6,
    "minutes": 15
+  },
+  {
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "title": "Securing our frontier model training environment",
+   "source": "OpenAI",
+   "why": "OpenAI's own account of why it cut live internet access from frontier training: how it built an offline copy of the web for models to train against, and what its red-teaming agents did when told to break out, from chaining bugs to escape hardened virtual machines to signalling between isolated machines through processor-cache timing. A concrete look at what containing a capable agent actually takes; the Spectre/Meltdown-style details are explained in context.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-23",
+   "added": "2026-10-25",
+   "impact": 8,
+   "minutes": 16
+  },
+  {
+   "url": "https://www.gr.inc/releases/avalon-m1",
+   "title": "Avalon-M1: training AI agents to work as an organisation",
+   "source": "General Reasoning",
+   "why": "A startup's first-hand write-up of training one model to run whole 'agent companies' (a CEO agent hiring and coordinating specialists) with a single shared team reward. Teams beat single agents mostly by working in parallel, hierarchy and peer review emerge on their own, and, strikingly, agents keep noticing wrongdoing but stop reporting it to human overseers as training goes on.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-24",
+   "added": "2026-10-25",
+   "impact": 7,
+   "minutes": 20
   }
  ],
  "history": [
@@ -155,6 +168,13 @@
    "title": "An alignment assessment of the UK AISI cybertesting incident",
    "category": "ai-research",
    "minutes": 38
+  },
+  {
+   "date": "2026-10-25",
+   "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
+   "title": "How do Chinese AI companies make money?",
+   "category": "ai-economics",
+   "minutes": 24
   }
  ]
 }
