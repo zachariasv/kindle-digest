@@ -85,7 +85,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 
 ## Hacker News
 
-Every run, fetch the current Hacker News front page with points and comment counts: `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30` (fall back to `https://news.ycombinator.com/` if needed). It's a signal of what the tech world is reading and arguing about, not a source of truth. Use it three ways:
+Every run, fetch the current Hacker News front page with points and comment counts: `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30` (fall back to `https://news.ycombinator.com/` if needed). If both fetches fail, read the backup snapshot that a GitHub Action saves each morning around 04:15 Stockholm time: `git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json` (check `fetched_at`; if it's stale, trigger a fresh one with `gh api -X POST repos/zachariasv/kindle-digest/actions/workflows/hn.yml/dispatches -f ref=main`, wait about a minute, then fetch again). Log a fetch error only if all three fail. It's a signal of what the tech world is reading and arguing about, not a source of truth. Use it three ways:
 - **Tech and AI / On the radar:** a technical story with high points and a long discussion is a strong hint it belongs in today's digest. Verify it against the original source, and write about the story itself, not the discussion.
 - **Must-read scouting:** an original long read climbing the front page is a candidate worth checking, and high attention on HN can nudge its impact score up by about 1 point (never more).
 - **Blind spots:** if something dominates the front page and isn't covered anywhere in the edition, ask whether it's a story the reader would be embarrassed not to know.

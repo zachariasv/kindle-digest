@@ -1,0 +1,39 @@
+# Backup source for the Hacker News signal: GitHub runners fetch the front page
+# and publish it as hn.json on the hn-data branch, which the daily run reads with
+#   git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json
+name: Hacker News snapshot
+on:
+  schedule:
+    - cron: "15 3 * * *"   # 04:15 CET / 05:15 CEST, before the 05:40 digest run
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: hn-snapshot
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Fetch front page
+        run: |
+          set -euo pipefail
+          url="https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30"
+          curl -fsS --retry 3 --retry-delay 5 "$url" | python3 -c '
+          import json, sys, datetime
+          hits = json.load(sys.stdin)["hits"]
+          out = {"fetched_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                 "source": "hn.algolia.com front_page",
+                 "stories": [{"rank": i + 1, "title": h.get("title"), "url": h.get("url"),
+                              "points": h.get("points"), "comments": h.get("num_comments"),
+                              "hn_url": "https://news.ycombinator.com/item?id=" + h["objectID"],
+                              "created_at": h.get("created_at")} for i, h in enumerate(hits)]}
+          json.dump(out, open("hn.json", "w"), ensure_ascii=False, indent=1)
+          print(len(hits), "stories")'
+      - name: Publish to hn-data branch
+        run: |
+          set -euo pipefail
+          git init -q -b hn-data pub && mv hn.json pub/ && cd pub
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add hn.json && git commit -qm "HN snapshot $(date -u +%FT%TZ)"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" hn-data
