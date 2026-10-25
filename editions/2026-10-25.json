@@ -120,11 +120,11 @@
         {
           "title": "Research pulse",
           "bullets": [
-            "A fix for softmax cross-entropy: a new paper argues that the standard loss gives inaccurate gradients when a model is very confident, causing training instability and drift between teacher and student in distillation, and proposes a corrected version; the top trending paper on alphaXiv (arXiv 2610.31642, abstract-level claims).",
-            "'Naive RAG is stronger than we thought': plain retrieval over unedited conversation history often matches or beats elaborate agent-memory systems, a useful check on a crowded research area (arXiv 2610.30755, trending on alphaXiv).",
-            "IQuest-Q1: an open-weight mixture-of-experts model with 320 billion parameters (15 billion active per token) built for command-line coding and security agents, though the paper gives no benchmark numbers yet (Hugging Face Papers, arXiv 2610.30949)."
+            "A fix for softmax and cross-entropy: Google DeepMind researchers show that the standard loss rounds a very confident model's target gradient to zero (already at a margin of about 5.5 in bf16), which upsets Adam and explains the sudden loss spikes seen in 'grokking' experiments; their drop-in fix lets fp32 runs match fp64, though the tests are small-scale (arXiv 2610.31642, top of alphaXiv's hot list).",
+            "'Naive RAG is stronger than we thought': plain retrieval with reranking over raw conversation history ranked first in six of seven memory benchmark settings against elaborate agent-memory systems such as Mem0 and MemOS, and ingested a million tokens 10 to 83 times faster (arXiv 2610.30755).",
+            "IQuest-Q1: an open-weight mixture-of-experts model with 320 billion parameters (15 billion active per token) for command-line coding agents, which on its own figures comes second only to Claude Opus 5 on the NL2Repo repository-building benchmark (63.0 against 75.3) (arXiv 2610.30949, self-reported)."
           ],
-          "source": "alphaXiv; Hugging Face Papers, 22-25 Oct"
+          "source": "alphaXiv; arXiv, 22-25 Oct"
         }
       ]
     }
