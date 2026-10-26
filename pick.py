@@ -23,6 +23,7 @@ long-read limit.
 import json
 import pathlib
 import sys
+from urllib.parse import urlparse
 from datetime import date
 
 ROOT = pathlib.Path(__file__).parent
@@ -74,8 +75,19 @@ def main(day):
     reg["candidates"] = [c for c in reg["candidates"] if alive(c)]
     recent_long = any(h.get("minutes", 0) >= LONG_READ_MINUTES and (today - d(h["date"])).days < LONG_READ_GAP_DAYS
                       for h in history)
+    # Sites that refuse the private extraction job (it would silently fall back to a backup)
+    blocked = tuple(reg.get("unfetchable_domains", []))
+
+    def fetchable(c):
+        host = urlparse(c["url"]).hostname or ""
+        return not any(host == b or host.endswith("." + b) for b in blocked)
+
     pool = [c for c in reg["candidates"]
-            if c["category"] in CATEGORIES and not (recent_long and c.get("minutes", 0) >= LONG_READ_MINUTES)]
+            if c["category"] in CATEGORIES and fetchable(c)
+            and not (recent_long and c.get("minutes", 0) >= LONG_READ_MINUTES)]
+    for c in reg["candidates"]:
+        if not fetchable(c):
+            print(f"skipped (site blocks the Kindle job): {c['title'][:70]}")
     ranked = sorted(pool, key=lambda c: score(c, history, today)[0], reverse=True)
     for c in ranked[:6]:
         s, b, p = score(c, history, today)

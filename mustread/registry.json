@@ -1,4 +1,7 @@
 {
+ "unfetchable_domains": [
+  "openai.com"
+ ],
  "candidates": [
   {
    "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
