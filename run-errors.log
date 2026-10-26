@@ -3,3 +3,4 @@
 2026-10-24: Hacker News fetch failed: curl hn.algolia.com: (56) CONNECT tunnel failed, response 403; fallback WebFetch https://news.ycombinator.com/: PROVENANCE_REQUIRED - The permission request for this URL was not answered in time and was withdrawn.
 2026-10-25: Hacker News fetch failed: curl hn.algolia.com: (56) CONNECT tunnel failed, response 403; fallback WebFetch https://news.ycombinator.com/: PROVENANCE_REQUIRED - The permission request for this URL was not answered in time and was withdrawn.
 2026-10-25: On the radar corrected after publication (IQuest-Q1 bullet wrongly said no benchmarks); arXiv now readable via alphaXiv connector.
+2026-10-26: Must-read fell back to backup: FAILED https://openai.com/index/securing-our-frontier-model-training-environment/: could not download page (HTTP Error 403: Forbidden); delivered Avalon-M1 instead. openai.com added to unfetchable_domains.
