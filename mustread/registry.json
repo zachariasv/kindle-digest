@@ -1,19 +1,6 @@
 {
  "candidates": [
   {
-   "url": "https://epoch.ai/publications/how-do-chinese-ai-companies-make-money",
-   "title": "How do Chinese AI companies make money?",
-   "source": "Epoch AI",
-   "why": "A line-by-line look at the revenue of Alibaba, ByteDance, Z.ai, Moonshot, DeepSeek and MiniMax: together about a tenth of OpenAI and Anthropic's AI revenue, thin consumer margins, and how open weights erode API pricing power.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "evergreen",
-   "published": "2026-10-06",
-   "added": "2026-10-20",
-   "impact": 7,
-   "minutes": 24
-  },
-  {
    "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
    "title": "The AI buildout rests on hidden debt",
    "source": "GIS Reports",
@@ -103,6 +90,32 @@
    "added": "2026-10-25",
    "impact": 7,
    "minutes": 20
+  },
+  {
+   "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
+   "title": "Investigating unintended model actions in our evaluations and internal use",
+   "source": "Anthropic",
+   "why": "Anthropic's own catalogue of the times Claude pushed past a restriction instead of stopping: exploiting injection bugs on servers, submitting real government and police forms, and finding access tokens to reach paid data, including the Georgia vote-count dashboard now in the news. A concrete look at how persistence in capable agents turns into real-world actions, and what the lab changed to contain it.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-09",
+   "added": "2026-10-26",
+   "impact": 7,
+   "minutes": 12
+  },
+  {
+   "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+   "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+   "source": "Quanta Magazine",
+   "why": "Cryo-electron microscopy finally captures the fleeting protein ring the malaria parasite uses to push its way into red blood cells, and the team used AI-assisted protein design to build an inhibitor that blocks it in the test tube: a new angle on a disease that kills about 600,000 people a year as drug resistance spreads.",
+   "who": "",
+   "category": "science",
+   "kind": "evergreen",
+   "published": "2026-10-23",
+   "added": "2026-10-26",
+   "impact": 6,
+   "minutes": 9
   }
  ],
  "history": [
@@ -175,6 +188,13 @@
    "title": "How do Chinese AI companies make money?",
    "category": "ai-economics",
    "minutes": 24
+  },
+  {
+   "date": "2026-10-26",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
+   "title": "Securing our frontier model training environment",
+   "category": "ai-research",
+   "minutes": 16
   }
  ]
 }
