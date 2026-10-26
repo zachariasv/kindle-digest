@@ -1,10 +1,14 @@
-# Backup source for the Hacker News signal: GitHub runners fetch the front page
-# and publish it as hn.json on the hn-data branch, which the daily run reads with
-#   git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json
-name: Hacker News snapshot
+# Signal snapshots for the daily run, which can't reach these sites directly:
+# GitHub runners fetch the Hacker News front page and the Hugging Face daily papers
+# and publish them as hn.json and hf.json on the hn-data branch. The run reads them with
+#   git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json   (or hf.json)
+# The daily run also dispatches this workflow at its start, so the files are fresh
+# even when GitHub delays or skips a scheduled run (it often does).
+name: Signal snapshots (Hacker News, Hugging Face)
 on:
   schedule:
-    - cron: "15 3 * * *"   # 04:15 CET / 05:15 CEST, before the 05:40 digest run
+    - cron: "17 2 * * *"   # 03:17 CET / 04:17 CEST
+    - cron: "41 3 * * *"   # 04:41 CET / 05:41 CEST, second chance before the digest run
   workflow_dispatch:
 permissions:
   contents: write
@@ -14,9 +18,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: Fetch front page
+      - name: Fetch Hacker News front page
+        continue-on-error: true
         run: |
           set -euo pipefail
+          mkdir -p pub
           url="https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30"
           curl -fsS --retry 3 --retry-delay 5 "$url" | python3 -c '
           import json, sys, datetime
@@ -27,13 +33,63 @@ jobs:
                               "points": h.get("points"), "comments": h.get("num_comments"),
                               "hn_url": "https://news.ycombinator.com/item?id=" + h["objectID"],
                               "created_at": h.get("created_at")} for i, h in enumerate(hits)]}
-          json.dump(out, open("hn.json", "w"), ensure_ascii=False, indent=1)
+          json.dump(out, open("pub/hn.json", "w"), ensure_ascii=False, indent=1)
           print(len(hits), "stories")'
+      - name: Fetch Hugging Face daily papers
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          mkdir -p pub
+          # Today's and yesterday's lists, merged and ranked by upvotes.
+          for d in $(date -u +%F) $(date -u -d yesterday +%F); do
+            curl -fsS --retry 3 --retry-delay 5 "https://huggingface.co/api/daily_papers?date=$d&limit=50" > "hf-$d.json" || echo "[]" > "hf-$d.json"
+          done
+          python3 - <<'PY'
+          import json, glob, datetime
+          seen, papers = set(), []
+          for f in sorted(glob.glob("hf-*.json"), reverse=True):
+              try:
+                  items = json.load(open(f))
+              except Exception:
+                  continue
+              for it in items if isinstance(items, list) else []:
+                  p = it.get("paper", it)
+                  pid = p.get("id")
+                  if not pid or pid in seen:
+                      continue
+                  seen.add(pid)
+                  papers.append({
+                      "arxiv_id": pid,
+                      "title": (p.get("title") or it.get("title") or "").strip(),
+                      "upvotes": p.get("upvotes", 0),
+                      "comments": it.get("numComments"),
+                      "github_stars": p.get("githubStars"),
+                      "organization": (p.get("organization") or {}).get("fullname") if isinstance(p.get("organization"), dict) else None,
+                      "summary": (p.get("ai_summary") or p.get("summary") or "")[:600],
+                      "published_at": p.get("publishedAt"),
+                      "listed_on": f[3:-5],
+                      "url": "https://huggingface.co/papers/" + pid,
+                      "arxiv_url": "https://arxiv.org/abs/" + pid,
+                  })
+          papers.sort(key=lambda x: x["upvotes"] or 0, reverse=True)
+          out = {"fetched_at": datetime.datetime.now(datetime.timezone.utc).isoformat(timespec="seconds"),
+                 "source": "huggingface.co/api/daily_papers (today and yesterday)",
+                 "papers": papers[:40]}
+          json.dump(out, open("pub/hf.json", "w"), ensure_ascii=False, indent=1)
+          print(len(papers), "papers")
+          if not papers:
+              raise SystemExit("no papers fetched")
+          PY
       - name: Publish to hn-data branch
         run: |
           set -euo pipefail
-          git init -q -b hn-data pub && mv hn.json pub/ && cd pub
+          # Keep the previous copy of any file whose fetch failed this time.
+          git clone -q --depth 1 -b hn-data "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" old || mkdir old
+          mkdir -p pub
+          for f in hn.json hf.json; do [ -f "pub/$f" ] || { [ -f "old/$f" ] && cp "old/$f" pub/ || true; }; done
+          ls pub/*.json >/dev/null 2>&1 || { echo "nothing fetched"; exit 1; }
+          cd pub && git init -q -b hn-data
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add hn.json && git commit -qm "HN snapshot $(date -u +%FT%TZ)"
+          git add *.json && git commit -qm "Signal snapshot $(date -u +%FT%TZ)"
           git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" hn-data

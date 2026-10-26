@@ -14,7 +14,7 @@ Cut:
 - **Status updates on long-running situations** with nothing new (e.g. "Ukraine still short of Patriots", "API key theft continues"). Cover a long-running story again only when there's a step change.
 - **Regional follow-ups** after the headline event has been reported. Report the big strike; don't keep tracking the local conflict that follows unless it widens.
 - **Routine corporate items** (a single data-centre lease, minor partnerships) unless they're unusually large or strategic.
-- **Duplicates.** Every story appears exactly once in the whole edition. Before writing, list the day's stories and assign each to one section. A story in "Everyone's talking about" never reappears in a later section, not even as a mention.
+- **Duplicates.** Every story appears exactly once in the whole edition. Before writing, list the day's stories and assign each to one section. A story in "Everyone's talking about" never reappears in a later section, not even as a mention. The one exception is **Week ahead**: it lists every notable scheduled event of the coming days, even when the story is also covered elsewhere in the edition.
 
 Things the reader explicitly wants never to miss: Swedish government formation and major Swedish political steps, US elections, AI model releases (especially open-weight and Chinese labs), and technical breakthroughs.
 
@@ -31,7 +31,7 @@ Sections, in this order (tech comes last on purpose):
 3. **World**: other notable geopolitics and US/European stories, 2-4 short items.
 4. **Sweden**: politics first, then other notable domestic stories, 2-4 short items.
 5. **Stockholm VC**: Breakit / Di Digital, as bullets, one per item: company (founder) — what they do — amount — investors. Skip when nothing matters.
-6. **Week ahead**: only when there are notable scheduled events (summits, votes, diplomatic tours), as 2-4 bullets.
+6. **Week ahead**: the notable scheduled events of the next seven days (summits, votes, decisions, deadlines, diplomatic tours, key reports back in Swedish government formation), as one short line each with the day and, where known, the time. Include them even when the story itself is covered in another section today; this is the only place repetition is allowed. Usually 3-6 bullets; skip the section only when nothing notable is scheduled.
 7. **Week in review** (Sundays only): 3 threads connecting the week's stories, 2-3 sentences each.
 8. **Tech and AI**: 3-5 short items on company and industry news: model releases, big strategic moves, funding, policy. 1-2 sentences each.
 9. **On the radar**: exactly 3 one-line bullets on technical developments in AI and ML, to keep a finger on the research pulse: a new training method or RL algorithm, a new architecture, a notable paper, benchmark or open-source release, something trending among researchers. Each bullet says what it is and why it's interesting in one sentence, with the source. Not company news (that's Tech and AI) and never a deep dive: a result that deserves a proper explanation goes into the must-read registry as an `ai-research` candidate instead, ideally the lab's or authors' own write-up.
@@ -85,12 +85,16 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 
 ## Hacker News
 
-Every run, fetch the current Hacker News front page with points and comment counts: `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30` (fall back to `https://news.ycombinator.com/` if needed). If both fetches fail, read the backup snapshot that a GitHub Action saves each morning around 04:15 Stockholm time: `git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json` (check `fetched_at`; if it's stale, trigger a fresh one with `gh api -X POST repos/zachariasv/kindle-digest/actions/workflows/hn.yml/dispatches -f ref=main`, wait about a minute, then fetch again). Log a fetch error only if all three fail. It's a signal of what the tech world is reading and arguing about, not a source of truth. Use it three ways:
+At the very start of every run, dispatch the snapshot workflow so the data is fresh by the time you need it: `gh api -X POST repos/zachariasv/kindle-digest/actions/workflows/hn.yml/dispatches -f ref=main`. It fetches the Hacker News front page and the Hugging Face daily papers on GitHub's runners (the run's own sandbox can't reach either site) and publishes them as `hn.json` and `hf.json` on the `hn-data` branch; it also runs on a schedule before the digest. When you need them, read `git fetch --depth 1 origin hn-data && git show origin/hn-data:hn.json` and check `fetched_at` (it should be from the last hour or two; if not, dispatch again, wait about a minute and refetch). Only if the snapshot is missing or stale, try `https://hn.algolia.com/api/v1/search?tags=front_page&hitsPerPage=30` and `https://news.ycombinator.com/` with WebFetch. Log a fetch error only if all of these fail. Hacker News is a signal of what the tech world is reading and arguing about, not a source of truth. Use it three ways:
 - **Tech and AI / On the radar:** a technical story with high points and a long discussion is a strong hint it belongs in today's digest. Verify it against the original source, and write about the story itself, not the discussion.
 - **Must-read scouting:** an original long read climbing the front page is a candidate worth checking, and high attention on HN can nudge its impact score up by about 1 point (never more).
 - **Blind spots:** if something dominates the front page and isn't covered anywhere in the edition, ask whether it's a story the reader would be embarrassed not to know.
 
 Skip HN items that are only tools, Show HN projects or old evergreen posts, unless they're genuinely notable.
+
+## Hugging Face daily papers
+
+`hf.json` on the same branch (`git show origin/hn-data:hf.json`) lists the papers on Hugging Face's daily papers page for today and yesterday, ranked by upvotes, with arXiv IDs and short summaries. Use it alongside alphaXiv's hot feed to choose **On the radar**: a paper high on both lists is a strong signal. Always read the paper itself (alphaXiv `get_paper_content` or `answer_pdf_queries`) before writing about it; the summaries in the file are only for triage. If `hf.json` is missing, use alphaXiv alone and don't log an error.
 
 ## How the must-read is chosen: candidate registry
 
