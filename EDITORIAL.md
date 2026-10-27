@@ -40,7 +40,7 @@ Skip any section with nothing that clears the bar rather than padding it.
 
 ## Today's must-read
 
-Exactly ONE original piece a day, read in full on the Kindle. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
+Exactly ONE original piece, read in full on the Kindle, **three days a week: Tuesday, Thursday and Sunday**. On the other days the edition has no must-read (`pick.py` leaves the slot empty and the private job skips the day), but keep scouting and adding candidates every run so the queue is strong on pick days. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
 
 **What he picks (from two rounds of calibration):**
 - **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. The strongest preference. First-hand beats second-hand: a lab's own explanation beats a tech outlet's explainer of the same result.
@@ -69,7 +69,7 @@ Exactly ONE original piece a day, read in full on the Kindle. The reader's two g
 
 **Variety within a week.** He wants a spread: AI research and AI economics are equally valued, and he'd rather get both in a week than one of them twice. `pick.py` handles this, but score impact honestly so the balancing can work.
 
-**Length rule.** Most days 15-30 minutes. At most one long read (40+ minutes) every two weeks, only for something truly groundbreaking, and very rarely over 45 minutes.
+**Length rule.** Most picks 15-30 minutes. At most one long read (40+ minutes) every two weeks, only for something truly groundbreaking, and very rarely over 45 minutes.
 
 **Freshness.** Prefer pieces from the last ~48 hours. On a quiet day, take the strongest unused piece from the past week, or a blind-spot explainer or foundational classic. Never a merely decent article.
 
@@ -109,7 +109,7 @@ Each run:
 2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +2 for a category that hasn't been picked in the last week, minus a small daily penalty once fresh pieces pass a grace period), allows at most one 40+ minute read every two weeks, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
 3. Don't edit `must_reads` by hand afterwards. To change the outcome, fix the candidates' scores or categories and rerun `pick.py`.
 
-A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails. When it falls back, the delivered article opens with a plain-text line naming the intended pick, with a link to it, and the job writes `articles/YYYY-MM-DD.status.json` in kindle-private with `intended`, `delivered` and `failed`. After the job finishes, read that file and report the article that was actually **delivered**, never just the pick. If the intended pick failed because its site refuses the job (an HTTP 403 or similar), say so plainly in your summary with the link. Don't add domains to `unfetchable_domains` in `mustread/registry.json` (it makes `pick.py` skip a site) unless Zacharias asks; he wants OpenAI pieces to stay pickable even though openai.com currently refuses the job.
+A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails. When it falls back, the delivered article opens with a plain-text line naming the intended pick, with a link to it, and the job writes `articles/YYYY-MM-DD.status.json` in kindle-private with `intended`, `delivered` and `failed`. After the job finishes, read that file. **If the intended pick failed, re-run the job once before accepting the fallback** (`gh api -X POST repos/zachariasv/kindle-private/actions/workflows/mustreads.yml/dispatches -f ref=main -f 'inputs[force]=true'`, wait for it, read the status file again): timeouts and other transient errors usually clear on a retry. Only if it fails again, accept the backup, note it at the top of the intro and log the error. Then report the article that was actually **delivered**, never just the pick. On days without a must-read there is no status file; just say there was no must-read today. If the intended pick failed because its site refuses the job (an HTTP 403 or similar), say so plainly in your summary with the link. Don't add domains to `unfetchable_domains` in `mustread/registry.json` (it makes `pick.py` skip a site) unless Zacharias asks; he wants OpenAI pieces to stay pickable even though openai.com currently refuses the job.
 
 ### Classics
 

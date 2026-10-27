@@ -10,6 +10,8 @@ Score = impact + variety bonus - age penalty, where
   - variety bonus grows with days since the category was last picked (max +2 at 7+ days)
   - fresh pieces lose 0.3 points per day once past a grace period (2 days for investigations,
     5 for research, economics and science, which don't go stale as fast); evergreen pieces don't age
+Must-reads go out only on Tuesday, Thursday and Sunday; on other days the edition gets an
+empty must_reads slot and candidates simply keep queueing.
 Rules: never repeat a pick; at most one long read (40+ min) per 14 days;
 fresh candidates expire after 7 days, evergreen after 30.
 The top pick goes into must_reads, the next two into must_read_backups.
@@ -42,6 +44,8 @@ CLASSIC_MIN_GAP_DAYS = 7
 CLASSIC_DUE_DAYS = 14
 SLOW_DAY_SCORE = 7.5
 BIG_FRESH_SCORE = 9
+# Must-reads go out only on these weekdays (Monday = 0): Tuesday, Thursday, Sunday.
+MUST_READ_WEEKDAYS = {1, 3, 6}
 
 
 def d(s):
@@ -73,6 +77,16 @@ def main(day):
         return c["url"] not in picked and (today - added).days <= limit
 
     reg["candidates"] = [c for c in reg["candidates"] if alive(c)]
+    if today.weekday() not in MUST_READ_WEEKDAYS:
+        # No must-read today: keep collecting candidates, write an empty slot, record no pick.
+        reg["history"] = history
+        REGISTRY.write_text(json.dumps(reg, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
+        ed_path = ROOT / "editions" / f"{day}.json"
+        ed = json.loads(ed_path.read_text(encoding="utf-8"))
+        ed["must_reads"], ed["must_read_backups"] = [], []
+        ed_path.write_text(json.dumps(ed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"No must-read on {today.strftime('%A')}s (only Tuesday, Thursday and Sunday)")
+        return 0
     recent_long = any(h.get("minutes", 0) >= LONG_READ_MINUTES and (today - d(h["date"])).days < LONG_READ_GAP_DAYS
                       for h in history)
     # Sites that refuse the private extraction job (it would silently fall back to a backup)
