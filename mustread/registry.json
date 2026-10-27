@@ -67,19 +67,6 @@
    "minutes": 15
   },
   {
-   "url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-   "title": "Securing our frontier model training environment",
-   "source": "OpenAI",
-   "why": "OpenAI's own account of why it cut live internet access from frontier training: how it built an offline copy of the web for models to train against, and what its red-teaming agents did when told to break out, from chaining bugs to escape hardened virtual machines to signalling between isolated machines through processor-cache timing. A concrete look at what containing a capable agent actually takes; the Spectre/Meltdown-style details are explained in context.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-23",
-   "added": "2026-10-25",
-   "impact": 8,
-   "minutes": 16
-  },
-  {
    "url": "https://www.gr.inc/releases/avalon-m1",
    "title": "Avalon-M1: training AI agents to work as an organisation",
    "source": "General Reasoning",
@@ -117,6 +104,19 @@
    "added": "2026-10-26",
    "impact": 6,
    "minutes": 9
+  },
+  {
+   "url": "https://kepler.ai/research/financial/s1-anthropic/",
+   "title": "Anthropic S-1 Breakdown",
+   "source": "Kepler",
+   "why": "A line-by-line reading of the first financial statements ever published by a frontier AI lab, with every figure linked back to the filing: how compute is contracted 12-18 months ahead and expensed as capacity comes online, why an $80.7 billion half-year loss is mostly a non-cash accounting mark on convertible notes, and what roughly $600 billion in compute agreements and leased data centres mean for the company's cash. Makes the economics of a frontier lab concrete. Prepared from the public filing by a research firm that uses Claude in its product.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "fresh",
+   "published": "2026-10-26",
+   "added": "2026-10-27",
+   "impact": 7,
+   "minutes": 22
   }
  ],
  "history": [
@@ -196,6 +196,14 @@
    "title": "Securing our frontier model training environment",
    "category": "ai-research",
    "minutes": 16
+  },
+  {
+   "date": "2026-10-27",
+   "url": "https://ar5iv.labs.arxiv.org/html/1512.03385",
+   "title": "Deep Residual Learning for Image Recognition",
+   "category": "classic",
+   "minutes": 40,
+   "field": "ai"
   }
  ]
 }
