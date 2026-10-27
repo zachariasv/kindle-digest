@@ -5,3 +5,4 @@
 2026-10-25: On the radar corrected after publication (IQuest-Q1 bullet wrongly said no benchmarks); arXiv now readable via alphaXiv connector.
 2026-10-26: Must-read fell back to backup: FAILED https://openai.com/index/securing-our-frontier-model-training-environment/: could not download page (HTTP Error 403: Forbidden); delivered Avalon-M1 instead. openai.com added to unfetchable_domains.
 2026-10-27: Must-read fell back to backup: FAILED https://ar5iv.labs.arxiv.org/html/1512.03385: could not download page (The read operation timed out); delivered https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/ instead.
+2026-10-27: Resolved: forced re-run of mustreads.yml (run 40527142701) fetched https://ar5iv.labs.arxiv.org/html/1512.03385 successfully; ResNet delivered, intro note removed.
