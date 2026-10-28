@@ -117,6 +117,19 @@
    "added": "2026-10-27",
    "impact": 7,
    "minutes": 22
+  },
+  {
+   "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+   "title": "Formalizing the Enormous Theorem",
+   "source": "Axiom",
+   "why": "The team's own account of how a swarm of AI agents, steered by a handful of mathematicians, turned the 15,000-page Classification of Finite Simple Groups (the 'periodic table' of symmetry, built by over 100 mathematicians across decades) into about 43 million lines of machine-checked Lean in 24 days: how the proof was cut into 108 milestones and 380 tasks, where unproved assumptions crept in and had to be ripped out, the gap they found and rerouted, and the 34 deviations from the published literature. A first-hand look at AI doing mathematics at a scale no human team could check.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-26",
+   "added": "2026-10-28",
+   "impact": 8,
+   "minutes": 20
   }
  ],
  "history": [

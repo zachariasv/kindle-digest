@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "title": "Morning Digest, Wednesday 28 October 2026",
+  "intro": "Israel's election ends without a majority for either camp, France's students reject the government's offer, Egypt moves closer to joining the Gulf war, and AI agents formalise the largest proof in mathematics.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Israel: no clear winner, and the count is tightening",
+          "body": "Exit polls put Netanyahu's bloc at about 50 seats and Eisenkot's opposition at 52-53, with Arab-led parties at a record 17-18, so neither side reaches the 61 needed; Likud is the largest party. Eisenkot claimed the public had 'fired' the government, while Netanyahu ruled out relying on Arab parties. Early partial counts favour Netanyahu's bloc, but soldiers' and other special ballots come later; turnout was 77.7 percent, the highest since 1999.",
+          "source": "Ynet; Business Standard; AP via WSB-TV; Times of Israel, 27-28 Oct"
+        },
+        {
+          "title": "France's students reject the government's offer",
+          "body": "After weeks of protests and more than 1,400 arrests last Saturday, the government offered 15,000 extra university places, higher grants, school renovation money and a new admissions system by 2028. Student leaders say it is not enough and have called a national day of action on 5 November; Macron expects more unrest this weekend.",
+          "source": "The National; Fortune, 26-27 Oct"
+        },
+        {
+          "title": "The Gulf war risks drawing in Egypt",
+          "body": "Egypt's parliament backed military support for Saudi Arabia, which needs a two-thirds vote to send troops abroad, after Houthi drone strikes on Saudi airports; the Houthis also claim a missile hit the Ras Tanura refinery. Iran, Saudi Arabia, Turkey and Pakistan agreed to keep talking, and Brent crude settled near 114 dollars a barrel.",
+          "source": "Euronews; New Lines; The Nation (Reuters), 26-27 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Nordic split over a call to Putin",
+          "body": "Finland's President Stubb and Norway's Prime Minister Støre phoned Putin to urge serious peace talks; the Kremlin replied that Russia's interests must be met in full. Denmark's Frederiksen criticised the move, and Ulf Kristersson said Russia seeks subjugation, not peace.",
+          "source": "Euronews; Interfax-Ukraine (SVT), 27 Oct"
+        },
+        {
+          "title": "UN inquiry: genocide in Gaza continued after the truce",
+          "body": "The UN commission of inquiry says Israel kept committing genocide in Gaza after the October 2025 ceasefire, now controls at least 60 percent of the territory, and has committed crimes against humanity in the West Bank. Israel calls the report propaganda.",
+          "source": "ABC News; Al Jazeera, 26-27 Oct"
+        },
+        {
+          "title": "Ebola passes 10,000 cases",
+          "body": "Congo's outbreak, of the rare Bundibugyo strain with no approved vaccine, has reached 10,060 confirmed cases and 4,887 deaths, the second largest on record; Kenya has nine cases and a case was found in Nigeria.",
+          "source": "Al Jazeera; Euronews, 27 Oct"
+        },
+        {
+          "title": "US accused of hiding a surveillance court ruling",
+          "body": "A secret March ruling found that FBI filtering tools amounted to unlawful warrantless searches of Americans; the legal deadline to publish a declassified version passed on 13 September. Senators Wyden and Schiff demand an answer by 6 November as Congress weighs renewing the surveillance law.",
+          "source": "Wired; The Primary, 26-27 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Moderates at an eight-year high in DN/Ipsos",
+          "body": "The Moderates rose to 24 percent and the Sweden Democrats to 19, putting the four Tidö parties about four points ahead of the opposition, though the Social Democrats remain largest at 27. The Speaker has yet to announce his next step in government formation, which makes the threat of a snap election more relevant.",
+          "source": "DN/Ipsos via Hurbra; SVT, 27 Oct"
+        },
+        {
+          "title": "EU raises Baltic herring quotas over Swedish objections",
+          "body": "Central Baltic catches may rise 71 percent next year, well above the Commission's proposed 49 percent; Sweden had argued for caution to protect the stock.",
+          "source": "The Local, 27 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Wednesday 28 October, 19:00: US Federal Reserve decision, expected to hold at 3.75-4.00 percent, with Kevin Warsh's press conference at 19:30; Alphabet and Microsoft report in the evening.",
+            "Thursday 29 October: ECB rate decision; first US estimate of third-quarter GDP; Amazon and Intel report.",
+            "By Friday 30 October: Israel's final count, with official results on 4 November and Herzog choosing who forms a government by 11 November.",
+            "Any day: Speaker Andreas Norlén announces the next step in Swedish government formation.",
+            "Sunday 1 November: Bulgaria's presidential runoff.",
+            "Tuesday 3 November: US midterms.",
+            "Thursday 5 November: national day of protest in France."
+          ],
+          "source": "Shattered; Euronews; Israel Hayom; The National, 26-27 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "AI agents formalise the Classification of Finite Simple Groups",
+          "body": "Axiom says dozens of AI agents, directed by its mathematicians, wrote a complete Lean proof of the 15,000-page theorem in 24 days, about 43 million lines, and logged 34 points where the published proofs deviate or have gaps. It covers the older 'first-generation' proof and still needs human checks of the formal statements.",
+          "source": "Axiom; AI Weekly, 26-27 Oct"
+        },
+        {
+          "title": "Google DeepMind shows Genie 4",
+          "body": "The world model generates interactive scenes in real time with its own sound and dialogue, and users can change a running scene with text prompts. It is in research preview for trusted testers, with access for Google's top subscription tier and developers to follow.",
+          "source": "Google DeepMind; TechCrunch, 27 Oct"
+        },
+        {
+          "title": "Anthropic moves into drug development",
+          "body": "It bought Mithril Medicine, a one-person biotech whose muscular dystrophy candidate reached promising mouse results in under 18 months with Claude coordinating outside labs, and announced six partnerships including Bristol Myers Squibb. All results are self-reported and mostly preclinical.",
+          "source": "Anthropic; AI Weekly, 27 Oct"
+        },
+        {
+          "title": "Anthropic's filing reveals a month-long training pause",
+          "body": "The IPO prospectus says it delayed pretraining a new frontier model by over a month to harden defences against theft of model weights, and warns such pauses could cost revenue.",
+          "source": "Reuters via The Star, 27 Oct"
+        },
+        {
+          "title": "SK Hynix's memory boom",
+          "body": "The main supplier of high-bandwidth memory for AI chips posted third-quarter revenue of 104.6 trillion won, more than four times a year earlier, and operating profit of 83.3 trillion won (about 63 billion dollars), a margin near 80 percent.",
+          "source": "Korea JoongAng Daily, 28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Fractional power-of-two quantisation (Seoul National University, LG; NeurIPS 2026): storing 4-bit LLM weights on a grid spaced by the square root of 2 lets hardware replace multipliers with shifts and one adder, at about half the logic of a 4-bit multiplier, while Llama-3-8B loses only 0.4 points of zero-shot accuracy versus ordinary integer quantisation (arXiv 2610.21257).",
+            "Zero-HLM (BIGAI, Beijing Institute of Technology): from smartphone scans and 45 simulated demonstrations it generates 4,800 validated humanoid training runs; a GR00T policy trained only on simulated data succeeds 67 percent of the time on a real Unitree G1, against 47 percent for one trained on 100 real demonstrations (arXiv 2610.35075).",
+            "Evolve on Graph (BUPT, NTU): one LLM poses questions it can check by running logic queries on a knowledge graph and then learns to answer them, so it improves with no human-written questions; a 7B model beats the best annotation-free baseline by 7.5 points of Hit@1 across six benchmarks (arXiv 2610.35598)."
+          ],
+          "source": "alphaXiv hot list; Hugging Face daily papers; arXiv, 15-26 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
