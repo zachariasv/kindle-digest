@@ -1,0 +1,168 @@
+{
+  "date": "2026-10-29",
+  "title": "Morning Digest, Thursday 29 October 2026",
+  "intro": "Netanyahu's bloc pulls ahead in Israel's count, a high-speed train crash in Spain kills dozens, the Fed splits towards a rate rise, and Google's spending turns its cash flow negative.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Israel: Netanyahu's bloc now leads, still short of a majority",
+          "body": "With about 90 percent counted, Netanyahu's camp has 53 seats, Eisenkot's 48 and Arab-led parties a record 19; Likud is on 26. The other side reaches 61 only with Arab parties, which most of it rules out, and some 450,000 soldiers' and other special ballots are counted today; the official result is due 4 November.",
+          "source": "Times of Israel; Ynet, 28 Oct"
+        },
+        {
+          "title": "Spain: high-speed train crash kills at least 68",
+          "body": "A state-run RENFE train with nearly 400 passengers ran into the back of a stopped private Iryo train near Urda, Toledo, on the Madrid-Seville line on Wednesday morning; 58 people are in hospital and the toll is expected to rise. The cause is unknown, and an order from the control centre is reportedly under investigation.",
+          "source": "Fox News; Euronews; France 24, 28 Oct"
+        },
+        {
+          "title": "US reportedly readying strikes on Iran after the midterms",
+          "body": "The Wall Street Journal reports Washington has told Gulf allies to prepare for a short, intense campaign after 3 November; Trump said 'anything's possible'. Reuters puts US war costs above 47 billion dollars, and Saudi Arabia again intercepted Houthi missiles aimed at Riyadh and Taif.",
+          "source": "WSJ and Reuters via Fox News; Gulf News, 28 Oct"
+        },
+        {
+          "title": "The Fed holds, but two officials want a rise",
+          "body": "Rates stay at 3.75-4.00 percent in a 10-2 vote; Governor Lisa Cook and Cleveland's Beth Hammack wanted an increase, the first such joint dissent by a governor and a regional president since 1992. Inflation is 3.7 percent, and Kevin Warsh said tighter policy is starting to work but drew no firm conclusions.",
+          "source": "Fortune, 28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "UK budget: energy help, no rise in the main taxes",
+          "body": "Chancellor John Healey's first budget under Andy Burnham gives up to 20 million households 100 pounds off energy bills from January and raises taxes on property income and bank profits, while leaving income tax, National Insurance and VAT untouched. The government's buffer against its own borrowing rules shrinks from 23.6 to 15 billion pounds.",
+          "source": "MoneyWeek, 28 Oct"
+        },
+        {
+          "title": "European gas passes 100 euros",
+          "body": "The Dutch benchmark price crossed 100 euros per megawatt-hour for the first time since 2022 as the Gulf war squeezes supply; the Commission warns of a new energy crisis and is exploring a liquefied gas deal with Canada.",
+          "source": "Euronews; Newsquawk, 28 Oct"
+        },
+        {
+          "title": "Midterms: Democrats lead with six days to go",
+          "body": "A Reuters/Ipsos poll gives Democrats 47 percent to 36 among registered voters and Trump 32 percent approval; Senate races in Texas, Ohio, Michigan and Georgia are close.",
+          "source": "Al Jazeera (Reuters/Ipsos), 28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: signs of a path for Kristersson",
+          "body": "The Speaker has still not named his next step after the centrist attempt failed. TV4 reports, citing anonymous Moderate and Christian Democrat sources, that talks with the Centre Party found smaller policy gaps than expected, opening a possible Kristersson government including the Centre Party after a second prime-ministerial vote. Two senior Sweden Democrats hinted they could back a government from outside; Åkesson said the party line is unchanged. Kristersson wants the Speaker to hold a second vote on Magdalena Andersson; after four failed votes, a new election must be held.",
+          "source": "TV4, 28 Oct; Sweden Herald (TT), 27 Oct"
+        },
+        {
+          "title": "A caretaker budget on 12 November",
+          "body": "Finance Minister Elisabeth Svantesson will present a budget that rolls spending forward with no new policy, plus extra money for the Armed Forces, and says it stands even if a new government forms. Other parties have until 27 November to table alternatives.",
+          "source": "SVT; The Local (TT), 27-28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding",
+          "bullets": [
+            "Nevis (ex-Revolut founders Mark Swan, Ivan Chalov, Philipp Burda) — AI platform for wealth advisers — 70 million dollars, Series B — led by EQT Ventures, with Charles Schwab, QuantumLight, Sequoia and ICONIQ.",
+            "Machenta (Edward Johns, Vitalis Vosylius; London) — robots trained in simulation to learn a task from one demonstration — 40 million dollars, seed — co-led by Stockholm's Creandum and Union Square Ventures.",
+            "Tandem Health (Stockholm) — AI note-taking for clinicians — Deutsche Telekom's T.Capital joins its 100 million dollar Series B led by the EQT-managed Scaleup Europe Fund."
+          ],
+          "source": "Tech Funding News; Tech.eu; Breakit; EuropaWire, 27-28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Thursday 29 October, 13:30: first estimate of US third-quarter growth; 14:15: ECB decision, expected to hold at 2.50 percent; Amazon and Intel report in the evening; Israel finishes counting special ballots.",
+            "Any day: Speaker Andreas Norlén announces the next step in Swedish government formation.",
+            "Sunday 1 November: Bulgaria's presidential runoff.",
+            "Monday 2 November: Apple reports.",
+            "Tuesday 3 November: US midterms.",
+            "Wednesday 4 November: Riksbank decision, with a rise from 1.75 percent widely expected; Israel's official election result.",
+            "Thursday 5 November: national day of protest in France."
+          ],
+          "source": "Newsquawk; StockTitan; Times of Israel; News55; The National, 26-29 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Google's Gemini 4 Carbon tops the leaderboard, but only for cyber defenders",
+          "body": "Google says its new frontier model ranks first on the Artificial Analysis index and leads benchmarks for finding, exploiting and patching software flaws. Because of those abilities it goes first to vetted security teams; developers and consumers get it later.",
+          "source": "Google, 28 Oct"
+        },
+        {
+          "title": "Alphabet's AI spending turns cash flow negative",
+          "body": "Google Cloud revenue roughly doubled to 30.7 billion dollars, but quarterly investment of 51.4 billion, more than twice a year earlier, left free cash flow at minus 9.1 billion; Google signalled a 'significant increase' next year, and the shares fell about 9 percent after hours.",
+          "source": "Fortune; StockTitan, 28 Oct"
+        },
+        {
+          "title": "Microsoft's Azure grows 48 percent",
+          "body": "Revenue rose 19 percent to 92.3 billion dollars and contracted future revenue jumped 73 percent to 677 billion; Microsoft expects to invest about 170 billion this calendar year and says demand still exceeds its capacity.",
+          "source": "SiliconANGLE; TradingKey, 28 Oct"
+        },
+        {
+          "title": "Open models fall further behind on a tougher index",
+          "body": "Artificial Analysis's new index, mostly built on hidden test sets, puts the best open-weight models 26 points behind the leaders, with DeepSeek V4.1 Flash and GLM-5.3 at 32 against 59 for Gemini 4 Carbon; Moonshot's Kimi K3.1 Pro scores 46 but its weights are not out until 4 November.",
+          "source": "Dealroom, 28 Oct"
+        },
+        {
+          "title": "OpenAI said to plan buying Google's AI chips",
+          "body": "OpenAI would buy Google TPUs outright rather than rent them, The Information reports; neither company has confirmed.",
+          "source": "Reuters (The Information), 28 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Evolving Agent Teams (UC Berkeley, Ion Stoica's group): a supervisor agent that reorganises a team of Claude agents whenever progress stalls wrote a DeepSeek-style attention decode kernel 1.2 times faster than FlashInfer's production kernel, where a single agent plateaued at about half its speed (arXiv 2610.36848).",
+            "Multiscale Policy Optimization (Peking University, IQuest): critic values in agent training mostly change between turns, not within them, so it assigns credit per turn and refines it per token, beating PPO and GRPO on search and tool-use tasks at 4B and 30B scale, for example by 4 points over the strongest baseline on BrowseComp-Plus with the 4B model (arXiv 2610.35013).",
+            "Qwenputer (Divyansh Agrawal): a RISC-V processor compiled directly into Qwen 3.5 4B's weights, using its linear-attention layers as exact memory, lets the model run C and MicroPython inside its own forward pass; long-number arithmetic goes from 49 to 100 percent with no external tool (divagr.com, open weights)."
+          ],
+          "source": "alphaXiv hot list; Hugging Face daily papers; Hacker News; arXiv, 22-27 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Formalizing the Enormous Theorem",
+      "source": "Axiom",
+      "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+      "why": "The team's own account of how a swarm of AI agents, steered by a handful of mathematicians, turned the 15,000-page Classification of Finite Simple Groups (the 'periodic table' of symmetry, built by over 100 mathematicians across decades) into about 43 million lines of machine-checked Lean in 24 days: how the proof was cut into 108 milestones and 380 tasks, where unproved assumptions crept in and had to be ripped out, the gap they found and rerouted, and the 34 deviations from the published literature. A first-hand look at AI doing mathematics at a scale no human team could check.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Anthropic S-1 Breakdown",
+      "source": "Kepler",
+      "url": "https://kepler.ai/research/financial/s1-anthropic/",
+      "why": "A line-by-line reading of the first financial statements ever published by a frontier AI lab, with every figure linked back to the filing: how compute is contracted 12-18 months ahead and expensed as capacity comes online, why an $80.7 billion half-year loss is mostly a non-cash accounting mark on convertible notes, and what roughly $600 billion in compute agreements and leased data centres mean for the company's cash. Makes the economics of a frontier lab concrete. Prepared from the public filing by a research firm that uses Claude in its product.",
+      "who": ""
+    },
+    {
+      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+      "why": "Cryo-electron microscopy finally captures the fleeting protein ring the malaria parasite uses to push its way into red blood cells, and the team used AI-assisted protein design to build an inhibitor that blocks it in the test tube: a new angle on a disease that kills about 600,000 people a year as drug resistance spreads.",
+      "who": ""
+    }
+  ]
+}

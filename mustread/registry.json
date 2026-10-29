@@ -15,19 +15,6 @@
    "minutes": 10
   },
   {
-   "url": "https://www.anthropic.com/research/self-replicating-ai",
-   "title": "AI models may be capable of self-replicating without access to a datacenter",
-   "source": "Anthropic",
-   "why": "Anthropic's Frontier Red Team tests whether small open models could copy themselves across cheap TV boxes: a 26B model running on fifteen 55-dollar devices, which steps models still fail at, a trend line suggesting small models get there by end-2026, and what defences would work.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-12",
-   "added": "2026-10-21",
-   "impact": 7,
-   "minutes": 20
-  },
-  {
    "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure",
    "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
    "source": "Epoch AI",
@@ -130,6 +117,45 @@
    "added": "2026-10-28",
    "impact": 8,
    "minutes": 20
+  },
+  {
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "title": "How AI agents shape experts' judgment calls",
+   "source": "Anthropic",
+   "why": "A randomised experiment: 50 professional causal-inference analysts worked with a Claude agent whose lean on each analytical choice was set by coin flip. Analysts sided with the agent's lean 86 percent of the time and most echoed its arguments, yet few credited it. A clean piece of experimental design showing how an AI collaborator quietly steers expert conclusions, directly relevant to anyone doing analysis with agents.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-27",
+   "added": "2026-10-29",
+   "impact": 7,
+   "minutes": 13
+  },
+  {
+   "url": "https://arxiv.org/html/2610.36848",
+   "title": "Evolving Agent Teams",
+   "source": "UC Berkeley Sky Computing Lab (Cao, Mao, Li, Gonzalez, Stoica)",
+   "why": "Single coding agents stall when writing hard GPU kernels: they abandon the difficult tensor-core route after a few failures and polish an easier, slower design. This paper has a supervisor agent diagnose each plateau and reorganise a team of agents (adding a profiler, a 'fresh eyes' role, a knowledge integrator). The result beats FlashInfer's hand-written production decode kernel for DeepSeek-style attention by 1.2x, and Kimi's attention kernels by over 3x. A concrete look at AI doing expert systems engineering, with the failure modes spelled out.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-27",
+   "added": "2026-10-29",
+   "impact": 7,
+   "minutes": 30
+  },
+  {
+   "url": "https://www.lmsys.org/blog/2026-10-26-cf-security/",
+   "title": "SGLang security update: improving request isolation",
+   "source": "LMSYS / SGLang team",
+   "why": "How Cloudflare's GLM-5.3 deployment leaked fragments of one user's conversation into another's output. Large models are now served by splitting each request across two machines, one reading the prompt and one writing the answer, with the first streaming its working memory into the second over the network. Writes already sent cannot be recalled, so a cancelled request can overwrite memory just handed to someone else. Explains why long-context AI serving makes this failure likely and how it was fixed.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-26",
+   "added": "2026-10-29",
+   "impact": 6,
+   "minutes": 20
   }
  ],
  "history": [
@@ -217,6 +243,13 @@
    "category": "classic",
    "minutes": 40,
    "field": "ai"
+  },
+  {
+   "date": "2026-10-29",
+   "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+   "title": "Formalizing the Enormous Theorem",
+   "category": "ai-research",
+   "minutes": 20
   }
  ]
 }
