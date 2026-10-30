@@ -28,19 +28,6 @@
    "minutes": 12
   },
   {
-   "url": "https://www.wiz.io/blog/php2shell-php-rce",
-   "title": "PHP2Shell: AI uncovers critical RCE vulnerabilities affecting 70% of the Internet",
-   "source": "Wiz Research",
-   "why": "The finders' own write-up of the PHP flaws that frontier models (Gemini 4 Argon, GPT-5.6 Sol and Wiz's own agent) helped discover and weaponise: how out-of-memory errors leave stale state that later requests can hijack, why the bugs survived a decade and a 2024 audit, and what AI changed in turning them into working exploits. Heavier on the vulnerability than on the AI workflow.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-21",
-   "added": "2026-10-22",
-   "impact": 6,
-   "minutes": 11
-  },
-  {
    "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
    "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
    "source": "Microsoft Threat Intelligence",
@@ -106,19 +93,6 @@
    "minutes": 22
   },
   {
-   "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
-   "title": "Formalizing the Enormous Theorem",
-   "source": "Axiom",
-   "why": "The team's own account of how a swarm of AI agents, steered by a handful of mathematicians, turned the 15,000-page Classification of Finite Simple Groups (the 'periodic table' of symmetry, built by over 100 mathematicians across decades) into about 43 million lines of machine-checked Lean in 24 days: how the proof was cut into 108 milestones and 380 tasks, where unproved assumptions crept in and had to be ripped out, the gap they found and rerouted, and the 34 deviations from the published literature. A first-hand look at AI doing mathematics at a scale no human team could check.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-26",
-   "added": "2026-10-28",
-   "impact": 8,
-   "minutes": 20
-  },
-  {
    "url": "https://www.anthropic.com/research/agents-judgment-calls",
    "title": "How AI agents shape experts' judgment calls",
    "source": "Anthropic",
@@ -156,6 +130,19 @@
    "added": "2026-10-29",
    "impact": 6,
    "minutes": 20
+  },
+  {
+   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+   "title": "AI can turn security fixes into working exploits before users receive an update",
+   "source": "Epoch AI",
+   "why": "Epoch let an open-weight model, Z.ai's GLM 5.3, loose on Firefox security fixes that were already public in the source code but not yet shipped to users. Working alone for up to 48 hours with no internet, it built web pages that silently read and sent off a local file on six consecutive Firefox releases, at about 1,000 dollars of API spend per release, rediscovering an unpublished bug along the way; no provider refused a single request, while 100,000 dollars spent on Chrome failed. A first-hand, numbers-heavy look at how AI shrinks the window between a fix being published and attackers exploiting it.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-29",
+   "added": "2026-10-30",
+   "impact": 7,
+   "minutes": 13
   }
  ],
  "history": [

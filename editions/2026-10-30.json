@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-30",
+  "title": "Morning Digest, Friday 30 October 2026",
+  "intro": "Hackers drain about six billion dollars from Binance, Lagarde will leave the ECB early, Sweden's Speaker puts the Centre Party leader to a vote, and Mistral publishes a trillion-parameter open model.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Binance loses about 6 billion dollars in the largest crypto theft on record",
+          "body": "Funds were pulled from the exchange's online wallets across ten blockchains on Thursday evening, most of it within 20 minutes; the analytics firm TRM attributes the attack to a North Korean hacking unit and puts the haul at roughly four times the 2025 Bybit theft. Binance paused withdrawals on several networks and says customer money is safe; stablecoin issuers such as Tether and Circle have frozen about 2.5 billion dollars of the loot.",
+          "source": "TRM Labs; TechCrunch, 29-30 Oct"
+        },
+        {
+          "title": "Lagarde to quit the ECB nine months early",
+          "body": "The ECB held its deposit rate at 2.5 percent, as expected, but Christine Lagarde announced she will step down on 7 February 2027 without giving a reason; reports have linked the timing to France's presidential election in April. Euro-area inflation is 3.8 percent, nearly double the target, and French ten-year borrowing costs have passed 5 percent.",
+          "source": "Euronews; ECB, 29 Oct"
+        },
+        {
+          "title": "Spain's train crash: a control-room order under scrutiny",
+          "body": "The death toll near Urda has risen to 69. After a signalling outage, the Madrid control centre cleared the RENFE train to run at normal speed rather than at walking pace, and it was apparently not told that the Iryo train ahead had stopped; the transport minister called the order 'inexplicable'. Protesters demanding the government's resignation clashed with police in Madrid.",
+          "source": "Euronews; Time; SVT, 29 Oct"
+        },
+        {
+          "title": "Israel: count complete, no majority",
+          "body": "Netanyahu's bloc ends on 53 seats, Eisenkot's on 48 and Arab-led parties on 19, so neither side reaches 61 without partners it has ruled out; Eisenkot has met Bennett and the Democrats' Yair Golan, who also met Ra'am's Mansour Abbas. The election committee chief asked the Shin Bet to look into suspected foreign interference.",
+          "source": "Al Jazeera (Haaretz), 29 Oct"
+        },
+        {
+          "title": "Patrick Stewart dies at 86",
+          "body": "The actor best known as Captain Picard in Star Trek and Professor Xavier in X-Men died at home in Los Angeles; his family said he had Alzheimer's disease and Lewy body dementia. A Royal Shakespeare Company veteran, he was knighted in 2010.",
+          "source": "Yahoo Entertainment; CNN, 29 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "US economy grew 3.4 percent ahead of the midterms",
+          "body": "Third-quarter growth, at an annual rate, beat forecasts on consumer spending. Democrats lead the national polling average by about 8 points, but even strong gains would likely leave them short of the four extra Senate seats they need.",
+          "source": "StockTitan; Al Jazeera, 29 Oct"
+        },
+        {
+          "title": "Iran: Washington pulls staff from Saudi Arabia",
+          "body": "The US told non-essential embassy staff in Saudi Arabia to leave and a third aircraft carrier is heading to the region. Iran is weighing a Qatari seven-day plan to end the war and reopen the Strait of Hormuz, though one senior official called it 'unacceptable'.",
+          "source": "Gulf News (BBC, Reuters); The Nation, 29 Oct"
+        },
+        {
+          "title": "Ukraine: deadly strike on Dnipro station, drone swarm over Moscow",
+          "body": "A Russian drone strike on a railway station in Dnipro killed 14 people. Moscow's mayor said 613 Ukrainian drones flew towards the capital region overnight, and the Kremlin said the war 'must continue'.",
+          "source": "Kyiv Independent; SVT, 29 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: Thand Ringqvist put to a vote on Tuesday",
+          "body": "After three days of silence, Speaker Andreas Norlén said the Riksdag will vote at 13:00 on Tuesday 3 November on Centre Party leader Elisabeth Thand Ringqvist as prime minister of a C, S, MP, L and KD government, even though her own talks found no majority. She is expected to lose: KD says it will vote no. If she falls, Ulf Kristersson gets a week, to 10 November, to explore a government. Andersson and MP's Amanda Lind called the decision remarkable; it would be the second of four permitted votes before a snap election.",
+          "source": "Altinget; SVT; Sejfer, 29 Oct"
+        },
+        {
+          "title": "Moderates almost level with the Social Democrats",
+          "body": "An Indikator poll puts S at 27.0 percent and M at 26.3, up 6.5 points since the election. The Tidö parties lead the opposition, but with the Liberals below the 4 percent threshold they would still lack a majority of seats.",
+          "source": "The Local, 29 Oct"
+        },
+        {
+          "title": "Economy grew 0.4 percent in the third quarter",
+          "body": "Statistics Sweden says output shrank in September but a strong August lifted the quarter; growth over the year was 2.8 percent.",
+          "source": "The Local (SCB), 29 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "By the weekend: Iran's answer to Qatar's peace plan.",
+            "Sunday 1 November: Bulgaria's presidential runoff.",
+            "Monday 2 November: Apple reports.",
+            "Tuesday 3 November: US midterms; 13:00, Riksdag vote on Elisabeth Thand Ringqvist as prime minister, followed by Kristersson's week of talks if she falls.",
+            "Wednesday 4 November: Riksbank decision, with a rise from 1.75 percent widely expected; Israel certifies its result; Moonshot's Kimi K3.1 Pro weights due.",
+            "Thursday 5 November: national day of protest in France."
+          ],
+          "source": "Altinget; Al Jazeera; The Nation; Dealroom; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Mistral publishes the weights of Large 4",
+          "body": "The model is a mixture of experts with about 1 trillion parameters, of which 52 billion work on each token, and a one-million-token context; Mistral says it matches China's GLM-5.3 on agentic coding using fewer tokens. Companies that resell it as a hosted service need a separate commercial licence.",
+          "source": "The Next Web; DEV Community, 29 Oct"
+        },
+        {
+          "title": "Amazon's AWS grows 39 percent, but cash flow turns negative",
+          "body": "Cloud revenue reached 46 billion dollars, its fastest growth since 2021, while quarterly investment more than doubled to 77 billion; free cash flow over the past year was minus 42 billion and the shares fell about 11 percent after hours.",
+          "source": "StockTitan, 29 Oct"
+        },
+        {
+          "title": "Intel falls a fifth on a weak forecast",
+          "body": "Data-centre revenue rose nearly 80 percent, but Intel guided fourth-quarter sales lower on soft PC demand and a factory shutdown in Israel, and expects no positive free cash flow in 2027.",
+          "source": "Investing.com, 29 Oct"
+        },
+        {
+          "title": "DoorDash agrees to buy Instacart for 17 billion dollars",
+          "body": "The deal, at 65 dollars a share, joins restaurant and grocery delivery against Amazon and Walmart; it is not expected to close before late 2027.",
+          "source": "TechCrunch; Bloomberg, 29 Oct"
+        },
+        {
+          "title": "DeepSeek and Moonshot reportedly trained on OpenAI's GPT-6 Astra",
+          "body": "The Information reports both labs relied heavily on Astra's reasoning outputs, bought through proxy resellers, to build Kimi K3.1 Pro and DeepSeek V4.1 Flash; Moonshot declined to comment and DeepSeek did not respond.",
+          "source": "WinBuzzer (The Information), 28-29 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "NyoomFloat12 (Together AI, Tri Dao): after scaling, the top four exponent bits of 99.7 percent of trained BF16 weights are identical, so dropping them gives a lossless 12-bit format that decodes faster than copying, freeing 4.5 times more KV-cache room on Qwen3-32B and up to 2.5 times RL rollout throughput with bit-identical outputs (Together AI paper on alphaXiv, 27 Oct).",
+            "ThinkWorld (NVIDIA, KAIST): a robot policy whose 'thoughts' are motion tokens, rewarded when the future they predict matches what actually happens in video, so unlabelled human videos can train it; it composed robot skills from a human demonstration and leads LIBERO-PRO at 55.6 percent (arXiv 2610.37666).",
+            "EmbeddingGemma 2 (Google): an open 744-million-parameter model that embeds text, images, video and audio in one space, matching rivals two to twelve times its size; native audio beats transcribe-then-embed by about 12 points on spoken retrieval (arXiv 2610.37364)."
+          ],
+          "source": "alphaXiv hot list; arXiv, 27-28 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
