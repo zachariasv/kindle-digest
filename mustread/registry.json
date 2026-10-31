@@ -143,6 +143,32 @@
    "added": "2026-10-30",
    "impact": 7,
    "minutes": 13
+  },
+  {
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "title": "Early progress on accelerating drug development with Claude",
+   "source": "Anthropic",
+   "why": "Anthropic's science team reports seven concrete case studies of Claude inside drug development: CAR T-cell receptor designs 70 percent shorter that produced about ten times as many receptors in lab tests, 35,000 antibody designs against food allergies in a month, binders improved more than tenfold in ten weeks, regulatory document reviews cut from 25 hours to under three, and a one-person company that took a muscular dystrophy candidate to promising mouse results in under 18 months by coordinating 11 outside labs. A first-hand tour of AI changing what a small team can do in biotech, with real numbers; mostly preclinical, so the caveats matter.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-27",
+   "added": "2026-10-31",
+   "impact": 7,
+   "minutes": 8
+  },
+  {
+   "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
+   "title": "How Voting Is Like a Klein Bottle",
+   "source": "Quanta Magazine",
+   "why": "Days before the US midterms, Quanta explains Condorcet's paradox (every voter consistent, the group going in circles) and Arrow's impossibility theorem through a picture: glue the six possible rankings of three candidates together edge by edge and you get a tube, and joining its ends with a twist turns it into a Klein bottle. Accessible topology with a concrete hook, showing why no voting rule can be fair in every sense at once.",
+   "who": "",
+   "category": "science",
+   "kind": "evergreen",
+   "published": "2026-10-26",
+   "added": "2026-10-31",
+   "impact": 6,
+   "minutes": 9
   }
  ],
  "history": [

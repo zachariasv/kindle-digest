@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-31",
+  "title": "Morning Digest, Saturday 31 October 2026",
+  "intro": "Poland's government suspends the head of the constitutional court, Wall Street has its worst AI-driven day in months, Qatar's mediators return to Tehran, and a backdoored Claude Code extension slips into Cursor's marketplace.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Poland: police at the constitutional court as its chief is suspended",
+          "body": "The tribunal's president Bogdan Święczkowski and his deputy were suspended for a month on Friday, after the justice minister sought to lift their immunity for allegedly blocking judges elected by the current parliament; riot police guarded the building, three people were detained and the court's PiS-era leadership called it a coup. President Nawrocki turned his plane back from Senegal, while Tusk said restoring the rule of law 'requires decisive action'.",
+          "source": "Reuters via Yahoo; Al Jazeera; Euronews, 30 Oct"
+        },
+        {
+          "title": "AI spending fears hit Wall Street",
+          "body": "The Nasdaq had its sharpest fall since June on Friday, ending its worst month in over a year: Intel was down about 28 percent at midday, on course for its steepest one-day drop on record, after warning it will burn cash, and Reddit slid about a fifth. Investors are balking at the more than 200 billion dollars that Amazon, Google, Microsoft and Meta spent on capacity in a single quarter.",
+          "source": "Reuters via Yahoo Finance and Star-Advertiser; CNN, 30 Oct"
+        },
+        {
+          "title": "Iran: Qatari mediators back in Tehran",
+          "body": "A Qatari team arrived on Friday, coordinating with Washington, after JD Vance wrote to Iran's security chief Mohsen Rezaei proposing a framework for new talks; Iran's answer is expected around this weekend and a meeting in Doha or Istanbul could follow within a week. Meanwhile a tanker off Oman was hit by a limpet mine, the first such attack since 2019.",
+          "source": "Al Jazeera; CBS News; JINSA, 29-30 Oct"
+        },
+        {
+          "title": "Italy's general strike turns violent in Rome",
+          "body": "Unions brought cities to a halt over living costs and defence spending, with clashes near the Colosseum, as Italian inflation jumped to 5.4 percent. France's economy shrank 0.1 percent in the third quarter, adding to doubts about its budget.",
+          "source": "Euronews, 30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Ukraine: a local truce in Oleshky, and €45 billion from the EU",
+          "body": "Civilians are leaving Russian-held Oleshky under a local ceasefire the White House credits to Melania Trump; Kyiv's former prime minister warned it will not widen. The EU will fast-track 45 billion euros for 2027, and Ukraine has resumed drone strikes on Russian refineries after a reported pause under US pressure.",
+          "source": "Euronews; Reuters via Just Security, 30 Oct"
+        },
+        {
+          "title": "Canada aims to become an EU 'associate member'",
+          "body": "At a summit in Montreal, Mark Carney set June 2027 as the target for the new status, which von der Leyen proposed; Germany had the term removed from the joint declaration, which now speaks of an 'ever closer association'.",
+          "source": "Euronews, 30 Oct"
+        },
+        {
+          "title": "Pentagon asks the Baltics to tone down warnings about Russia",
+          "body": "Washington asked several NATO allies, including Lithuania, Latvia and Estonia, to soften public rhetoric on the Russian threat, Reuters reports. Separately, the independent Russian paper Novaya Gazeta says it will close on 9 November under Kremlin pressure.",
+          "source": "Reuters via Just Security; Euronews, 30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Åkesson rebukes ethnonationalists in his own party",
+          "body": "In an Expressen article the Sweden Democrat leader backed the party's 'open Swedishness', under which anyone can become Swedish through language and culture, after veteran MP Richard Jomshof stressed biological ties; dissenters, he wrote, can leave or start a blog.",
+          "source": "The Local; SVT Text, 30 Oct"
+        },
+        {
+          "title": "Migration Agency will not pause 'teen deportations'",
+          "body": "S, V, C and MP want a law stopping the expulsion of young adults who held family-based permits as children, and asked the agency to hold off meanwhile; it says it needs a formal Riksdag initiative first.",
+          "source": "SVT Text, 30 Oct"
+        },
+        {
+          "title": "Household confidence falls sharply",
+          "body": "The National Institute of Economic Research's consumer index dropped 8 points to 94.3 in October, while manufacturers are the most upbeat since August 2022.",
+          "source": "The Local (NIER), 30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "This weekend: Iran's reply to the US-Qatari approach.",
+            "Sunday 1 November: Bulgaria's presidential runoff, incumbent Iliana Iotova against reformist Andrey Gurov; the EU's 2-euro fee on small parcels takes effect.",
+            "Monday 2 November: Apple reports.",
+            "Tuesday 3 November: US midterms; 13:00, Riksdag vote on Elisabeth Thand Ringqvist as prime minister, then a week for Kristersson if she falls.",
+            "Wednesday 4 November: Riksbank decision, with a rise from 1.75 percent widely expected; Israel's official election result; Moonshot's Kimi K3.1 Pro weights due.",
+            "Thursday 5 November: national day of protest in France."
+          ],
+          "source": "Al Jazeera; The Star; Euronews; SVT; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Backdoored Claude Code extension on Cursor's marketplace",
+          "body": "A tampered version 2.1.313, served for about 11 hours on Thursday to at most 5,000 users, added the attacker's SSH key, tried to open a tunnel and sent host details; uninstalling does not remove it. Cursor rebuilt its marketplace and rotated keys; Anthropic says its own systems were not breached, and neither company has said how the package got in.",
+          "source": "Help Net Security; The Register, 30 Oct"
+        },
+        {
+          "title": "OpenAI struggles to fill its funding round",
+          "body": "The WSJ says about 11 billion dollars is committed towards a 30 billion target, and the FT that the goal has been cut to about 20 billion, at a 1.25 trillion valuation rather than the 1.4 trillion first sought.",
+          "source": "WSJ and FT via Runtime Wire and FourWeekMBA, 30 Oct"
+        },
+        {
+          "title": "Canada buys into Cohere",
+          "body": "Ottawa will invest up to 1.6 billion Canadian dollars, in stages tied to jobs and revenue targets, in a Series E of up to 7 billion at about 36 billion; Germany's Schwarz Group leads, and Cohere must stay headquartered in Canada.",
+          "source": "BetaKit; Prime Minister's Office, 29 Oct"
+        },
+        {
+          "title": "Finnish police investigate Google over data-centre forest clearing",
+          "body": "A Google subsidiary allegedly cleared about 330 hectares of forest without the required environmental reviews.",
+          "source": "The Hill via Just Security, 30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Platonic representations as a theorem (Balestriero, LeCun): JEPAs trained on 'good views', such as two captions of one scene, provably learn the same representation across modalities up to a rotation; a 109-million-parameter text JEPA aligns with DINOv2 better than language models up to 72 billion parameters, and needs 42 times fewer samples than next-token prediction (arXiv 2610.39302, top of alphaXiv and Hugging Face).",
+            "Unified training (CMU): pretraining, fine-tuning and RL recast as one likelihood objective over an evolving data mix, so the training lifecycle becomes a question of what data, in what proportion, and when; in their experiments it beats staged training at larger compute budgets (arXiv 2610.40564).",
+            "Soft-MTP (MIT): standard multi-token-prediction training hides a useful self-distillation signal under a noisy residual; a one-line change keeps only the useful part, giving faster speculative decoding and better zero-shot, maths and code scores at every scale tested up to 1.2 billion parameters (arXiv 2610.38331)."
+          ],
+          "source": "alphaXiv hot list; Hugging Face daily papers; arXiv, 28-29 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
