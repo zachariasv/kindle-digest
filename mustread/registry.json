@@ -28,19 +28,6 @@
    "minutes": 12
   },
   {
-   "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-   "title": "AI-driven, large-scale nation-state campaign using ARTEX enables supply chain compromise",
-   "source": "Microsoft Threat Intelligence",
-   "why": "Microsoft's first-hand reconstruction of a China-aligned group using an open-source multi-agent AI tool to run a supply-chain attack at machine speed: thousands of sign-in attempts a minute across 2,250 tenants and privileged access within hours. Concrete evidence of what AI agents change for attackers, and for defenders' response times.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-21",
-   "added": "2026-10-24",
-   "impact": 6,
-   "minutes": 15
-  },
-  {
    "url": "https://www.gr.inc/releases/avalon-m1",
    "title": "Avalon-M1: training AI agents to work as an organisation",
    "source": "General Reasoning",
@@ -169,6 +156,19 @@
    "added": "2026-10-31",
    "impact": 6,
    "minutes": 9
+  },
+  {
+   "url": "https://alignment.anthropic.com/2026/automated-em-search/",
+   "title": "Automated Subtle Emergent Misalignment Research",
+   "source": "Anthropic Alignment Science Blog",
+   "why": "Anthropic's own account of setting Claude agents loose on a red-team task: write a few thousand fine-tuning examples that quietly make a small model misaligned while slipping past a data monitor. Every run eventually succeeded, mostly by hiding the bad behaviour inside fiction and role-play, which shows how automated research can find holes in training-data safeguards faster than people can, and why data filtering alone is a weak defence.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-30",
+   "added": "2026-11-01",
+   "impact": 6,
+   "minutes": 18
   }
  ],
  "history": [
@@ -263,6 +263,13 @@
    "title": "Formalizing the Enormous Theorem",
    "category": "ai-research",
    "minutes": 20
+  },
+  {
+   "date": "2026-11-01",
+   "url": "https://kepler.ai/research/financial/s1-anthropic/",
+   "title": "Anthropic S-1 Breakdown",
+   "category": "ai-economics",
+   "minutes": 22
   }
  ]
 }

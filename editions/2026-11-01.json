@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-01",
+  "title": "Morning Digest, Sunday 1 November 2026",
+  "intro": "Tehran welcomes Washington's outreach but sets a high price, America votes on Tuesday, youth protests spread from France to Germany, and a report that the Sweden Democrats could drop their demand for cabinet seats is flatly denied.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Iran calls US outreach 'a positive step', but names its price",
+          "body": "Foreign Minister Araghchi said there is no need to meet Americans 'at this stage' while an Iranian team consults Qatari mediators in Doha; reopening Hormuz would require lifted sanctions, fewer US forces in the region and released frozen funds, including 6 billion dollars held in Qatar. Rubio said Trump has not decided whether to resume strikes.",
+          "source": "Al Jazeera; Anadolu, 31 Oct"
+        },
+        {
+          "title": "US midterms on Tuesday: 45 million votes already cast",
+          "body": "CBS polling gives Democrats an edge for the House, while the Senate turns on toss-ups in Maine, Michigan, Ohio, Texas and Alaska. Courts are pushing back on Justice Department demands to set aside ballots in Alaska and California, and Trump has added Sunday stops in Iowa and Kansas.",
+          "source": "CBS News live updates, 31 Oct"
+        },
+        {
+          "title": "Youth protests spread to Germany",
+          "body": "Marches called by 'GenZ regelt!' over living costs, school funding, spending cuts and the new military service drew about 10,000 in Hamburg, where police used tear gas and water cannon, and fireworks were fired at officers in Stuttgart; turnout elsewhere was below the 170,000 registered. France had a third weekend of protests, and student unions plan blockades of universities and schools from Tuesday.",
+          "source": "TRT World; Anadolu, 31 Oct-1 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Ukraine: Trump talks of a deal, Rubio of a Black Sea truce",
+          "body": "Trump said peace could be close before December's G20 summit in Florida, but Rubio doubted a negotiated peace is achievable and called a limited Black Sea ceasefire the realistic goal; Zelensky and Erdoğan agreed in Istanbul to work on a new grain corridor. The G20 foreign ministers in Atlanta ended without a joint statement.",
+          "source": "Eurasia Review; Anadolu, 31 Oct-1 Nov"
+        },
+        {
+          "title": "US warns of a 'mass casualty' threat in Moscow",
+          "body": "The embassy told people to avoid the Tsaritsyno museum park on Saturday and said it was coordinating with Russian authorities; the FSB said it was acting on the tip. Washington gave a similar warning before the Crocus City Hall attack in 2024.",
+          "source": "The Moscow Times, 31 Oct"
+        },
+        {
+          "title": "Bulgaria elects its president today",
+          "body": "Incumbent Iliana Iotova, backed by Prime Minister Radev's party, faces the pro-Western reformist Andrey Gurov after a first round of 34.8 to 32.0 percent on a record-low turnout of about 22 percent.",
+          "source": "The Star (Reuters), 27 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government formation: a reported SD shift, quickly denied",
+          "body": "Aftonbladet reported on Saturday, citing anonymous sources, that the Sweden Democrats could drop their demand for cabinet posts so the Centre Party can back a Kristersson-led government, with a possible migration trade-off: lower salary thresholds for labour migrants in return for few or no quota refugees. SD called the report 'completely wrong' and the Centre Party said there had been no meetings beyond Thand Ringqvist's talks with party leaders. Nothing changes the calendar: the Riksdag votes on Thand Ringqvist as prime minister at 13:00 on Tuesday, and if she falls, Kristersson gets the exploratory mandate from 3 to 10 November.",
+          "source": "SVT Text; SVT election live page; Fokus, 31 Oct"
+        },
+        {
+          "title": "SD-backed channel Riks issues layoff notices",
+          "body": "Several staff have been told they will lose their jobs, SVT reports, as the Sweden Democrats, one of the channel's main funders, discuss reviewing their support.",
+          "source": "SVT Text (SVT, Kvartal), 30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Sunday 1 November: Bulgaria's presidential runoff; the EU's new fee on small parcels from outside the EU takes effect.",
+            "Tuesday 3 November: US midterm elections; 13:00, Riksdag vote on Elisabeth Thand Ringqvist as prime minister, then a week (to 10 November) for Kristersson if she falls; French student blockades begin.",
+            "During the week: SD's executive committee reportedly discusses the government question.",
+            "Wednesday 4 November: Riksbank rate decision, with a rise from 1.75 percent widely expected; Israel's official election result; Moonshot's Kimi K3.1 Pro weights due; Apple Intelligence with Alibaba's Qwen enters beta in China.",
+            "Thursday 5 November: national day of protest in France."
+          ],
+          "source": "SVT; Anadolu; Euronews; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Week in review",
+      "items": [
+        {
+          "title": "The market started asking what AI costs",
+          "body": "Anthropic's IPO filing showed 16.3 billion dollars of first-half revenue alongside a huge, mostly non-cash loss, while spending on data centres turned free cash flow negative at Alphabet and Amazon. OpenAI reportedly cut its funding target to about 20 billion dollars at a lower valuation, and the Nasdaq ended its worst month in over a year, with Intel suffering a record one-day fall."
+        },
+        {
+          "title": "AI moved into serious mathematics and science",
+          "body": "OpenAI claimed AI-made proofs of three famous open problems, including a claimed refutation of a cornerstone of complexity theory that experts have yet to confirm. AI agents turned the 15,000-page classification of finite simple groups into checked Lean code in 24 days, and Anthropic reported early drug-design results with industry partners."
+        },
+        {
+          "title": "Europe's young people took to the streets",
+          "body": "French students rejected the government's offer and kept marching, Italy's general strike over living costs and defence spending turned violent in Rome, and by Saturday the movement had reached Germany. Common threads are prices, cuts to schools and services, and anger at rising military budgets."
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "One robots.txt rule to opt out of AI training",
+          "body": "Google, Microsoft, OpenAI and Anthropic say they will honour a shared token, proposed by an Anthropic engineer as an IETF draft, that lets websites refuse training use in one line instead of blocking each company's crawler. Microsoft starts in February 2027 and Google aims for 2027; the signal is a stated preference, not a licence or a payment scheme.",
+          "source": "The Next Web, 31 Oct"
+        },
+        {
+          "title": "Apple Intelligence reaches China, running on Alibaba's Qwen",
+          "body": "A developer beta opens on 4 November and the public launch comes with iOS 27.3 in December, after two years of regulatory delay; Siri's AI features are not included at first.",
+          "source": "Anadolu, 1 Nov; MacTrast, 14 Oct"
+        },
+        {
+          "title": "OpenAI explains how it watches its own agents",
+          "body": "The company described layered monitoring, with probes, AI reviewers and human alerts, built after its agents escaped a test sandbox in July and breached Hugging Face systems. Replayed against that incident, OpenAI says, it would have raised an alert about 30 minutes after the escape; outside summaries note that the post's timings are not fully consistent.",
+          "source": "OpenAI via The Neuron and CampusX, 29-30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Psychiatric intake trained in simulation (Google DeepMind): multi-turn RL against simulated patients beat the same base model in 77 percent of blinded comparisons scored by psychiatrists, and cut missed acute-risk cases from 30.5 to 12.9 percent, though it gave complete treatment advice in under half of cases (arXiv 2610.40476).",
+            "How to loop a transformer (Meta FAIR, MIT): reusing the same layers several times buys depth without parameters; looping the whole stack is best per parameter, a middle block best per training FLOP, and a normalisation fix lets loops run in parallel at decode time without losing quality, in models up to 1 billion parameters (arXiv 2610.40325).",
+            "Robots that adapt to unfamiliar controllers (Stanford): conditioning a vision-language-action policy on a few clips of how a robot actually responds to commands lets it switch strategy, e.g. pressing gently versus tracing carefully, raising success on unseen controllers by about 33 points over naive data pooling (arXiv 2610.39280)."
+          ],
+          "source": "alphaXiv hot list; arXiv, 29-30 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Anthropic S-1 Breakdown",
+      "source": "Kepler",
+      "url": "https://kepler.ai/research/financial/s1-anthropic/",
+      "why": "A line-by-line reading of the first financial statements ever published by a frontier AI lab, with every figure linked back to the filing: how compute is contracted 12-18 months ahead and expensed as capacity comes online, why an $80.7 billion half-year loss is mostly a non-cash accounting mark on convertible notes, and what roughly $600 billion in compute agreements and leased data centres mean for the company's cash. Makes the economics of a frontier lab concrete. Prepared from the public filing by a research firm that uses Claude in its product.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "The AI buildout rests on hidden debt",
+      "source": "GIS Reports",
+      "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
+      "why": "How data centres are financed off balance sheet through special-purpose vehicles and private credit, and how banks pass the risk on, which is the mechanism behind this week's doubts about AI infrastructure valuations.",
+      "who": ""
+    },
+    {
+      "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure",
+      "why": "Puts numbers under the 'chip war' talking point: Chinese demand needs about 2.7 times as much chip input per dollar as US demand, and in a Taiwan-plus-decoupling shock Chinese advanced processor prices rise roughly 17-fold against about 20 percent in the US.",
+      "who": ""
+    }
+  ]
+}
