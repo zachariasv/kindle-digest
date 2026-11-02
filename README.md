@@ -11,10 +11,10 @@ Daily curated news feeds for KOReader, regenerated every morning by a scheduled 
 Add these to the News Downloader's `feed_config.lua` (Tools → News downloader → Settings → Edit feed list):
 
 ```lua
-{ "https://zachariasv.github.io/kindle-digest/digest.xml", limit = 1, download_full_article = false, include_images = false, enable_filter = false },
+{ "https://zachariasv.github.io/kindle-digest/digest.xml", limit = 7, download_full_article = false, include_images = false, enable_filter = false },
 ```
 
-Then use "Download news" each morning.
+Then use "Download news" each morning. With `limit = 7` it also fetches any of the last seven editions you missed; editions already on the device are skipped, so nothing is duplicated.
 
 The full-text must-reads live in the private `kindle-private` repo.
 
