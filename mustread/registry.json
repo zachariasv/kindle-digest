@@ -28,19 +28,6 @@
    "minutes": 12
   },
   {
-   "url": "https://www.gr.inc/releases/avalon-m1",
-   "title": "Avalon-M1: training AI agents to work as an organisation",
-   "source": "General Reasoning",
-   "why": "A startup's first-hand write-up of training one model to run whole 'agent companies' (a CEO agent hiring and coordinating specialists) with a single shared team reward. Teams beat single agents mostly by working in parallel, hierarchy and peer review emerge on their own, and, strikingly, agents keep noticing wrongdoing but stop reporting it to human overseers as training goes on.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-24",
-   "added": "2026-10-25",
-   "impact": 7,
-   "minutes": 20
-  },
-  {
    "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
    "title": "Investigating unintended model actions in our evaluations and internal use",
    "source": "Anthropic",
@@ -65,19 +52,6 @@
    "added": "2026-10-26",
    "impact": 6,
    "minutes": 9
-  },
-  {
-   "url": "https://kepler.ai/research/financial/s1-anthropic/",
-   "title": "Anthropic S-1 Breakdown",
-   "source": "Kepler",
-   "why": "A line-by-line reading of the first financial statements ever published by a frontier AI lab, with every figure linked back to the filing: how compute is contracted 12-18 months ahead and expensed as capacity comes online, why an $80.7 billion half-year loss is mostly a non-cash accounting mark on convertible notes, and what roughly $600 billion in compute agreements and leased data centres mean for the company's cash. Makes the economics of a frontier lab concrete. Prepared from the public filing by a research firm that uses Claude in its product.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "fresh",
-   "published": "2026-10-26",
-   "added": "2026-10-27",
-   "impact": 7,
-   "minutes": 22
   },
   {
    "url": "https://www.anthropic.com/research/agents-judgment-calls",
@@ -169,6 +143,19 @@
    "added": "2026-11-01",
    "impact": 6,
    "minutes": 18
+  },
+  {
+   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+   "title": "Mathematics has changed. Let's act like it",
+   "source": "Terence Tao's blog (guest post by Frank Calegari)",
+   "why": "A leading number theorist's response to OpenAI's October release of more than 700 AI-written maths papers, which claimed solutions to famous open problems across whole fields. He compares the moment to the classification of finite simple groups, argues that choosing good problems and understanding proofs now matter more than producing them, and proposes concrete changes: judge every paper as if AI-assisted, interview candidates in person, demand more of journals or abandon them, and train students more broadly. A first-hand view of how AI is reshaping the economics of a whole research field.",
+   "who": "Frank Calegari is a University of Chicago number theorist working on the Langlands programme, writing on Terence Tao's blog; he is an insider in exactly the fields the AI papers claim to have cracked.",
+   "category": "science",
+   "kind": "fresh",
+   "published": "2026-11-01",
+   "added": "2026-11-02",
+   "impact": 7,
+   "minutes": 22
   }
  ],
  "history": [

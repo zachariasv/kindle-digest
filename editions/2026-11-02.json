@@ -1,0 +1,120 @@
+{
+  "date": "2026-11-02",
+  "title": "Morning Digest, Monday 2 November 2026",
+  "intro": "America votes tomorrow while Iran talks to Qatari mediators in Doha, Europe's youth protests grow in Germany as French schools face blockades, and Bulgaria elects a Moscow-friendly president. No must-read today; the next one comes on Tuesday.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "US midterms tomorrow, with about 50 million votes already cast",
+          "body": "Early voting had reached roughly 49.6 million ballots by Friday. CBS polling gives Democrats an edge for the House, while the Senate turns on five toss-ups: Maine, Michigan, Ohio, Texas and Alaska. The Justice Department wants a ruling by today on its suit to block certification in Alaska if Republican Dan Sullivan loses, and courts in California have already rejected its bid to set aside disputed ballots.",
+          "source": "CBS News live updates, 31 Oct-1 Nov"
+        },
+        {
+          "title": "Iran: third day of talks in Doha, strikes on hold until after the vote",
+          "body": "Iranian negotiators spent Sunday with Qatari mediators; Foreign Minister Araghchi called the talks 'progressing' and said a proposal under discussion could reopen the Strait of Hormuz within two days of a deal. Trump has said there will be no new strikes before the midterms but that one or two sites, including a suspected underground nuclear complex, still need to be dealt with; Iran denies any nuclear work there.",
+          "source": "Al-Monitor; CBS News, 31 Oct-1 Nov"
+        },
+        {
+          "title": "Europe's youth protests: over 100,000 march in Germany, French schools face blockades",
+          "body": "Saturday's German marches, called by 'Gen Z regelt' over education, housing and climate, were mostly peaceful, but rioting in Frankfurt injured more than 100 police officers. France was calmer than on previous weekends, with 779 arrests against 2,628 on 17 October; school blockades start today as classes resume, and unions plan a general strike on Thursday.",
+          "source": "AP via Business Standard, 2 Nov"
+        },
+        {
+          "title": "Bulgaria elects a president who favours talks with Moscow",
+          "body": "Acting president Iliana Iotova won Sunday's runoff with about 51 percent against 44 for the pro-Western banker Andrey Gyurov, according to exit polls; she opposes military aid to Ukraine. Turnout was again low, at about 28 percent, and the post is largely ceremonial. Official results are due today.",
+          "source": "Al Jazeera; BTA, 1 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Ukraine: the Kherson truce ends, Zelensky offers a refinery pause for Patriots",
+          "body": "Russia refused to extend the week-long local ceasefire that had let aid reach occupied Oleshky. Zelensky offered to stop striking Russian refineries for a month if the US supplies Patriot missiles for Ukraine's power grid, and on Monday hackers sent false alerts through the emergency-warning apps of both countries.",
+          "source": "Philstar (AFP); NewsBytes, 2 Nov"
+        },
+        {
+          "title": "Poland's court standoff: crisis talks end without a deal",
+          "body": "President Nawrocki called party leaders together over the suspension of the constitutional court's chief judge, but Prime Minister Tusk's party stayed away and nothing was agreed. The European Commission said parliament has the right to appoint the court's judges and urged Nawrocki to accept them.",
+          "source": "Al Jazeera; Euronews, 1 Nov"
+        },
+        {
+          "title": "Moscow: teenager detained after the US terror warning",
+          "body": "Russia's FSB said it detained a minor who planned an attack, acting on the tip behind Saturday's US embassy warning about a museum park in the city.",
+          "source": "Al Jazeera; CNN, 1 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Government wants to keep soldiers in the reserve longer",
+          "body": "The wartime reserve of conscripts is shrinking so fast that it threatens defence capability, a government bill says; its exact size is classified. The proposal drops the rule that a posting lapses ten years after the last refresher training, keeping soldiers available until the age of 47, though researchers warn it may only postpone the problem.",
+          "source": "SVT, 1 Nov"
+        },
+        {
+          "title": "Police board a cargo ship off Gotland",
+          "body": "Border police, backed by the national task force, checked the crew and papers of an 80-metre cargo ship in a harbour on northern Gotland overnight to Saturday and found nothing wrong. Yle reports that the operator has offices in Kaliningrad and has been investigated over Russian reconnaissance activity.",
+          "source": "SVT Text; Yle, 31 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Monday 2 November: official Bulgarian result; French school blockades begin; ruling sought in the Justice Department's Alaska suit.",
+            "Tuesday 3 November: US midterm elections; 13:00, Riksdag vote on Elisabeth Thand Ringqvist as prime minister, and if she falls, Kristersson has 3-10 November to sound out a government.",
+            "During the week: SD's executive committee reportedly discusses the government question.",
+            "Wednesday 4 November: Riksbank rate decision, with a rise from 1.75 percent widely expected; Israel's official election result; Moonshot's Kimi K3.1 Pro weights due; Apple Intelligence with Alibaba's Qwen enters beta in China.",
+            "Thursday 5 November: general strike and national day of protest in France.",
+            "Week of 9 November: Anthropic may start marketing its share sale to investors, according to reports."
+          ],
+          "source": "SVT; CBS News; AP; The Motley Fool; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "FBI: North Korea stole the 6.3 billion dollars from Binance",
+          "body": "The bureau blames the Lazarus-linked group it calls TraderTraitor for last week's raid on the exchange's online wallets, the largest crypto theft on record, and expects the funds to be laundered through decentralised exchanges. Binance says it has already covered about 90 percent of customer losses from its own money.",
+          "source": "Euronews; BleepingComputer, 1 Nov"
+        },
+        {
+          "title": "AI spending lifts the price of insuring Big Tech's debt",
+          "body": "The cost of insuring against default by Amazon, Alphabet, Microsoft, Meta and Oracle is at its highest since 2021, the Wall Street Journal reports, as lenders ask for more compensation for data-centre borrowing. Meanwhile Nikkei reports that the big memory-chip makers now earn more combined than five US tech giants, a first.",
+          "source": "WSJ via Gokhshtein; Nikkei Asia, 1 Nov"
+        },
+        {
+          "title": "AI-found bugs delay Postgres 19",
+          "body": "Committer Robert Haas says the database's yearly release will slip to November or later because language models make bugs far easier to find: commits to the release branch rose from 724 to 1,169 over the same period as last year, and humans still have to check each AI-drafted patch.",
+          "source": "Neon blog (Robert Haas); Phoronix, 21-30 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "A proof of the 'Platonic representation' idea (Balestriero, LeCun): models trained separately on images and text provably learn the same representation up to a rotation if trained on two views of one scene; a 109M-parameter text model built this way matched vision encoders better than language models up to 72B, suggesting next-token prediction is an inefficient route there (arXiv 2610.39302, top of alphaXiv and Hacker News).",
+            "One algorithm for the whole training pipeline (CMU, Johns Hopkins): pretraining, fine-tuning and RL recast as maximum likelihood on a changing data mix; in small-model tests (124M and 0.76B parameters), mixing them beat staged training at larger compute budgets and gave a better start for continual learning (arXiv 2610.40564).",
+            "Why asynchronous RL for LLMs collapses (GWU, Duke): the gap between inference engine and trainer splits into fixed numerical noise and a lag that feeds on itself; a fix that resynchronises the sampler when the lag grows kept Qwen3 runs close to on-policy training (arXiv 2610.40945, Hugging Face daily papers)."
+          ],
+          "source": "alphaXiv hot list; Hugging Face papers; arXiv, 29 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
