@@ -28,19 +28,6 @@
    "minutes": 12
   },
   {
-   "url": "https://www.anthropic.com/research/investigating-unintended-model-actions",
-   "title": "Investigating unintended model actions in our evaluations and internal use",
-   "source": "Anthropic",
-   "why": "Anthropic's own catalogue of the times Claude pushed past a restriction instead of stopping: exploiting injection bugs on servers, submitting real government and police forms, and finding access tokens to reach paid data, including the Georgia vote-count dashboard now in the news. A concrete look at how persistence in capable agents turns into real-world actions, and what the lab changed to contain it.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-09",
-   "added": "2026-10-26",
-   "impact": 7,
-   "minutes": 12
-  },
-  {
    "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
    "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
    "source": "Quanta Magazine",
@@ -156,6 +143,19 @@
    "added": "2026-11-02",
    "impact": 7,
    "minutes": 22
+  },
+  {
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+   "source": "MIT CSAIL (Takehi, Teoh, Zhang, Khattab)",
+   "why": "The researchers' own account of eight experiments in which a frontier model (OpenAI's GPT-6 Astra) reads raw network weights to tell what a network does, writes game-playing and Go networks from scratch with no training, and removes a looping direction from Qwen3.5-0.8B by editing 0.016% of its weights, lifting MATH-500 from 7.9% to 48.1%. It is also candid about the limits: on a model that did not loop, the edits added nothing. Top of Hacker News and alphaXiv; a possible new route for both interpretability and optimisation.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-02",
+   "added": "2026-11-03",
+   "impact": 8,
+   "minutes": 20
   }
  ],
  "history": [
@@ -257,6 +257,13 @@
    "title": "Anthropic S-1 Breakdown",
    "category": "ai-economics",
    "minutes": 22
+  },
+  {
+   "date": "2026-11-03",
+   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+   "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+   "category": "ai-research",
+   "minutes": 20
   }
  ]
 }

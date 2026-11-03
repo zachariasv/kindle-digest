@@ -1,0 +1,150 @@
+{
+  "date": "2026-11-03",
+  "title": "Morning Digest, Tuesday 3 November 2026",
+  "intro": "America votes today after US forces hit Iranian missile sites at Hormuz, Belgium's prime minister resigns over the budget, the Riksdag votes on Elisabeth Thand Ringqvist at 13:00, and Anthropic publishes its first quarterly numbers ahead of listing.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "US midterms today, with the last pre-election lawsuits thrown out",
+          "body": "A judge dismissed the Justice Department's suit to hold back certification of Alaska's Senate race, and the Supreme Court refused to order California to set aside mail ballots the administration says came from non-citizens. CBS counts 11 Senate and 42 House races as decisive; the first polls close at midnight Stockholm time.",
+          "source": "CBS News; Al Jazeera, 1-2 Nov"
+        },
+        {
+          "title": "US strikes Iranian forces at Hormuz, but calls it defensive",
+          "body": "A US official said the strikes on Monday hit Iranian units firing surface-to-air missiles at US forces; Iranian TV reported blasts on Qeshm Island. It is the first US attack since early September, but both sides kept talking: Vice President Vance said he feels 'pretty good' about a deal, and Iran's security chief said Washington's tone 'has completely changed'. Qatar's draft would trade an end to Iranian attacks on shipping for a lifting of the US blockade of Iranian ports.",
+          "source": "AP via PBS and Korea Times, 2-3 Nov"
+        },
+        {
+          "title": "Belgium's prime minister resigns over the budget",
+          "body": "Bart De Wever offered his resignation after his five-party coalition failed to agree on savings for 2027. King Philippe has not accepted it yet: he consults party leaders from today and sees De Wever again on Friday. Belgian debt is heading for about 110 percent of GDP.",
+          "source": "AP via ABC News; Rio Times, 2 Nov"
+        },
+        {
+          "title": "Russian bombs kill at least 26 at an aid centre in Zaporizhzhia",
+          "body": "Russian aircraft dropped heavy glide bombs on an aid distribution point in Komyshuvakha, then struck a shelter where survivors had taken cover. Zelensky said it crushed the hopes raised by last week's local truce in Oleshky.",
+          "source": "Euronews; Ukrinform, 2 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Poland: the court standoff turns physical",
+          "body": "President Nawrocki pushed past one of the parliament-elected judges at the constitutional tribunal's entrance, Notes from Poland reports; his aide says the judges violated the head of state's immunity. Tusk warned of a costly confrontation unless the president recognises them.",
+          "source": "Rio Times citing Notes from Poland and Euronews, 2 Nov"
+        },
+        {
+          "title": "France's school blockades fizzle",
+          "body": "About 1 percent of France's 3,700 upper-secondary schools were blockaded as classes resumed after the holiday, far fewer than organisers hoped; the education minister urged pupils back to class before exams.",
+          "source": "Rio Times, 2 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Riksdag votes on Thand Ringqvist at 13:00",
+          "body": "The Speaker's proposal is a Centre-led government of C, S, KD, MP and L. SVT reports she is expected to fall; if so, Kristersson gets one week, until 10 November, to sound out a government. In Indikator's October poll Kristersson overtook Andersson as the most trusted leader.",
+          "source": "SVT; Riksdagen, 29 Oct-1 Nov"
+        },
+        {
+          "title": "Swedavia drops its plan for a new Arlanda pier",
+          "body": "The state airport operator writes off about 1.2 billion kronor in planning costs and will instead cut fees from 2027 for airlines that fly frequent feeder routes, such as to Gothenburg, Malmö and Luleå, to rebuild Arlanda as a hub. Domestic flying is still about 40 percent below 2019.",
+          "source": "Realtid; GP, 2 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding",
+          "bullets": [
+            "Creandum (partner Fredrik Cassel) — early-stage VC behind Spotify, Klarna and Lovable — closes its eighth fund at about 750 million dollars (7.5 billion kronor), its largest, up from 500 million euros in 2024 — about 30 US and European institutions; AI is the main theme."
+          ],
+          "source": "Breakit; Briefs, 2 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Tuesday 3 November: US midterms, first polls close 00:00 Stockholm time; 13:00, Riksdag vote on Thand Ringqvist; Belgium's king begins consultations.",
+            "Wednesday 4 November: 09:30, Riksbank rate decision, a rise from 1.75 to 2 percent expected; euro-area inflation; Israel's official election result; Moonshot's Kimi K3.1 Pro weights due; Apple Intelligence on Alibaba's Qwen opens to developers in China.",
+            "Thursday 5 November: general strike and national day of protest in France.",
+            "Friday 6 November: King Philippe receives De Wever again.",
+            "3-10 November: Kristersson's week to sound out a government if Thand Ringqvist falls.",
+            "Tuesday 10 November: earliest possible start of Anthropic's investor roadshow."
+          ],
+          "source": "SVT; Rio Times; AP; StockTitan; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Anthropic's first quarterly numbers: 17 billion dollars in revenue",
+          "body": "An amended listing prospectus shows third-quarter revenue up about elevenfold on a year earlier, a small operating loss of 567 million, and a 23 billion net loss driven mostly by an accounting revaluation of convertible notes rather than cash. It also lists about 895 billion dollars of signed purchase commitments, mainly compute from Broadcom, Google, SpaceX's AI unit and Amazon. Shares will trade on Nasdaq as ANT; the WSJ reports investors want a valuation of 1.5-1.6 trillion dollars, below the 2 trillion floated earlier.",
+          "source": "StockTitan; FourWeekMBA; WSJ, 2 Nov"
+        },
+        {
+          "title": "Marvell buys Lumentum for 115 billion dollars",
+          "body": "The chip designer is paying in shares for the maker of the lasers and optical parts that link GPUs in AI data centres, one of the largest tech deals ever; Nvidia owns stakes in both. Investors were unimpressed: Marvell fell about 5 percent and Lumentum 10. Closing is planned for 2028.",
+          "source": "TechCrunch; TheStreet, 2 Nov"
+        },
+        {
+          "title": "AI chips double South Korea's exports",
+          "body": "Exports rose about 94 percent in October to a record 115 billion dollars, with semiconductors, mostly memory for AI servers, more than tripling to about 56 billion, nearly half the total.",
+          "source": "Yonhap; Herald Corp, 21 Oct-1 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Hierarchical Residuals (Tsinghua, ByteDance Seed): a wide residual stream carried between blocks of ordinary, narrower Transformer layers, joined by simple read/write projections; it was about 1.3 times more compute-efficient in scaling fits and improved a 500-billion-token OLMoE run, without custom kernels (arXiv 2610.41711, alphaXiv hot list).",
+            "ID-WM (NYU, Meta FAIR, LeCun): a world model that plans long tasks by letting a diffusion model propose reachable states a few steps ahead and a second model work out the actions between them; it reached 77 percent success on random-goal block pushing where flat world-model planning managed 21 (arXiv 2610.42146, NeurIPS 2026).",
+            "FlatCake (Fudan, Peking University): stores LLM conversation caches directly on SSD in session order instead of shuffling them through RAM; on a real Claude Code trace it kept a 94 percent cache hit rate under load, against 64 for the standard Mooncake system (arXiv 2610.38355)."
+          ],
+          "source": "alphaXiv hot list; arXiv, 28-30 Oct"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
+      "source": "MIT CSAIL (Takehi, Teoh, Zhang, Khattab)",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "why": "The researchers' own account of eight experiments in which a frontier model (OpenAI's GPT-6 Astra) reads raw network weights to tell what a network does, writes game-playing and Go networks from scratch with no training, and removes a looping direction from Qwen3.5-0.8B by editing 0.016% of its weights, lifting MATH-500 from 7.9% to 48.1%. It is also candid about the limits: on a model that did not loop, the edits added nothing. Top of Hacker News and alphaXiv; a possible new route for both interpretability and optimisation.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Mathematics has changed. Let's act like it",
+      "source": "Terence Tao's blog (guest post by Frank Calegari)",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "why": "A leading number theorist's response to OpenAI's October release of more than 700 AI-written maths papers, which claimed solutions to famous open problems across whole fields. He compares the moment to the classification of finite simple groups, argues that choosing good problems and understanding proofs now matter more than producing them, and proposes concrete changes: judge every paper as if AI-assisted, interview candidates in person, demand more of journals or abandon them, and train students more broadly. A first-hand view of how AI is reshaping the economics of a whole research field.",
+      "who": "Frank Calegari is a University of Chicago number theorist working on the Langlands programme, writing on Terence Tao's blog; he is an insider in exactly the fields the AI papers claim to have cracked."
+    },
+    {
+      "title": "AI can turn security fixes into working exploits before users receive an update",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+      "why": "Epoch let an open-weight model, Z.ai's GLM 5.3, loose on Firefox security fixes that were already public in the source code but not yet shipped to users. Working alone for up to 48 hours with no internet, it built web pages that silently read and sent off a local file on six consecutive Firefox releases, at about 1,000 dollars of API spend per release, rediscovering an unpublished bug along the way; no provider refused a single request, while 100,000 dollars spent on Chrome failed. A first-hand, numbers-heavy look at how AI shrinks the window between a fix being published and attackers exploiting it.",
+      "who": ""
+    }
+  ]
+}
