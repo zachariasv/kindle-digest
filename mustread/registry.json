@@ -145,17 +145,17 @@
    "minutes": 22
   },
   {
-   "url": "https://rikiyat.github.io/blog/weight-space-programming/",
-   "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
-   "source": "MIT CSAIL (Takehi, Teoh, Zhang, Khattab)",
-   "why": "The researchers' own account of eight experiments in which a frontier model (OpenAI's GPT-6 Astra) reads raw network weights to tell what a network does, writes game-playing and Go networks from scratch with no training, and removes a looping direction from Qwen3.5-0.8B by editing 0.016% of its weights, lifting MATH-500 from 7.9% to 48.1%. It is also candid about the limits: on a model that did not loop, the edits added nothing. Top of Hacker News and alphaXiv; a possible new route for both interpretability and optimisation.",
+   "url": "https://quincyinst.org/research/the-disappearing-aid-check-the-future-of-us-israel-defense-support/",
+   "title": "The Disappearing Aid Check: The Future of US–Israel Defense Support",
+   "source": "Quincy Institute (Steven Simon)",
+   "why": "Trump said on 3 November that Israel's roughly 4 billion dollars a year in US military aid ends this year. This brief, by a former State Department and NSC official, explains what that aid actually is: the ten-year memorandum, Foreign Military Financing grants that Congress appropriates with strings attached, the share Israel may spend at home being phased out by 2028, and missile-defence money. Its central argument is that support will not vanish but move into Pentagon channels (procurement contracts, co-production, joint R&D) governed by acquisition rules with far less political oversight: 'quieter does not mean smaller'. Dense and policy-styled, and it argues a position, but it is the mechanism under today's headline.",
    "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-02",
-   "added": "2026-11-03",
-   "impact": 8,
-   "minutes": 20
+   "category": "blind-spot",
+   "kind": "evergreen",
+   "published": "2026-05-26",
+   "added": "2026-11-04",
+   "impact": 6,
+   "minutes": 32
   }
  ],
  "history": [

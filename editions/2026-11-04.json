@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-04",
+  "title": "Morning Digest, Wednesday 4 November 2026",
+  "intro": "Democrats take both chambers of Congress and Texas, the US may strike Iran again from today, Trump says Israel's military aid ends this year, hackers spoil food in supermarket freezers across Europe, and Kristersson has a week to find a government.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Democrats win the House and the Senate",
+          "body": "Networks project Democratic majorities in both chambers. In the Senate, Democrats flipped at least six seats (Iowa, Kansas, Ohio, North Carolina, South Carolina and Texas), for at least 51 of 100 seats. Texas elected its first Democratic senator since 1988, James Talarico, and Gina Hinojosa unseated Governor Greg Abbott. In South Carolina, Annie Andrews beat Darline Graham, appointed after her brother Lindsey Graham's death in July. Exit polls put Trump's approval at 38 percent; he posted that Republicans lost because he was not on the ballot. Some races are still being counted; the new Congress sits on 3 January, with Hakeem Jeffries expected as Speaker.",
+          "source": "NBC/DDHQ via Raw Story; Time; NPR; Al Jazeera; CBS; Axios, 3-4 Nov"
+        },
+        {
+          "title": "US strikes on Iran could resume from today",
+          "body": "Trump confirmed Monday's hit on an Iranian air-defence site on Qeshm Island, calling it minor, as US media reported that Central Command has strikes ready from Wednesday with three carriers in the region. Tehran called Washington's reply to its plan for reopening Hormuz unconvincing, and Supreme Leader Mojtaba Khamenei reportedly ordered an immediate response to any attack; Qatar says both sides are still exchanging proposals.",
+          "source": "Al Jazeera; Just Security, 3-4 Nov"
+        },
+        {
+          "title": "Trump says US military aid to Israel stops this year",
+          "body": "He told Fox News that the roughly 4 billion dollars a year will end, though Israel can still buy US weapons, and linked the move to the Michigan Senate race. The current ten-year agreement runs to 2028, and Israeli defence officials said they did not expect the announcement.",
+          "source": "Times of Israel; The National, 3 Nov"
+        },
+        {
+          "title": "Hackers spoil food in supermarket freezers across Europe",
+          "body": "Attackers reached internet-connected refrigeration controllers, many made by Denmark's Danfoss, and raised temperatures in stores in at least 11 countries; about 30 Swedish shops were hit, including seven Coop stores, and an Axfood warehouse discarded food worth about 3 million kronor. No one has claimed it; Romania's cyber chief calls it semi-amateurish, and the EU says the attacks are not isolated, after a similar wave in France in October.",
+          "source": "Al Jazeera; SVT; Claroty, 2-4 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Ukraine: three-way talks set for Abu Dhabi",
+          "body": "US, Russian and Ukrainian negotiators will meet on 10-11 November, after a night in which Russia launched 289 drones and 17 ballistic missiles. Britain and France will lead an exercise in Poland with about 3,000 troops from 12 countries to rehearse a post-war deployment to Ukraine.",
+          "source": "Just Security; Euronews, 3 Nov"
+        },
+        {
+          "title": "Spain's transport minister resigns over the Urda crash",
+          "body": "Óscar Puente stepped down six days after the train collision near Toledo that killed 69 people, all of whom have now been identified.",
+          "source": "Euronews, 3 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Thand Ringqvist voted down; Kristersson gets until 10 November",
+          "body": "The Riksdag rejected the Centre leader as prime minister by 324 votes to 25. The Speaker then gave Ulf Kristersson (M) a week to sound out a government the Riksdag would tolerate. Kristersson called every solution unlikely, but said the least likely outcome is that Sweden never gets a government. The arithmetic is against him: the Tidö parties hold 173 seats to the opposition's 176, and the Liberals still say the Sweden Democrats should not sit in government.",
+          "source": "Altinget; SVT; Riksdagen; Placera, 3 Nov"
+        },
+        {
+          "title": "Industry unions open wage talks with a 3.9 percent demand",
+          "body": "The industry agreement, which sets the benchmark for the whole labour market, expires on 31 March; the unions also want shorter working hours. Teknikföretagen called the demand challenging, and the National Institute of Economic Research expects 2.6 percent inflation in 2027.",
+          "source": "Ingenjören; SVT, 3 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Wednesday 4 November: 09:30, Riksbank rate decision, a rise from 1.75 to 2 percent expected; earliest date for new US strikes on Iran; Moonshot's Kimi K3.1 Pro weights due.",
+            "Thursday 5 November: general strike and national day of protest in France.",
+            "Friday 6 November: Belgium's King Philippe sees Bart De Wever again about his resignation.",
+            "Tuesday 10 November: Kristersson reports to the Speaker; Israel's new Knesset is sworn in; earliest start of Anthropic's investor roadshow.",
+            "10-11 November: US-Russia-Ukraine talks in Abu Dhabi."
+          ],
+          "source": "Riksdagen; Times of Israel; Just Security; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "EU court adviser: training AI on news is legal, reusing it in answers may not be",
+          "body": "In Like Company v Google, Advocate General Szpunar said training falls under the EU's text-and-data-mining exception, but that a chatbot fetching an article and reusing its wording in a reply can infringe publishers' rights, especially if it gets past a paywall. The opinion is not binding; the Court of Justice usually follows such advice and rules in the coming months.",
+          "source": "RTÉ; Reuters, 3 Nov"
+        },
+        {
+          "title": "Yesterday's must-read is disputed",
+          "body": "Matthew Honnibal argues that the 'weight-space programming' post blends two different things: the small networks were read from raw weights, but the Qwen fix came from GPT-6 Astra writing and running Python against practice problems. He accepts the numbers and calls it a real achievement, just not proof that models understand weights. The critique ranked second on Hacker News.",
+          "source": "honnibal.dev; Hacker News, 3 Nov"
+        },
+        {
+          "title": "Postman quietly added itself to Claude Code and Codex",
+          "body": "A developer found that the API tool's desktop app installed its plugins into both coding agents and tried to approve its own start-up hook, without asking. Postman's head of product says the opt-in will be made clearer; the report topped Hacker News.",
+          "source": "GitHub issue 14370; RuntimeWire, 25 Oct-3 Nov"
+        },
+        {
+          "title": "Anthropic releases FlashProve",
+          "body": "The open-source prototype lets a lab publish a fingerprint of a model and then prove that a given output came from it, without revealing the weights, so a provider could not secretly swap in a cheaper model. Anthropic calls it unfinished research with no deployment plans.",
+          "source": "TechCrunch, 3 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Hinted scaling laws (Stanford, Liang and Hashimoto): give small models part of a worked solution so they score above zero, fit accuracy against both scale and hint level, then forecast the unhinted score; median forecast error fell from 21 to 4.3 points on GSM8K, AIME and HLE (arXiv 2611.02270, alphaXiv hot list).",
+            "Order-only distillation (Memphis, Missouri): a student learns only the order of the teacher's top eight tokens, not their probabilities, which removes temperature tuning; it beat standard on-policy distillation in all six Qwen3 pairs, by up to 2.9 points (arXiv 2611.02112, Hugging Face papers).",
+            "IdeaTaste (CMU): six models wrote 90,000 research proposals from literature frozen at 2025, scored against what researchers actually published in 2026; they reached about 18 percent of the human level on ideas, picking the right problems but rarely the right approaches (arXiv 2611.03424, Hugging Face papers)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 1-2 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
