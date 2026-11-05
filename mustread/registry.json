@@ -156,6 +156,32 @@
    "added": "2026-11-04",
    "impact": 6,
    "minutes": 32
+  },
+  {
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "title": "Progress on provable inference for large language models",
+   "source": "Anthropic",
+   "why": "Anthropic's own write-up of FlashProve, which lets a provider publish a fingerprint of a model's weights and then prove that a given reply came from exactly that model, without revealing the weights; anyone can check the proof on a CPU. It explains the goal (stopping a provider from quietly swapping in a cheaper model), the four guarantees a proof must give, and the engineering that made it practical: proving only the experts a mixture-of-experts model actually uses, batching proofs after the fact and streaming weights so it fits on one GPU. Real numbers throughout (about 72 times the GPU time of normal inference on Llama 4 Maverick, roughly 19 MB of proof per request, 17 seconds to verify), plus honest limits. The cryptographic machinery itself is named rather than explained, so read it for the what and why, not the proofs.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-02",
+   "added": "2026-11-05",
+   "impact": 7,
+   "minutes": 22
+  },
+  {
+   "url": "https://arxiv.org/html/2611.05306",
+   "title": "You don't need long context",
+   "source": "NVIDIA Research (arXiv 2611.05306)",
+   "why": "NVIDIA researchers argue that the race to million-token context windows is largely unnecessary. They first show why long context is expensive: on popular open models, generating a token at 256K context costs 3.6 to 7 times more than at 16K, a gap hidden by flat per-token retail prices. Then they show that frontier models lose little or nothing on 13 long-horizon and long-input benchmarks when an agent keeps its working context short by summarising its state often and reading files selectively, and that a coding agent still works when it compacts after every single action. They end by proposing 'semantic state space models' that carry a plain-language state between steps. Both an inference-economics lesson and a provocative architectural claim.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-03",
+   "added": "2026-11-05",
+   "impact": 7,
+   "minutes": 30
   }
  ],
  "history": [
@@ -264,6 +290,14 @@
    "title": "Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights",
    "category": "ai-research",
    "minutes": 20
+  },
+  {
+   "date": "2026-11-05",
+   "url": "https://ar5iv.labs.arxiv.org/html/1706.03762",
+   "title": "Attention Is All You Need",
+   "category": "classic",
+   "minutes": 35,
+   "field": "ai"
   }
  ]
 }

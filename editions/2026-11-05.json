@@ -1,0 +1,143 @@
+{
+  "date": "2026-11-05",
+  "title": "Morning Digest, Thursday 5 November 2026",
+  "intro": "Republicans blame the Iran war for their defeat, Democrats threaten to cut its funding, hoax bomb threats ground flights across Europe, the Riksbank raises rates for the first time in three years, and OpenAI's agents find nearly a thousand ways to take over Linux.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Republicans turn on each other over the Iran war",
+          "body": "With counting nearly done, Democrats hold at least 54 Senate seats and over 228 House seats. Vice President Vance said the war was the main reason Republicans lost and that the party should defend its cost openly; Trump called that largely true but said he would go to war again. Speaker Mike Johnson will reportedly not seek to lead the new Republican minority.",
+          "source": "Al Jazeera; ABC News; The Standard, 4 Nov"
+        },
+        {
+          "title": "Democrats say they will use the budget to end the Iran war",
+          "body": "Chuck Schumer said the incoming Democratic majority can use Congress's control of spending to force an end to the war. No new US strikes were reported on Wednesday; Trump said he is in no hurry to decide, while Iran called the latest US reply unconvincing. Qatar and Pakistan are reportedly drafting an interim deal: Iran stops attacking ships, the US lifts its blockade of Iranian ports.",
+          "source": "Times of Israel; HNGN; Reuters via Korea Herald, 3-4 Nov"
+        },
+        {
+          "title": "Hoax bomb threats hit at least ten European flights",
+          "body": "Ryanair, SAS, LOT and Wizz Air planes were diverted or searched on Tuesday, fighter jets escorted some, and runways closed briefly in Warsaw. A cruise ship bound for Haifa was also evacuated in Greece. No explosives were found and no one has been identified.",
+          "source": "Malay Mail; Defence Matters, 3-4 Nov"
+        },
+        {
+          "title": "France strikes today",
+          "body": "The five main unions, joined by school and university students, hold a national day of strikes and marches over wages, living costs and public services. Regional trains, Paris suburban lines and schools will be hit hardest.",
+          "source": "The Local France, 2 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Greenland approves its security pact with the US and Denmark",
+          "body": "Greenland's parliament backed the deal 16-0 with seven abstentions. It allows more US bases while Greenland stays under Danish sovereignty, and it would still apply if Greenland became independent. Denmark's parliament debates it later this month.",
+          "source": "PBS/AP, 3 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Riksbank raises its rate to 2 percent and signals more",
+          "body": "The quarter-point rise, the first since 2023, takes effect on 11 November. The bank expects higher energy prices from the Middle East war, a weaker krona and a stronger economy to push inflation above its 2 percent target next year, and says further rises over the coming year are likely.",
+          "source": "Riksbank; SVT Text, 4 Nov"
+        },
+        {
+          "title": "Pro-Russian hackers claim the supermarket freezer attacks",
+          "body": "Two groups said in a joint video, seen by SVT, that they simply used the cooling systems' built-in controls, with no malware. Police in southern Sweden will coordinate the investigations into the roughly 30 Swedish stores hit; there is no suspect yet.",
+          "source": "SVT, 4 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Thursday 5 November: general strike and protests across France.",
+            "Friday 6 November: Belgium's King Philippe sees Bart De Wever again about his resignation.",
+            "Tuesday 10 November: Kristersson reports to the Speaker on his talks; Israel's new Knesset is sworn in; earliest start of Anthropic's investor roadshow.",
+            "10-11 November: US-Russia-Ukraine talks in Abu Dhabi.",
+            "Wednesday 11 November: the Riksbank's new 2 percent rate takes effect.",
+            "Thursday 12 November: the caretaker government presents its budget."
+          ],
+          "source": "Riksbank; Riksdagen; Times of Israel; Just Security; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI's agents find 948 ways to take over Linux",
+          "body": "In one run costing about 1.2 million dollars, an automated pipeline built on an unreleased cyber model reproduced 1,724 kernel bugs and wrote working exploits and candidate fixes for 948 flaws that let an ordinary user become administrator. The fixes are not yet in the kernel; OpenAI says Trail of Bits reviews them before they go to maintainers. The post led Hacker News, just behind an IEEE Spectrum piece on AI exposing decades of old software debt.",
+          "source": "RuntimeWire; Startup Fortune; OpenAI, 4 Nov"
+        },
+        {
+          "title": "Kimi K3.1 Pro weights are out",
+          "body": "Moonshot published the 2.8-trillion-parameter model (about 104 billion active per token), the largest open-weight model yet; it trails Claude Opus 5.5 by three points on the Artificial Analysis index. The licence is permissive, except that large API providers must sign a separate deal.",
+          "source": "Startup Fortune; Hugging Face, 4 Nov"
+        },
+        {
+          "title": "Tencent releases the full Hy4",
+          "body": "The 770-billion-parameter model gains vision and computer use and is available through Tencent Cloud and OpenRouter; the weights will follow later. Tencent says openly that it still trails the best closed models in research maths and long coding tasks.",
+          "source": "Unite.AI, 4 Nov"
+        },
+        {
+          "title": "OpenAI buys Pierre, a code store built for agents",
+          "body": "Pierre's Git-based storage, used by Lovable, Bolt and Amp, will move into Codex, putting OpenAI in more direct competition with GitHub. No price was given.",
+          "source": "Unite.AI; Axios, 4 Nov"
+        },
+        {
+          "title": "Proxy traffic found leaving the White House network",
+          "body": "Layer3 Intel says commercial residential-proxy services routed traffic out through White House addresses 236 times in 30 days, which it suspects comes from a staff device running proxy software. The White House has not commented.",
+          "source": "Layer3 Intel, 4 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Targeted guidance (Cursor, Berkeley): when an agent turn fails a judge's criterion, the model is nudged toward its own output with the judge's text feedback in context, alongside normal RL; on a Qwen3 coding agent it learned style rules plain RL could not, with no loss in pass rate, and a version went into Cursor's Composer 2.5 (arXiv 2611.05266, alphaXiv hot list).",
+            "Adversarial speculative reasoning (Subconscious, MIT): verification in speculative decoding gets numerically noisier toward the end of each block, so a draft model trained to be rejected at key reasoning steps makes the big model write them precisely, lifting GLM-5.3 from 60.6 to 67.6 percent on a long coding benchmark at almost no speed cost (arXiv 2611.05345, alphaXiv hot list).",
+            "GSBR (Berkeley, Physical Intelligence): when fine-tuning robot policies with RL, penalise actions only by their distance outside what the pretrained policy would do, not for dropping its weaker habits; average success across 19 tasks rose from 33 to 95 percent (arXiv 2611.05295, alphaXiv hot list)."
+          ],
+          "source": "arXiv via alphaXiv, 3-4 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Attention Is All You Need",
+      "source": "Vaswani et al., 2017",
+      "url": "https://ar5iv.labs.arxiv.org/html/1706.03762",
+      "why": "Introduced the transformer, the architecture behind essentially every modern language model.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Mathematics has changed. Let's act like it",
+      "source": "Terence Tao's blog (guest post by Frank Calegari)",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "why": "A leading number theorist's response to OpenAI's October release of more than 700 AI-written maths papers, which claimed solutions to famous open problems across whole fields. He compares the moment to the classification of finite simple groups, argues that choosing good problems and understanding proofs now matter more than producing them, and proposes concrete changes: judge every paper as if AI-assisted, interview candidates in person, demand more of journals or abandon them, and train students more broadly. A first-hand view of how AI is reshaping the economics of a whole research field.",
+      "who": "Frank Calegari is a University of Chicago number theorist working on the Langlands programme, writing on Terence Tao's blog; he is an insider in exactly the fields the AI papers claim to have cracked."
+    },
+    {
+      "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
+      "source": "Quanta Magazine",
+      "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
+      "why": "Cryo-electron microscopy finally captures the fleeting protein ring the malaria parasite uses to push its way into red blood cells, and the team used AI-assisted protein design to build an inhibitor that blocks it in the test tube: a new angle on a disease that kills about 600,000 people a year as drug resistance spreads.",
+      "who": ""
+    }
+  ]
+}
