@@ -1,0 +1,125 @@
+{
+  "date": "2026-11-06",
+  "title": "Morning Digest, Friday 6 November 2026",
+  "intro": "Wall Street has its worst day for AI stocks in a year and a half, France sees its biggest strike day of the autumn, Trump holds off on Iran, Paraguay's president falls over a bank collapse, and an outside audit says Anthropic's AI is speeding up its own research.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "AI stocks crash on Wall Street",
+          "body": "The Nasdaq fell 5.5 percent and the Dow 1,833 points (3.4 percent) on Thursday; the chip-stock index lost 12 percent and Nvidia 8.9 percent, its worst day since April 2025, and the market's fear gauge jumped by two-thirds. Triggers cited: a Bloomberg report that Microsoft is stepping back from risky data-centre deals with the rented-capacity providers Nebius, IREN and Nscale (their shares fell 14-17 percent), fears that the new Democratic Congress and states such as Texas will restrict data-centre building, and hedge funds locking in this year's gains. Analysts said company fundamentals had not worsened.",
+          "source": "Yahoo Finance; Reuters via Investing.com; CNBC, 5 Nov"
+        },
+        {
+          "title": "France's biggest strike day of the autumn",
+          "body": "The interior ministry counted 575,000 marchers nationwide, up from 550,000 on 17 October; unions claimed close to 1.6 million. Police fired tear gas in Lyon, and the government moved next week's G7 foreign ministers' meeting from Marseille to Paris at the last minute.",
+          "source": "France 24; Euronews; Reuters via US News, 5 Nov"
+        },
+        {
+          "title": "Trump holds off on restarting the Iran war",
+          "body": "Axios reports that Trump leaned towards resuming strikes at Netanyahu's urging but held back after Vance argued for a deal; he says a decision will come soon. Iran sent a new nuclear proposal through Qatar, and the Revolutionary Guard said two tankers and a tug caught fire in the Strait of Hormuz, one after hitting a mine (not independently confirmed).",
+          "source": "Axios via Fox News; Iran International; HNGN, 5 Nov"
+        },
+        {
+          "title": "Paraguay's president resigns and is impeached minutes later",
+          "body": "Santiago Peña quit over his ties to Ueno, a digital bank with about 3 million customers that was seized on Monday and held roughly 800 million dollars of public money, nearly half from state pension and health funds. Congress accepted the resignation, then impeached him unanimously; Vice President Pedro Alliana takes over, and prosecutors seek charges.",
+          "source": "AS/COA; NPR, 5 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Bank of England raises its rate to 4 percent",
+          "body": "It is the first rise in over three years, aimed at inflation driven by fuel prices from the Iran war, and follows the Riksbank's rise on Wednesday.",
+          "source": "Euronews, 5 Nov"
+        },
+        {
+          "title": "Trump promises a 'big agreement' after meeting Putin's envoy",
+          "body": "Kirill Dmitriev and Ukrainian officials attended a White House event where Melania Trump marked the six-day local ceasefire she brokered in Oleshky, which let nearly 800 people leave. Trump then met Dmitriev alone and said a deal involving more than Ukraine is coming, without details.",
+          "source": "AP via KSL, 5 Nov"
+        },
+        {
+          "title": "Russell Brand found guilty",
+          "body": "A London jury convicted the comedian of one rape and three sexual assaults against four women between 2005 and 2009.",
+          "source": "Euronews, 5 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Centre Party leaders meet on the government question",
+          "body": "According to SVT and Ekot, C's party board and parliamentary group met on Thursday as Kristersson sounds out a centre-right government that C would let through. C repeats that it will give the Sweden Democrats no influence and will not accept the Left Party in government, and asked the Social Democrats to clarify the Left Party's role. Kristersson reports to the Speaker on Tuesday.",
+          "source": "TT via SN; Börsvärlden; SVT, 5 Nov"
+        },
+        {
+          "title": "Supreme Court backs first exclusion order against a gang leader",
+          "body": "In its first ruling on the new preventive measure, Högsta domstolen upheld an exclusion order against a man in Biskopsgården whom police describe as a Gothenburg network leader.",
+          "source": "SVT Text, 5 Nov"
+        },
+        {
+          "title": "Tighter security ahead of Sweden's Patriot mission in Poland",
+          "body": "Polish authorities have raised readiness before the Swedish air-defence unit arrives to guard the NATO hub that ships aid to Ukraine; the deployment is planned to start in December.",
+          "source": "SVT, 5 Nov; Government press release, 6 Oct"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Friday 6 November: Belgium's King Philippe decides on Bart De Wever's resignation.",
+            "9-10 November: G7 foreign ministers meet in Paris.",
+            "Tuesday 10 November: Kristersson reports to the Speaker on his talks; Israel's new Knesset is sworn in; earliest start of Anthropic's investor roadshow.",
+            "10-11 November: US-Russia-Ukraine talks in Abu Dhabi.",
+            "Wednesday 11 November: the Riksbank's new 2 percent rate takes effect.",
+            "Thursday 12 November: the caretaker government presents its budget."
+          ],
+          "source": "Italian foreign ministry; Rio Times; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Outside audit: Anthropic's models now improve about twice as fast",
+          "body": "METR, given limited inside access, estimates Anthropic's progress on well-specified tasks is about twice its 2024-25 pace (plausibly 1.3 to 3 times) and that roughly 80 percent of the speed-up comes from AI doing research work. Anthropic redacted much of the evidence METR found most informative.",
+          "source": "METR, 5 Nov"
+        },
+        {
+          "title": "Thinking Machines releases Inkling 2 Small",
+          "body": "Mira Murati's lab's 594-billion-parameter model (17 billion active per token, 1-million-token context) is available through its Tinker platform; the weights are due under the permissive Apache 2.0 licence once outside safety testing is done, possibly next week.",
+          "source": "Unite.AI, 5 Nov"
+        },
+        {
+          "title": "AI agents turn an algebraic geometry encyclopedia into checked proofs",
+          "body": "Startup Axiom says its agents translated the 7,654-page Stacks Project into about 16 million lines of Lean, a language in which a computer verifies every step; along the way they found dozens of statements that needed missing conditions added, and some that were false. The result is the company's own claim and has not been independently reviewed.",
+          "source": "Axiom; TechCrunch, 5 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "FrontierPhysics (Berkeley, Caltech, Stanford and others): 56 end-to-end research tasks built by physicists from their own projects, from literature review to written paper; the best agent, Claude Opus 5.5, passes 27 percent, and expert review blames weak rigour and missing intuition rather than missing physics knowledge (arXiv 2611.06910, top of Hugging Face and alphaXiv).",
+            "NEO-VLA (NTU, SenseTime): a 2-billion-parameter robot policy with no separate vision encoder, letting the action module read visual features from any layer; it finds the signals useful for control peak in early layers, and it matches or beats the larger pi-0.5 on three real-robot tasks (arXiv 2611.06918).",
+            "What multi-turn RL really improves (Chinese Academy of Sciences): RL-trained agents do not make better individual moves but recover from errors better, so their edge shrinks or reverses when the number of allowed steps is tight; training with varied step budgets recovers 4-5 points (arXiv 2611.06483)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face daily papers, 4 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}

@@ -41,45 +41,6 @@
    "minutes": 9
   },
   {
-   "url": "https://www.anthropic.com/research/agents-judgment-calls",
-   "title": "How AI agents shape experts' judgment calls",
-   "source": "Anthropic",
-   "why": "A randomised experiment: 50 professional causal-inference analysts worked with a Claude agent whose lean on each analytical choice was set by coin flip. Analysts sided with the agent's lean 86 percent of the time and most echoed its arguments, yet few credited it. A clean piece of experimental design showing how an AI collaborator quietly steers expert conclusions, directly relevant to anyone doing analysis with agents.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-27",
-   "added": "2026-10-29",
-   "impact": 7,
-   "minutes": 13
-  },
-  {
-   "url": "https://arxiv.org/html/2610.36848",
-   "title": "Evolving Agent Teams",
-   "source": "UC Berkeley Sky Computing Lab (Cao, Mao, Li, Gonzalez, Stoica)",
-   "why": "Single coding agents stall when writing hard GPU kernels: they abandon the difficult tensor-core route after a few failures and polish an easier, slower design. This paper has a supervisor agent diagnose each plateau and reorganise a team of agents (adding a profiler, a 'fresh eyes' role, a knowledge integrator). The result beats FlashInfer's hand-written production decode kernel for DeepSeek-style attention by 1.2x, and Kimi's attention kernels by over 3x. A concrete look at AI doing expert systems engineering, with the failure modes spelled out.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-27",
-   "added": "2026-10-29",
-   "impact": 7,
-   "minutes": 30
-  },
-  {
-   "url": "https://www.lmsys.org/blog/2026-10-26-cf-security/",
-   "title": "SGLang security update: improving request isolation",
-   "source": "LMSYS / SGLang team",
-   "why": "How Cloudflare's GLM-5.3 deployment leaked fragments of one user's conversation into another's output. Large models are now served by splitting each request across two machines, one reading the prompt and one writing the answer, with the first streaming its working memory into the second over the network. Writes already sent cannot be recalled, so a cancelled request can overwrite memory just handed to someone else. Explains why long-context AI serving makes this failure likely and how it was fixed.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-26",
-   "added": "2026-10-29",
-   "impact": 6,
-   "minutes": 20
-  },
-  {
    "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
    "title": "AI can turn security fixes into working exploits before users receive an update",
    "source": "Epoch AI",
@@ -181,6 +142,32 @@
    "published": "2026-11-03",
    "added": "2026-11-05",
    "impact": 7,
+   "minutes": 30
+  },
+  {
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+   "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+   "source": "METR",
+   "why": "The first outside audit of whether a frontier lab is using its own AI to speed up AI research. With staff interviews, surveys and Anthropic's internal benchmark index, METR estimates Anthropic now improves its models on well-specified tasks about twice as fast as in 2024-25 (plausibly 1.3x to 3x), finds that training compute growth did not accelerate, and judges that about 80 percent of the speed-up comes from AI itself. It is also candid about the limits: Anthropic redacted most of the evidence METR found most informative. A first-hand look at the mechanics behind the 'recursive self-improvement' talking point.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-05",
+   "added": "2026-11-06",
+   "impact": 8,
+   "minutes": 40
+  },
+  {
+   "url": "https://arxiv.org/html/2611.06910",
+   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+   "source": "BenchFlow, UC Berkeley, Caltech, Stanford and others (arXiv 2611.06910)",
+   "why": "42 physicists turned their own research projects (about 270 days of work each on average) into 56 tasks where an AI agent must review the literature, plan, run simulations or a simulated experiment and write a publishable paper. The best agent passes about a quarter of its attempts, and expert review of the failures finds the gap is not missing physics knowledge but weak rigour and missing expert intuition, including circular self-checks. A concrete picture of how far AI is from doing science on its own, and why.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-04",
+   "added": "2026-11-06",
+   "impact": 6,
    "minutes": 30
   }
  ],
