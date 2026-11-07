@@ -41,19 +41,6 @@
    "minutes": 9
   },
   {
-   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
-   "title": "AI can turn security fixes into working exploits before users receive an update",
-   "source": "Epoch AI",
-   "why": "Epoch let an open-weight model, Z.ai's GLM 5.3, loose on Firefox security fixes that were already public in the source code but not yet shipped to users. Working alone for up to 48 hours with no internet, it built web pages that silently read and sent off a local file on six consecutive Firefox releases, at about 1,000 dollars of API spend per release, rediscovering an unpublished bug along the way; no provider refused a single request, while 100,000 dollars spent on Chrome failed. A first-hand, numbers-heavy look at how AI shrinks the window between a fix being published and attackers exploiting it.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-29",
-   "added": "2026-10-30",
-   "impact": 7,
-   "minutes": 13
-  },
-  {
    "url": "https://www.anthropic.com/research/early-progress-drug-development",
    "title": "Early progress on accelerating drug development with Claude",
    "source": "Anthropic",
@@ -169,6 +156,19 @@
    "added": "2026-11-06",
    "impact": 6,
    "minutes": 30
+  },
+  {
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "title": "AI is dramatically accelerating AI research right now",
+   "source": "Ajeya Cotra, Planned Obsolescence",
+   "why": "A forecaster who has spent years modelling when AI would speed up its own development reads METR's audit of Anthropic and works through what a doubling of overall progress implies: since better algorithms need both researcher labour and compute for experiments, a 2x overall speed-up means something like a 10x boost to each researcher, close to what Anthropic staff report. She then follows the arithmetic of compounding doubling times and asks whether security, monitoring and alignment checks are ready, noting that the key evidence is redacted. The accessible, numbers-first companion to the METR report.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-06",
+   "added": "2026-11-07",
+   "impact": 7,
+   "minutes": 12
   }
  ],
  "history": [

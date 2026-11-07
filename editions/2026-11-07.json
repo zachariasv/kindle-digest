@@ -1,0 +1,134 @@
+{
+  "date": "2026-11-07",
+  "title": "Morning Digest, Saturday 7 November 2026",
+  "intro": "The Sweden Democrats drop their demand for cabinet seats and the Centre Party asks both blocs for a full plan, the AI sell-off hits Asia, Belgium's king refuses De Wever's resignation, Israel's opposition lines up behind Eisenkot, and OpenAI releases its first model rated 'Critical' for cyber capability.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "The AI sell-off spreads to Asia; Wall Street steadies",
+          "body": "On Friday Japan's Nikkei and South Korea's Kospi each fell about 6 percent and SK Hynix 10 percent after Thursday's US rout. In New York the Nasdaq then rose 1.1 percent and Nvidia nearly 3 percent, though all three main indexes ended the week down. A strong US jobs report (165,000 new jobs against about 59,000 expected; unemployment 4.1 percent) led traders to raise the odds of a December interest-rate rise by the Federal Reserve.",
+          "source": "Reuters via Business Standard; Finimize; HNGN, 6-7 Nov"
+        },
+        {
+          "title": "Belgium's king refuses De Wever's resignation",
+          "body": "After meeting the five coalition leaders, King Philippe sent the prime minister back to the negotiating table on the 2027 budget, with a report due on 16 November. The parties are split over whether to raise taxes on the wealthiest, and a stopgap monthly budget will probably be needed in January.",
+          "source": "Brussels Times; Xinhua, 6 Nov"
+        },
+        {
+          "title": "Israel's opposition backs Eisenkot for prime minister",
+          "body": "In consultations with President Herzog, 67 of 120 Knesset members recommended Gadi Eisenkot, including both Arab-led parties and Lieberman's Yisrael Beiteinu, against 46 for Netanyahu. Herzog names his candidate on Sunday; Netanyahu, who stays on as caretaker, questions the result, while the election committee says the vote was sound.",
+          "source": "Sunday Guardian; Haaretz; The Hill, 5-6 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Trump's cabinet under strain after the midterms",
+          "body": "Republican Thomas Massie says he will force a House vote next week on impeaching Defense Secretary Hegseth over the Iran war unless he resigns; several Republicans expect it to pass, and Trump backs Hegseth. Separately, Bloomberg reported that Secretary of State Rubio is weighing leaving; the State Department called it a 'baseless hoax'.",
+          "source": "Forbes; Gray News via KGNS; Just Security; Yahoo News, 5-6 Nov"
+        },
+        {
+          "title": "Hackers also tampered with French blood-bank freezers",
+          "body": "Attackers took over cold-room controls at a refrigeration supplier to France's blood service, pushing set temperatures to extreme levels at three sites; alarms caught it and no blood products were lost. No one has claimed it, and no link to the recent supermarket freezer attacks has been established.",
+          "source": "The Next Web; Newsweek, 4-6 Nov"
+        },
+        {
+          "title": "California empties its death row",
+          "body": "Governor Newsom commuted the sentences of all 548 people on death row to life without parole.",
+          "source": "Just Security, 6 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "SD drops its demand for cabinet seats; C asks M and S for a full plan",
+          "body": "Jimmie Åkesson said on Friday that the Sweden Democrats will no longer insist on ministers and would accept Kristersson leading a four-party centre-right government without them, setting no counter-demands. The Centre Party replied that it could govern with any party except those on the fringes, and gave Kristersson and Magdalena Andersson until next Friday to present a complete programme with policy, funding and delivery: Kristersson must show how SD would be kept from dictating terms, Andersson how she would govern without the Left Party. Kristersson called both moves welcome, and the Speaker gave him a few more days beyond Tuesday's deadline.",
+          "source": "SVT; GP; Morgontidningen, 6 Nov"
+        },
+        {
+          "title": "Border checks extended, now citing Russia",
+          "body": "Targeted checks at Sweden's internal Schengen borders will run from 12 November to 11 May. The government now names sabotage and hybrid attacks linked to Russia's war as the reason; May's decision cited crime and terrorism.",
+          "source": "Reuters via Internazionale; Xinhua, 5 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding",
+          "bullets": [
+            "Sellpy (Michael Arnör) — second-hand clothing platform — about 167 million kronor at a 5.5 billion valuation — H&M (majority owner) and senior staff.",
+            "Norrsken Evolve — impact investor backing early-stage founders — closes a fund of nearly 700 million kronor, more than planned."
+          ],
+          "source": "Breakit, this week"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Sunday 8 November: Herzog names who gets the first chance to form Israel's government.",
+            "9-10 November: G7 foreign ministers meet in Paris.",
+            "From Monday 9 November: possible House vote on impeaching Hegseth.",
+            "Tuesday 10 November: Israel's new Knesset is sworn in; US October inflation figures.",
+            "10-11 November: US-Russia-Ukraine talks in Abu Dhabi.",
+            "Thursday 12 November: the caretaker government presents its budget; Sweden's extended border checks begin; UK third-quarter GDP.",
+            "Friday 13 November: the Centre Party's deadline for M and S to present their government plans; Kristersson reports to the Speaker around then."
+          ],
+          "source": "HNGN; Rio Times; Finimize; SVT; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI releases GPT-6 Cyber, its first model rated 'Critical'",
+          "body": "The hacking-focused model, the highest risk level in OpenAI's own framework, goes only to vetted customers of its offensive-security programme. OpenAI says it found 81 new high-severity Firefox flaws, now being patched by Mozilla, and solves 48.5 percent of a standard exploit-writing test against 32.1 percent for its predecessor.",
+          "source": "Dataconomy; Tech Times, 5-6 Nov"
+        },
+        {
+          "title": "Baidu publishes ERNIE 5.5 Flash Base weights",
+          "body": "A 280-billion-parameter mixture-of-experts model (14 billion active per token) trained on 33.5 trillion tokens, released before any instruction tuning so developers can adapt it; Baidu says it matches DeepSeek V4 Flash and MiMo V2.5 at similar size, with no independent scores yet.",
+          "source": "The Decoder, 5 Nov"
+        },
+        {
+          "title": "Tesla will stop making the Cybertruck",
+          "body": "Musk says production in Texas winds down around mid-2027 to free capacity for the Cybercab robotaxi. Sales were about 20,000 last year, against his original forecast of 250,000 a year, and fell another 28 percent this year.",
+          "source": "AP via NBC New York, 6 Nov"
+        },
+        {
+          "title": "Google takes over Crusoe's Wyoming data-centre site",
+          "body": "A day after announcing a 17-billion-dollar investment in the project, Google bought the site from Crusoe, a company that builds and rents out AI data centres, which had struggled to sign customers for it.",
+          "source": "Reuters via TradingView; Bloomberg, 6 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "VFlash (NVIDIA, Johns Hopkins): robot and driving models output plans as boxes and trajectories one coordinate at a time; VFlash predicts each whole shape in one pass, cutting decoding time by about 80 percent while making 3D trajectories more accurate (arXiv 2611.08449, top of both Hugging Face and alphaXiv).",
+            "Understanding AI from the Inside (Oxford, Mila, EleutherAI and others, with Bengio and Biderman): a book-length survey of mechanistic interpretability that argues the assumption that understanding models' internals makes them safer is largely untested, and calls evaluation standards the field's most pressing gap (arXiv 2611.08438).",
+            "BestRand (Bosch Research, CMU): scoring a model on a small random slice of a benchmark usually lands close to its full score, but because models fail on similar items an unlucky slice can be far off; drawing many random slices and keeping the one where a few probe models score as they do on the full set halves the risk of large errors across more than 70 benchmarks (arXiv 2611.00883, Hugging Face papers)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face daily papers, 31 Oct-5 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
