@@ -1,0 +1,276 @@
+{
+ "fetched_at": "2026-11-07T10:40:22+00:00",
+ "source": "hn.algolia.com front_page",
+ "stories": [
+  {
+   "rank": 1,
+   "title": "Tesla to wind down Cybertruck production",
+   "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817",
+   "points": 1015,
+   "comments": 1868,
+   "hn_url": "https://news.ycombinator.com/item?id=50391456",
+   "created_at": "2026-11-06T12:13:51Z"
+  },
+  {
+   "rank": 2,
+   "title": "Libghostty 1.0",
+   "url": "https://mitchellh.com/writing/libghostty-1-0",
+   "points": 661,
+   "comments": 102,
+   "hn_url": "https://news.ycombinator.com/item?id=50399933",
+   "created_at": "2026-11-06T23:30:52Z"
+  },
+  {
+   "rank": 3,
+   "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+   "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
+   "points": 484,
+   "comments": 110,
+   "hn_url": "https://news.ycombinator.com/item?id=50397429",
+   "created_at": "2026-11-06T19:48:51Z"
+  },
+  {
+   "rank": 4,
+   "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+   "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/",
+   "points": 341,
+   "comments": 275,
+   "hn_url": "https://news.ycombinator.com/item?id=50388001",
+   "created_at": "2026-11-06T04:00:28Z"
+  },
+  {
+   "rank": 5,
+   "title": "Gemini Omni 1.2 Flash",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+   "points": 338,
+   "comments": 231,
+   "hn_url": "https://news.ycombinator.com/item?id=50392118",
+   "created_at": "2026-11-06T13:35:27Z"
+  },
+  {
+   "rank": 6,
+   "title": "AI is dramatically accelerating AI research",
+   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+   "points": 309,
+   "comments": 260,
+   "hn_url": "https://news.ycombinator.com/item?id=50397994",
+   "created_at": "2026-11-06T20:27:23Z"
+  },
+  {
+   "rank": 7,
+   "title": "Firecracker VM Escape: PwnEscape Part 2",
+   "url": "https://pwn.ai/blog/firecracker-escape",
+   "points": 241,
+   "comments": 106,
+   "hn_url": "https://news.ycombinator.com/item?id=50397219",
+   "created_at": "2026-11-06T19:33:38Z"
+  },
+  {
+   "rank": 8,
+   "title": "First steps in bare-metal programming using UEFI",
+   "url": "https://kevinboone.me/efitest_index.html",
+   "points": 222,
+   "comments": 42,
+   "hn_url": "https://news.ycombinator.com/item?id=50394855",
+   "created_at": "2026-11-06T16:50:29Z"
+  },
+  {
+   "rank": 9,
+   "title": "Asahi Linux Progress Linux 7.3",
+   "url": "https://asahilinux.org/2026/11/progress-report-7-3/",
+   "points": 181,
+   "comments": 139,
+   "hn_url": "https://news.ycombinator.com/item?id=50401867",
+   "created_at": "2026-11-07T05:20:18Z"
+  },
+  {
+   "rank": 10,
+   "title": "Devvm.dev: One VM for every project",
+   "url": "https://devvm.dev/",
+   "points": 158,
+   "comments": 61,
+   "hn_url": "https://news.ycombinator.com/item?id=50395450",
+   "created_at": "2026-11-06T17:30:22Z"
+  },
+  {
+   "rank": 11,
+   "title": "GitHub's new Git storage architecture",
+   "url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+   "points": 147,
+   "comments": 30,
+   "hn_url": "https://news.ycombinator.com/item?id=50397099",
+   "created_at": "2026-11-06T19:24:21Z"
+  },
+  {
+   "rank": 12,
+   "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
+   "url": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
+   "points": 128,
+   "comments": 62,
+   "hn_url": "https://news.ycombinator.com/item?id=50399991",
+   "created_at": "2026-11-06T23:37:19Z"
+  },
+  {
+   "rank": 13,
+   "title": "Chomsky and the two cultures of statistical learning (2011)",
+   "url": "https://www.norvig.com/chomsky.html",
+   "points": 127,
+   "comments": 102,
+   "hn_url": "https://news.ycombinator.com/item?id=50389570",
+   "created_at": "2026-11-06T08:18:36Z"
+  },
+  {
+   "rank": 14,
+   "title": "Restaurant Delivery Payment-Skimming Campaign",
+   "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming",
+   "points": 127,
+   "comments": 62,
+   "hn_url": "https://news.ycombinator.com/item?id=50397017",
+   "created_at": "2026-11-06T19:19:27Z"
+  },
+  {
+   "rank": 15,
+   "title": "I toured Unitree's factory. I'm more bullish on the West",
+   "url": "https://josef.cn/blog/unitree",
+   "points": 123,
+   "comments": 85,
+   "hn_url": "https://news.ycombinator.com/item?id=50400597",
+   "created_at": "2026-11-07T01:05:16Z"
+  },
+  {
+   "rank": 16,
+   "title": "Greece has its own Pompeii: Thera buried Akrotiri in ash 17th-16th century BCE",
+   "url": "https://www.smithsonianmag.com/history/greece-has-its-own-pompeii-and-the-ruins-tell-a-captivating-story-of-a-sophisticated-seafaring-bronze-age-society-180989747/",
+   "points": 108,
+   "comments": 9,
+   "hn_url": "https://news.ycombinator.com/item?id=50360810",
+   "created_at": "2026-11-04T02:19:16Z"
+  },
+  {
+   "rank": 17,
+   "title": "A barbarian tribe's mythic origin story is true, ancient DNA reveals",
+   "url": "https://www.science.org/content/article/barbarian-tribe-s-mythic-origin-story-true-ancient-dna-reveals",
+   "points": 105,
+   "comments": 69,
+   "hn_url": "https://news.ycombinator.com/item?id=50401740",
+   "created_at": "2026-11-07T04:54:36Z"
+  },
+  {
+   "rank": 18,
+   "title": "Can GROUP BY still be optimized after all these years?",
+   "url": "https://pivotlake.io/blog/know-your-limit-faster-top-k-aggregation/",
+   "points": 84,
+   "comments": 14,
+   "hn_url": "https://news.ycombinator.com/item?id=50354097",
+   "created_at": "2026-11-03T16:30:23Z"
+  },
+  {
+   "rank": 19,
+   "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+   "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update",
+   "points": 76,
+   "comments": 18,
+   "hn_url": "https://news.ycombinator.com/item?id=50397711",
+   "created_at": "2026-11-06T20:09:14Z"
+  },
+  {
+   "rank": 20,
+   "title": "Show HN: Waymark – A workflow engine that compiles jobs instead of replaying",
+   "url": "https://github.com/piercefreeman/waymark",
+   "points": 73,
+   "comments": 23,
+   "hn_url": "https://news.ycombinator.com/item?id=50379221",
+   "created_at": "2026-11-05T14:06:31Z"
+  },
+  {
+   "rank": 21,
+   "title": "Notes on San Marino",
+   "url": "https://mattlakeman.org/2026/11/05/notes-on-san-marino/",
+   "points": 72,
+   "comments": 22,
+   "hn_url": "https://news.ycombinator.com/item?id=50395183",
+   "created_at": "2026-11-06T17:12:05Z"
+  },
+  {
+   "rank": 22,
+   "title": "The Flash C Compiler",
+   "url": "https://blog.adafruit.com/2026/10/31/flash-c-compiler/",
+   "points": 53,
+   "comments": 8,
+   "hn_url": "https://news.ycombinator.com/item?id=50352701",
+   "created_at": "2026-11-03T14:49:42Z"
+  },
+  {
+   "rank": 23,
+   "title": "The Components of Agent Memory",
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "points": 49,
+   "comments": 23,
+   "hn_url": "https://news.ycombinator.com/item?id=50402212",
+   "created_at": "2026-11-07T06:39:04Z"
+  },
+  {
+   "rank": 24,
+   "title": "Panthera: Ampere's CPU Performance Model",
+   "url": "https://github.com/AmpereComputing/panthera",
+   "points": 35,
+   "comments": 11,
+   "hn_url": "https://news.ycombinator.com/item?id=50356722",
+   "created_at": "2026-11-03T19:12:17Z"
+  },
+  {
+   "rank": 25,
+   "title": "The great butter and cheese fire of 1991",
+   "url": "https://www.wisfarmer.com/story/opinion/columnists/2022/05/11/over-20-m-lbs-commodities-lost-great-butter-fire-1991/9650051002/",
+   "points": 31,
+   "comments": 11,
+   "hn_url": "https://news.ycombinator.com/item?id=50373513",
+   "created_at": "2026-11-05T00:44:16Z"
+  },
+  {
+   "rank": 26,
+   "title": "PostgreSQL Internals [pdf]",
+   "url": "https://edu.postgrespro.com/postgresql_internals-14_en.pdf",
+   "points": 25,
+   "comments": 2,
+   "hn_url": "https://news.ycombinator.com/item?id=50361765",
+   "created_at": "2026-11-04T05:22:43Z"
+  },
+  {
+   "rank": 27,
+   "title": "Bong: DuckDuckGo bang alternative, open-source and self-hosted",
+   "url": "https://bong.glendalab.com",
+   "points": 19,
+   "comments": 5,
+   "hn_url": "https://news.ycombinator.com/item?id=50402535",
+   "created_at": "2026-11-07T07:48:13Z"
+  },
+  {
+   "rank": 28,
+   "title": "8088 Domination Post-Mortem",
+   "url": "https://trixter.oldskool.org/2014/06/19/8088-domination-post-mortem-part-1/",
+   "points": 19,
+   "comments": 4,
+   "hn_url": "https://news.ycombinator.com/item?id=50369283",
+   "created_at": "2026-11-04T18:06:14Z"
+  },
+  {
+   "rank": 29,
+   "title": "Bug Finding Considered Harmful?",
+   "url": "https://alperenkeles.com/posts/bug-finding-considered-harmful/",
+   "points": 11,
+   "comments": 2,
+   "hn_url": "https://news.ycombinator.com/item?id=50372439",
+   "created_at": "2026-11-04T22:35:30Z"
+  },
+  {
+   "rank": 30,
+   "title": "Port 0: The Port That Does Not Exist",
+   "url": "https://acid.vegas/blog/the-port-that-does-not-exist/",
+   "points": 3,
+   "comments": 0,
+   "hn_url": "https://news.ycombinator.com/item?id=50403063",
+   "created_at": "2026-11-07T09:38:26Z"
+  }
+ ]
+}
