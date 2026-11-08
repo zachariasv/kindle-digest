@@ -41,19 +41,6 @@
    "minutes": 9
   },
   {
-   "url": "https://www.anthropic.com/research/early-progress-drug-development",
-   "title": "Early progress on accelerating drug development with Claude",
-   "source": "Anthropic",
-   "why": "Anthropic's science team reports seven concrete case studies of Claude inside drug development: CAR T-cell receptor designs 70 percent shorter that produced about ten times as many receptors in lab tests, 35,000 antibody designs against food allergies in a month, binders improved more than tenfold in ten weeks, regulatory document reviews cut from 25 hours to under three, and a one-person company that took a muscular dystrophy candidate to promising mouse results in under 18 months by coordinating 11 outside labs. A first-hand tour of AI changing what a small team can do in biotech, with real numbers; mostly preclinical, so the caveats matter.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-27",
-   "added": "2026-10-31",
-   "impact": 7,
-   "minutes": 8
-  },
-  {
    "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
    "title": "How Voting Is Like a Klein Bottle",
    "source": "Quanta Magazine",
@@ -169,6 +156,58 @@
    "added": "2026-11-07",
    "impact": 7,
    "minutes": 12
+  },
+  {
+   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
+   "title": "Open-weight AI models can exploit the patch gap",
+   "source": "Epoch AI",
+   "why": "A first-hand experiment: an open-weight Chinese model (GLM 5.3), working alone for up to 48 hours with no internet, read Firefox security fixes that were public but not yet shipped and turned them into working attack pages for six releases at about 1,000 dollars each, with no safeguard triggered. Shows concretely why the gap between publishing a fix and users installing it has become an attack surface.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-10-29",
+   "added": "2026-11-08",
+   "impact": 7,
+   "minutes": 13
+  },
+  {
+   "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+   "title": "What Huawei's Horinger data center reveals about China's compute gap",
+   "source": "Epoch AI",
+   "why": "Uses satellite images of cooling equipment, substations and generators to estimate one of China's largest AI data centres: about 286 MW and roughly 81,000 H100-equivalents, about 7 percent of SpaceX's Colossus 2 in Tennessee. Explains in real numbers why abundant Chinese power does not close the gap when domestic chips deliver far less compute per watt.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "fresh",
+   "published": "2026-11-06",
+   "added": "2026-11-08",
+   "impact": 7,
+   "minutes": 11
+  },
+  {
+   "url": "https://arxiv.org/html/2611.08478",
+   "title": "Grow a Research World for AI-Scientists",
+   "source": "Princeton (Taiming Lu, Sachin Konan, Zhuang Liu), arXiv",
+   "why": "Agents automatically turned 1,000 recent ML papers into runnable research tasks scored against the reproduced human method. On a ten-task test, frontier models beat the paper's method in 84 percent of attempts when improving it and 74 percent when designing from scratch, and an 8B model trained on the research traces reached frontier-level ideas. A concrete look at how 'AI doing AI research' is being measured.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-05",
+   "added": "2026-11-08",
+   "impact": 7,
+   "minutes": 30
+  },
+  {
+   "url": "https://www.anthropic.com/research/how-researchers-use-claude",
+   "title": "How scientists use Claude",
+   "source": "Anthropic",
+   "why": "Analysis of 207,049 research sessions: computer science is 4 percent of the world's researchers but a third of Claude Code research use, ideation gets only 4 percent of sessions, and if all non-physical research steps were automated computational fields could speed up about 15-fold against 3-4-fold for bench sciences, because lab work stays the bottleneck.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-05",
+   "added": "2026-11-08",
+   "impact": 6,
+   "minutes": 33
   }
  ],
  "history": [
@@ -285,6 +324,13 @@
    "category": "classic",
    "minutes": 35,
    "field": "ai"
+  },
+  {
+   "date": "2026-11-08",
+   "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
+   "title": "What Huawei's Horinger data center reveals about China's compute gap",
+   "category": "ai-economics",
+   "minutes": 11
   }
  ]
 }
