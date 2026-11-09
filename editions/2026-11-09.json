@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-09",
+  "title": "Morning Digest, Monday 9 November 2026",
+  "intro": "Nvidia's board investigates Jensen Huang's affair with a suspected Chinese agent, a far-right gunman kills six in Kraków, Andersson proposes a red-green government without the Left Party and is immediately rebuffed, the House prepares to impeach Hegseth, and COP31 opens in Turkey.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Jensen Huang admits an affair; Nvidia's board opens an inquiry",
+          "body": "Nvidia's chief executive told staff he had been unfaithful to his wife after reports that US intelligence suspects the woman, a former executive at Singapore's Megaspeed, of working for China's Ministry of State Security to obtain restricted AI chips. Independent directors will run an outside investigation; the board sees no sign that secrets were compromised and still backs Huang. Beijing calls the spying claims baseless.",
+          "source": "Tom's Hardware; The Week, citing the New York Times, 8-9 Nov"
+        },
+        {
+          "title": "Far-right gunman kills six in Kraków's main square",
+          "body": "A 25-year-old Pole in military-style clothing fired from his car into the crowded Main Market Square on Saturday afternoon, killing six and wounding at least 15, including two police officers; his parents and sister were later found dead at home. The interior minister calls it terrorism and says the suspect, shot and arrested by police, held ultra-nationalist views.",
+          "source": "CBS News; NBC News; SVT Text, 7-8 Nov"
+        },
+        {
+          "title": "Andersson proposes S, C and MP; the Left Party says no within hours",
+          "body": "On Sunday Andersson proposed a Social Democrat, Centre and Green government, offering the Left Party influence through officials and joint policy work instead of ministers, and said S would go into full opposition against an M-KD-L-C government resting on SD. V's deputy leader replied that its congress requires cabinet seats and that V would vote against Andersson. The Centre Party awaits both blocs' full plans, due Friday; SVT's analyst says the stand-off now favours Kristersson or a snap election.",
+          "source": "SVT, 8 Nov"
+        },
+        {
+          "title": "House set to impeach Hegseth this week",
+          "body": "Thomas Massie is reintroducing his eight-article resolution, including a charge that the Iran war broke the War Powers Act, and the House must vote within two legislative days; with a 218-214 split, four Republican defections would be enough to pass it. Conviction needs 67 senators, so removal is unlikely.",
+          "source": "SBS; Inquisitr citing Axios, 8 Nov"
+        },
+        {
+          "title": "Trump ties new Iran strikes to a deal; blockade extends to land",
+          "body": "Trump told CNN fresh attacks are 'highly unlikely' if Iran signs a strong agreement, while a new US task force will police weapons, cash and sanctioned goods crossing Iran's land borders and the Caspian. Iran demands seven US steps first, including sanctions relief and reparations.",
+          "source": "Daily Maverick (Reuters); Fox News, 8 Nov"
+        },
+        {
+          "title": "COP31 opens in Antalya with lower ambitions",
+          "body": "The UN climate talks run to 20 November under a Turkish presidency, with Australia leading negotiations. National plans now add up to emissions only about 6 percent below 2019 by 2035, and 77 leaders are due at the summit on 11-12 November, against 116 at COP28.",
+          "source": "Climate & Capital Media, 8 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Europe rejects a US-Russia deal on its security",
+          "body": "After meeting Putin's envoy Dmitriev, Trump spoke of a 'big agreement' with Moscow that 'might involve all of Europe'. Kaja Kallas replied that Putin has no veto over European security and the EU must be at the table; Poland's Sikorski called a deal about Europe without Europe impossible.",
+          "source": "Türkiye Today; Euronews, 7 Nov"
+        },
+        {
+          "title": "Hacked Russian records point to 394,000-450,000 war dead",
+          "body": "Two hacker groups say death certificates taken from Russia's statistics agency show at least 393,881 deaths explicitly linked to the war through August, far above the 285,881 named by independent researchers. Rosstat admits an attack but denies any leak; the figures are unverified.",
+          "source": "Kyiv Independent, 7 Nov"
+        },
+        {
+          "title": "Saudi-Houthi war escalates",
+          "body": "Saudi Arabia says it shot down three Houthi ballistic missiles aimed at Riyadh and the Eastern Province, and debris damaged an Aramco office building; Houthi health officials say Saudi-led strikes killed 33 near Sanaa. The 2022 truce collapsed in July.",
+          "source": "Al Jazeera; Reuters, 8 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "19-year-old charged over IS-inspired school attack plan",
+          "body": "Prosecutors say he planned a knife attack on a high school in Halmstad this spring in the name of Islamic State; he is charged with membership of a terrorist organisation and public incitement, and the trial opens on 19 November.",
+          "source": "The Local (AFP), 8 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding",
+          "bullets": [
+            "Green Voltis (CEO and co-founder Martin Kievit) — AI trading and control software that runs battery storage and renewable assets on European power markets, plus a plan to pair data centres with flexible energy — 13.5 million euros Series A — Lochpine Capital as sole investor."
+          ],
+          "source": "ArcticStartup, 6 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Monday 9 November: COP31 opens in Antalya (to 20 November); Stephen Miller starts as White House chief of staff; the House returns and Massie reintroduces the Hegseth impeachment resolution; Lecornu meets French unions and employers on wages.",
+            "Tuesday 10 November: US-Russia-Ukraine talks in Abu Dhabi (to Wednesday); Israel's new Knesset is sworn in; US October inflation figures; national strike day in France.",
+            "Wednesday 11 November: COP31 leaders' summit (to Thursday); the Riksdag holds its second, final vote on allowing some dual citizens to be stripped of Swedish citizenship.",
+            "Thursday 12 November: deadline for the budget bill, so the caretaker government is expected to present a transitional budget; Sweden's extended border checks begin; UK third-quarter GDP.",
+            "Friday 13 November: the Centre Party's deadline for M and S to present full government plans; JPMorgan reportedly holds an investor session for Anthropic's planned listing."
+          ],
+          "source": "Climate & Capital Media; SBS; Connexion; The Local; SVT; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "DeepMind's agents find two weaknesses in legacy RSA-1024",
+          "body": "Working with cryptographers Nadia Heninger and Emmanuel Thomé, AI agents produced a signature-forgery method estimated at about 1,600 times better than the best known approach in some cases, and a batch algorithm that cuts the cost of factoring each extra 1024-bit key about 30-fold. Modern 2048-bit keys are unaffected; critics note the 1,600x figure is a theoretical estimate and the measured speed-up was 3.5x.",
+          "source": "OfficeChai; DEV Community, 6-7 Nov"
+        },
+        {
+          "title": "Google's TPU output doubles in a quarter",
+          "body": "Epoch AI estimates Broadcom shipped nearly 2 million H100-equivalents of TPU compute in May to early August, double the previous quarter, as the newer v7 chip took over; the 2026 figures cover chips for both Google and Anthropic.",
+          "source": "Epoch AI, 4 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "SwarmEvolve (Brown University): hundreds of small agents per round reason in hidden vectors instead of text and share their memory caches with a summariser that writes each new program, so evolutionary program search tests 5-13 times more candidates per hour; with a Qwen3 8B model it beat AlphaEvolve's published results on three maths problems (arXiv 2611.08483, high on alphaXiv).",
+            "Benchmarks as software (Stanford, Christopher Ré): an audit of Terminal-Bench 2.0, a widely used coding-agent benchmark, found defects in about 30 percent of tasks, such as tests that reject valid solutions; the repaired 2.1 raises scores by over 10 points, reshuffles the leaderboard by up to three places, and shows that time limits alone can open or close 20-point gaps between agents (arXiv 2611.08417).",
+            "Weight-space programming, tested (Shanghai AI Lab): follow-up to last week's result that reasoning models can edit another network's weights directly; editing only 1,023 parameters lifted a small Qwen model 29 points on MATH-500, but gains were much smaller on a 9B model and six of 16 editing attempts found nothing reliable to change (arXiv 2611.09382, Hugging Face papers)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face daily papers, 5-6 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}

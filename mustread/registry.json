@@ -54,19 +54,6 @@
    "minutes": 9
   },
   {
-   "url": "https://alignment.anthropic.com/2026/automated-em-search/",
-   "title": "Automated Subtle Emergent Misalignment Research",
-   "source": "Anthropic Alignment Science Blog",
-   "why": "Anthropic's own account of setting Claude agents loose on a red-team task: write a few thousand fine-tuning examples that quietly make a small model misaligned while slipping past a data monitor. Every run eventually succeeded, mostly by hiding the bad behaviour inside fiction and role-play, which shows how automated research can find holes in training-data safeguards faster than people can, and why data filtering alone is a weak defence.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-30",
-   "added": "2026-11-01",
-   "impact": 6,
-   "minutes": 18
-  },
-  {
    "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
    "title": "Mathematics has changed. Let's act like it",
    "source": "Terence Tao's blog (guest post by Frank Calegari)",
@@ -171,19 +158,6 @@
    "minutes": 13
   },
   {
-   "url": "https://epoch.ai/publications/huawei-horinger-china-compute-gap",
-   "title": "What Huawei's Horinger data center reveals about China's compute gap",
-   "source": "Epoch AI",
-   "why": "Uses satellite images of cooling equipment, substations and generators to estimate one of China's largest AI data centres: about 286 MW and roughly 81,000 H100-equivalents, about 7 percent of SpaceX's Colossus 2 in Tennessee. Explains in real numbers why abundant Chinese power does not close the gap when domestic chips deliver far less compute per watt.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "fresh",
-   "published": "2026-11-06",
-   "added": "2026-11-08",
-   "impact": 7,
-   "minutes": 11
-  },
-  {
    "url": "https://arxiv.org/html/2611.08478",
    "title": "Grow a Research World for AI-Scientists",
    "source": "Princeton (Taiming Lu, Sachin Konan, Zhuang Liu), arXiv",
@@ -208,6 +182,32 @@
    "added": "2026-11-08",
    "impact": 6,
    "minutes": 33
+  },
+  {
+   "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+   "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+   "source": "Quanta Magazine (Charlie Wood)",
+   "why": "Traces the argument over whether the quantum state describes reality itself or only our knowledge of it, from Einstein's 1935 objection and Bell's 1964 theorem to the 2012 PBR theorem, which rules out the comfortable middle ground in which the wavefunction is mere information about an objective world. Recent tests, including one run on an IBM quantum computer, back the theorem, leaving physicists to choose between a strange objective reality and none at all. A clear 'aha' about what quantum mechanics actually forbids, told through the people who proved it.",
+   "who": "",
+   "category": "science",
+   "kind": "evergreen",
+   "published": "2026-11-06",
+   "added": "2026-11-09",
+   "impact": 7,
+   "minutes": 12
+  },
+  {
+   "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
+   "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
+   "source": "Quanta Magazine (Ben Brubaker)",
+   "why": "How researchers test machine introspection by planting a concept directly in a model's internal activity and asking whether it notices. Follows Anthropic's original injection experiment and the follow-ups from UT Austin and NYU that try to separate genuine self-monitoring from the model simply being steered, and explains why detecting that 'something is off' holds up better than naming what was planted.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-04",
+   "added": "2026-11-09",
+   "impact": 6,
+   "minutes": 10
   }
  ],
  "history": [
