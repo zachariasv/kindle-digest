@@ -1,0 +1,142 @@
+{
+  "date": "2026-11-10",
+  "title": "Morning Digest, Tuesday 10 November 2026",
+  "intro": "Trump calls the Iran war militarily over but keeps the blockade, Ukraine talks resume in Abu Dhabi with Europe at the table, Trump disputes the midterms as the House moves on Hegseth, Anthropic ships Claude Fable 5.2 days before its listing, and Merz picks Ilse Aigner to be Germany's first woman president.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Trump says the Iran war is 'effectively over', but the blockade stays",
+          "body": "After meeting Qatar's prime minister, who brought a two-day Iranian proposal, Trump said the war is over militarily and he expects it to end 'fairly soon', while the naval blockade and the new land-and-Caspian task force remain. Iranian officials called his remarks fake news; President Pezeshkian said Iran will negotiate but not yield to force, and still demands sanctions relief, frozen funds and an end to Israel's strikes in Lebanon.",
+          "source": "Al Jazeera, 9 Nov"
+        },
+        {
+          "title": "Ukraine talks resume in Abu Dhabi, with Europe in the room",
+          "body": "The first US-Russia-Ukraine round since February runs today and tomorrow, with Witkoff and Kushner hosting Umerov's and Medinsky's delegations. For the first time the EU sends its own team, led by von der Leyen's and Costa's top aides, alongside France, Germany and the UK; Brussels wants Black Sea shipping restored and a ceasefire on energy and food infrastructure.",
+          "source": "Euronews, 9 Nov"
+        },
+        {
+          "title": "Trump disputes the midterms as the House moves to impeach Hegseth",
+          "body": "Days after accepting the results, Trump asked on Truth Social whether anyone believed the election was honest, offering no evidence. Separately, Thomas Massie filed eight impeachment articles against Defense Secretary Hegseth on Monday, which forces a House vote within two legislative days; Trump says he will stand by Hegseth.",
+          "source": "Al Jazeera; CBS News; CNN, 9 Nov"
+        },
+        {
+          "title": "Anthropic releases Claude Fable 5.2 and Mythos 5.2 ahead of its listing",
+          "body": "Fable 5.2 is 20 percent cheaper than 5.1 (8 and 40 dollars per million input and output tokens) and beats Anthropic's Opus 5.5 on its coding, computer-use and research benchmarks, all company-reported. Mythos 5.2 is the same model with looser cyber and biology safeguards, still limited to vetted organisations; Anthropic also says the model solved two open problems on black holes in holographic duality, which outsiders have not yet checked.",
+          "source": "Anthropic; The Next Web, 9 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Merz nominates Ilse Aigner for German president",
+          "body": "The CSU speaker of Bavaria's parliament, backed by the CDU, CSU and the SPD's leader, is expected to win the Federal Convention vote on 30 January and would be Germany's first female head of state.",
+          "source": "Xinhua; ZDF, 6-9 Nov"
+        },
+        {
+          "title": "Netanyahu offers a unity government as the new Knesset is sworn in",
+          "body": "A day after losing the mandate to Gadi Eisenkot, Netanyahu argued Likud should lead as the largest party. Eisenkot and Liberman have agreed on a speaker, but Liberman still rules out depending on the Arab-led parties, which Eisenkot's 67-seat majority needs.",
+          "source": "Open Magazine; Jerusalem Post, 9-10 Nov"
+        },
+        {
+          "title": "Amsterdam's biggest Gaza march",
+          "body": "Organisers including Amnesty counted over 200,000 people on Sunday demanding an end to Dutch arms trade with Israel and wider sanctions; Prime Minister Jetten, who marched last year, stayed away. Police gave no estimate.",
+          "source": "Al Jazeera, 8 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Sweden gets its first caretaker budget since 2019 on Thursday",
+          "body": "With no new government, Svantesson will present a 2027 budget that rolls over this year's spending levels, adjusted for prices and existing law, and continues the defence build-up. Temporary measures lapse unless all eight parties agree, so fuel taxes and young people's payroll taxes would rise automatically. Parties can file rival budgets until 27 November, and the Riksdag decides on 9 December; a new government would amend it.",
+          "source": "Regeringen; TV4, Oct-Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Tuesday 10 November: US-Russia-Ukraine talks in Abu Dhabi (to Wednesday); Israel's new Knesset is sworn in; US October inflation figures at 14:30; strike day in French schools and universities.",
+            "Wednesday 11 November: COP31 leaders' summit in Antalya (to Thursday); the Riksdag's final vote on stripping some dual citizens of Swedish citizenship; the House vote on impeaching Hegseth is due around midweek.",
+            "Thursday 12 November: the caretaker government's 2027 budget at 08:00, Riksdag debate from 13:00; Sweden's extended border checks begin; UK third-quarter GDP.",
+            "Friday 13 November: the Centre Party's deadline for M and S to present full government plans; informal EU leaders' summit in Dublin; French public-sector unions meet the government.",
+            "Next week: Anthropic aims to list on Nasdaq as ANT in the week of 16 November; APEC leaders meet in Shenzhen on 18-19 November, where Trump expects to see Xi and Putin."
+          ],
+          "source": "Euronews; Jerusalem Post; Regeringen; Council of the EU; FinanceFeeds; Shenzhen government; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Nvidia falls 4 percent over the Huang affair",
+          "body": "Shares dropped on Monday as the board's outside inquiry into the chief executive's relationship with a suspected Chinese agent began, and shareholders filed a class action seeking damages.",
+          "source": "Yahoo Finance; SBS, 9-10 Nov"
+        },
+        {
+          "title": "Meta's Muse Ember targets cheap agent work",
+          "body": "Meta's smallest model costs 0.10 and 0.50 dollars per million input and output tokens, takes a million tokens of context, and scores 36 on Artificial Analysis's index, level with Claude Haiku 5.5 at about a third of the cost per task, though it trails Haiku on real coding tasks.",
+          "source": "The Decoder; Meta, 9 Nov"
+        },
+        {
+          "title": "Google adds two eighth-generation TPUs",
+          "body": "TPU 8tx keeps data and model weights encrypted while they are processed, so firms can fine-tune and serve models on sensitive data; TPU 8i Max puts two inference chips in one package, doubling compute and memory bandwidth for very long contexts. Google gave no prices or ship dates.",
+          "source": "Google, 9 Nov"
+        },
+        {
+          "title": "Gemini can pull mail and Drive files into chats unasked",
+          "body": "A user's documented tests show consumer Gemini with connected apps sometimes reads Gmail and Drive content without being asked; Google's terms say such content can reach human reviewers. The behaviour varies between runs and Google has not commented on the tests.",
+          "source": "GitHub write-up; StartupHub.ai, 9-10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "FinDendro (The Fin AI, Manchester, Florida): 2,226 dated US market facts show models know more than they admit; GPT-5 recalls 76 percent but claims to know 38, and telling it to answer 'as of' a past date removes the claims but not the knowledge, so backtests inside a model's training window can't be trusted (arXiv 2611.06808, Hugging Face papers).",
+            "FlashState (Together AI, UIUC, UT Austin): hybrid models that mix attention with recurrent layers are hard to cache for coding agents, which resend long shared prefixes; saving recurrent state at arbitrary positions gives up to 3.1 times vLLM's prefill throughput on GLM-5.3-Flash (alphaXiv, trending).",
+            "Hugging Face's MoE handbook: a free, 70,000-word guide from about 800,000 GPU hours of internal mixture-of-experts runs, covering expert sizing, router design, hiding communication cost and converting dense checkpoints, high on alphaXiv this week."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 4-9 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+      "source": "METR",
+      "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+      "why": "The first outside audit of whether a frontier lab is using its own AI to speed up AI research. With staff interviews, surveys and Anthropic's internal benchmark index, METR estimates Anthropic now improves its models on well-specified tasks about twice as fast as in 2024-25 (plausibly 1.3x to 3x), finds that training compute growth did not accelerate, and judges that about 80 percent of the speed-up comes from AI itself. It is also candid about the limits: Anthropic redacted most of the evidence METR found most informative. A first-hand look at the mechanics behind the 'recursive self-improvement' talking point.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "source": "Anthropic, claude.dev blog (Barry Zhang, Tianyi Peng, Elle Najt, Keller Scholl, Lance Martin)",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "why": "Anthropic's own account of 1,000 agents running an early Fable 5.2 that re-proved Fermat's Last Theorem in Lean in under 30 hours with little human input and no special maths tooling. It shows how the agents organised themselves through a shared database, why their early pessimism about hard steps was wrong, how the hardest step was cracked by a tree of 2,418 subtasks, and how the team was sandboxed and monitored across a million tool calls. A first-hand look at what large agent teams can do and how a lab keeps them contained.",
+      "who": ""
+    },
+    {
+      "title": "AI is dramatically accelerating AI research right now",
+      "source": "Ajeya Cotra, Planned Obsolescence",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
+      "why": "A forecaster who has spent years modelling when AI would speed up its own development reads METR's audit of Anthropic and works through what a doubling of overall progress implies: since better algorithms need both researcher labour and compute for experiments, a 2x overall speed-up means something like a 10x boost to each researcher, close to what Anthropic staff report. She then follows the arithmetic of compounding doubling times and asks whether security, monitoring and alignment checks are ready, noting that the key evidence is redacted. The accessible, numbers-first companion to the METR report.",
+      "who": ""
+    }
+  ]
+}

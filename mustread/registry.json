@@ -54,19 +54,6 @@
    "minutes": 9
   },
   {
-   "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
-   "title": "Mathematics has changed. Let's act like it",
-   "source": "Terence Tao's blog (guest post by Frank Calegari)",
-   "why": "A leading number theorist's response to OpenAI's October release of more than 700 AI-written maths papers, which claimed solutions to famous open problems across whole fields. He compares the moment to the classification of finite simple groups, argues that choosing good problems and understanding proofs now matter more than producing them, and proposes concrete changes: judge every paper as if AI-assisted, interview candidates in person, demand more of journals or abandon them, and train students more broadly. A first-hand view of how AI is reshaping the economics of a whole research field.",
-   "who": "Frank Calegari is a University of Chicago number theorist working on the Langlands programme, writing on Terence Tao's blog; he is an insider in exactly the fields the AI papers claim to have cracked.",
-   "category": "science",
-   "kind": "fresh",
-   "published": "2026-11-01",
-   "added": "2026-11-02",
-   "impact": 7,
-   "minutes": 22
-  },
-  {
    "url": "https://quincyinst.org/research/the-disappearing-aid-check-the-future-of-us-israel-defense-support/",
    "title": "The Disappearing Aid Check: The Future of US–Israel Defense Support",
    "source": "Quincy Institute (Steven Simon)",
@@ -208,6 +195,19 @@
    "added": "2026-11-09",
    "impact": 6,
    "minutes": 10
+  },
+  {
+   "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+   "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+   "source": "Anthropic, claude.dev blog (Barry Zhang, Tianyi Peng, Elle Najt, Keller Scholl, Lance Martin)",
+   "why": "Anthropic's own account of 1,000 agents running an early Fable 5.2 that re-proved Fermat's Last Theorem in Lean in under 30 hours with little human input and no special maths tooling. It shows how the agents organised themselves through a shared database, why their early pessimism about hard steps was wrong, how the hardest step was cracked by a tree of 2,418 subtasks, and how the team was sandboxed and monitored across a million tool calls. A first-hand look at what large agent teams can do and how a lab keeps them contained.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-09",
+   "added": "2026-11-10",
+   "impact": 8,
+   "minutes": 13
   }
  ],
  "history": [
@@ -331,6 +331,13 @@
    "title": "What Huawei's Horinger data center reveals about China's compute gap",
    "category": "ai-economics",
    "minutes": 11
+  },
+  {
+   "date": "2026-11-10",
+   "url": "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment/",
+   "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
+   "category": "ai-research",
+   "minutes": 40
   }
  ]
 }
