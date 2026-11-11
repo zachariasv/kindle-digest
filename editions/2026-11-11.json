@@ -1,0 +1,109 @@
+{
+  "date": "2026-11-11",
+  "title": "Morning Digest, Wednesday 11 November 2026",
+  "intro": "House Republicans bury the Hegseth impeachment and pick Jim Jordan as their leader, the Abu Dhabi talks turn to a large prisoner swap, Anthropic prices its IPO at up to 1.4 trillion dollars, Sweden's government question could be settled within ten days, and DeepMind's AI proves Signal's encryption code does what it promises.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "House Republicans kill the Hegseth impeachment and choose Jordan to lead them",
+          "body": "The House voted 211-204 on Tuesday to send Thomas Massie's eight articles against the defence secretary to the Judiciary Committee, which ends the effort in this Congress; Massie was the only Republican against. The same day, Republicans picked Jim Jordan over Steve Scalise, 106 to 73, to lead them in the minority when Democrats take the House in January.",
+          "source": "ABC News; Democracy Now, 10 Nov"
+        },
+        {
+          "title": "Abu Dhabi talks focus on a large prisoner swap",
+          "body": "Russia, Ukraine and the US met for nearly four hours, with Kushner and Witkoff mediating and Budanov on Ukraine's team. Zelensky said the talks were mostly humanitarian (prisoners, detained civilians, deported children), with details of a large exchange to follow; on territory the sides remain far apart. Europeans joined a coordination meeting beforehand but not the three-way session, which Russia opposed. Day two is today.",
+          "source": "AP via Boston Globe; Euronews, 10 Nov"
+        },
+        {
+          "title": "Anthropic sets its IPO range at 70-78 dollars a share",
+          "body": "Selling 825 million shares would raise up to 64 billion dollars and value the company at up to 1.4 trillion, below the 2 trillion floated weeks ago amid an AI share sell-off; seven partners including Google and Nvidia will buy a further 26 billion dollars of non-voting stock. Trading on Nasdaq as ANT could start on 19 November, sources told CNBC.",
+          "source": "Fortune; CNBC, 10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Merz ties the EU budget to Ukraine",
+          "body": "Germany's chancellor threatens to block the EU's next seven-year budget unless all 27 members commit to funding Ukraine after 2027, when Kyiv faces a gap of about 70 billion euros. Hungary, Slovakia and Czechia stayed out of the current 90-billion-euro loan, and Bulgaria says it won't add more; Council president Costa tried to reassure Berlin.",
+          "source": "Euronews, 10 Nov"
+        },
+        {
+          "title": "US prices rose 0.4 percent in October",
+          "body": "Core prices, which leave out volatile food and energy, rose 0.3 percent, above forecasts; Bloomberg says this supports a Federal Reserve rate rise. The usual annual rate is missing because last year's shutdown stopped October 2025 data collection.",
+          "source": "BLS; Bloomberg, 10 Nov"
+        },
+        {
+          "title": "US tankers leave a second British base",
+          "body": "American refuelling planes left RAF Mildenhall on Monday over an alleged Iranian threat, the Wall Street Journal reports, a month after B-1 bombers left RAF Fairford.",
+          "source": "WSJ via Democracy Now, 10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "The government question could be settled next week",
+          "body": "Speaker Andreas Norlén says Ulf Kristersson will report on his exploratory mission on Tuesday 17 November, after which Norlén will consult the other parties; SVT's Mats Knutson expects a prime-minister vote could follow late next week. The Centre Party is negotiating with both S and M and wants each to present a full governing plan by Friday at 17:00. On the left, the Left Party has agreed to resume talks with S, C and the Greens, according to sources cited by SVT, and LO is urging it to drop its demand for cabinet seats.",
+          "source": "Riksdagen; SVT; Altinget, 6-10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Wednesday 11 November: second day of US-Russia-Ukraine talks in Abu Dhabi; COP31 leaders' summit in Antalya (to Thursday); the Riksdag's final vote on stripping some dual citizens of Swedish citizenship.",
+            "Thursday 12 November: the caretaker government's 2027 budget at 08:00, Riksdag debate from 13:00; Sweden's extended border checks begin; UK third-quarter GDP.",
+            "Friday 13 November: the Centre Party's 17:00 deadline for S and M to present full government plans; informal EU leaders' summit in Dublin; Mississippi certifies its Senate result, where Democrat Scott Colom leads.",
+            "Tuesday 17 November: Kristersson reports to the Speaker on government formation.",
+            "Later next week: APEC leaders meet in Shenzhen on 18-19 November; Anthropic expected to start trading on Nasdaq on 19 November."
+          ],
+          "source": "Riksdagen; Altinget; Regeringen; Democracy Now; CNBC; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "DeepMind's AI proves Signal's encryption code keeps its promises",
+          "body": "AlphaProof Code, a system of Gemini-powered agents, wrote over six million lines of Lean proofs showing that libsignal, the core of Signal's messaging protocol, delivers forward secrecy and authentication down to the compiled machine code. A team of five did it in four weeks and only about 1 percent of the code was flagged for human review; the proofs assume the underlying cryptography is perfect and do not cover the whole app.",
+          "source": "Google DeepMind; Qodo; Unite.AI, 10 Nov"
+        },
+        {
+          "title": "Claude designs working gadgets from short prompts",
+          "body": "Anthropic and hardware startup Diode Computers had Fable 5.2 produce schematics, circuit boards, cases and firmware for a speakerphone, a voice-assistant hub and a handheld virtual pet; Diode built all three from Claude's files and they worked without circuit fixes. They are early prototypes without safety or electrical certification.",
+          "source": "Anthropic, 9 Nov"
+        },
+        {
+          "title": "OpenAI's quarterly revenue reportedly near 10 billion dollars",
+          "body": "Bloomberg reports third-quarter revenue rose nearly 50 percent to about 10 billion dollars; OpenAI has not published the figure.",
+          "source": "Bloomberg, 10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Embodied First Exam (Northwestern, CMU, Berkeley, Stanford and others): 1,156 robot tasks for coding agents that may control, script or train a robot; GPT-6 Astra solves 30 percent of core tasks through sensors alone but 77 percent with full simulator access and free resets, which shows that undoing mistakes matters more than perfect state information (arXiv 2611.12177, alphaXiv trending).",
+            "LingBot-Touch (Robbyant): one tactile encoder trained on 5,000 hours of glove and robot-hand data from three sensor types works on an unseen sensor without retraining and lifts success on 26 real two-arm tasks by 14-26 points across four policy families, while raw touch signals give at most half that (arXiv 2611.12806, top of Hugging Face papers).",
+            "Agency (UC Berkeley, Ion Stoica's group): harness choice barely changes coding-agent accuracy but can double cost; re-reading accumulated context is up to 73 percent of spend, and transparent fixes such as pruning finished subtasks and indexing files cut cost by 23 percent on average with Claude Code and Codex (arXiv 2611.12122, alphaXiv)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 9-10 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
