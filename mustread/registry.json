@@ -208,6 +208,45 @@
    "added": "2026-11-11",
    "impact": 7,
    "minutes": 14
+  },
+  {
+   "url": "https://epoch.ai/publications/inference-performance-index",
+   "title": "Inference Performance Index: changing the way we measure inference capacity",
+   "source": "Epoch AI",
+   "why": "Epoch's new yardstick for how many AI agents a chip can actually serve, and why raw computing power badly misleads: a GB300 has only about 2.5 times an H100's arithmetic speed but roughly 25 times its capacity on agent workloads, because serving long-context agents is limited by memory and by how fast chips can talk to each other, not by arithmetic. It explains why rack-scale systems linking 72 GPUs beat eight-GPU servers by about 1.9 times, and gives a common unit (GB300-equivalents) for comparing fleets. Useful background for every data-centre and chip-export headline.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "evergreen",
+   "published": "2026-11-09",
+   "added": "2026-11-12",
+   "impact": 7,
+   "minutes": 11
+  },
+  {
+   "url": "https://www.anthropic.com/research/claude-electronics-design",
+   "title": "Testing Claude on real-world electronics design",
+   "source": "Anthropic, with Diode Computers",
+   "why": "The first-hand account of Claude designing three consumer gadgets end to end (specifications, schematics, circuit-board layout, enclosure and firmware) that Diode then built and that worked without circuit fixes. It shows where the model revised its own work, wrote its own routing algorithm and reshaped an enclosure to fix a microphone resonance, and is candid that these are uncertified prototypes and that the companies have a commercial relationship.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-09",
+   "added": "2026-11-12",
+   "impact": 6,
+   "minutes": 11
+  },
+  {
+   "url": "https://www.anthropic.com/research/teaching-ai-to-build-scientific-models",
+   "title": "Teaching AI to build scientific models",
+   "source": "Anthropic (guest essay by ELLIS Institute Tübingen and University of Tübingen researchers)",
+   "why": "Using the 1951 Hodgkin-Huxley nerve model as a running example, three Tübingen scientists split scientific modelling into building, constraining and interpreting a model, and show what AI already does at each step: simulation-based inference that returns every parameter setting consistent with the data, and agents that propose whole families of candidate models rather than one answer. Honest that AI has mostly rediscovered known models so far; a clear map of where 'AI scientist' claims are real.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-06",
+   "added": "2026-11-12",
+   "impact": 6,
+   "minutes": 18
   }
  ],
  "history": [
@@ -338,6 +377,13 @@
    "title": "Independent Assessment of AI R&D Acceleration at Anthropic in October 2026",
    "category": "ai-research",
    "minutes": 40
+  },
+  {
+   "date": "2026-11-12",
+   "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+   "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+   "category": "science",
+   "minutes": 12
   }
  ]
 }

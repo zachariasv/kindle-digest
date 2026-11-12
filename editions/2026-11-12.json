@@ -1,0 +1,131 @@
+{
+  "date": "2026-11-12",
+  "title": "Morning Digest, Thursday 12 November 2026",
+  "intro": "Nvidia's board reportedly prepares to remove Jensen Huang, Russia and Ukraine agree a large prisoner swap, Iran says Hormuz stays shut, the Tidö parties overtake the left in a new poll, and Google opens Gemini 4 Carbon to paying developers.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Nvidia's board reportedly moves to oust Jensen Huang",
+          "body": "The Wall Street Journal reports the board is preparing to remove Nvidia's co-founder and only chief executive in 33 years, after the New York Times reported a second affair, this one with a vice-president who reports directly to him; nothing is final, and finance chief Colette Kress is named as a possible interim CEO. Shares fell about 8 percent after hours on Wednesday, on top of more than 450 billion dollars in lost market value since the board opened its inquiry on 8 November.",
+          "source": "WSJ via CBS News; Tom's Hardware; NYT, 11 Nov"
+        },
+        {
+          "title": "Abu Dhabi talks end with a deal on a large prisoner swap",
+          "body": "After two days of US-mediated talks, the first direct ones since February, Russia and Ukraine agreed a large exchange of prisoners of war; Kushner says the numbers will be fixed today, and TASS expects the swap within two to three weeks. Territory, which Kushner called the hardest issue, did not move. He and Witkoff now go to Moscow to brief Putin and then to Dublin to see Zelensky, whose team wants Europe in the next round.",
+          "source": "Al Jazeera; AP via Just Security, 11 Nov"
+        },
+        {
+          "title": "Iran says Hormuz stays shut as Trump predicts a quick end",
+          "body": "Trump said on Wednesday that the war would end soon. Iran's security chief Mohsen Rezaei denied any talks with Washington, set seven conditions for reopening the Strait of Hormuz, starting with an end to fighting on all fronts including Lebanon, and warned that a new US attack would bring strikes on US bases in Europe. Treasury Secretary Scott Bessent has moved onto a military base because of Iranian threats, the New York Times reports.",
+          "source": "Iran International; Just Security (NYT, Reuters), 11 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "UK arrests a US soldier on suspicion of spying for Russia",
+          "body": "Counter-terrorism police arrested a 41-year-old senior US Army soldier near Gloucester on Tuesday under the National Security Act, with MI5 and the FBI involved. It came a day after US tanker planes left RAF Mildenhall over an Iranian threat.",
+          "source": "Times of Israel; BBC via Just Security, 10-11 Nov"
+        },
+        {
+          "title": "House report finds no evidence against Trump in Epstein cases",
+          "body": "The Republican-led Oversight Committee concluded that federal authorities mishandled the Epstein investigations but found nothing implicating Trump, and called Democratic claims unfounded.",
+          "source": "NPR via Just Security, 11 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "The left meets again as the polls turn",
+          "body": "The four red-green parties met on Wednesday for the first time since Monday's talks collapsed and called it constructive, but Left Party leader Nooshi Dadgostar says V still demands cabinet seats, and Magdalena Andersson asked the Speaker to wait one to two weeks before the next prime-minister vote. The Centre Party repeats it will back no government with SD or V. An SVT/Verian poll puts S at 26.1 percent, its lowest under Andersson, and the Tidö parties ahead of the red-greens for the first time in over four years, 50.6 to 47.7 percent, within the margin of error.",
+          "source": "SVT; Corren (TT); Pressen, 11 Nov"
+        },
+        {
+          "title": "The Riksdag opens the door to revoking citizenship",
+          "body": "Parliament passed for the second and final time a constitutional change that allows citizenship to be withdrawn if it was obtained with false information, or after convictions for crimes that seriously harm Sweden's vital interests. It takes effect on 1 January 2027, but a separate law must still list the crimes and decide whether existing citizenships are covered.",
+          "source": "Verifiera; Sveriges Radio, 11 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Thursday 12 November: the caretaker government's 2027 budget at 08:00, Riksdag debate from 13:00; Sweden's extended border checks begin; European Political Community summit in Dublin; UK third-quarter GDP; prisoner-swap numbers due from the Abu Dhabi talks.",
+            "Friday 13 November: the Centre Party's 17:00 deadline for S and M to present full government plans; informal EU leaders' summit in Dublin; Mississippi certifies its Senate result.",
+            "Tuesday 17 November: Kristersson reports to the Speaker on government formation.",
+            "Later next week: APEC leaders meet in Shenzhen on 18-19 November; Anthropic expected to start trading on Nasdaq on 19 November."
+          ],
+          "source": "Riksdagen; Regeringen; Rio Times; Al Jazeera; CNBC; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Google opens Gemini 4 Carbon to paying users",
+          "body": "Two weeks after a restricted launch for cyber defenders, Google's top model is on the paid Gemini API, Google AI Ultra and GitHub Copilot at 2 dollars per million input tokens and 10 per million output, doubling after an introductory period. It scores 60 on Artificial Analysis's independent index, behind Claude Fable 5.2 at 65; Google also previewed /swarm, which splits one coding task across parallel agents checked by adversarial reviewer agents.",
+          "source": "Google; Data Studios; Mad Robot, 10 Nov"
+        },
+        {
+          "title": "Alibaba previews Qwen4-Max",
+          "body": "The first model of the next Qwen generation reads images and video, handles up to a million tokens of context and is available through Alibaba's Token Plan subscription and Qwen apps. Alibaba gave no benchmarks and has not said whether weights will be released.",
+          "source": "TechNode; Qwen, 11 Nov"
+        },
+        {
+          "title": "MiniMax releases an open-weight image model",
+          "body": "The Shanghai lab's H3-Image generates and edits pictures from up to 16 reference images and, by its own claim, renders 4K images in under ten seconds; the weights are downloadable.",
+          "source": "MiniMax via The Neuron, 10 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Tree-Ising (QDeep, ITMO University): recasts a recent agent-written weight repair of a looping Qwen3.5-0.8B as one small Ising optimisation per weight row; it beats the GPT-6 Astra agent's fix on MATH-500 (54.6 against 51.7 percent) with fewer changed weights and about 0.90 dollars of compute instead of 312, though the recipe was designed after studying the agent's logs (arXiv 2611.14210, top of Hugging Face papers).",
+            "WikiTrace (KAIST): agent memory that links each distilled lesson back to the run it came from so the agent can check it before acting; across eight benchmark suites it averages 90.2 against 79.5 without memory and cuts the cases where memory makes an agent fail tasks it would otherwise solve (arXiv 2611.14320, Hugging Face and alphaXiv).",
+            "Evolving Infra (Georgia Tech, UIUC, Berkeley, MIT and others): a serving system that moves GPUs between reading prompts and generating text as agent workloads shift, and keeps the cached context agents will reuse; on real Claude Code traces it cuts mean latency up to 4.1 times against Nvidia's Dynamo (arXiv 2611.12304, alphaXiv trending)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 9-10 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
+      "source": "Quanta Magazine (Charlie Wood)",
+      "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
+      "why": "Traces the argument over whether the quantum state describes reality itself or only our knowledge of it, from Einstein's 1935 objection and Bell's 1964 theorem to the 2012 PBR theorem, which rules out the comfortable middle ground in which the wavefunction is mere information about an objective world. Recent tests, including one run on an IBM quantum computer, back the theorem, leaving physicists to choose between a strange objective reality and none at all. A clear 'aha' about what quantum mechanics actually forbids, told through the people who proved it.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "source": "Anthropic, claude.dev blog (Barry Zhang, Tianyi Peng, Elle Najt, Keller Scholl, Lance Martin)",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "why": "Anthropic's own account of 1,000 agents running an early Fable 5.2 that re-proved Fermat's Last Theorem in Lean in under 30 hours with little human input and no special maths tooling. It shows how the agents organised themselves through a shared database, why their early pessimism about hard steps was wrong, how the hardest step was cracked by a tree of 2,418 subtasks, and how the team was sandboxed and monitored across a million tool calls. A first-hand look at what large agent teams can do and how a lab keeps them contained.",
+      "who": ""
+    },
+    {
+      "title": "Inference Performance Index: changing the way we measure inference capacity",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/inference-performance-index",
+      "why": "Epoch's new yardstick for how many AI agents a chip can actually serve, and why raw computing power badly misleads: a GB300 has only about 2.5 times an H100's arithmetic speed but roughly 25 times its capacity on agent workloads, because serving long-context agents is limited by memory and by how fast chips can talk to each other, not by arithmetic. It explains why rack-scale systems linking 72 GPUs beat eight-GPU servers by about 1.9 times, and gives a common unit (GB300-equivalents) for comparing fleets. Useful background for every data-centre and chip-export headline.",
+      "who": ""
+    }
+  ]
+}
