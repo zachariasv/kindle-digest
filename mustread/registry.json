@@ -67,32 +67,6 @@
    "minutes": 32
   },
   {
-   "url": "https://www.anthropic.com/research/provable-inference",
-   "title": "Progress on provable inference for large language models",
-   "source": "Anthropic",
-   "why": "Anthropic's own write-up of FlashProve, which lets a provider publish a fingerprint of a model's weights and then prove that a given reply came from exactly that model, without revealing the weights; anyone can check the proof on a CPU. It explains the goal (stopping a provider from quietly swapping in a cheaper model), the four guarantees a proof must give, and the engineering that made it practical: proving only the experts a mixture-of-experts model actually uses, batching proofs after the fact and streaming weights so it fits on one GPU. Real numbers throughout (about 72 times the GPU time of normal inference on Llama 4 Maverick, roughly 19 MB of proof per request, 17 seconds to verify), plus honest limits. The cryptographic machinery itself is named rather than explained, so read it for the what and why, not the proofs.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-02",
-   "added": "2026-11-05",
-   "impact": 7,
-   "minutes": 22
-  },
-  {
-   "url": "https://arxiv.org/html/2611.05306",
-   "title": "You don't need long context",
-   "source": "NVIDIA Research (arXiv 2611.05306)",
-   "why": "NVIDIA researchers argue that the race to million-token context windows is largely unnecessary. They first show why long context is expensive: on popular open models, generating a token at 256K context costs 3.6 to 7 times more than at 16K, a gap hidden by flat per-token retail prices. Then they show that frontier models lose little or nothing on 13 long-horizon and long-input benchmarks when an agent keeps its working context short by summarising its state often and reading files selectively, and that a coding agent still works when it compacts after every single action. They end by proposing 'semantic state space models' that carry a plain-language state between steps. Both an inference-economics lesson and a provocative architectural claim.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-03",
-   "added": "2026-11-05",
-   "impact": 7,
-   "minutes": 30
-  },
-  {
    "url": "https://arxiv.org/html/2611.06910",
    "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
    "source": "BenchFlow, UC Berkeley, Caltech, Stanford and others (arXiv 2611.06910)",
@@ -156,19 +130,6 @@
    "added": "2026-11-08",
    "impact": 6,
    "minutes": 33
-  },
-  {
-   "url": "https://www.quantamagazine.org/a-strange-quantum-theorem-has-killed-einsteins-reality-20261106/",
-   "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
-   "source": "Quanta Magazine (Charlie Wood)",
-   "why": "Traces the argument over whether the quantum state describes reality itself or only our knowledge of it, from Einstein's 1935 objection and Bell's 1964 theorem to the 2012 PBR theorem, which rules out the comfortable middle ground in which the wavefunction is mere information about an objective world. Recent tests, including one run on an IBM quantum computer, back the theorem, leaving physicists to choose between a strange objective reality and none at all. A clear 'aha' about what quantum mechanics actually forbids, told through the people who proved it.",
-   "who": "",
-   "category": "science",
-   "kind": "evergreen",
-   "published": "2026-11-06",
-   "added": "2026-11-09",
-   "impact": 7,
-   "minutes": 12
   },
   {
    "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
@@ -247,6 +208,32 @@
    "added": "2026-11-12",
    "impact": 6,
    "minutes": 18
+  },
+  {
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+   "source": "Unemployment Labs (Will DePue)",
+   "why": "A first-hand forensic study showing that the way PyTorch splits random weight initialisation across a GPU's processors leaves a trace of the chip in every published model, and using it to argue that six recent models from DeepSeek, Moonshot, MiniMax and Ant Group began training on Nvidia Blackwell chips that cannot legally be exported to China. It explains the method, how it was validated on real H100, B300, GB200 and MI300X hardware, what the training runs likely cost, and, carefully, what the evidence does not prove. A sharp intersection of AI engineering, export controls and US-China rivalry that will be argued over for weeks.",
+   "who": "",
+   "category": "investigation",
+   "kind": "fresh",
+   "published": "2026-11-12",
+   "added": "2026-11-13",
+   "impact": 8,
+   "minutes": 22
+  },
+  {
+   "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
+   "title": "The Evolving Story of How Chemistry Became Biology",
+   "source": "Quanta Magazine (Yasemin Saplakoglu)",
+   "why": "The capstone of Quanta's origins-of-life week: how the field moved past decades of rival 'RNA first' versus 'metabolism first' camps to asking how a messy chemical mix became a stable, evolving system, why the period before the last universal common ancestor matters most, and what a 2026 synthetic cell that grew and divided does and does not show. A clear map of one of science's biggest open questions.",
+   "who": "",
+   "category": "science",
+   "kind": "evergreen",
+   "published": "2026-11-12",
+   "added": "2026-11-13",
+   "impact": 6,
+   "minutes": 24
   }
  ],
  "history": [

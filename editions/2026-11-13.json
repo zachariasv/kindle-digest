@@ -1,0 +1,113 @@
+{
+  "date": "2026-11-13",
+  "title": "Morning Digest, Friday 13 November 2026",
+  "intro": "Jensen Huang resigns as Nvidia's chief executive, Putin meets the US envoys as Europe is promised a seat at the next round, Spain holds its first general strike in 14 years, the Centre Party's deadline for a Swedish government plan runs out tonight, and Google launches Gemini 4 Hydrogen.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Jensen Huang resigns from Nvidia",
+          "body": "The board accepted the co-founder's resignation as chief executive and director on Wednesday and announced it on Thursday, ending 33 years at the top, after reports of two affairs: one with a former executive alleged to have worked for Chinese intelligence, one with a senior manager who reported to him. The board says it has no reason to think national security was harmed. Finance chief Colette Kress is interim CEO, long-serving director Harvey Jones becomes the board's first chair, and the shares fell more than 11 percent before trading opened.",
+          "source": "TechCrunch; Al Jazeera, 12 Nov"
+        },
+        {
+          "title": "Putin sees the US envoys, and Europe is promised a seat",
+          "body": "Putin met Witkoff and Kushner in the Kremlin on Thursday; his aide called the talks useful and said three-way negotiations will continue, while Putin repeated that NATO must not expand. The envoys then briefed Zelensky outside Dublin, where 50 European leaders were meeting, and Witkoff said Europeans will join the next round, which Moscow has not confirmed. Russian officials say the prisoner swap agreed in Abu Dhabi could exceed 1,000 per side within two to three weeks.",
+          "source": "HNGN (Reuters, TASS); TheJournal.ie; Irish Times, 12 Nov"
+        },
+        {
+          "title": "Spain's first general strike in 14 years",
+          "body": "The two largest unions halted much of industry, ports and transport on Wednesday over rents and wages; hundreds of thousands marched in Madrid and Barcelona, although organisers' and police counts differ several-fold, and more than 70 people were arrested. The strike comes 18 days before a snap election in which the conservative PP leads the polls and could govern with the far-right Vox.",
+          "source": "Euronews; Al Jazeera, 10-12 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Russia's ambassador to Washington dies suddenly",
+          "body": "Alexander Darchiev, 66, Moscow's envoy to the US since March 2025 and a veteran of Russia-US relations, died on Wednesday; the foreign ministry gave no cause.",
+          "source": "Al Jazeera; Forbes, 11 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "The Centre Party's deadline runs out tonight, and the Left won't budge",
+          "body": "Centre leader Elisabeth Thand Ringqvist wants complete government packages from Magdalena Andersson (S) and Ulf Kristersson (M) by 17:00 today, and told the Left Party to drop its demand for cabinet seats by the same hour. Left deputy leader Ida Gabrielsson called that playing to the gallery, said V will sit in government, and cancelled Thursday's meetings with S, C and MP; V will only rejoin four-party talks if C picks Andersson's package. Andersson says every party behind a government must be guaranteed influence.",
+          "source": "SVT, 12 Nov"
+        },
+        {
+          "title": "A caretaker budget with more for defence",
+          "body": "Finance Minister Elisabeth Svantesson presented the 2027 budget on Thursday under a cross-party agreement that excludes election promises and new policy. Defence spending rises, but previously announced increases for police, research and healthcare are left out for the next government to decide.",
+          "source": "SVT; Kvartal, 12 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Friday 13 November: the Centre Party's 17:00 deadline for S and M government packages and for V's answer on cabinet seats; informal EU leaders' meeting in Dublin.",
+            "Tuesday 17 November: Kristersson reports to the Speaker on government formation; Nvidia reports quarterly results, its first under an interim CEO.",
+            "Next week: a new three-way round of Ukraine talks, with Europeans expected to join; the Abu Dhabi prisoner swap is due within two to three weeks.",
+            "Wednesday-Thursday 18-19 November: APEC leaders meet in Shenzhen, where Beijing says a Xi-Trump-Putin meeting is under discussion; Anthropic is expected to start trading on Nasdaq on 19 November."
+          ],
+          "source": "SVT; Nvidia; HNGN; Korea Times; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Google launches Gemini 4 Hydrogen",
+          "body": "The successor to Google's cheaper Flash line is rolling out worldwide in the Gemini app, Search and the API at 1.50 dollars per million input tokens and 7.50 per million output, pricier than Flash but well below Gemini 4 Argon and Carbon. It scores 51 on Artificial Analysis's independent index, one point above Argon at high effort, and a new Orchestrator in Google's Antigravity coding tool switches between Hydrogen and Carbon within one task.",
+          "source": "VentureBeat, 12 Nov"
+        },
+        {
+          "title": "Researcher says top Chinese models were trained on banned Nvidia chips",
+          "body": "Will DePue of Unemployment Labs reports that the way PyTorch spreads random starting weights across a GPU's processors leaves a hardware fingerprint in published models, and that six models from DeepSeek, Moonshot, MiniMax and Ant Group match Nvidia's Blackwell chips, which may not be sold to China. He stresses it shows where training began, not who owned the chips or whether rules were broken; the method has not yet been independently checked.",
+          "source": "Unemployment Labs, 12 Nov"
+        },
+        {
+          "title": "Nonprofits sue to halt frontier AI development",
+          "body": "Four groups including Public Citizen asked a San Francisco court to stop Anthropic, Google, Meta, OpenAI and SpaceX from building or releasing new models, arguing under California's unfair-competition law that they endanger public health, and citing AI-driven cyberattacks and the companies' own risk warnings.",
+          "source": "BNN Bloomberg, 12 Nov"
+        },
+        {
+          "title": "TSMC buys into its biggest AI customers",
+          "body": "The chipmaker's board approved up to 1 billion dollars: 500 million in OpenAI preferred shares and 500 million in Anthropic stock at the IPO price. Analysts warn that suppliers funding their own buyers make real AI demand harder to read.",
+          "source": "Reuters via The Star, 10 Nov"
+        },
+        {
+          "title": "DeepMind releases AlphaGenome 2",
+          "body": "The DNA model now predicts how a genetic variant acts in a chosen cell type, trained on over 100 million single-cell profiles from 68 tissues; on an immune-cell test it identifies the causal variant 30 percent of the time, against 16 for its predecessor. Non-commercial researchers can use it through an API.",
+          "source": "Google DeepMind, 11 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "TOME-Math (Shanghai AI Lab, USTC, Fudan): turns 2,118 university maths textbooks into 380,000 proof exercises that keep chapter order and theorem dependencies; fine-tuning Qwen3-30B-A3B on it lifts a six-benchmark average from 29.2 to 45.8 percent, beating a corpus nearly five times larger, and studying chapters in textbook order beats shuffling them (arXiv 2610.40394, top of Hugging Face papers).",
+            "Embodied First Exam (Northwestern, CMU, Berkeley, Stanford and others): 1,156 tasks on 47 simulated robots, from arms to humanoids and drones, in which coding agents choose whether to steer directly, write controllers or train a policy; using only their own sensors, the best agent, GPT-6 Astra in Codex, solves 34 percent of the 456 core tasks (arXiv 2611.12177, alphaXiv trending).",
+            "An Energy-Based Perspective on Machine Learning (Bo Dai, Georgia Tech; Yilun Du, Harvard): a 60-page tutorial arguing that classifiers, diffusion and autoregressive models, contrastive learning, RL policies and verifier-guided reasoning are all energy-based models differing in three choices, so swapping one component suggests new methods (arXiv 2611.14383, alphaXiv trending)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 29 Oct-10 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
