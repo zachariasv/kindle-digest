@@ -1,0 +1,276 @@
+{
+ "fetched_at": "2026-11-14T10:55:06+00:00",
+ "source": "hn.algolia.com front_page",
+ "stories": [
+  {
+   "rank": 1,
+   "title": "FAA issues national ground stop – lifted 4.5 hours later",
+   "url": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
+   "points": 1551,
+   "comments": 1174,
+   "hn_url": "https://news.ycombinator.com/item?id=50489641",
+   "created_at": "2026-11-13T21:05:53Z"
+  },
+  {
+   "rank": 2,
+   "title": "Reverse engineering my Coway air purifier to ditch the cloud",
+   "url": "https://scottjg.com/posts/2026-11-11-reverse-engineering-my-coway-air-purifier-to-ditch-the-cloud/",
+   "points": 755,
+   "comments": 213,
+   "hn_url": "https://news.ycombinator.com/item?id=50474959",
+   "created_at": "2026-11-12T22:03:09Z"
+  },
+  {
+   "rank": 3,
+   "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+   "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+   "points": 599,
+   "comments": 348,
+   "hn_url": "https://news.ycombinator.com/item?id=50493251",
+   "created_at": "2026-11-14T02:52:59Z"
+  },
+  {
+   "rank": 4,
+   "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+   "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+   "points": 302,
+   "comments": 375,
+   "hn_url": "https://news.ycombinator.com/item?id=50484658",
+   "created_at": "2026-11-13T15:08:44Z"
+  },
+  {
+   "rank": 5,
+   "title": "Ggml v1.0.0",
+   "url": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+   "points": 273,
+   "comments": 44,
+   "hn_url": "https://news.ycombinator.com/item?id=50493062",
+   "created_at": "2026-11-14T02:28:29Z"
+  },
+  {
+   "rank": 6,
+   "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
+   "url": "https://orcasairband.com/",
+   "points": 266,
+   "comments": 61,
+   "hn_url": "https://news.ycombinator.com/item?id=50490593",
+   "created_at": "2026-11-13T22:04:24Z"
+  },
+  {
+   "rank": 7,
+   "title": "Terminal borders that don't cost a cell",
+   "url": "https://www.joshka.net/cell-borders/",
+   "points": 264,
+   "comments": 117,
+   "hn_url": "https://news.ycombinator.com/item?id=50491423",
+   "created_at": "2026-11-13T23:06:40Z"
+  },
+  {
+   "rank": 8,
+   "title": "After 600 experiments, here's what I discovered about JEPA world models",
+   "url": "https://haddyalchaer.com/jepa",
+   "points": 263,
+   "comments": 42,
+   "hn_url": "https://news.ycombinator.com/item?id=50487185",
+   "created_at": "2026-11-13T17:55:28Z"
+  },
+  {
+   "rank": 9,
+   "title": "FM-1 Workbench",
+   "url": "https://open.m-vave.com/fm1-workbench",
+   "points": 238,
+   "comments": 159,
+   "hn_url": "https://news.ycombinator.com/item?id=50488325",
+   "created_at": "2026-11-13T19:14:02Z"
+  },
+  {
+   "rank": 10,
+   "title": "Show HN: Isometric SF – A pixel-art map of the SF Bay Area",
+   "url": "https://isometricsf.com/",
+   "points": 215,
+   "comments": 70,
+   "hn_url": "https://news.ycombinator.com/item?id=50487228",
+   "created_at": "2026-11-13T17:58:37Z"
+  },
+  {
+   "rank": 11,
+   "title": "A technical vision for the Haskell ecosystem",
+   "url": "https://discourse.haskell.org/t/a-technical-vision-for-the-haskell-ecosystem/15078",
+   "points": 208,
+   "comments": 124,
+   "hn_url": "https://news.ycombinator.com/item?id=50484235",
+   "created_at": "2026-11-13T14:43:12Z"
+  },
+  {
+   "rank": 12,
+   "title": "Found: A protein that drives ageing without unleashing inflammation",
+   "url": "https://www.nature.com/articles/d41586-026-03638-3",
+   "points": 205,
+   "comments": 36,
+   "hn_url": "https://news.ycombinator.com/item?id=50488470",
+   "created_at": "2026-11-13T19:25:21Z"
+  },
+  {
+   "rank": 13,
+   "title": "Minnesota guitarist's \"palmfrets\" invention strikes a new chord",
+   "url": "https://www.echopress.com/business/minnesota-guitarists-invention-strikes-a-new-chord",
+   "points": 174,
+   "comments": 100,
+   "hn_url": "https://news.ycombinator.com/item?id=50484650",
+   "created_at": "2026-11-13T15:08:07Z"
+  },
+  {
+   "rank": 14,
+   "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
+   "url": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
+   "points": 168,
+   "comments": 60,
+   "hn_url": "https://news.ycombinator.com/item?id=50492315",
+   "created_at": "2026-11-14T00:52:29Z"
+  },
+  {
+   "rank": 15,
+   "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+   "url": "https://grounds.top/",
+   "points": 151,
+   "comments": 21,
+   "hn_url": "https://news.ycombinator.com/item?id=50491545",
+   "created_at": "2026-11-13T23:17:39Z"
+  },
+  {
+   "rank": 16,
+   "title": "What happened to 3Com?",
+   "url": "https://dfarq.homeip.net/what-happened-to-3com/",
+   "points": 149,
+   "comments": 76,
+   "hn_url": "https://news.ycombinator.com/item?id=50491830",
+   "created_at": "2026-11-13T23:48:59Z"
+  },
+  {
+   "rank": 17,
+   "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+   "url": "https://unsloth.ai/docs/models/qwen3.8",
+   "points": 149,
+   "comments": 44,
+   "hn_url": "https://news.ycombinator.com/item?id=50491980",
+   "created_at": "2026-11-14T00:06:04Z"
+  },
+  {
+   "rank": 18,
+   "title": "Elephants found to be increasingly isolated leading to fractured social networks",
+   "url": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+   "points": 138,
+   "comments": 30,
+   "hn_url": "https://news.ycombinator.com/item?id=50492860",
+   "created_at": "2026-11-14T02:02:42Z"
+  },
+  {
+   "rank": 19,
+   "title": "Monkey Island: all 13 versions side by side",
+   "url": "https://monkeyisland.pages.dev/",
+   "points": 137,
+   "comments": 34,
+   "hn_url": "https://news.ycombinator.com/item?id=50493904",
+   "created_at": "2026-11-14T04:23:30Z"
+  },
+  {
+   "rank": 20,
+   "title": "Perplexity Decider v1.3: Training, eval, and use cases",
+   "url": "https://www.perplexity.ai/hub/blog/perplexity-decider",
+   "points": 131,
+   "comments": 23,
+   "hn_url": "https://news.ycombinator.com/item?id=50488464",
+   "created_at": "2026-11-13T19:24:47Z"
+  },
+  {
+   "rank": 21,
+   "title": "How Not to Build a Music Player",
+   "url": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
+   "points": 118,
+   "comments": 47,
+   "hn_url": "https://news.ycombinator.com/item?id=50491400",
+   "created_at": "2026-11-13T23:04:30Z"
+  },
+  {
+   "rank": 22,
+   "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+   "url": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+   "points": 108,
+   "comments": 11,
+   "hn_url": "https://news.ycombinator.com/item?id=50492950",
+   "created_at": "2026-11-14T02:15:41Z"
+  },
+  {
+   "rank": 23,
+   "title": "Live-migration support in FreeBSD and bhyve coming",
+   "url": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
+   "points": 107,
+   "comments": 25,
+   "hn_url": "https://news.ycombinator.com/item?id=50488835",
+   "created_at": "2026-11-13T19:58:42Z"
+  },
+  {
+   "rank": 24,
+   "title": "Ctrl+C, Ctrl+v, Ctrl+cve: Bypassing Android's Clipboard Read Security Measures",
+   "url": "https://toninoble.com/post/ctrlc-ctrlv-ctrlcve",
+   "points": 88,
+   "comments": 43,
+   "hn_url": "https://news.ycombinator.com/item?id=50487605",
+   "created_at": "2026-11-13T18:23:49Z"
+  },
+  {
+   "rank": 25,
+   "title": "Why get an expensive Pi when I have an old phone?",
+   "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/",
+   "points": 74,
+   "comments": 38,
+   "hn_url": "https://news.ycombinator.com/item?id=50440709",
+   "created_at": "2026-11-10T14:16:05Z"
+  },
+  {
+   "rank": 26,
+   "title": "Show HN: I have trained 15 blood glucose forecasting models on my own data",
+   "url": "https://github.com/0xdeadf1sh/T1DMAI",
+   "points": 36,
+   "comments": 12,
+   "hn_url": "https://news.ycombinator.com/item?id=50444761",
+   "created_at": "2026-11-10T19:07:53Z"
+  },
+  {
+   "rank": 27,
+   "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+   "url": null,
+   "points": 31,
+   "comments": 31,
+   "hn_url": "https://news.ycombinator.com/item?id=50494696",
+   "created_at": "2026-11-14T06:56:42Z"
+  },
+  {
+   "rank": 28,
+   "title": "The Other Nefertiti (2015)",
+   "url": "https://alloversky.com/puzzlepieces/the-other-nefertiti",
+   "points": 20,
+   "comments": 3,
+   "hn_url": "https://news.ycombinator.com/item?id=50462975",
+   "created_at": "2026-11-12T04:08:33Z"
+  },
+  {
+   "rank": 29,
+   "title": "Extending LLDB to Debug Applications That Span CPUs and GPUs",
+   "url": "https://engineering.fb.com/2026/11/09/developer-tools/extending-lldb-to-debug-applications-that-span-cpus-and-gpus/",
+   "points": 17,
+   "comments": 3,
+   "hn_url": "https://news.ycombinator.com/item?id=50448432",
+   "created_at": "2026-11-11T00:48:14Z"
+  },
+  {
+   "rank": 30,
+   "title": "Service Crew Discovers Rare Yellow Burbot in Oswego Harbor",
+   "url": "https://www.fws.gov/story/2026-11/service-crew-discovers-rare-yellow-burbot-oswego-harbor",
+   "points": 4,
+   "comments": 1,
+   "hn_url": "https://news.ycombinator.com/item?id=50454791",
+   "created_at": "2026-11-11T15:47:43Z"
+  }
+ ]
+}
