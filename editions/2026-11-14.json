@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-14",
+  "title": "Morning Digest, Saturday 14 November 2026",
+  "intro": "A telecoms failure grounds every US flight for four hours, the White House says Trump, Xi and Putin will meet together in China next week, Nvidia's board sounds out Arm's chief, Kristersson and Andersson hand the Centre Party rival government offers, and Claude helps decode Gödel's notebooks.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "A telecoms outage halts all US departures",
+          "body": "The FAA stopped every departing flight in the country from 15:54 to 20:15 Eastern time on Friday after switches and routers serving the regional air-traffic centres were overloaded and failed, according to Transportation Secretary Sean Duffy; radar and communications were never fully lost, and Homeland Security says there are no signs of a cyberattack. More than 4,700 flights were cancelled and about 10,000 delayed, and it is only the third nationwide ground stop since 9/11.",
+          "source": "Al Jazeera; CBS News; Yahoo News, 13-14 Nov"
+        },
+        {
+          "title": "Trump, Xi and Putin plan their first three-way meeting",
+          "body": "The White House says the three leaders will meet on the sidelines of the APEC summit in Shenzhen next week, the first such meeting ever, with nuclear arms reduction as the stated topic and Iran possibly raised; Ukraine is not expected on the agenda, and a US official said no agreement is expected. Moscow and Beijing have not confirmed it; the last US-Russia nuclear arms treaty expired in February.",
+          "source": "Yahoo News (BBC); ABC News, 13-14 Nov"
+        },
+        {
+          "title": "Nvidia's board approaches Arm's chief executive",
+          "body": "The board has sounded out Arm CEO Rene Haas, who spent seven years at Nvidia, as a possible successor to Jensen Huang, the Financial Times reports, though it says no candidate has been formally engaged; Reuters meanwhile reports a third relationship between Huang and an employee. Nvidia lost about 12 percent this week and closed below 4 trillion dollars in market value for the first time since July 2025.",
+          "source": "Reuters via Lufkin Daily News; Yahoo Finance; CoinCentral (Reuters), 13 Nov"
+        },
+        {
+          "title": "Iran says it hit a US radar in Bahrain",
+          "body": "The Revolutionary Guards claim to have destroyed a US early-warning radar in Bahrain, home of the US Fifth Fleet, in retaliation for a strike on a telecom tower in southern Iran; it would be their first attack on a Gulf state since September. Neither Washington nor Bahrain has confirmed it, and Trump said he would resume strikes on Iran without hesitation if things turned against the US.",
+          "source": "Times of Israel; Drop Site News, 13 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "US inflation pressure keeps building",
+          "body": "Wholesale prices rose 6.5 percent over the past year in October, the fastest pace since 2022, and the yield on ten-year US government bonds reached 5.17 percent, its highest since October, raising the odds that the Federal Reserve raises interest rates in December.",
+          "source": "Yahoo Finance, 13 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Kristersson and Andersson hand the Centre Party rival offers",
+          "body": "Both met the Centre Party's 17:00 deadline on Friday. Ulf Kristersson proposes a centre-right minority government of M, C, KD and L, with the Sweden Democrats outside and needed to pass budgets; TV4's sources say it gives C much of what it wants, including lower taxes, stronger forest-owner rights and looser shoreline protection, which M has not confirmed. Magdalena Andersson wants S, C and MP in government with the Left Party outside, and says such a government is within reach. Centre leader Elisabeth Thand Ringqvist says the party will now weigh both offers internally and has given no date for a decision.",
+          "source": "SVT; Fokus; Metromode (TV4), 13 Nov"
+        },
+        {
+          "title": "Snowstorm strands traffic in Norrland",
+          "body": "Up to 100 vehicles were stuck overnight on the E4 between Örnsköldsvik and Härnösand as up to a metre of snow fell along the Västerbotten coast; SMHI lowered its red warning for Skellefteå to orange on Friday, and Trafikverket urged people not to drive in the warning areas.",
+          "source": "News55, 13 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Tuesday 17 November: Kristersson reports to the Speaker on government formation; Nvidia reports quarterly results, its first under interim CEO Colette Kress; Trump attends an ASEAN summit in the Philippines.",
+            "Wednesday 18 November: APEC leaders meet in Shenzhen (18-19 November), with Trump arriving late in the day; Anthropic's IPO is expected to be priced, in a range of 70-78 dollars a share.",
+            "Thursday 19 November: Trump-Xi bilateral talks, with the three-way meeting with Putin at the end of the trip; Anthropic expected to start trading on Nasdaq.",
+            "Open-ended: the Centre Party's decision between the Kristersson and Andersson offers; a new round of Ukraine talks with Europeans expected to join."
+          ],
+          "source": "Yahoo News (BBC); Yahoo Finance; CNBC; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Claude helps decode Gödel's notebooks",
+          "body": "Helsinki logician Jan von Plato, who has spent years transcribing Kurt Gödel's 16 shorthand workbooks from the early 1940s, says Claude turned his transcriptions into a 650-page digest in days and surfaced 663 candidate theorems; checked in the Coq proof assistant, about 400 held as stated, about 200 needed fixing and about 50 were false. He also reports a nearly complete proof of the independence of the axiom of choice, the result that won Paul Cohen the 1966 Fields Medal. No paper or data has been released for outside checking yet.",
+          "source": "The Guardian via explainx.ai and Positron Today, 13-14 Nov"
+        },
+        {
+          "title": "Thinking Machines opens the weights of Inkling 2 Small",
+          "body": "Mira Murati's lab released the 594-billion-parameter mixture-of-experts model, which uses 17 billion parameters per token, on Hugging Face on 12 November after a week of closed access for safety testing. It scores 31 on Artificial Analysis's independent index and is strong on coding, though behind DeepSeek's latest Flash model on several tests.",
+          "source": "Let's Data Science; Thinking Machines, 5-12 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Unbundling Multimodal Vision Encoding (Meta FAIR, NYU, with Saining Xie and Lucas Beyer): training every model from scratch at equal total compute shows that pretraining a separate vision encoder brings no gain, but dedicated vision-only parameters do, and they can sit in the language model's first layers instead of a separate encoder, cutting time to first token; encoder-free models need about three times the compute to catch up (arXiv 2611.17334, top of alphaXiv and on Hugging Face papers).",
+            "FOAM (NAVER AI Lab): a slimmed-down version of the SOAP second-order optimiser that keeps only the input-side curvature factor and a factored second moment, matching SOAP's loss within about 0.005 nats on GPT-2-scale pretraining with half its memory and reaching AdamW's final loss in AdamW's own wall-clock time, against 2.15 times for SOAP at 760M parameters (arXiv 2611.16905, alphaXiv and Hugging Face).",
+            "Actor, Judge, or Teacher? (Zhejiang University, Baidu): a decision model that solves only 43 percent of ALFWorld household tasks itself can still teach well, because when it scores each action after seeing the whole episode, asking whether the action helped, a 1.5B policy trained with GRPO rises from 72.8 to 82.9 percent and beats a 7B policy, for about 30 dollars of queries per run (arXiv 2611.17167, alphaXiv and Hugging Face)."
+          ],
+          "source": "arXiv via alphaXiv; Hugging Face, 12 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}

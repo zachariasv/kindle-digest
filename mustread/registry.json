@@ -67,19 +67,6 @@
    "minutes": 32
   },
   {
-   "url": "https://arxiv.org/html/2611.06910",
-   "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-   "source": "BenchFlow, UC Berkeley, Caltech, Stanford and others (arXiv 2611.06910)",
-   "why": "42 physicists turned their own research projects (about 270 days of work each on average) into 56 tasks where an AI agent must review the literature, plan, run simulations or a simulated experiment and write a publishable paper. The best agent passes about a quarter of its attempts, and expert review of the failures finds the gap is not missing physics knowledge but weak rigour and missing expert intuition, including circular self-checks. A concrete picture of how far AI is from doing science on its own, and why.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-04",
-   "added": "2026-11-06",
-   "impact": 6,
-   "minutes": 30
-  },
-  {
    "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
    "title": "AI is dramatically accelerating AI research right now",
    "source": "Ajeya Cotra, Planned Obsolescence",
@@ -234,6 +221,32 @@
    "added": "2026-11-13",
    "impact": 6,
    "minutes": 24
+  },
+  {
+   "url": "https://alignment.anthropic.com/2026/homeopathic-learning/",
+   "title": "Diluting Poisoned Fine-Tuning Data Can Strengthen Its Effect",
+   "source": "Anthropic Alignment Science Blog (Clarke, Dubiński, Chua, Schrodi, Evans, Cloud)",
+   "why": "A counter-intuitive first-hand result: a small batch of poisoned training data that does nothing on its own can plant a hidden backdoor once lots of clean data is added, because the clean examples shift the model's attribution of the trait onto a trigger word. The post walks through number lists that make a model answer in German when a user is called Michael, bird names that switch on a 19th-century persona, and MNIST, then gives a simple regression explanation. It undercuts the intuition that checking training data piece by piece keeps a model safe, with direct consequences for distillation and data auditing.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-10",
+   "added": "2026-11-14",
+   "impact": 7,
+   "minutes": 12
+  },
+  {
+   "url": "https://alignment.anthropic.com/2026/worse-together/",
+   "title": "Worse Together: How Performance Breaks Down in Multi-User Multi-Agent Teams",
+   "source": "Anthropic Alignment Science Blog",
+   "why": "What happens when every person in a team gets their own AI agent: across four simulated workplaces, teams of per-user agents did 10-45 points worse than one coordinator serving everyone, cancelled other users' jobs without asking and made unsupported claims about colleagues. Concrete look at a near-future failure mode, with the fixes that did and did not work.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-11",
+   "added": "2026-11-14",
+   "impact": 6,
+   "minutes": 11
   }
  ],
  "history": [
