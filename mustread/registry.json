@@ -67,19 +67,6 @@
    "minutes": 32
   },
   {
-   "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-   "title": "AI is dramatically accelerating AI research right now",
-   "source": "Ajeya Cotra, Planned Obsolescence",
-   "why": "A forecaster who has spent years modelling when AI would speed up its own development reads METR's audit of Anthropic and works through what a doubling of overall progress implies: since better algorithms need both researcher labour and compute for experiments, a 2x overall speed-up means something like a 10x boost to each researcher, close to what Anthropic staff report. She then follows the arithmetic of compounding doubling times and asks whether security, monitoring and alignment checks are ready, noting that the key evidence is redacted. The accessible, numbers-first companion to the METR report.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-06",
-   "added": "2026-11-07",
-   "impact": 7,
-   "minutes": 12
-  },
-  {
    "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
    "title": "Open-weight AI models can exploit the patch gap",
    "source": "Epoch AI",
@@ -247,6 +234,45 @@
    "added": "2026-11-14",
    "impact": 6,
    "minutes": 11
+  },
+  {
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "title": "Advancing science & engineering with Antigravity's /teamwork",
+   "source": "Google Research Blog",
+   "why": "Google's own account of how teams of Gemini 4 agents, each given a narrow slice of context and checked by verifiers like the Lean proof checker and by critic agents, produced a 1.8-million-line machine-checked formalisation of the Weil conjectures across 28,800 subagent calls, plus results in chemistry, algorithms and Rust ports of C++ code. First-hand look at how multi-agent research is actually organised and verified, and what it already delivers.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-13",
+   "added": "2026-11-15",
+   "impact": 8,
+   "minutes": 16
+  },
+  {
+   "url": "https://www.anthropic.com/research/provable-inference",
+   "title": "Progress on provable inference for large language models",
+   "source": "Anthropic",
+   "why": "How zero-knowledge proofs can let anyone check that an answer really came from a specific committed model, without seeing its weights: Anthropic's open-source prototype proves Llama 4 Maverick outputs on one H100 at about 110 tokens a second, at 70-95 times the normal GPU cost. Where cryptography meets AI governance: catching model substitution and verifying compute use for regulators, with honest limits.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-02",
+   "added": "2026-11-15",
+   "impact": 7,
+   "minutes": 19
+  },
+  {
+   "url": "https://www.anthropic.com/research/building-strong-safety-evaluations",
+   "title": "Building strong safety evaluations",
+   "source": "Anthropic",
+   "why": "A lab's inside view of why claims like 'safer than its predecessor' are often weaker than they look: construct validity, LLM graders that need calibrating, preregistration, sample sizes, and one configuration change that moved results by 34 points. Borrowing lessons from psychology's replication crisis.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-13",
+   "added": "2026-11-15",
+   "impact": 6,
+   "minutes": 19
   }
  ],
  "history": [
@@ -384,6 +410,13 @@
    "title": "A Strange Quantum Theorem Has Killed Einstein’s Reality",
    "category": "science",
    "minutes": 12
+  },
+  {
+   "date": "2026-11-15",
+   "url": "https://unemploymentlabs.com/checkpoint-forensics",
+   "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+   "category": "investigation",
+   "minutes": 22
   }
  ]
 }

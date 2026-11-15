@@ -1,0 +1,155 @@
+{
+  "date": "2026-11-15",
+  "title": "Morning Digest, Sunday 15 November 2026",
+  "intro": "Zelensky says Washington floated Donbas for NATO membership, SpaceX catches a Starship that came back from orbit, the US loses its measles-free status, the Centre Party weighs two offers as the Social Democrats threaten to block a centre-right budget, and Anthropic's listing is heavily oversubscribed.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Zelensky says the US floated Donbas for NATO membership",
+          "body": "US negotiators raised the idea of Ukraine giving up the parts of Donbas it still holds in return for joining NATO, Zelensky told reporters on Friday, the first time membership has been tied to territory. He refused to cede land but said a full package of security guarantees and reconstruction money could be put to a referendum; Washington has not commented, and EU leaders meeting in Ireland named a European negotiating team of the UK, France, Germany, Italy, Poland and EU officials.",
+          "source": "Al Jazeera; RFE/RL, 14 Nov"
+        },
+        {
+          "title": "SpaceX catches a Starship that came back from orbit",
+          "body": "On Flight 15 the ship circled Earth 14 times, released 26 large Starlink satellites and was caught by the launch tower's arms at Starbase on Saturday, the first recovery of an upper stage after an orbital flight. The booster was sent to the sea instead of the tower after a guidance problem, so full reuse of both stages has still not been shown.",
+          "source": "SpacePolicyOnline; Aviation Week, 14 Nov"
+        },
+        {
+          "title": "The US loses its measles-free status",
+          "body": "A Pan American Health Organization commission found that measles has spread continuously in the US for more than a year, ending the elimination status held since 2000, according to the Wall Street Journal. The CDC counts over 5,400 cases this year, more than double 2025, and states report ten deaths, while vaccination among kindergarten children has fallen to 92.4 percent.",
+          "source": "Contagion Live (WSJ, Reuters); CNN, 13-14 Nov"
+        },
+        {
+          "title": "The US denies Iran hit its radar in Bahrain",
+          "body": "US Central Command says it shot down two Iranian drones heading for Bahrain and that nothing was damaged, contradicting the Revolutionary Guards' claim. Secretary of State Rubio said further strikes are not needed because economic pressure on Iran is severe, while Iran told the UN nuclear watchdog that inspections cannot resume under military threat.",
+          "source": "RFE/RL; CP24 (AP), 13-14 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "France protests for a fifth Saturday",
+          "body": "About 106,000 people marched nationwide according to the interior ministry, fewer than in recent weeks, against living costs, school funding and a bill giving police more legal protection when they fire their weapons. Unions rejected a 0.6 percent minimum-wage offer and have called another strike for Tuesday.",
+          "source": "Euronews, 14 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Centre Party weighs the offers as S threatens the budget",
+          "body": "The Centre Party is discussing Kristersson's and Andersson's packages at several party levels this weekend and is not commenting; a decision is not expected before Monday. The Social Democrats are raising the stakes: Mikael Damberg says S, V and MP together outnumber the four centre-right parties and would vote down their budget, forcing a Kristersson government to rely on the Sweden Democrats. Andersson is offering constitutional protection for private forest ownership, a key Centre demand, and argues that if a deal including the Left fails, only a government with both S and M can work. The Left still demands cabinet posts, and internal sources describe a centre-right choice as the more divisive one for the Centre Party.",
+          "source": "SVT; Svenska Epoch Times (TT); Sejfer, 13-14 Nov"
+        },
+        {
+          "title": "Forsmark 3 shut down, leaving two of six reactors running",
+          "body": "A short circuit in a cable bundle forced a full stop of the reactor, which should return around 20 November. With Forsmark 1 and Ringhals 3 and 4 also down for maintenance, analysts expect higher electricity prices in southern Sweden late next week, especially if it turns cold and still.",
+          "source": "TV4 (TT); SVT Text, 14 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Monday 16 November: earliest expected Centre Party decision between the Kristersson and Andersson offers.",
+            "Tuesday 17 November: Kristersson reports to the Speaker on government formation; Nvidia reports quarterly results, its first since Huang's resignation; Trump in Manila for US-ASEAN and Quad meetings; another national strike in France.",
+            "Wednesday 18 November: APEC leaders meet in Shenzhen (to Thursday); Anthropic's share offering expected to be priced.",
+            "Thursday 19 November: Trump-Xi talks, then the planned three-way meeting with Putin on nuclear arms; Anthropic expected to begin trading on Nasdaq.",
+            "Friday 20 November: EU-UK summit in Brussels on defence, trade and youth mobility; Forsmark 3 and Ringhals 4 due back online.",
+            "During the week: a closed-door congressional briefing on Nvidia."
+          ],
+          "source": "Anadolu; GOV.UK; TV4 (TT); Scowcroft Week Ahead; Calcalist; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Week in review",
+      "items": [
+        {
+          "title": "Nvidia lost its founder and its footing",
+          "body": "Reports on Wednesday said the board wanted Jensen Huang out, his resignation was announced on Thursday, and by Friday the board had sounded out Arm's Rene Haas as a successor. The stock fell about 12 percent over the week, and a public clash between Treasury Secretary Bessent and Commerce Secretary Lutnick over blacklisting a Singapore-based buyer of Nvidia chips kept export controls in the spotlight before Tuesday's results."
+        },
+        {
+          "title": "Diplomacy everywhere, settlements nowhere",
+          "body": "The Abu Dhabi talks produced only a large prisoner swap, Europe secured a seat at future Ukraine talks, and the Donbas-for-NATO idea surfaced. Trump called the Iran war effectively over while Hormuz stayed closed and drones flew at Bahrain, and he heads to China for a first-ever meeting with Xi and Putin that officials say will produce no agreement."
+        },
+        {
+          "title": "AI moved into the proof business",
+          "body": "DeepMind's agents wrote machine-checked proofs that Signal's core code keeps its security promises, Claude helped turn Gödel's shorthand notebooks into hundreds of checkable theorems, and Google says its agent teams formalised the Weil conjectures. In each case the key ingredient was a proof checker that verifies the AI's output, rather than trust in the model."
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Anthropic's listing is about six times oversubscribed",
+          "body": "Orders for the roughly 64-billion-dollar share sale reached six times the shares on offer by Thursday, Calcalist reports, ahead of pricing on Wednesday. Investors' main doubts are whether Anthropic can keep its lead over Google and others and spread Claude beyond coding.",
+          "source": "Calcalist; Quartz, 11-14 Nov"
+        },
+        {
+          "title": "Google's agent teams formalise the Weil conjectures",
+          "body": "A new /teamwork mode in Google's Antigravity tool runs many Gemini 4 agents in parallel, each checked by verifiers such as the Lean proof checker; Google says it produced a 1.8-million-line machine-checked proof of the Weil conjectures and Rust rewrites of a video decoder running 20-30 percent faster. Google is offering 10,000 academics six months of free top-tier access.",
+          "source": "Google Research, 13 Nov"
+        },
+        {
+          "title": "OpenAI lets ChatGPT agents pay",
+          "body": "ChatGPT Wallet lets agents complete purchases with a stored Visa, Mastercard or American Express card after the user approves each one with a fingerprint or face check; merchants see only a payment token. It starts with a small group of US Pro subscribers.",
+          "source": "TechCrunch, 13 Nov"
+        },
+        {
+          "title": "Thousands of Lovable-built apps leave data open",
+          "body": "German security firm Crissy Field found that 24,664 of about 34,500 apps built with the Stockholm company's tool on the Supabase database returned records without any login, including passport details and over 200,000 chat messages. The cause is missing database access rules rather than a breach of Lovable itself; the report, from early November, topped Hacker News this weekend.",
+          "source": "Cybernews; Techzine, 4-14 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "CRAM (Prefrontal, London): a learned version of Hopfield and Tank's 1980s energy function solves 99.996 percent of Sudoku-Extreme and every Maze-Unique puzzle after well under a second of training on one GPU, at least 1,000 times faster than recent looped reasoning models and with at least 282 times less inference compute; the authors read it partly as a warning that these puzzles are too easy to show scalable reasoning (arXiv 2611.17309, alphaXiv).",
+            "PixVid (Roblox, UC Merced): replaces the compressed latent space of the Wan2.1 video model with direct pixel output after about 4,000 B200 GPU-hours of fine-tuning, matching or beating the original on VBench, doubling resolution at the same token count and cutting control-to-screen latency in an interactive world model from 495 to 34 milliseconds (arXiv 2611.17336, alphaXiv).",
+            "SALA (Sharpa Robotics, Shanghai Jiao Tong, Tsinghua): uses language descriptions to align latent actions in unpaired human and robot videos, so human footage can train a robot policy; more task-specific human video lifts real-robot success with two dexterous hands from 53.75 to 72.5 percent (arXiv 2611.17110, alphaXiv)."
+          ],
+          "source": "arXiv via alphaXiv, 12 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
+      "source": "Unemployment Labs (Will DePue)",
+      "url": "https://unemploymentlabs.com/checkpoint-forensics",
+      "why": "A first-hand forensic study showing that the way PyTorch splits random weight initialisation across a GPU's processors leaves a trace of the chip in every published model, and using it to argue that six recent models from DeepSeek, Moonshot, MiniMax and Ant Group began training on Nvidia Blackwell chips that cannot legally be exported to China. It explains the method, how it was validated on real H100, B300, GB200 and MI300X hardware, what the training runs likely cost, and, carefully, what the evidence does not prove. A sharp intersection of AI engineering, export controls and US-China rivalry that will be argued over for weeks.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Advancing science & engineering with Antigravity's /teamwork",
+      "source": "Google Research Blog",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+      "why": "Google's own account of how teams of Gemini 4 agents, each given a narrow slice of context and checked by verifiers like the Lean proof checker and by critic agents, produced a 1.8-million-line machine-checked formalisation of the Weil conjectures across 28,800 subagent calls, plus results in chemistry, algorithms and Rust ports of C++ code. First-hand look at how multi-agent research is actually organised and verified, and what it already delivers.",
+      "who": ""
+    },
+    {
+      "title": "Safely scaling multi-agent teams with Claude Fable 5.2",
+      "source": "Anthropic, claude.dev blog (Barry Zhang, Tianyi Peng, Elle Najt, Keller Scholl, Lance Martin)",
+      "url": "https://claude.dev/blog/safely-scaling-multi-agent-teams-with-fable-5-2/",
+      "why": "Anthropic's own account of 1,000 agents running an early Fable 5.2 that re-proved Fermat's Last Theorem in Lean in under 30 hours with little human input and no special maths tooling. It shows how the agents organised themselves through a shared database, why their early pessimism about hard steps was wrong, how the hardest step was cracked by a tree of 2,418 subtasks, and how the team was sandboxed and monitored across a million tool calls. A first-hand look at what large agent teams can do and how a lab keeps them contained.",
+      "who": ""
+    }
+  ]
+}
