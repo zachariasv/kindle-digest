@@ -67,45 +67,6 @@
    "minutes": 32
   },
   {
-   "url": "https://epoch.ai/publications/open-weight-models-patch-gap",
-   "title": "Open-weight AI models can exploit the patch gap",
-   "source": "Epoch AI",
-   "why": "A first-hand experiment: an open-weight Chinese model (GLM 5.3), working alone for up to 48 hours with no internet, read Firefox security fixes that were public but not yet shipped and turned them into working attack pages for six releases at about 1,000 dollars each, with no safeguard triggered. Shows concretely why the gap between publishing a fix and users installing it has become an attack surface.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-10-29",
-   "added": "2026-11-08",
-   "impact": 7,
-   "minutes": 13
-  },
-  {
-   "url": "https://arxiv.org/html/2611.08478",
-   "title": "Grow a Research World for AI-Scientists",
-   "source": "Princeton (Taiming Lu, Sachin Konan, Zhuang Liu), arXiv",
-   "why": "Agents automatically turned 1,000 recent ML papers into runnable research tasks scored against the reproduced human method. On a ten-task test, frontier models beat the paper's method in 84 percent of attempts when improving it and 74 percent when designing from scratch, and an 8B model trained on the research traces reached frontier-level ideas. A concrete look at how 'AI doing AI research' is being measured.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-05",
-   "added": "2026-11-08",
-   "impact": 7,
-   "minutes": 30
-  },
-  {
-   "url": "https://www.anthropic.com/research/how-researchers-use-claude",
-   "title": "How scientists use Claude",
-   "source": "Anthropic",
-   "why": "Analysis of 207,049 research sessions: computer science is 4 percent of the world's researchers but a third of Claude Code research use, ideation gets only 4 percent of sessions, and if all non-physical research steps were automated computational fields could speed up about 15-fold against 3-4-fold for bench sciences, because lab work stays the bottleneck.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-05",
-   "added": "2026-11-08",
-   "impact": 6,
-   "minutes": 33
-  },
-  {
    "url": "https://www.quantamagazine.org/new-research-tests-whether-ai-models-know-their-own-thoughts-20261104/",
    "title": "New Research Tests Whether AI Models Know Their Own Thoughts",
    "source": "Quanta Magazine (Ben Brubaker)",
@@ -184,19 +145,6 @@
    "minutes": 18
   },
   {
-   "url": "https://unemploymentlabs.com/checkpoint-forensics",
-   "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
-   "source": "Unemployment Labs (Will DePue)",
-   "why": "A first-hand forensic study showing that the way PyTorch splits random weight initialisation across a GPU's processors leaves a trace of the chip in every published model, and using it to argue that six recent models from DeepSeek, Moonshot, MiniMax and Ant Group began training on Nvidia Blackwell chips that cannot legally be exported to China. It explains the method, how it was validated on real H100, B300, GB200 and MI300X hardware, what the training runs likely cost, and, carefully, what the evidence does not prove. A sharp intersection of AI engineering, export controls and US-China rivalry that will be argued over for weeks.",
-   "who": "",
-   "category": "investigation",
-   "kind": "fresh",
-   "published": "2026-11-12",
-   "added": "2026-11-13",
-   "impact": 8,
-   "minutes": 22
-  },
-  {
    "url": "https://www.quantamagazine.org/the-evolving-story-of-how-chemistry-became-biology-20261112/",
    "title": "The Evolving Story of How Chemistry Became Biology",
    "source": "Quanta Magazine (Yasemin Saplakoglu)",
@@ -273,6 +221,19 @@
    "added": "2026-11-15",
    "impact": 6,
    "minutes": 19
+  },
+  {
+   "url": "https://www.cfr.org/reports/dismantling-chinas-supply-chain-weapon",
+   "title": "Dismantling China's Supply-Chain Weapon",
+   "source": "Council on Foreign Relations (Joris Teer, EUISS)",
+   "why": "How China's export controls on rare earths and other critical materials actually work as a weapon: licence procedures used to gather intelligence and extract concessions, why the Busan truce only postponed the harshest rules, what a full magnet cut-off would cost the US and Europe, and why subsidies alone fail without demand-side protection such as tariffs, procurement rules and price floors. The mechanics under the 'reduce dependence on China' slogan, timely with China's suspension now running to January, a US-led AI supply-chain pact that Sweden is about to join, and Thursday's Trump-Xi-Putin meeting.",
+   "who": "",
+   "category": "blind-spot",
+   "kind": "evergreen",
+   "published": "2026-09-01",
+   "added": "2026-11-16",
+   "impact": 7,
+   "minutes": 15
   }
  ],
  "history": [
