@@ -234,6 +234,32 @@
    "added": "2026-11-16",
    "impact": 7,
    "minutes": 15
+  },
+  {
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+   "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+   "source": "Google Threat Intelligence Group",
+   "why": "Google's threat-intelligence team documents the first attack pipeline it has seen running with no human in the loop: a framework called exploit_agent that watches web software for security patches, compares the code before and after the fix, writes a working exploit for the flaw the patch reveals and launches it. The report also covers open-source AI hacking frameworks used in real intrusions, an influence-operations platform built to run more than 100,000 accounts, and a suspected North Korean group that planted a backdoor by editing Claude Code settings files. First-hand evidence of AI acting as the attacker, and why patched (rather than unknown) flaws become the main target once exploits can be written in hours.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-16",
+   "added": "2026-11-17",
+   "impact": 8,
+   "minutes": 20
+  },
+  {
+   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+   "source": "Google DeepMind",
+   "why": "DeepMind's own account of a model that reads about a million letters of DNA together with a chosen cell type or state and predicts what that stretch of DNA does there, trained on 107 million single-cell profiles. Across 28 immune cell types it pinpoints disease-causing genetic variants about twice as often as the previous method (30 versus 16 percent). A clear example of AI changing what is possible in genetics.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-11",
+   "added": "2026-11-17",
+   "impact": 6,
+   "minutes": 9
   }
  ],
  "history": [
@@ -378,6 +404,13 @@
    "title": "Top Chinese Frontier AI Models Carry the Fingerprint of Export-Controlled NVIDIA Blackwell GPUs",
    "category": "investigation",
    "minutes": 22
+  },
+  {
+   "date": "2026-11-17",
+   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
+   "title": "Advancing science & engineering with Antigravity's /teamwork",
+   "category": "ai-research",
+   "minutes": 16
   }
  ]
 }
