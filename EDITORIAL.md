@@ -40,7 +40,7 @@ Skip any section with nothing that clears the bar rather than padding it.
 
 ## Today's must-read
 
-Exactly ONE original piece, read in full on the Kindle, **three days a week: Tuesday, Thursday and Sunday**. On the other days the edition has no must-read (`pick.py` leaves the slot empty and the private job skips the day), but keep scouting and adding candidates every run so the queue is strong on pick days. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
+Exactly ONE original piece, read in full on the Kindle, **once a week, on Sunday** (reduced from three a week in November 2026 so he can catch up on his backlog). Because there is only one slot a week, it goes to the single most impactful piece of the week. On the other days the edition has no must-read (`pick.py` leaves the slot empty and the private job skips the day), but keep scouting and adding candidates every run, exactly as before, so Sunday's choice is made from a full week of candidates. The reader's two goals for it: understand something important in depth, and close blind spots so he becomes genuinely well read. Ideal length is **15-30 minutes**.
 
 **What he picks (from two rounds of calibration):**
 - **First-hand research and technical write-ups**, above all from frontier AI labs and AI startups: how a result was found, how a model was trained, what the proofs or circuits look like. The strongest preference. First-hand beats second-hand: a lab's own explanation beats a tech outlet's explainer of the same result.
@@ -67,11 +67,11 @@ Exactly ONE original piece, read in full on the Kindle, **three days a week: Tue
 
 **Surprise decides close calls.** What matters is how unexpected and consequential a story is. Abuse of power in an established democracy (spyware on journalists in Sweden, the UK or Germany) is far more significant than the same thing in an authoritarian state, where it's expected. Being close to home adds a little on top. Prefer the piece that will still matter in a month.
 
-**Variety within a week.** He wants a spread: AI research and AI economics are equally valued, and he'd rather get both in a week than one of them twice. `pick.py` handles this, but score impact honestly so the balancing can work.
+**Variety across weeks.** He wants a spread over time: AI research and AI economics are equally valued. With one pick a week, impact comes first; `pick.py` gives only a small nudge (up to +1) to a category that hasn't been picked for about a month, so score impact honestly and strictly: the weekly slot should go to the piece that most deserves it.
 
-**Length rule.** Most picks 15-30 minutes. At most one long read (40+ minutes) every two weeks, only for something truly groundbreaking, and very rarely over 45 minutes.
+**Length rule.** Most picks 15-30 minutes. At most one long read (40+ minutes) every four weeks, only for something truly groundbreaking, and very rarely over 45 minutes.
 
-**Freshness.** Prefer pieces from the last ~48 hours. On a quiet day, take the strongest unused piece from the past week, or a blind-spot explainer or foundational classic. Never a merely decent article.
+**Freshness.** Prefer pieces from the last ~48 hours. On a quiet week, take the strongest unused piece from the past week, or a blind-spot explainer or foundational classic. Never a merely decent article.
 
 **Where to look first** (scan these every run):
 - *AI labs and research:* OpenAI, Anthropic, Google DeepMind, Meta AI, Microsoft Research, Mistral, DeepSeek / Qwen / Moonshot technical reports, AI startup engineering blogs, plus major papers getting attention (arXiv HTML versions).
@@ -106,14 +106,14 @@ Each run:
    - `kind` is `fresh` (news-driven, loses value as it ages) or `evergreen` (explainers, classics, timeless features).
    - `impact` from 1 to 10. **10:** will be referenced for months, genuinely groundbreaking. **8:** the most important piece of the week in its field. **6:** strong and worthwhile but not essential. Don't add anything below 6. Be strict, and score against the reader's preferences above, not general newsworthiness.
    - `minutes`: estimated reading time; `published`: the piece's own date; `added`: today.
-2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +2 for a category that hasn't been picked in the last week, minus a small daily penalty once fresh pieces pass a grace period), allows at most one 40+ minute read every two weeks, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
+2. Run `python pick.py YYYY-MM-DD`. It drops already-picked and expired candidates, scores the rest (impact, plus up to +1 for a category that hasn't been picked in about four weeks, minus a small daily penalty once fresh pieces pass a one-week grace period, three days for investigations), allows at most one 40+ minute read every four weeks, and writes the winner into `must_reads` and the next two into `must_read_backups` in today's edition.
 3. Don't edit `must_reads` by hand afterwards. To change the outcome, fix the candidates' scores or categories and rerun `pick.py`.
 
 A job in the private repo extracts the winner's full text and figures and falls back to the backups if extraction fails. When it falls back, the delivered article opens with a plain-text line naming the intended pick, with a link to it, and the job writes `articles/YYYY-MM-DD.status.json` in kindle-private with `intended`, `delivered` and `failed`. After the job finishes, read that file. **If the intended pick failed, re-run the job once before accepting the fallback** (`gh api -X POST repos/zachariasv/kindle-private/actions/workflows/mustreads.yml/dispatches -f ref=main -f 'inputs[force]=true'`, wait for it, read the status file again): timeouts and other transient errors usually clear on a retry. Only if it fails again, accept the backup, note it at the top of the intro and log the error. Then report the article that was actually **delivered**, never just the pick. On days without a must-read there is no status file; just say there was no must-read today. If the intended pick failed because its site refuses the job (an HTTP 403 or similar), say so plainly in your summary with the link. Don't add domains to `unfetchable_domains` in `mustread/registry.json` (it makes `pick.py` skip a site) unless Zacharias asks; he wants OpenAI pieces to stay pickable even though openai.com currently refuses the job.
 
 ### Classics
 
-`mustread/classics.json` is a reading list of landmark papers from roughly the last decade, mostly AI and ML plus general science and maths, in priority order. `pick.py` sprinkles them in automatically: about two a month, never more than one a week, on slow days (best fresh candidate's impact below 7.5) once a week has passed, or on any day once two weeks have passed, unless a fresh piece scores 9+. They alternate roughly two AI papers to one science paper. Papers marked `"status": "read"` are skipped. You can append further landmark papers to the end of the list (ar5iv or arXiv HTML URLs read best), but don't reorder or remove entries.
+`mustread/classics.json` is a reading list of landmark papers from roughly the last decade, mostly AI and ML plus general science and maths, in priority order. `pick.py` sprinkles them in automatically as every 8th pick (seven regular weekly picks, then one classic, so roughly one every two months), deferred by a week if a fresh piece scores 9+. They alternate roughly two AI papers to one science paper. Papers marked `"status": "read"` are skipped. You can append further landmark papers to the end of the list (ar5iv or arXiv HTML URLs read best), but don't reorder or remove entries.
 
 ## Length
 

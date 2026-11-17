@@ -7,20 +7,19 @@ The registry (mustread/registry.json) holds candidates the daily job has found:
    "history":    [{date, url, title, category, minutes}]}
 
 Score = impact + variety bonus - age penalty, where
-  - variety bonus grows with days since the category was last picked (max +2 at 7+ days)
-  - fresh pieces lose 0.3 points per day once past a grace period (2 days for investigations,
-    5 for research, economics and science, which don't go stale as fast); evergreen pieces don't age
-Must-reads go out only on Tuesday, Thursday and Sunday; on other days the edition gets an
-empty must_reads slot and candidates simply keep queueing.
-Rules: never repeat a pick; at most one long read (40+ min) per 14 days;
-fresh candidates expire after 7 days, evergreen after 30.
+  - variety bonus grows with days since the category was last picked (max +1 at 28+ days, i.e.
+    about four weekly picks); kept small so the most impactful piece of the week wins
+  - fresh pieces lose 0.3 points per day once past a grace period (3 days for investigations,
+    7 for research, economics and science); evergreen pieces don't age
+Must-reads go out once a week, on Sunday; on other days the edition gets an empty must_reads
+slot and candidates simply keep queueing.
+Rules: never repeat a pick; at most one long read (40+ min) per 28 days;
+fresh candidates expire 8 days after being added, evergreen after 30.
 The top pick goes into must_reads, the next two into must_read_backups.
 
-Classics (mustread/classics.json): landmark papers sprinkled in about twice a month, never
-more than once a week. One is due on a slow day (best fresh impact below SLOW_DAY_SCORE) once
-7 days have passed since the last, or on any day once 14 have passed, unless a fresh piece
-scores 9+. Roughly two AI papers for every science or maths paper. Classics skip the
-long-read limit.
+Classics (mustread/classics.json): landmark papers, every 8th pick (after 7 regular picks since
+the last classic), deferred a week if a fresh piece scores 9+. Roughly two AI papers for every
+science or maths paper. Classics skip the long-read limit.
 """
 import json
 import pathlib
@@ -31,21 +30,19 @@ from datetime import date
 ROOT = pathlib.Path(__file__).parent
 REGISTRY = ROOT / "mustread" / "registry.json"
 CATEGORIES = ["ai-research", "ai-economics", "science", "investigation", "blind-spot"]
-MAX_VARIETY_BONUS = 2.0
-VARIETY_FULL_AFTER_DAYS = 7
+MAX_VARIETY_BONUS = 1.0
+VARIETY_FULL_AFTER_DAYS = 28
 AGE_PENALTY_PER_DAY = 0.3
-FRESH_GRACE_DAYS = {"investigation": 2}  # all other categories: 5
-DEFAULT_GRACE_DAYS = 5
-EXPIRY_DAYS = {"fresh": 7, "evergreen": 30}
+FRESH_GRACE_DAYS = {"investigation": 3}  # all other categories: 7
+DEFAULT_GRACE_DAYS = 7
+EXPIRY_DAYS = {"fresh": 8, "evergreen": 30}
 LONG_READ_MINUTES = 40
-LONG_READ_GAP_DAYS = 14
+LONG_READ_GAP_DAYS = 28
 CLASSICS = ROOT / "mustread" / "classics.json"
-CLASSIC_MIN_GAP_DAYS = 7
-CLASSIC_DUE_DAYS = 14
-SLOW_DAY_SCORE = 7.5
+CLASSIC_EVERY_N_PICKS = 8  # a classic is every 8th pick: 7 regular picks, then one classic
 BIG_FRESH_SCORE = 9
-# Must-reads go out only on these weekdays (Monday = 0): Tuesday, Thursday, Sunday.
-MUST_READ_WEEKDAYS = {1, 3, 6}
+# Must-reads go out only on these weekdays (Monday = 0): Sunday only, one a week.
+MUST_READ_WEEKDAYS = {6}
 
 
 def d(s):
@@ -85,7 +82,7 @@ def main(day):
         ed = json.loads(ed_path.read_text(encoding="utf-8"))
         ed["must_reads"], ed["must_read_backups"] = [], []
         ed_path.write_text(json.dumps(ed, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"No must-read on {today.strftime('%A')}s (only Tuesday, Thursday and Sunday)")
+        print(f"No must-read on {today.strftime('%A')}s (only one a week, on Sunday)")
         return 0
     recent_long = any(h.get("minutes", 0) >= LONG_READ_MINUTES and (today - d(h["date"])).days < LONG_READ_GAP_DAYS
                       for h in history)
@@ -143,10 +140,10 @@ def next_classic(history, today, top_impact):
     if not CLASSICS.exists():
         return None
     past = sorted((h for h in history if h["category"] == "classic"), key=lambda h: h["date"])
-    # before the first classic, count from the first day the registry has any pick
-    since = past[-1]["date"] if past else min((h["date"] for h in history), default=today.isoformat())
-    gap = (today - d(since)).days
-    due = gap >= CLASSIC_DUE_DAYS or (gap >= CLASSIC_MIN_GAP_DAYS and top_impact < SLOW_DAY_SCORE)
+    # regular picks since the last classic (or since the registry began, before the first one)
+    since = past[-1]["date"] if past else ""
+    regular_since = sum(1 for h in history if h["category"] != "classic" and h["date"] > since)
+    due = regular_since >= CLASSIC_EVERY_N_PICKS - 1
     if not due or top_impact >= BIG_FRESH_SCORE:
         return None
     sent = {h["url"] for h in past}
