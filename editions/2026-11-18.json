@@ -1,0 +1,114 @@
+{
+  "date": "2026-11-18",
+  "title": "Morning Digest, Wednesday 18 November 2026",
+  "intro": "Ukraine collapses a span of the Kerch Bridge, Nvidia beats forecasts in its first quarter without Jensen Huang, OpenAI releases GPT-6.2, and the Speaker gives the red-greens one more week before a new round of talks.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Ukraine brings down part of the Kerch Bridge",
+          "body": "Overnight into Tuesday, Ukrainian drones and missiles collapsed a span of the road section of the bridge linking Russia to occupied Crimea, after what Zelensky called a seven-stage operation that began with weeks of strikes on Russian air defences. The rail section was damaged, though Russia says trains ran again by Tuesday afternoon. The bridge is Russia's main supply route to Crimea and the southern front; the strike lands two days before Putin meets Trump and Xi.",
+          "source": "AP via PBS; Euromaidan Press, 17-18 Nov"
+        },
+        {
+          "title": "Nvidia beats forecasts in its first quarter without Huang",
+          "body": "Revenue was $115.8 billion, about $7 billion above analysts' estimates; interim CEO Colette Kress guided $127-133 billion for next quarter, raised next year's expected growth to about 75 percent and added $150 billion to share buybacks. Shares rose about 4 percent after hours, and the board says it will not bring Huang back.",
+          "source": "CoinDesk; CNBC, 17 Nov"
+        },
+        {
+          "title": "OpenAI releases GPT-6.2 Astra and Sol",
+          "body": "Astra, the large model for demanding work, is 20 percent cheaper than its predecessor at $8 per million input tokens and ranks second behind Anthropic's Fable 5.2 on the independent Artificial Analysis index; Sol, the fast everyday model, keeps its price. OpenAI says Astra is the first model it has released at the 'High' level for AI self-improvement under its own risk framework, and both models at 'Critical' for cyber capability, with stricter safeguards attached.",
+          "source": "The Decoder; 9to5Mac, 17 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "The Quad meets again in Manila",
+          "body": "Trump, Modi, Albanese and Takaichi held the first Quad leaders' meeting since 2024, launching joint maritime surveillance and a fund to spread 'trusted' AI across the region. Their statement voices concern about economic coercion and 'arbitrary export restrictions', a day before Trump meets Xi.",
+          "source": "White House joint statement, 17 Nov"
+        },
+        {
+          "title": "Iran fires drones at a US radar in Bahrain",
+          "body": "US Central Command and Bahrain say all drones aimed at the radar at Sheikh Isa air base were shot down; the Revolutionary Guards claim a hit. A gas tanker was disabled by a strike off Oman with its 25 crew safe.",
+          "source": "Just Security; Al Jazeera; UKMTO, 17 Nov"
+        },
+        {
+          "title": "NSA's classified internal network goes down",
+          "body": "The agency's network for storing and sharing classified information went offline on Tuesday; officials blame routine patching and say there is no sign of a cyberattack. Staff at Fort Meade were told to arrive in staggered shifts, and some work was moved to other sites.",
+          "source": "CBS News; Washington Post, 17 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "The Speaker pauses for a week as the red-greens negotiate",
+          "body": "Kristersson reported on his mandate without finishing it, saying the Centre Party needs the full picture and the Left's demand for cabinet posts is unresolved. Norlén paused the process and called all party leaders to a new round on Tuesday or Wednesday next week, when Kristersson gives his final report. A prime-minister vote may follow in late November, with a red-green solution taking precedence if one exists; Norlén wants a new government or a decision on an extra election before Christmas.",
+          "source": "Riksdagen; SVT; Corren (TT), 17 Nov"
+        },
+        {
+          "title": "Riksdag parties agree a law to stop deportations of young adults",
+          "body": "All parties except the Sweden Democrats agreed in committee on the scope of a law protecting nearly a thousand people who came to Sweden as children with parents whose permits were later refused. With no government, the committee will hire a lawyer to draft the text; the target is autumn 2027.",
+          "source": "The Local, 17 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Wednesday 18 November: Anthropic prices its share offering in the evening, US time; Alaska runs its ranked-choice Senate count.",
+            "Thursday 19 November: Anthropic starts trading on Nasdaq as ANT (from 15:30 Swedish time); Xi-Trump-Putin summit in Shenzhen; Witkoff and Kushner meet Ukrainian and European officials in Berlin on security guarantees.",
+            "Friday 20 November: UK-EU summit in Brussels; Forsmark 3 due back online.",
+            "Tuesday 24 or Wednesday 25 November: the Speaker's round with all party leaders; Kristersson's final report.",
+            "During the week: the Commission presents the 22nd Russia sanctions package ahead of the 26-27 November EU summit; Sweden, Germany and the Netherlands expected to sign the Pax Silica declaration."
+          ],
+          "source": "Riksdagen; CBS News; Just Security; Democracy Docket; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Anthropic's offering reportedly priced at the top or above",
+          "body": "Bloomberg reports the company is steering buyers to the top of its $70-78 range or higher, after heavy demand; at $78 the listing would value it at about $1.4 trillion and raise up to $64 billion, plus about $26 billion from chip and cloud partners.",
+          "source": "Bloomberg (reported); CBS News, 17 Nov"
+        },
+        {
+          "title": "Isomorphic Labs raises $5 billion",
+          "body": "Alphabet's AI drug-design company, spun out of DeepMind, raised a Series C co-led by Greenoaks and Sequoia to take its first drug candidates into clinical trials; Bloomberg earlier reported a target valuation of $50 billion.",
+          "source": "TechCrunch; Breakit, 17 Nov"
+        },
+        {
+          "title": "Anthropic cuts its bug-disclosure deadline to 30 days",
+          "body": "From January, vendors get 30 days instead of 90 to fix serious flaws Anthropic reports before it discloses them. The reason: AI models now find bugs fast enough that one model's discovery is increasingly found again by another, so a flaw can no longer be assumed to stay secret for months.",
+          "source": "Anthropic, 16 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "K2-Horizon (MBZUAI): six fully open language models up to a 375-billion-parameter mixture-of-experts model with 23 billion active, released with 380 intermediate checkpoints, 21.6 TB of training data including about 10 trillion synthetic tokens, logs and all training code; the flagship leads open models on the Toolathlon agent benchmark (arXiv 2611.21003, alphaXiv and Hugging Face daily papers).",
+            "ScaleVLA (Tsinghua, Peking University, Galbot): plugging a frozen 552-billion-parameter DeepSeek model into a small trained action network beats 2- to 32-billion backbones on robot tasks, learning from 10 demonstrations what a 2B backbone needs 50 for and inserting a charger plug 9 times out of 10 on a real robot, at about 0.2 seconds per action chunk (arXiv 2611.21607, alphaXiv).",
+            "Sage S2.1 Flash (Shanghai AI Lab and partners): an open 320-billion-parameter model that reads molecules, protein and DNA sequences and spectra natively through dedicated encoders, trained as an agent in verifiable tool and science-software environments; it tops the comparison on MLE-bench Lite and OfficeQA Pro (arXiv 2611.21072, top of Hugging Face daily papers)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face daily papers, 16-17 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
