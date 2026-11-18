@@ -184,19 +184,6 @@
    "minutes": 11
   },
   {
-   "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-   "title": "Advancing science & engineering with Antigravity's /teamwork",
-   "source": "Google Research Blog",
-   "why": "Google's own account of how teams of Gemini 4 agents, each given a narrow slice of context and checked by verifiers like the Lean proof checker and by critic agents, produced a 1.8-million-line machine-checked formalisation of the Weil conjectures across 28,800 subagent calls, plus results in chemistry, algorithms and Rust ports of C++ code. First-hand look at how multi-agent research is actually organised and verified, and what it already delivers.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-13",
-   "added": "2026-11-15",
-   "impact": 8,
-   "minutes": 16
-  },
-  {
    "url": "https://www.anthropic.com/research/provable-inference",
    "title": "Progress on provable inference for large language models",
    "source": "Anthropic",
@@ -260,6 +247,19 @@
    "added": "2026-11-17",
    "impact": 6,
    "minutes": 9
+  },
+  {
+   "url": "https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work",
+   "title": "How good are Fable 5.2 and GPT-6.2 Astra at real work?",
+   "source": "Epoch AI (Kelly Hong)",
+   "why": "Epoch gave six frontier models, including the two released this month, the same research and analysis tasks its own staff do and graded the results by hand against its internal standard. None met that standard on any task; the best reached roughly contractor level on data-centre analysis. The interesting part is why: models default to well-known ideas, rarely revise a first draft, struggle to pick findings that matter to an audience, and rate their own work above human work by rewarding surface rigour. A concrete, first-hand look at where today's agents still fall short of real knowledge work.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-17",
+   "added": "2026-11-18",
+   "impact": 6,
+   "minutes": 15
   }
  ],
  "history": [
