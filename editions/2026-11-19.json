@@ -1,0 +1,119 @@
+{
+  "date": "2026-11-19",
+  "title": "Morning Digest, Thursday 19 November 2026",
+  "intro": "Anthropic prices the largest stock market listing ever, Trump meets Xi and Putin in Shenzhen today, US-Iran strikes spread to Kuwait, and the Moderates overtake the Social Democrats in a poll for the first time in ten years.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Anthropic prices a record listing at $83 a share",
+          "body": "The price is above the $70-78 range marketed to investors; selling 980 million shares raises about $81 billion, the most ever raised in a stock market debut, ahead of SpaceX's roughly $75 billion in June. Including the private placement with chip and cloud partners, the total is about $107 billion, and the company is valued at about $1.5 trillion, roughly 1.5 times its last private valuation in May.",
+          "source": "Bloomberg; Yahoo Finance; CNBC, 18 Nov"
+        },
+        {
+          "title": "Trump meets Xi, then Putin, in Shenzhen today",
+          "body": "After the APEC leaders' session, Trump holds talks with Xi, a separate meeting with Putin, and then the first three-way meeting of the three leaders. He wants to discuss a new nuclear arms deal that includes China, since New START expired in February, as well as Iran and Ukraine; chip smuggling to China and a pending $14 billion Taiwan arms package hang over the Xi talks, and arms-control experts expect no breakthrough.",
+          "source": "CBS News; AP via NBC, 18-19 Nov"
+        },
+        {
+          "title": "US-Iran clashes spread to Kuwait",
+          "body": "US jets struck a Revolutionary Guards missile site on Iran's Qeshm Island after attacks on a US radar in Bahrain; Iran answered with drones on Patriot air defences at Kuwait's Ali Al Salem base, its first attack on Kuwait in two months. A UAE-owned ADNOC vessel was hit near Hormuz with one crew member missing, and Iran says it shot down a US drone; US Central Command says no Americans were hurt.",
+          "source": "Gulf News; Dawn; Drop Site News, 17-19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Democrats win Alaska, reaching 56 Senate seats",
+          "body": "Mary Peltola beat Republican Dan Sullivan with just over 50 percent in the first round of the ranked-choice count, so no runoff is needed; Democrats and allied independents will hold 56 of 100 seats. In the House, Democrats nominated Hakeem Jeffries for Speaker despite objections from some new left-wing members.",
+          "source": "AP via Truthout; Drop Site News, 17-18 Nov"
+        },
+        {
+          "title": "Israel launches its biggest Gaza operation since the ceasefire",
+          "body": "Troops and bulldozers advanced into three areas of central Gaza beyond the agreed line to remove what Israel called threats to its forces, and residents fled Nuseirat. The day before, the US-backed Board of Peace told the UN Security Council the ceasefire could collapse, blaming both sides.",
+          "source": "Drop Site News, 17-18 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Moderates overtake the Social Democrats in a Novus poll",
+          "body": "M has 26.5 percent and S 24.9, the first time M has led in Novus since May 2016, and the four Tidö parties have 52.3 percent against 46.0 for S, V, MP and C combined. The Liberals sit at 3.6 percent, below the threshold for seats. Meanwhile the Centre leader says red-green talks are moving forward but agrees that the Social Democrats' package still says nothing on how to pay for it.",
+          "source": "Novus/TV4, 18 Nov; SVT Text, 18 Nov"
+        },
+        {
+          "title": "SD MP stays on despite youth-wing allegations",
+          "body": "Rasmus Giertz reversed his plan to resign after a Dagens Nyheter investigation reported concerns from twelve current and former youth-wing members about his behaviour toward young women. He denies the claims; the Sweden Democrats have suspended his membership while a disciplinary case runs.",
+          "source": "The Local, 18 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Thursday 19 November: Trump-Xi talks, a Trump-Putin meeting and the three-way summit in Shenzhen; Anthropic starts trading on Nasdaq as ANT (from 15:30 Swedish time); Coalition of the Willing leaders meet in Berlin with Witkoff and Kushner on Ukraine's security guarantees.",
+            "Friday 20 November: UK-EU summit in Brussels; Forsmark 3 due back online.",
+            "Tuesday 24 or Wednesday 25 November: the Speaker's round with all party leaders and Kristersson's final report; a prime-minister vote may follow late in the month.",
+            "Thursday 26 November: EU leaders' summit in Brussels (to Friday), with the 22nd Russia sanctions package expected to be presented beforehand.",
+            "During the week: Sweden, Germany and the Netherlands expected to sign the Pax Silica declaration on AI supply chains."
+          ],
+          "source": "CBS News; Reuters via AP; Riksdagen; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Google releases Gemini 4 Neon",
+          "body": "The new mid-tier model sits between the fast Hydrogen and the flagship Carbon, at $3 per million input tokens and $15 per million output tokens, about a quarter cheaper than Claude Opus 5.5. It ranks third on the Artificial Analysis index and comes close to Opus 5.5 on a hard coding benchmark; Google says it is about twice as fast as Carbon.",
+          "source": "VentureBeat; 9to5Google, 18 Nov"
+        },
+        {
+          "title": "Microsoft launches seven in-house MAI models",
+          "body": "At Ignite, Microsoft AI released coding, security, image, speech and routing models; it claims its coding model reaches 96 percent of Claude Opus 5.5's quality at 5 percent of the price. The aim is cheaper models across Copilot and Azure and less reliance on OpenAI; the comparisons are mostly Microsoft's own.",
+          "source": "TestingCatalog; Microsoft, 17-18 Nov"
+        },
+        {
+          "title": "Critical flaws in nginx, one of the most-used web servers",
+          "body": "Researchers at Wiz, Xint and Rapid7 disclosed five bugs, the main one in HTTP/2 handling dating back about ten years, that can let an attacker with no login run code on servers in some configurations. Fixed versions are out; no attacks have been seen yet.",
+          "source": "The Hacker News; Security Boulevard, 18 Nov"
+        },
+        {
+          "title": "Palo Alto Networks buys Applied Compute for $4.5 billion",
+          "body": "The all-stock deal buys a young startup whose platform lets companies further train and run open-weight AI models on their own infrastructure; Palo Alto wants to sell secure, sovereign AI deployments.",
+          "source": "Palo Alto Networks; SecurityWeek, 18 Nov"
+        },
+        {
+          "title": "OpenAI says its models improved AMD's chip designs",
+          "body": "Models rewriting chip circuit code gained up to 14 percent on power, performance and area for AMD's flagship GPU designs, and some changes are in a design sent for manufacturing. The figures are OpenAI's own.",
+          "source": "OpenAI via ANI/The Tribune, 19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Xing 4 (China Telecom with Huawei): a technical report on training a 285-billion-parameter mixture-of-experts model entirely on 8,192 Huawei Ascend 910C chips with the MindSpore framework, with a 29B open-weight member released; a concrete look at frontier-style training without Nvidia, and top of Hugging Face daily papers (arXiv 2611.22115).",
+            "FastFrames (Apple, Cornell): by replacing the video decoder and a cache-refresh pass, which turned out to take over half the time, with small networks, it generates video frame by frame in 36 ms on one B200 GPU at quality matching a model nearly 8 times slower, fast enough to react to user input without visible lag (arXiv 2611.23226, alphaXiv and Hugging Face).",
+            "Pi4 (Shanghai AI Lab): a 0.5-billion-parameter open model that reconstructs 3D geometry, camera positions and the motion of moving objects from photos or video in one pass, scaling to over 1,000 images and leading the geometry benchmarks against models twice its size (arXiv 2611.23144, top of alphaXiv hot and on Hugging Face)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face daily papers, 17 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
