@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-20",
+  "title": "Morning Digest, Friday 20 November 2026",
+  "intro": "Trump, Xi and Putin sign a four-point declaration that leaves out every war, Anthropic ends its first trading day 17 percent above its listing price, the UN's top court finds Myanmar guilty of genocide, and Britain and the EU meet in Brussels to seal their reset.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Shenzhen summit ends with a thin four-point declaration",
+          "body": "The three leaders pledged to reform the UN, raise supplies of refined fuel, limit the reach of the International Criminal Court, and repeat the 1985 Reagan-Gorbachev line that a nuclear war cannot be won, adding a nuclear-risk dialogue with no date or agenda. Ukraine, Iran, Gaza and Taiwan are not mentioned, though Ukraine was raised in the roughly 90-minute meeting; Trump left China without meeting Kim Jong-un.",
+          "source": "CGTN (full text); Newsweek; Foreign Exchanges, 19-20 Nov"
+        },
+        {
+          "title": "Anthropic closes its first day at about $1.76 trillion",
+          "body": "Shares opened at $111.50, 34 percent above the $83 listing price, briefly valuing the company above $2 trillion, then slid to close at $97.17, up 17 percent. They fell another 6 percent in after-hours trading as the wider US market also declined.",
+          "source": "Investing.com; Al Jazeera/Reuters; NBC News, 19 Nov"
+        },
+        {
+          "title": "UN court rules Myanmar committed genocide against the Rohingya",
+          "body": "The International Court of Justice found Myanmar responsible for genocide in its 2017 army campaign, which killed about 10,000 people and drove hundreds of thousands into Bangladesh; the case was brought by Gambia in 2019. The court has no way to enforce the ruling, but it is being watched as a guide to how it may approach South Africa's case against Israel.",
+          "source": "Foreign Exchanges; SVT Text; Al-Monitor, 17-19 Nov"
+        },
+        {
+          "title": "Britain and the EU meet to sign their reset deal today",
+          "body": "The expected package lets food and plant products cross the border without today's certificates and checks, links the two carbon-pricing systems so steel and other goods escape each other's carbon border levy, and creates a three-year youth work-and-study scheme capped at 100,000. Tuition fees for EU students and the terms of any 'Made in Europe' status for British cars are still unresolved.",
+          "source": "RTÉ/Reuters, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Russian strike on Kyiv damages two EU embassies",
+          "body": "One person was killed and the Austrian and Dutch embassies were damaged; separately, the Kerch Bridge to Crimea was hit for the third time this week and rail traffic halted.",
+          "source": "Foreign Exchanges, 19 Nov"
+        },
+        {
+          "title": "EU proposes a new loan to fund Ukraine in 2027",
+          "body": "The Commission's proposal, reported at about €45 billion, would be repaid by Ukraine only once Russia pays war reparations; it needs backing from member states.",
+          "source": "Everything Briefing, 19 Nov"
+        },
+        {
+          "title": "Serbia gets an opposition-backed interim president",
+          "body": "Parliament elected Aleksandar Čupić of the student movement's list as Speaker, which makes him acting president; he must call a presidential election before the end of the year. Reported by Foreign Exchanges; not yet confirmed by a second source.",
+          "source": "Foreign Exchanges, 19 Nov"
+        },
+        {
+          "title": "Trump fires his national cyber director",
+          "body": "Sean Cairncross was dismissed while the NSA's classified internal network was still down after Tuesday's crash.",
+          "source": "Foreign Exchanges, citing NBC News, 19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Two reactors return, but Ringhals 3 slips to late December",
+          "body": "With Forsmark 1 and 3 back, four of Sweden's six reactors are running; Ringhals 3, offline since May, is now listed on the Nord Pool power exchange as returning on 21 December rather than 5 December. The outages have been a main cause of this autumn's high electricity prices.",
+          "source": "SVT Text, 20 Nov"
+        },
+        {
+          "title": "Six Sigtunaskolan students charged over hazing abuse",
+          "body": "Two of the third-year boarding-school students face charges including aggravated sexual abuse and aggravated assault, the others assault and coercion, for acts between late May and early October.",
+          "source": "SVT Text, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding rounds",
+          "bullets": [
+            "Wilgot (Erik Wikander) — helps brands get recommended by ChatGPT, Gemini and other AI assistants by rewriting product data — $3M seed — Industrifonden (lead), Luminar Ventures, Foundry Ventures, Voyado founders.",
+            "CloudBackend (Daniel Arthursson) — infrastructure that turns AI-built app prototypes into production products — €6.6M — Carl-Henric Svanberg's family office (lead), M2 Asset Management."
+          ],
+          "source": "Tech.eu, 18-19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Friday 20 November: UK-EU summit in Brussels.",
+            "Tuesday 24 or Wednesday 25 November: the Speaker's round with all party leaders, after which Kristersson gives his final report; a prime-minister vote is expected on one of the last days of November.",
+            "Thursday 26 November: EU leaders' summit in Brussels (to Friday); US Thanksgiving, markets closed.",
+            "During the week: Sweden, Germany and the Netherlands expected to sign the Pax Silica declaration on AI supply chains."
+          ],
+          "source": "RTÉ/Reuters; TV4; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Nvidia stops shipping H200 chips to China",
+          "body": "Interim CEO Colette Kress said no further licensed shipments of its previous-generation Hopper chips are planned, even though Washington had approved some sales; China sales were $2.4 billion last quarter.",
+          "source": "Technology.org; Gizmodo; The Neuron, 19 Nov"
+        },
+        {
+          "title": "Citi makes customers liable for their AI agents",
+          "body": "New account terms say customers who give third-party AI tools access to their accounts are responsible for transactions those tools make, even ones that look unauthorised; other banks are reported to be taking similar positions.",
+          "source": "The Neuron, 19 Nov (reported)"
+        },
+        {
+          "title": "OpenAI says its models now finish half of multi-hour research tasks",
+          "body": "On internal research tasks estimated to take a person two to four hours, the share its models completed autonomously rose from 23 percent in March to 46 percent in October. The figures are OpenAI's own.",
+          "source": "OpenAI via The Neuron, 19 Nov"
+        },
+        {
+          "title": "SenseTime releases an open-weight long-context model",
+          "body": "SenseNova Loop-9B is a roughly 9-billion-parameter model that can read 512,000 tokens, about a thousand pages, in one go, small enough to run on a single high-end GPU.",
+          "source": "The Neuron, 19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Counterfactual world models (Balestriero, LeCun, Varaku; AMI Labs): proves that a world model trained only on what happened cannot say what a different action would have done under the same hidden disturbance, then shows that adding the model's predicted difference between two actions to the observed outcome answers it, lifting counterfactual accuracy (R²) from about 40 to 86-96 percent with no retraining (arXiv 2611.24778, alphaXiv hot).",
+            "Jeveration (National University of Singapore): a frozen 4-billion-parameter vision-language model with small adapters produces a whole 512-pixel image in one forward pass, in 78 ms, up to 122 times faster than other unified models, and the same checkpoint also does depth and segmentation; a third route to image generation besides diffusion and token-by-token models (arXiv 2611.24738, top of Hugging Face daily papers).",
+            "The Resolution Hypothesis (ShanghaiTech, ByteDance): across seven self-improving-agent methods, six models and over 10 million LLM calls, good candidate prompts and skills do exist, but noisy evaluation picks them no better than chance, and the few-point gaps between published methods are smaller than run-to-run noise (arXiv 2611.23068, Hugging Face and alphaXiv)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face daily papers, 17-18 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}

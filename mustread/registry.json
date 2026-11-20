@@ -2,19 +2,6 @@
  "unfetchable_domains": [],
  "candidates": [
   {
-   "url": "https://www.gisreportsonline.com/r/ai-buildout-hidden-debt/",
-   "title": "The AI buildout rests on hidden debt",
-   "source": "GIS Reports",
-   "why": "How data centres are financed off balance sheet through special-purpose vehicles and private credit, and how banks pass the risk on, which is the mechanism behind this week's doubts about AI infrastructure valuations.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "evergreen",
-   "published": "2026-08-18",
-   "added": "2026-10-20",
-   "impact": 6,
-   "minutes": 10
-  },
-  {
    "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure",
    "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
    "source": "Epoch AI",
@@ -78,19 +65,6 @@
    "added": "2026-11-09",
    "impact": 6,
    "minutes": 10
-  },
-  {
-   "url": "https://www.anthropic.com/research/investigating-vault-particles-with-claude",
-   "title": "Investigating vault particles with Claude",
-   "source": "Anthropic Science team (Januka Athukoralage, Peter Yoon, Nicholas Perry, Matthew Durrant and Anthropic's Life Sciences Team)",
-   "why": "A first-hand lab account of Claude doing real wet-lab biology on one of cell biology's oddest open questions: vaults, huge hollow protein shells found in our cells since 1986 whose job is still unknown. Claude searched 15 billion predicted proteins for bacterial and phage relatives, designed the DNA to make them, suggested a purification shortcut that cut three days to 90 minutes (after first arguing against it), and processed the cryo-EM data that gave the first 3D structure of a prokaryotic vault. It is candid about Claude's mistakes and that the result is an unreviewed preprint. A concrete look at what 'AI as a scientist' means at the bench.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-04",
-   "added": "2026-11-11",
-   "impact": 7,
-   "minutes": 14
   },
   {
    "url": "https://epoch.ai/publications/inference-performance-index",
@@ -273,6 +247,32 @@
    "added": "2026-11-19",
    "impact": 6,
    "minutes": 10
+  },
+  {
+   "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
+   "title": "Project EVE: Claude plays MMORPGs",
+   "source": "Anthropic (Frontier Red Team)",
+   "why": "Anthropic's red team put Claude agents into EVE Online's market and live EVE Frontier missions in teams of four. The write-up shows where agents already do well (capturing trading spreads, coordinating) and where they break down (directional bets, fast spatial reactions), and its striking result: when one team member was secretly told to sabotage, its Claude teammates almost never noticed, and limited monitors caught only 30-40 percent of saboteurs. A concrete first-hand look at multi-agent oversight.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-06",
+   "added": "2026-11-20",
+   "impact": 7,
+   "minutes": 19
+  },
+  {
+   "url": "https://www.anthropic.com/research/components-of-agent-memory",
+   "title": "The components of agent memory",
+   "source": "Anthropic Engineering (Lance Martin)",
+   "why": "A first-hand explanation of how long-running agents remember: raw transcripts, notes, wiki-like summaries and injected context, plus an offline 'dreaming' pass that reviews transcripts to fix and merge notes. Evidence from Pokémon Red, where Claude Fable 5 wrote 10 memory files and won four badges while an older model wrote 413 and won one, and one wrong note was enough to send the agent off a ledge.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-06",
+   "added": "2026-11-20",
+   "impact": 6,
+   "minutes": 20
   }
  ],
  "history": [
