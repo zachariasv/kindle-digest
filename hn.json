@@ -1,0 +1,276 @@
+{
+ "fetched_at": "2026-11-21T11:45:24+00:00",
+ "source": "hn.algolia.com front_page",
+ "stories": [
+  {
+   "rank": 1,
+   "title": "Levent Alpöge claims proof of the Generalized Riemann Hypothesis [pdf]",
+   "url": "https://alpo.ge/remark.pdf",
+   "points": 2679,
+   "comments": 1859,
+   "hn_url": "https://news.ycombinator.com/item?id=50574968",
+   "created_at": "2026-11-20T14:16:21Z"
+  },
+  {
+   "rank": 2,
+   "title": "Hurried Announcement: Alessandro Masullo GRH",
+   "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+   "points": 2149,
+   "comments": 994,
+   "hn_url": "https://news.ycombinator.com/item?id=50579568",
+   "created_at": "2026-11-20T18:33:14Z"
+  },
+  {
+   "rank": 3,
+   "title": "Inkling 2 Mini",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "points": 1049,
+   "comments": 195,
+   "hn_url": "https://news.ycombinator.com/item?id=50581260",
+   "created_at": "2026-11-20T20:12:19Z"
+  },
+  {
+   "rank": 4,
+   "title": "Unforced Navier-Stokes Singularity and the Generalized Riemann Hypothesis",
+   "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/",
+   "points": 461,
+   "comments": 191,
+   "hn_url": "https://news.ycombinator.com/item?id=50578358",
+   "created_at": "2026-11-20T17:21:36Z"
+  },
+  {
+   "rank": 5,
+   "title": "We promoted developers into architects without informing them",
+   "url": "https://manidoraisamy.com/developer-to-architect.html",
+   "points": 454,
+   "comments": 251,
+   "hn_url": "https://news.ycombinator.com/item?id=50579331",
+   "created_at": "2026-11-20T18:17:51Z"
+  },
+  {
+   "rank": 6,
+   "title": "Language Models Can Rewrite Their Own Weights",
+   "url": "https://arxiv.org/abs/2611.21885",
+   "points": 422,
+   "comments": 123,
+   "hn_url": "https://news.ycombinator.com/item?id=50577265",
+   "created_at": "2026-11-20T16:29:06Z"
+  },
+  {
+   "rank": 7,
+   "title": "Nasdaq erases all 2026 gains as AI sell-off dampens Anthropic’s second day",
+   "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+   "points": 331,
+   "comments": 614,
+   "hn_url": "https://news.ycombinator.com/item?id=50574383",
+   "created_at": "2026-11-20T13:29:59Z"
+  },
+  {
+   "rank": 8,
+   "title": "Slopstrap – Make your site look hastily vibecoded",
+   "url": "https://slopstrap.mikelacher.com/",
+   "points": 297,
+   "comments": 59,
+   "hn_url": "https://news.ycombinator.com/item?id=50576012",
+   "created_at": "2026-11-20T15:24:11Z"
+  },
+  {
+   "rank": 9,
+   "title": "Finite-time blow-up for the Navier–Stokes equations",
+   "url": "https://github.com/tristanbuckmaster/navier-stokes/",
+   "points": 295,
+   "comments": 92,
+   "hn_url": "https://news.ycombinator.com/item?id=50576232",
+   "created_at": "2026-11-20T15:34:31Z"
+  },
+  {
+   "rank": 10,
+   "title": "NINLIVE: The Nine Inch Nails live archive",
+   "url": "https://ninlive.com/",
+   "points": 270,
+   "comments": 71,
+   "hn_url": "https://news.ycombinator.com/item?id=50583274",
+   "created_at": "2026-11-20T22:30:47Z"
+  },
+  {
+   "rank": 11,
+   "title": "Ask HN: I have been unemployed for 2y. 15 years of experience, US. What to do?",
+   "url": null,
+   "points": 238,
+   "comments": 189,
+   "hn_url": "https://news.ycombinator.com/item?id=50583761",
+   "created_at": "2026-11-20T23:18:32Z"
+  },
+  {
+   "rank": 12,
+   "title": "DreamCoder: Coding harness and IDE from the author of Mastering Emacs",
+   "url": "https://www.masteringemacs.org/article/announcing-dreamcoder",
+   "points": 228,
+   "comments": 76,
+   "hn_url": "https://news.ycombinator.com/item?id=50581110",
+   "created_at": "2026-11-20T20:03:59Z"
+  },
+  {
+   "rank": 13,
+   "title": "Show HN: Tinnitus frequency finder and audio notch tool",
+   "url": "https://trynotched.com/find",
+   "points": 182,
+   "comments": 118,
+   "hn_url": "https://news.ycombinator.com/item?id=50541568",
+   "created_at": "2026-11-18T03:40:01Z"
+  },
+  {
+   "rank": 14,
+   "title": "Winedroid – run Android apps without Android (WASM demo)",
+   "url": "https://winedroid.soham.sh/demo/",
+   "points": 157,
+   "comments": 42,
+   "hn_url": "https://news.ycombinator.com/item?id=50580536",
+   "created_at": "2026-11-20T19:30:16Z"
+  },
+  {
+   "rank": 15,
+   "title": "Vibecoding an inference chip",
+   "url": "https://ankitg.me/blog/vibecoding-inference-chip/",
+   "points": 151,
+   "comments": 63,
+   "hn_url": "https://news.ycombinator.com/item?id=50579297",
+   "created_at": "2026-11-20T18:15:16Z"
+  },
+  {
+   "rank": 16,
+   "title": "Valkey kills the skiplist, cuts sorted set overhead by up to 43%",
+   "url": "https://valkey.io/blog/from-skiplist-to-b+tree/",
+   "points": 146,
+   "comments": 49,
+   "hn_url": "https://news.ycombinator.com/item?id=50534387",
+   "created_at": "2026-11-17T16:58:30Z"
+  },
+  {
+   "rank": 17,
+   "title": "Why the Airbus A321XLR often gets stuck climbing for first few hours of flight",
+   "url": "https://simpleflying.com/airbus-a321xlr-often-stuck-climbing-1st-few-hours-flight/",
+   "points": 124,
+   "comments": 88,
+   "hn_url": "https://news.ycombinator.com/item?id=50495392",
+   "created_at": "2026-11-14T09:13:24Z"
+  },
+  {
+   "rank": 18,
+   "title": "Sir Brian May adds new dimension to Hera asteroid",
+   "url": "https://www.esa.int/articles/about-us/directorates/operations/space-safety/hera/sir-brian-may-adds-new-dimension-to-hera-asteroid",
+   "points": 120,
+   "comments": 26,
+   "hn_url": "https://news.ycombinator.com/item?id=50583768",
+   "created_at": "2026-11-20T23:19:44Z"
+  },
+  {
+   "rank": 19,
+   "title": "Clojure will affect the way you think about programming (2017)",
+   "url": "https://eli.thegreenplace.net/2017/clojure-the-perfect-language-to-expand-your-brain/",
+   "points": 109,
+   "comments": 33,
+   "hn_url": "https://news.ycombinator.com/item?id=50585376",
+   "created_at": "2026-11-21T02:40:39Z"
+  },
+  {
+   "rank": 20,
+   "title": "Serious cyberattack thought backed by wealthy operators",
+   "url": "https://www.ruv.is/english/2026-11-20-serious-cyberattack-thought-backed-by-wealthy-operators-493411",
+   "points": 93,
+   "comments": 48,
+   "hn_url": "https://news.ycombinator.com/item?id=50583856",
+   "created_at": "2026-11-20T23:29:30Z"
+  },
+  {
+   "rank": 21,
+   "title": "ClawDOS – An AI coding agent for DOS",
+   "url": "http://ricapar.net/ClawDOS/",
+   "points": 81,
+   "comments": 21,
+   "hn_url": "https://news.ycombinator.com/item?id=50586292",
+   "created_at": "2026-11-21T05:38:01Z"
+  },
+  {
+   "rank": 22,
+   "title": "Surprisingly Adorable Insect Portraits",
+   "url": "https://amateurphotographer.com/latest/these-astonishing-insect-portraits-reveal-a-hidden-world-you-never-knew-existed/",
+   "points": 56,
+   "comments": 13,
+   "hn_url": "https://news.ycombinator.com/item?id=50586648",
+   "created_at": "2026-11-21T06:44:14Z"
+  },
+  {
+   "rank": 23,
+   "title": "Fewer slides, more dragons",
+   "url": "https://www.breakingchange.blog/p/fewer-slides-more-dragons",
+   "points": 39,
+   "comments": 15,
+   "hn_url": "https://news.ycombinator.com/item?id=50556482",
+   "created_at": "2026-11-19T05:46:36Z"
+  },
+  {
+   "rank": 24,
+   "title": "FBI reportedly investigating apparent hack of its criminal database",
+   "url": "https://www.bbc.com/news/articles/cvze7de86pk3o",
+   "points": 32,
+   "comments": 8,
+   "hn_url": "https://news.ycombinator.com/item?id=50587859",
+   "created_at": "2026-11-21T10:33:57Z"
+  },
+  {
+   "rank": 25,
+   "title": "RCE in Gnupg",
+   "url": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
+   "points": 32,
+   "comments": 3,
+   "hn_url": "https://news.ycombinator.com/item?id=50587208",
+   "created_at": "2026-11-21T08:32:58Z"
+  },
+  {
+   "rank": 26,
+   "title": "3-legged Persian leopard's 150-mile journey highlights Caucasus border hazards",
+   "url": "https://news.mongabay.com/short-article/2026/11/three-legged-persian-leopards-150-mile-journey-highlights-caucasus-border-hazards/",
+   "points": 25,
+   "comments": 6,
+   "hn_url": "https://news.ycombinator.com/item?id=50540342",
+   "created_at": "2026-11-18T00:39:18Z"
+  },
+  {
+   "rank": 27,
+   "title": "Microsoft's SideWinder Strategic Commander was a failed attempt",
+   "url": "https://www.rockpapershotgun.com/microsofts-sidewinder-strategic-commander-was-a-failed-attempt-to-reimagine-rts-controls-23-years-later-why-are-some-players-still-using-it",
+   "points": 15,
+   "comments": 3,
+   "hn_url": "https://news.ycombinator.com/item?id=50543887",
+   "created_at": "2026-11-18T09:18:11Z"
+  },
+  {
+   "rank": 28,
+   "title": "Engineer's Guide to Career Growth – Advice from My Time at Stripe and Facebook",
+   "url": "https://review.firstround.com/the-engineers-guide-to-career-growth-advice-from-my-time-at-stripe-and-facebook/",
+   "points": 14,
+   "comments": 3,
+   "hn_url": "https://news.ycombinator.com/item?id=50557025",
+   "created_at": "2026-11-19T07:25:57Z"
+  },
+  {
+   "rank": 29,
+   "title": "Exascale fusion simulation team named finalist for 2026 Gordon Bell Prize",
+   "url": "https://www.alcf.anl.gov/news/exascale-fusion-simulation-team-named-finalist-2026-gordon-bell-prize",
+   "points": 4,
+   "comments": 0,
+   "hn_url": "https://news.ycombinator.com/item?id=50587205",
+   "created_at": "2026-11-21T08:32:34Z"
+  },
+  {
+   "rank": 30,
+   "title": "Acoustic parameters of bird vocalizations&their perceived pleasantness by humans",
+   "url": "https://www.frontiersin.org/journals/bird-science/articles/10.3389/fbirs.2026.1794594/full",
+   "points": 3,
+   "comments": 0,
+   "hn_url": "https://news.ycombinator.com/item?id=50549753",
+   "created_at": "2026-11-18T18:03:35Z"
+  }
+ ]
+}
