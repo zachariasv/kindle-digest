@@ -1,0 +1,130 @@
+{
+  "date": "2026-11-21",
+  "title": "Morning Digest, Saturday 21 November 2026",
+  "intro": "An Anthropic mathematician posts a machine-checkable proof of the Generalized Riemann Hypothesis made with Claude, a sell-off in AI stocks pushes Wall Street into a correction, Britain and the EU seal their reset deal, and the red-green talks in Sweden stall over the Left Party's demand for ministers.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Two Millennium-scale maths claims made with AI in one day",
+          "body": "Levent Alpöge, a mathematician at Anthropic, released a proof of the Generalized Riemann Hypothesis that he says he found with Claude; it exists only as about 17 million lines of Lean, a language a computer can check line by line. Early checks find no gaps or extra assumptions and a final statement that matches the standard definition in Lean's maths library, and Scott Aaronson expects it to stand, though no human yet understands it. The same day Alpöge and NYU's Tristan Buckmaster claimed that the Navier-Stokes equations can blow up with no outside force, the Millennium Prize question; a key computer certificate has not been released. Separately, Stanford's Ravi Vakil posted a 940-page, all-human GRH draft by Alessandro Masullo that Brian Conrad has been reviewing.",
+          "source": "Alpöge note; Terence Tao's blog; Shtetl-Optimized; OfficeChai; math216 blog; dev.to code audit, 20-21 Nov"
+        },
+        {
+          "title": "AI sell-off pushes the S&P 500 and the Dow into a correction",
+          "body": "The Nasdaq fell 5.3 percent on Friday, wiping out its gains for the year, and the S&P 500 lost 3.7 percent; a correction means a fall of more than 10 percent from the last peak. Nvidia dropped about 13 percent after Reuters reported that the SEC is examining possible accounting problems, and Anthropic fell about 9 percent to roughly $88, briefly touching its $83 listing price.",
+          "source": "TradingKey; Yahoo Finance; Reuters via TradingKey, 20 Nov"
+        },
+        {
+          "title": "Britain and the EU seal their reset",
+          "body": "At the Brussels summit, Prime Minister Andy Burnham signed deals that drop border checks on food and plant products, link the two carbon markets so neither side's carbon border levy applies, and open a three-year youth work-and-study scheme capped at 100,000 places; they take effect from 2028. Tuition fees for EU students were pushed back with a six-month target.",
+          "source": "Reuters via ThePrint; RTÉ, 20 Nov"
+        },
+        {
+          "title": "One of Russia's largest air attacks of the war",
+          "body": "Over more than ten hours Russia fired about 110 missiles and 400 drones at Ukraine, killing at least eight people and hitting Kyiv bridges, Odesa's port and a Kharkiv hospital; only three of 27 ballistic missiles were stopped, which Kyiv blames on a shortage of Patriot interceptors. The grid operator called the power situation extremely critical, and Poland scrambled jets.",
+          "source": "CNN via Yahoo News, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Washington says Russia could accept NATO-style guarantees for Ukraine",
+          "body": "At a Coalition of the Willing meeting in Berlin, US envoy Jared Kushner said Moscow is comfortable with guarantees modelled on NATO's mutual-defence clause; the Kremlin's Sergei Ryabkov then rejected any quasi-membership for Kyiv, and no agreement was reached.",
+          "source": "Al Jazeera, 20 Nov"
+        },
+        {
+          "title": "US Senate rejects curbs on the Iran war",
+          "body": "A war powers resolution failed 48 to 51; Trump says he is in no hurry to order a new strike and may wait until after New Year, while the Pentagon puts the war's cost above $48 billion.",
+          "source": "CBS News live blog, 19-20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Red-green talks stall over Left Party ministers",
+          "body": "According to TV4's sources, the talks between the Social Democrats, the Centre Party and the Left Party are completely stuck: S and C have offered the Left influence through a coordination office like the one the Tidö parties used, but the Left Party will not settle for less than seats in government, which the Centre Party rules out. The parties feel they must finish next week. On Tuesday the Speaker meets all party leaders, Kristersson gives his final report on his sounding assignment, and a third prime-minister vote could follow at the end of November; if every vote fails, a snap election follows.",
+          "source": "TV4; SVT, 20 Nov"
+        },
+        {
+          "title": "Up to 30 cm of snow forecast for Stockholm",
+          "body": "SMHI has extended its yellow warning for snow and wind in Stockholm and Uppsala counties until Monday morning; expect drifting snow and delays in public transport.",
+          "source": "SMHI via News55; The Local, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Stockholm VC",
+      "items": [
+        {
+          "title": "Funding rounds",
+          "bullets": [
+            "Algoryx (Umeå University spin-off) — physics simulation software, now building a larger AI research unit — undisclosed minority stake — Wallenberg Investments."
+          ],
+          "source": "EFN; Tech.eu, 19 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Tuesday 24 November: the Speaker meets party leaders from 09:30 (Kristersson at 10:00 with his final report); press conference no earlier than 16:30.",
+            "Thursday 26 to Friday 27 November: EU leaders' summit in Brussels on Ukraine's 2027 funding gap and the 2028-34 budget; Thursday is US Thanksgiving, markets closed.",
+            "End of November: a possible third prime-minister vote in the Riksdag, date not yet set.",
+            "During the week: Sweden, Germany and the Netherlands expected to sign the Pax Silica declaration on AI supply chains."
+          ],
+          "source": "SVT; Riksdagen; Reuters; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Thinking Machines releases a laptop-sized open model",
+          "body": "Inkling 2 Mini has 26.4 billion parameters and needs about 20 GB of memory; it is a mixture-of-experts model that runs its two middle blocks of layers three times per token, so it reasons deeper without storing more weights. The lab claims 79 percent on the SWE-bench Verified coding test.",
+          "source": "Thinking Machines Lab, 20 Nov"
+        },
+        {
+          "title": "AI-assisted cyberattack disrupts European Commission systems",
+          "body": "The attack temporarily took down staff payroll and medical-reimbursement systems; investigators reportedly linked it to an AI-assisted security testing tool, and officials are checking whether personal data was taken.",
+          "source": "The Neuron, 20 Nov (reported)"
+        },
+        {
+          "title": "Nvidia reportedly in talks to buy Inception",
+          "body": "Inception makes Mercury, a family of language models that generate text by diffusion rather than word by word and exceed 1,000 tokens per second; it plans to shut its current API on 28 December.",
+          "source": "The Neuron, 20 Nov (reported)"
+        },
+        {
+          "title": "Google books Blue Origin for its orbital AI servers",
+          "body": "Blue Origin will launch the first Project Suncatcher satellites in early 2029, each meant to carry about as much computing as one data-centre server rack.",
+          "source": "The Neuron, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Self-rewriting language models (UIUC, CMU, Princeton and others): given its own weights and graded answers, Qwen3.5-27B diagnoses its failures and edits its weights with no gradient training, gaining 6.6 points on unseen maths problems and repairing a damaged copy of itself to over 80 percent of its original accuracy; smaller models in the family cannot do it (arXiv 2611.21885, Hacker News front page).",
+            "RL post-training is activation steering (Virginia Tech, fal, Georgia Tech): a fixed set of vectors added to a frozen image model's layer outputs, the same for every prompt and 65 times smaller than the LoRA, recovers 90-96 percent of the reward gains of six RL-tuned image models, suggesting RL mostly steers what the model can already do (arXiv 2611.26627, Hugging Face daily papers).",
+            "Posterior Matching Distillation (Virginia Tech, NVIDIA): a new way to compress diffusion models into four sampling steps that matches the teacher's full spread of possible images rather than its most likely one, giving the best FID among four-step methods on SDXL and FLUX.2 and far more varied images per prompt (arXiv 2611.26629, Hugging Face daily papers)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face daily papers, 18-19 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}

@@ -2,19 +2,6 @@
  "unfetchable_domains": [],
  "candidates": [
   {
-   "url": "https://epoch.ai/publications/china-us-semiconductor-supply-chain-exposure",
-   "title": "China is more exposed to semiconductor supply-chain disruptions than the US",
-   "source": "Epoch AI",
-   "why": "Puts numbers under the 'chip war' talking point: Chinese demand needs about 2.7 times as much chip input per dollar as US demand, and in a Taiwan-plus-decoupling shock Chinese advanced processor prices rise roughly 17-fold against about 20 percent in the US.",
-   "who": "",
-   "category": "ai-economics",
-   "kind": "evergreen",
-   "published": "2026-10-06",
-   "added": "2026-10-21",
-   "impact": 6,
-   "minutes": 12
-  },
-  {
    "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
    "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
    "source": "Quanta Magazine",
@@ -77,19 +64,6 @@
    "published": "2026-11-09",
    "added": "2026-11-12",
    "impact": 7,
-   "minutes": 11
-  },
-  {
-   "url": "https://www.anthropic.com/research/claude-electronics-design",
-   "title": "Testing Claude on real-world electronics design",
-   "source": "Anthropic, with Diode Computers",
-   "why": "The first-hand account of Claude designing three consumer gadgets end to end (specifications, schematics, circuit-board layout, enclosure and firmware) that Diode then built and that worked without circuit fixes. It shows where the model revised its own work, wrote its own routing algorithm and reshaped an enclosure to fix a microphone resonance, and is candid that these are uncertified prototypes and that the companies have a commercial relationship.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-09",
-   "added": "2026-11-12",
-   "impact": 6,
    "minutes": 11
   },
   {
@@ -273,6 +247,19 @@
    "added": "2026-11-20",
    "impact": 6,
    "minutes": 20
+  },
+  {
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "title": "Introducing Inkling 2 Mini",
+   "source": "Thinking Machines Lab",
+   "why": "A lab's own account of building a laptop-sized open model as a looped mixture-of-experts: the middle layers run three times per token so the model computes more without storing more weights, two-thirds of the experts were pruned during training, and the weights are stored in 4-bit formats to fit in about 20 GB. A concrete look at how frontier labs trade memory for compute on local hardware.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-20",
+   "added": "2026-11-21",
+   "impact": 6,
+   "minutes": 25
   }
  ],
  "history": [
