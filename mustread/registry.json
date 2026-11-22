@@ -260,6 +260,19 @@
    "added": "2026-11-21",
    "impact": 6,
    "minutes": 25
+  },
+  {
+   "url": "https://www.datacamp.com/blog/ai-solved-riemann-hypothesis",
+   "title": "Two Proofs of the Riemann Hypothesis Dropped on the Same Day. One Used AI.",
+   "source": "DataCamp blog (Josef Waples)",
+   "why": "A plain-language walk through the two Riemann Hypothesis claims of 20 November: Levent Alpöge's Claude-made proof that exists only as 17 million lines of machine-checked Lean, and Alessandro Masullo's 940-page human draft. It explains what the hypothesis says about prime numbers, what a proof checker like Lean does and does not guarantee, and how the Clay prize rules treat a proof no human has read. Written before the Lean community's certification on 21 November and before problems were reported in the human draft, so read it as background to the biggest AI-and-maths story of the year.",
+   "who": "",
+   "category": "science",
+   "kind": "fresh",
+   "published": "2026-11-20",
+   "added": "2026-11-22",
+   "impact": 7,
+   "minutes": 12
   }
  ],
  "history": [
@@ -411,6 +424,13 @@
    "title": "Advancing science & engineering with Antigravity's /teamwork",
    "category": "ai-research",
    "minutes": 16
+  },
+  {
+   "date": "2026-11-22",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+   "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+   "category": "ai-research",
+   "minutes": 20
   }
  ]
 }
