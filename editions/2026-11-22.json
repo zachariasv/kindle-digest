@@ -1,0 +1,154 @@
+{
+  "date": "2026-11-22",
+  "title": "Morning Digest, Sunday 22 November 2026",
+  "intro": "The Lean and Mathlib communities certify the Claude-made proof of the Riemann Hypothesis, Iran strikes US bases in Bahrain as its tankers line up to run the blockade, COP31 nears a deal in Antalya, and a Centre Party MEP urges her party to give up on the red-greens and turn to Kristersson.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Lean community certifies the AI-made Riemann Hypothesis proof",
+          "body": "In a joint statement on Saturday, the Lean and Mathlib communities, backed by the Lean FRO and the Mathlib Initiative, said they have full confidence that Levent Alpöge's 17-million-line library is correct: it compiles, its final theorem matches Mathlib's own statement of the Riemann Hypothesis, and several independent checkers accept every step. What is still missing is a human-readable account of why the proof works. Separately, problems have reportedly been found in Alessandro Masullo's 940-page human-written draft released the same day.",
+          "source": "Lean community blog; Shtetl-Optimized; Al Jazeera; AgentsPulse, 21-22 Nov"
+        },
+        {
+          "title": "Iran strikes US bases in Bahrain as tankers prepare to run the blockade",
+          "body": "On Saturday night Iran fired two waves of drones and ballistic missiles at four US bases in Bahrain, including the Fifth Fleet headquarters; Bahrain says it intercepted several and reports no injuries. Earlier, at least three tankers were hit near the Strait of Hormuz, and around 14 Iranian tankers are reported waiting off Kharg Island to break the US blockade, which Tehran calls an act of war.",
+          "source": "Euronews; AP via ClickOrlando, 21 Nov"
+        },
+        {
+          "title": "COP31 nears a deal after overtime",
+          "body": "Summit president Murat Kurum announced consensus on a revised text in a late-night session in Antalya, with formal adoption scheduled for early Sunday; the earlier draft drew heavy criticism for leaving out any phase-out of fossil fuels, and the final wording is not yet public.",
+          "source": "GMA News via Head Topics; AP, 21-22 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Denmark asks the EU to stop tourist visas for Russians",
+          "body": "After Danish intelligence tied a foiled plot against the Ukrainian-American rapper Kyivstoner to Russia, Copenhagen expelled Russia's defence attaché and asked EU partners to suspend Russian tourist visas and stop accepting Russia's non-biometric passports; it presents the proposal to EU ambassadors on Monday. Moscow denies involvement.",
+          "source": "Reuters via Kyiv Independent, 20-21 Nov"
+        },
+        {
+          "title": "Eisenkot tasked with forming Israel's next government",
+          "body": "Former army chief Gadi Eisenkot has received the mandate after October's election left no clear majority, which would make him the first leader since 2022 other than Netanyahu to attempt it.",
+          "source": "CBS News live blog, 21 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Red-green talks locked as a Centre MEP urges a turn to Kristersson",
+          "body": "The Left Party has turned down a Social Democratic offer of its own officials inside the Government Offices and still demands ministerial posts, and SVT's sources describe the mood after Friday's talks as resigned. On Saturday the Centre Party MEP Emma Ytterell wrote that the most responsible path is now a government with the other centre-right parties, saying the Left had several chances. TV4's sources in the Centre leadership say the party lacks support for such a switch and fear it would split the party. The Social Democrats' published programme includes scrapping the unpaid first sick day, banning profit-making in schools and raising the age of criminal responsibility to 15. All party leaders meet the Speaker on Tuesday.",
+          "source": "SVT; TV4; TT via SVT Text, 20-21 Nov"
+        },
+        {
+          "title": "Police to open a station in Iraq",
+          "body": "National police chief Petra Lundh told Ekot that a pilot station will open in Iraq early next year to reach gang leaders who direct violence in Sweden from abroad; four more foreign stations are planned over four years.",
+          "source": "SR Ekot via SVT Text, 21 Nov"
+        },
+        {
+          "title": "Unemployment falls to 8.6 percent",
+          "body": "Statistics Sweden says seasonally adjusted unemployment fell in October while employment rose.",
+          "source": "SCB via SVT Text, 20 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Monday 23 November: UN and Barbados host a Special Summit on AI Safety in Bridgetown; Denmark presents its Russia travel curbs to EU ambassadors, and the Commission's 22nd sanctions package is reportedly due.",
+            "Tuesday 24 November: the Speaker meets party leaders from 09:30 (Kristersson at 10:00 with his final report); press conference no earlier than 16:30.",
+            "Thursday 26 to Friday 27 November: EU leaders' summit in Brussels on Ukraine's 2027 funding and the 2028-34 budget; Thursday is US Thanksgiving, markets closed.",
+            "End of November: a possible third prime-minister vote in the Riksdag, date not yet set.",
+            "During the week: Sweden, Germany and the Netherlands expected to sign the Pax Silica declaration on AI supply chains."
+          ],
+          "source": "UN; Kyiv Independent; SVT; Riksdagen; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Week in review",
+      "items": [
+        {
+          "title": "AI moved from helping mathematicians to settling famous problems",
+          "body": "On Tuesday Anthropic said Claude had solved two open problems in black-hole physics; on Friday an Anthropic mathematician released a Claude-made proof of the Riemann Hypothesis and, with an NYU colleague, a claimed Navier-Stokes blow-up, and by Saturday the Lean community had certified the first. The common thread is again the proof checker: it is what lets anyone trust results that no human has yet fully read."
+        },
+        {
+          "title": "The AI trade cracked in the week of its biggest listing",
+          "body": "SemiAnalysis cut its forecasts for AI chip spending by up to 41 percent for later years, Anthropic priced the largest listing ever at $83 a share and rose 17 percent on its first day, and then reports of an SEC look at Nvidia's accounting gave the chipmaker its worst week in 18 years and pushed the S&P 500 into a correction. Anthropic ended the week close to its listing price."
+        },
+        {
+          "title": "Summits and signatures, but the wars widened",
+          "body": "Trump, Xi and Putin met in Shenzhen and signed a four-point declaration that left out every war. Meanwhile US-Iran fighting spread to Kuwait and Bahrain, Russia launched one of its largest air attacks on Ukraine, and the Senate declined to limit Trump's war powers. The one deal that did close was Britain's reset with the EU."
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Anthropic's compute spending grows faster than OpenAI's",
+          "body": "Epoch AI estimates Anthropic's spending on compute is rising about fourfold a year against roughly threefold at OpenAI, and that capacity for agentic inference, meaning models running long multi-step tasks, grew 4.6 times in a year while total compute capacity grew 2.6 times.",
+          "source": "Epoch AI, 18 Nov"
+        },
+        {
+          "title": "Walmart says shoppers using its AI agent buy 40 percent more",
+          "body": "Use of its Sparky assistant more than doubled in the US, and the company is building a gateway to control how outside AI shopping agents reach its store, an early sign of retailers setting rules for agent-driven buying.",
+          "source": "Walmart Q3 results via RIO Rundown, 20-21 Nov"
+        },
+        {
+          "title": "Runway's revenue doubles to $200 million a year",
+          "body": "The AI video company reached that annualised revenue in September and is extending its Praxis-1 world models, which simulate how scenes evolve, to robotics.",
+          "source": "Bloomberg via RIO Rundown, 21 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "A Society of AI Scientists (alphaXiv, MIT, Stanford and others): over twelve weeks 936 autonomous agents across 35 labs published 936 studies, critiqued each other in 229 chat rooms and even founded their own peer-review journal; blind reviewers rated the agents' work more rigorous but less novel than recent human preprints (arXiv, 21 Nov, alphaXiv hot list).",
+            "Harnesses as compositional generalisers (MIT CSAIL, Zhang and Khattab): training a Recursive Language Model harness with RL on short tasks generalises to tasks 2-64 times longer, because each model call stays on familiar ground; their RLM-27B, trained only on synthetic surrogate tasks, scores 26.9 percent higher on hard long-context benchmarks with about half the tokens (arXiv, Nov, alphaXiv hot list).",
+            "TideCache (MIT, ETH Zurich, UCSD): a serving system for hybrid models that mix full attention with cheaper recurrent layers, streaming each attention layer's cache from CPU memory just in time on Nvidia's GB300 and GH200 superchips; it completes up to twice as many agent turns and cuts per-token latency by 20-59 percent (arXiv 2611.26619)."
+          ],
+          "source": "arXiv via alphaXiv, 19-21 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [
+    {
+      "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
+      "source": "Google Threat Intelligence Group",
+      "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
+      "why": "Google's threat-intelligence team documents the first attack pipeline it has seen running with no human in the loop: a framework called exploit_agent that watches web software for security patches, compares the code before and after the fix, writes a working exploit for the flaw the patch reveals and launches it. The report also covers open-source AI hacking frameworks used in real intrusions, an influence-operations platform built to run more than 100,000 accounts, and a suspected North Korean group that planted a backdoor by editing Claude Code settings files. First-hand evidence of AI acting as the attacker, and why patched (rather than unknown) flaws become the main target once exploits can be written in hours.",
+      "who": ""
+    }
+  ],
+  "must_read_backups": [
+    {
+      "title": "Dismantling China's Supply-Chain Weapon",
+      "source": "Council on Foreign Relations (Joris Teer, EUISS)",
+      "url": "https://www.cfr.org/reports/dismantling-chinas-supply-chain-weapon",
+      "why": "How China's export controls on rare earths and other critical materials actually work as a weapon: licence procedures used to gather intelligence and extract concessions, why the Busan truce only postponed the harshest rules, what a full magnet cut-off would cost the US and Europe, and why subsidies alone fail without demand-side protection such as tariffs, procurement rules and price floors. The mechanics under the 'reduce dependence on China' slogan, timely with China's suspension now running to January, a US-led AI supply-chain pact that Sweden is about to join, and Thursday's Trump-Xi-Putin meeting.",
+      "who": ""
+    },
+    {
+      "title": "Inference Performance Index: changing the way we measure inference capacity",
+      "source": "Epoch AI",
+      "url": "https://epoch.ai/publications/inference-performance-index",
+      "why": "Epoch's new yardstick for how many AI agents a chip can actually serve, and why raw computing power badly misleads: a GB300 has only about 2.5 times an H100's arithmetic speed but roughly 25 times its capacity on agent workloads, because serving long-context agents is limited by memory and by how fast chips can talk to each other, not by arithmetic. It explains why rack-scale systems linking 72 GPUs beat eight-GPU servers by about 1.9 times, and gives a common unit (GB300-equivalents) for comparing fleets. Useful background for every data-centre and chip-export headline.",
+      "who": ""
+    }
+  ]
+}
