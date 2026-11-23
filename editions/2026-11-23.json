@@ -1,0 +1,115 @@
+{
+  "date": "2026-11-23",
+  "title": "Morning Digest, Monday 23 November 2026",
+  "intro": "COP31 ends without its main deal, attacks on Gulf shipping reach their highest level of the war, drones set a Kaliningrad-bound ship alight in the Gulf of Finland, and the Left Party rejects Andersson's final offer within minutes, a day before the Speaker meets the party leaders.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "COP31 ends without an overarching deal",
+          "body": "After nearly 48 hours of overtime in Antalya, the EU, Britain, Norway, Panama and the Marshall Islands blocked the Turkish-Australian 'Antalya Pact' on Sunday because it did not commit to moving away from fossil fuels, a line more than 130 countries had backed. Narrower decisions, including one on a just transition, were adopted; Guterres said he was disappointed.",
+          "source": "Xinhua; Reuters via The Nation, 22-23 Nov"
+        },
+        {
+          "title": "Attacks on Gulf shipping hit their highest level of the war",
+          "body": "At least 25 tankers were struck in and around the Strait of Hormuz in seven days, and Iran says its latest strikes on US bases in Bahrain targeted radars after the US hit an Iranian radar on Hengam Island. War-risk insurance now costs 3.5-7.5 percent of a ship's value, up from 0.1-0.25 percent before the war; oil briefly passed $100 before settling near $83.",
+          "source": "Al Jazeera, 22 Nov"
+        },
+        {
+          "title": "Drones set a Kaliningrad-bound ship ablaze in the Gulf of Finland",
+          "body": "The cargo ship Sparta II was hit by two drones in international waters west of Gogland on Saturday, caught fire and drifted into Finnish waters, where it was still burning on Sunday. Finland reimposed air and sea restrictions in the eastern Gulf and Sweden offered help; no one has claimed the attack, Kyiv did not comment, and Prime Minister Orpo said Ukraine has the right to fight its aggressor.",
+          "source": "Reuters via The Moscow Times; Bloomberg, 21-22 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "EU budget draft cut again, with a 3 percent digital tax",
+          "body": "António Costa, who chairs EU summits, proposes a 2028-34 budget of €1,582 billion, €40 billion below the October compromise, cutting mainly the competitiveness fund, defence and external spending, and suggests a 3 percent levy on digital advertising and platform revenue that would fall mostly on US tech giants. Parliament's negotiator called it unacceptable; leaders discuss it Thursday and Friday.",
+          "source": "Reuters via Yahoo Finance, 21 Nov"
+        },
+        {
+          "title": "Trump weighs in as Schumer faces a leadership challenge",
+          "body": "Trump wrote that it would be 'very hard' to work with Chuck Schumer as majority leader; Schumer, who leads Senate Democrats into a majority in January, faces Chris Van Hollen in a secret ballot on 1 December.",
+          "source": "Reuters/AP via Al Jazeera, 22 Nov"
+        },
+        {
+          "title": "Autonomous-weapons talks end without a ban",
+          "body": "At the UN weapons convention in Geneva, 128 countries agreed only to 'elaborate' possible rules on lethal autonomous weapons by 2028; campaigners called the mandate watered down.",
+          "source": "UN News and CNBC via AI Daily Digest, 21 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Left Party rejects Andersson's final offer in 20 minutes",
+          "body": "On Sunday evening Magdalena Andersson, backed by the Centre and the Greens, offered the Left Party an eleven-point package: a seat in a four-leader inner cabinet, state secretaries and its own staff in the Prime Minister's Office and the budget unit, plus rent discounts and a dental reform, but no ministerial posts, its core demand. Ida Gabrielsson answered 'thanks, but no thanks' within 20 minutes. The Centre calls it the Left's last chance and wants a formal answer today; SVT's analyst sees a Kristersson-led government, or a snap election, as more likely.",
+          "source": "SVT; TV4, 22 Nov"
+        },
+        {
+          "title": "Wegovy tablet coming to Sweden",
+          "body": "Novo Nordisk will soon sell its weight-loss drug as a daily pill in Sweden; the price is not set but is expected at a few thousand kronor a month.",
+          "source": "Sweden Herald, 22 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Monday 23 November: the Left Party's formal answer to the S-C-MP offer is expected; Denmark presents its Russia visa curbs to EU ambassadors; UN special summit on AI safety in Bridgetown, Barbados.",
+            "Tuesday 24 November: the Speaker meets party leaders from 09:30 (Kristersson at 10:00 with his final report); press conference no earlier than 16:30.",
+            "Thursday 26 to Friday 27 November: special EU summit in Brussels on the 2028-34 budget and Ukraine's 2027 funding; Thursday is US Thanksgiving, markets closed.",
+            "Monday 30 November: Amazon's AWS re:Invent conference opens in Las Vegas.",
+            "Late November: a possible third prime-minister vote in the Riksdag, date not yet set.",
+            "Tuesday 1 December: Senate Democrats elect their leader, Schumer against Van Hollen; Sweden's temporary fuel-tax cut expires."
+          ],
+          "source": "SVT; Riksdagen; Reuters; Kyiv Independent; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI's chief scientist proposes perplexity as a yardstick and a limit",
+          "body": "Jakub Pachocki published figures on OpenAI's pretraining progress, measured as loss on its internal test set (about 0.99 for GPT-3.5, 0.91 for GPT-4, around 0.76 for a model that has produced results on open maths problems), expects further jumps in the 0.68-0.7 range and possibly a burst of pretraining advances as soon as 2027. He proposes that labs agree on shared limits on such measures that none would cross until monitoring tools catch up; it is not a call for a pause.",
+          "source": "OpenAI, 22 Nov"
+        },
+        {
+          "title": "Trump threatens a 'tremendous tax' on data centres built abroad",
+          "body": "He told a White House briefing that the US will not let its companies put data centres in other countries, framing it as part of the AI race with China, but gave no details and said he had not yet told his officials. US cloud giants have announced multi-billion-dollar data-centre investments abroad this year, including in Europe and Australia.",
+          "source": "ABC News (Australia); CNBC, 20-21 Nov"
+        },
+        {
+          "title": "Cognition reportedly raising at $75 billion",
+          "body": "The maker of the Devin coding agent is in talks to raise more than $2 billion, its third round this year, according to Bloomberg; nothing is signed.",
+          "source": "Bloomberg via AI Daily Digest, 20 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Clover-35B-A3B (DiffuSpace): an open-weight diffusion language model, converted from Qwen3.6-35B-A3B, that writes blocks of tokens in parallel and remembers earlier text through a recurrent memory; it reports 73.6 on SWE-bench Verified and 680 tokens per second on one GB300, a step towards diffusion models competing on agentic coding (arXiv 2611.24636, top of Hugging Face daily papers).",
+            "Feedback Shortcut (Institute of Foundation Models, USC, CMU): models that feed each position's top-layer state back into the next position are stronger but break speculative decoding; a trained stand-in plus a correction folded into the next verification pass restores 2.4-2.8 times faster decoding at essentially full quality, tested at 135M and 780M parameters (arXiv, 20 Nov, alphaXiv hot list).",
+            "The content-geometry tradeoff (NYU and AMI Labs, with LeCun): JEPA world models trained with the usual stop-gradient learn jagged latent spaces that make poor maps for planning; a simple variance floor along random directions, plus a term favouring slowly changing features, gives the best planning in five control tasks and learns street maps from first-person city-walk video (alphaXiv hot list, Nov)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face, 18-22 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
