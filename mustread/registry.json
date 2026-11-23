@@ -158,19 +158,6 @@
    "minutes": 15
   },
   {
-   "url": "https://cloud.google.com/blog/topics/threat-intelligence/agentic-threat-activity-crosses-a-significant-threshold",
-   "title": "GTIG AI Threat Tracker: Agentic Threat Activity Crosses a Significant Threshold",
-   "source": "Google Threat Intelligence Group",
-   "why": "Google's threat-intelligence team documents the first attack pipeline it has seen running with no human in the loop: a framework called exploit_agent that watches web software for security patches, compares the code before and after the fix, writes a working exploit for the flaw the patch reveals and launches it. The report also covers open-source AI hacking frameworks used in real intrusions, an influence-operations platform built to run more than 100,000 accounts, and a suspected North Korean group that planted a backdoor by editing Claude Code settings files. First-hand evidence of AI acting as the attacker, and why patched (rather than unknown) flaws become the main target once exploits can be written in hours.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-16",
-   "added": "2026-11-17",
-   "impact": 8,
-   "minutes": 20
-  },
-  {
    "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
    "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
    "source": "Google DeepMind",
@@ -273,6 +260,19 @@
    "added": "2026-11-22",
    "impact": 7,
    "minutes": 12
+  },
+  {
+   "url": "https://openai.com/index/perplexity-and-intelligence/",
+   "title": "Perplexity and Intelligence",
+   "source": "OpenAI (Jakub Pachocki, Chief Scientist)",
+   "why": "OpenAI's chief scientist opens the books on the company's internal pretraining progress for the first time: the loss figures for GPT-3.5, GPT-4 and the model that produced results on open maths problems, which loss ranges he links to new abilities in cybersecurity and mathematics, and why he expects a burst of pretraining advances as soon as 2027. He then argues that labs should agree on shared limits on such measures, not to cross until monitoring catches up, and is frank about the metric's weaknesses (different test sets, no direct link to tasks, reasoning that does not show up in it). A first-hand view of how a frontier lab tracks its own progress and what it thinks should constrain it.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-22",
+   "added": "2026-11-23",
+   "impact": 7,
+   "minutes": 10
   }
  ],
  "history": [
