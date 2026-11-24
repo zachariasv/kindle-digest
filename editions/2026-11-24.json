@@ -1,0 +1,111 @@
+{
+  "date": "2026-11-24",
+  "title": "Morning Digest, Tuesday 24 November 2026",
+  "intro": "The Centre Party reopens talks with Kristersson's side on the morning the Speaker meets the party leaders, Nvidia's board takes Jensen Huang back after US government input, Anthropic posts a Claude-written proof of the algebraic version of P versus NP that no human has yet checked, and Z.ai launches a looped 750-billion-parameter model.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Nvidia reinstates Jensen Huang as chief executive",
+          "body": "Eleven days after he resigned and six days after the board said it would not take him back, Nvidia's directors voted unanimously on Monday to restore Huang as CEO with immediate effect. The company says it acted after 'input from senior levels of the United States government' that his return poses no national-security risk; an inquiry into reports that he was targeted by a foreign intelligence effort continues, and interim CEO Colette Kress returns to her finance role.",
+          "source": "Nvidia press release (SEC filing); SCMP, 17-23 Nov"
+        },
+        {
+          "title": "Anthropic posts a Claude-written proof that VP differs from VNP",
+          "body": "A 70-page paper credited solely to Claude, with a Lean formalisation reported at about 73,000 lines, claims to settle Valiant's 47-year-old conjecture, the algebraic counterpart of P versus NP, over every field, by proving that circuits computing the permanent need superpolynomially many gates. Anthropic's own notes say no human mathematician has yet checked it and that nothing verifies that the Lean statement matches the claim; it does not settle P versus NP itself.",
+          "source": "Interesting Engineering; CASRAI, 23-24 Nov (claim not yet verified)"
+        },
+        {
+          "title": "Ukraine says it hit a Russian warship in Libya",
+          "body": "Zelenskyy confirmed on Monday that Ukraine was behind Sunday's strike on a Russian corvette at a naval base in eastern Libya, its farthest attack on Russia's navy so far; the Kremlin called it terrorism.",
+          "source": "Reuters world summary via Devdiscourse; AP via Just Security, 22-23 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Report: NATO expects a Russian nuclear-armed satellite launch",
+          "body": "German media say NATO intelligence has concluded that Russia will put a satellite carrying a nuclear weapon into orbit this year, which would breach the 1967 Outer Space Treaty.",
+          "source": "Reuters via Devdiscourse and Just Security, 23 Nov (reported)"
+        },
+        {
+          "title": "Eisenkot calls settler attacks 'Jewish terrorism'",
+          "body": "Israel's prime minister-designate used the term after arson attacks on West Bank villages, an unusually blunt line for an incoming Israeli leader.",
+          "source": "Reuters via Just Security, 22 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Centre Party reopens talks with M, KD and L",
+          "body": "After an extra meeting on Monday evening, Centre leader Elisabeth Thand Ringqvist said the party will resume talks with the Moderates, Christian Democrats and Liberals so the process does not stall, noting that the Left Party had still not given a clear answer to Sunday's final offer from S, C and MP. It is not yet a decision to back Kristersson, but it is the first open move by C towards the right since it chose Andersson's side on 15 November. Left deputy leader Ida Gabrielsson responded that she regrets C's 'switch of sides'. Kristersson reports to the Speaker this morning.",
+          "source": "TT via Hallands Nyheter, 24 Nov; SVT, 18 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Tuesday 24 November: the Speaker meets the party leaders from 09:30, Kristersson at 10:00 with his report; press conference no earlier than 16:30.",
+            "Wednesday 25 November: EU-Western Balkans summit in Brussels.",
+            "Thursday 26 to Friday 27 November: special EU summit on the 2028-34 budget and Ukraine's 2027 funding; Thursday is US Thanksgiving, markets closed.",
+            "Sunday 29 November: snap general election in Spain.",
+            "Monday 30 November: AWS re:Invent opens in Las Vegas.",
+            "Late November: a possible third prime-minister vote in the Riksdag, date not yet set.",
+            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires."
+          ],
+          "source": "SVT; Riksdagen; Reuters; Everything Briefing; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "Z.ai launches GLM-5.4, a looped transformer",
+          "body": "The Chinese lab's new flagship runs 28 layers of its GLM-5 model twice, gaining depth without adding parameters; at about 750 billion parameters, Z.ai says it matches models of 2-3 trillion. It is live for coding-plan subscribers, with the API and open weights promised after safety testing and no benchmarks published yet.",
+          "source": "Z.ai via TestingCatalog and CellCog, 23 Nov"
+        },
+        {
+          "title": "SpaceX plans $74 billion of AI campuses",
+          "body": "The company's planned AI facilities in Texas and Arizona would draw about 6 gigawatts in Arizona alone at full build-out, roughly the output of six large nuclear reactors, raising questions about who pays for grid upgrades.",
+          "source": "Fortune via The Neuron, 22-23 Nov (reported)"
+        },
+        {
+          "title": "Meta reconsiders its 2030 net-zero goal",
+          "body": "Its reported emissions rose about 40 percent in a year, to more than 21.7 million tonnes of CO2 equivalent in 2025.",
+          "source": "Ars Technica via The Neuron, 23 Nov"
+        },
+        {
+          "title": "Startup says AI agents designed a more efficient CPU",
+          "body": "Architect Labs claims its 'Frostbite' design delivers 4.59 times the performance per watt of a comparable simple processor in 7-nanometre simulation; no chip has been made and the comparison core is unnamed.",
+          "source": "Tom's Hardware via The Neuron; explainx.ai, 19-23 Nov (company claim)"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "cmHC (China Telecom's Xingchen AGI Lab and others): hyper-connections, which replace the single residual stream with several mixed streams, either barely mix or blur together; shrinking the allowed mixing matrices towards the interior of their polytope fixes both with no new parameters, tested on dense and mixture-of-experts pretraining (arXiv 2611.27193, top of Hugging Face daily papers).",
+            "NoPeWorld (PolyU): five of six interactive video world models let the player walk through walls, yet their hidden states already predict collisions; a small probe that vetoes unsafe moves cuts physical violations from 74 to 16 percent and ships with a new benchmark (arXiv 2611.27963, Hugging Face and alphaXiv hot lists).",
+            "MemOnce (Nanjing University, USTC): instead of storing keys and values for every layer, it keeps a small set of final-layer states and decodes them back on demand; adapting Qwen3.5-4B cut the memory cache 1,313-fold and prefill time 6.9-fold at a million tokens while scoring higher on memory tests (arXiv 2611.27973)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face, 20-23 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
