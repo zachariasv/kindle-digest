@@ -273,6 +273,32 @@
    "added": "2026-11-23",
    "impact": 7,
    "minutes": 10
+  },
+  {
+   "url": "https://arxiv.org/abs/2611.09822",
+   "title": "Discovering formally verified quantum programs with AI",
+   "source": "Google DeepMind and Google Quantum AI (Shirobokov, Jaderberg, Babbush, Kohli and others)",
+   "why": "A frontier lab's own account of putting Gemini 4 agents to work inside the Lean theorem prover: the team built a formal library for quantum programs so that an agent's proposed circuit is machine-checked for both correctness and cost, which lets agents design algorithms on thousands of qubits that no classical computer could test. The paper describes the workflow in unusual detail, including teams of agents that share verified results through a wiki and trade unproven ideas at scheduled internal conferences, and tracks where each saving came from (61 percent from within a team, 24 percent from the conferences). The results are concrete: 290 times less spacetime cost for a fixed-point arcsin circuit, 2.57 times fewer oracle rounds for parallel Grover search, and 11.8, 8.2 and 2.5 times cheaper simulations for fusion stopping power, non-Born-Oppenheimer dynamics and the drug-metabolising enzyme cytochrome P450. AI as the actor in another field, with proofs instead of benchmarks.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-17",
+   "added": "2026-11-25",
+   "impact": 8,
+   "minutes": 30
+  },
+  {
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "source": "OpenAI",
+   "why": "OpenAI reports wet-lab tests of general-purpose models designing proteins by reasoning and writing code, rather than by calling a specialised structure model. With the lab partner Onava, GPT-6.2 produced minibinder designs for five human protein targets of which 35 of 322 bound, redesigned antibody loops that still bound their targets in 128 of 182 variants, and wrote sequences for unpublished shapes that differed from the originals by more than half their residues and still worked. The write-up is also candid about the limits: specialised tools still generated and filtered sequences, binding is not specificity or stability, and some results may reflect memorised public structures. A first-hand look at a frontier model doing laboratory science rather than benchmarks, and at what the lab does and does not claim.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "fresh",
+   "published": "2026-11-24",
+   "added": "2026-11-25",
+   "impact": 8,
+   "minutes": 18
   }
  ],
  "history": [

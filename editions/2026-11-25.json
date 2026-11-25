@@ -1,0 +1,116 @@
+{
+  "date": "2026-11-25",
+  "title": "Morning Digest, Wednesday 25 November 2026",
+  "intro": "The Speaker has nominated Ulf Kristersson for a Monday vote without knowing how the Centre Party will vote, Washington is again discussing strikes on Iran's leadership, Estonia and Russia trade warnings over a closed border, and OpenAI claims to have pinned down the exact speed limit of matrix multiplication.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "Washington reopens the question of striking Iran's leaders",
+          "body": "NBC News reported on Tuesday that the Trump administration is again weighing attacks on senior Iranian figures to force an end to a war now in its ninth month, with no decision taken and some military officers warning of retaliation. Iran's parliament speaker Mohammad Bagher Qalibaf said the same day that Tehran will not negotiate until seven conditions are met, among them lifting sanctions and ending the US naval blockade of the Strait of Hormuz.",
+          "source": "NBC News via GSM Global; 10 Things Global News, 24 Nov (reported)"
+        },
+        {
+          "title": "OpenAI claims the exact speed limit of matrix multiplication",
+          "body": "A preprint posted on Tuesday argues that the matrix-multiplication exponent is exactly 9/4, over every field: it both matches October's algorithm at about n to the 2.25 and proves no arithmetic circuit can do better. The best known upper bound had been about 2.371 and the best lower bound only the trivial 2. The work is AI-assisted, unreviewed, and only partly formalised in Lean, and changes nothing about how GPUs multiply matrices today.",
+          "source": "OpenAI math preprint, 24 Nov; AI Weekly, OfficeChai, 25 Nov (claim not yet verified)"
+        },
+        {
+          "title": "Estonia closes its Russian border, Moscow warns of 'open war'",
+          "body": "Russia's foreign ministry accused Estonia on Monday of acts that risk open war after Tallinn decided to shut its land crossings from 1 December for at least six months, citing an alleged Russian-linked arson attempt on a defence firm. NATO's Mark Rutte said the alliance is watching, a week after a Russian missile crossed into Polish airspace.",
+          "source": "10 Things Global News, 24 Nov"
+        },
+        {
+          "title": "Leaked Russian statistics point to far higher war deaths",
+          "body": "Researchers working from leaked Rosstat records put Russian military deaths at at least 490,000 by September, with higher estimates above 700,000, and document 1,087 military suicides since the full-scale invasion. Carnegie's Michael Kofman still expects Russia to recruit about 409,000 soldiers this year.",
+          "source": "10 Things Global News, 24 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Burnham rules out an EU referendum this parliament",
+          "body": "The British prime minister told Parliament on Monday that rejoining the EU without a referendum would be unthinkable, and that the single market and customs union stay off the table for this parliament. He will set out options for closer ties next month; last week's deals on food checks, emissions trading and youth mobility are estimated to be worth about 17 billion pounds a year eventually.",
+          "source": "10 Things Global News, 24 Nov"
+        },
+        {
+          "title": "Solomon Islands drops its security pact with China",
+          "body": "Honiara has reportedly told Beijing it will not renew the 2022 security agreement when it expires in April, and is due to sign a broader treaty with Australia in Canberra today, with Australian funding reported at 980 million dollars through 2028.",
+          "source": "10 Things Global News, 24 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Kristersson nominated for a Monday vote, with the Centre Party still undecided",
+          "body": "After receiving Kristersson's final sounding report on Tuesday afternoon, Speaker Andreas Norlén nominated him as prime minister for a government of M, C, KD and L, with readings in the chamber on Thursday and Friday and the vote on Monday 30 November at 13:00. Norlén said plainly that Kristersson does not yet know where the Centre Party stands, and called the risk of a snap election tangible: this is the third of four possible attempts, and a fourth failure forces an extra election within three months.",
+          "source": "Riksdagen, SVT, TV4, 24 Nov"
+        },
+        {
+          "title": "The Centre Party's red line against SD is the open question",
+          "body": "Elisabeth Thand Ringqvist said she is ready to talk to both sides but would not say whether cooperation with the Sweden Democrats is ruled out, prompting a written clarification that the party's line has not changed; deputy leader Ulrika Heie called SD cooperation irrelevant. She briefed the party board, parliamentary group and local representatives at a digital meeting on Tuesday evening, after 35 Centre politicians publicly opposed governing with SD support. Jimmie Åkesson has said SD would stand aside and let a four-party government through without ministerial posts, but promises no support for its policies.",
+          "source": "SVT, Sejfer, TV4, 24 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Wednesday 25 November: EU-Western Balkans summit in Brussels; Solomon Islands and Australia expected to sign their treaty in Canberra.",
+            "Thursday 26 November: first reading of the prime-minister nomination in the Riksdag; special EU summit on the 2028-34 budget and Ukraine's 2027 funding, continuing Friday; US Thanksgiving, markets closed.",
+            "Friday 27 November: second reading of the nomination.",
+            "Sunday 29 November: snap general election in Spain.",
+            "Monday 30 November: Riksdag votes on Kristersson as prime minister at 13:00; AWS re:Invent opens in Las Vegas.",
+            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires; Estonia's border closures with Russia take effect.",
+            "Thursday 3 December: Jensen Huang testifies to the US Senate Banking Committee."
+          ],
+          "source": "Riksdagen; SVT; Reuters; 10 Things Global News; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI says GPT-6 models design proteins that work in the lab",
+          "body": "In tests with the lab Onava, GPT-6.2 reasoned and wrote code to design binders for five human protein targets, of which 35 of 322 bound, and redesigned antibody loops that still bound in 128 of 182 variants. Specialised tools still generated and filtered sequences, and OpenAI cautions that binding is not specificity or stability.",
+          "source": "OpenAI via Unite.ai and Techlantis, 24-25 Nov"
+        },
+        {
+          "title": "DeepMind agents cut quantum algorithm costs with machine-checked proofs",
+          "body": "Teams of Gemini 4 agents working inside the Lean theorem prover found circuits with proven correctness and cost, reducing a fixed-point arcsin routine 290-fold and simulations relevant to fusion, photochemistry and drug metabolism by 11.8, 8.2 and 2.5 times. Formal proof is what allows designs on thousands of qubits that no classical computer can test.",
+          "source": "Google DeepMind and Google Quantum AI, arXiv 2611.09822, 17-24 Nov"
+        },
+        {
+          "title": "US blacklists a Singapore AI infrastructure firm",
+          "body": "Megaspeed was added to the trade blacklist over alleged exports of Nvidia chips to China; the company denies wrongdoing. Enforcement of the chip controls now reaches third-country cloud providers.",
+          "source": "BBC via The Neuron, 24 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "RoboThink (Tulane, NYU, Stanford, MIT, Harvard and others): instead of letting a reasoning model drive a robot directly, it teaches the robot's action module to read short corrective feedback such as 'push right, slightly'; on LIBERO with an unknown constant drift on its motion commands, success rises from 0.09 to 0.87, at 55 seconds and 8,000 tokens per success against 2.1 minutes and over a million tokens for the model acting alone (arXiv 2611.30111).",
+            "WorldLeague (National University of Singapore): 60 simulated robot tasks scored on physical goals rather than answers; the best of 13 systems reaches 28.58 out of 100 and completes 13 tasks, and in 249 of the 347 episodes where a model answered every question about the scene correctly it earned zero credit for what it actually did (arXiv 2611.30989, high on both Hugging Face and alphaXiv).",
+            "RoboUniverse-10K (Tsinghua, Einsia.AI, Peking University and others): 10,807 resettable physics environments rebuilt automatically from real-world video, with 500 held out as a benchmark; frontier models reach 85.8 percent success against 2.6-10 percent for open models, and fine-tuning a 35B open model on 17,000 agent trajectories lifts it from 0.8 to 21.2 percent (arXiv 2611.31002)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face, 23-24 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
