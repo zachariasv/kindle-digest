@@ -2,19 +2,6 @@
  "unfetchable_domains": [],
  "candidates": [
   {
-   "url": "https://www.quantamagazine.org/malaria-parasite-caught-in-the-act-of-breaking-and-entering-20261023/",
-   "title": "Malaria Parasite Caught in the Act of Breaking and Entering",
-   "source": "Quanta Magazine",
-   "why": "Cryo-electron microscopy finally captures the fleeting protein ring the malaria parasite uses to push its way into red blood cells, and the team used AI-assisted protein design to build an inhibitor that blocks it in the test tube: a new angle on a disease that kills about 600,000 people a year as drug resistance spreads.",
-   "who": "",
-   "category": "science",
-   "kind": "evergreen",
-   "published": "2026-10-23",
-   "added": "2026-10-26",
-   "impact": 6,
-   "minutes": 9
-  },
-  {
    "url": "https://www.quantamagazine.org/how-voting-is-like-a-klein-bottle-20261026/",
    "title": "How Voting Is Like a Klein Bottle",
    "source": "Quanta Magazine",
@@ -158,19 +145,6 @@
    "minutes": 15
   },
   {
-   "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-   "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
-   "source": "Google DeepMind",
-   "why": "DeepMind's own account of a model that reads about a million letters of DNA together with a chosen cell type or state and predicts what that stretch of DNA does there, trained on 107 million single-cell profiles. Across 28 immune cell types it pinpoints disease-causing genetic variants about twice as often as the previous method (30 versus 16 percent). A clear example of AI changing what is possible in genetics.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-11",
-   "added": "2026-11-17",
-   "impact": 6,
-   "minutes": 9
-  },
-  {
    "url": "https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work",
    "title": "How good are Fable 5.2 and GPT-6.2 Astra at real work?",
    "source": "Epoch AI (Kelly Hong)",
@@ -299,6 +273,19 @@
    "added": "2026-11-25",
    "impact": 8,
    "minutes": 18
+  },
+  {
+   "url": "https://arxiv.org/abs/2609.40324",
+   "title": "Cogentic: Multi-Agent Orchestration for Automated Proof Discovery",
+   "source": "Google Research (arXiv)",
+   "why": "The Google Research team's own description of the system behind this week's burst of claimed results, including an unconditional factoring algorithm and faster discrete logarithms. It explains how a research group's division of labour is turned into software: an orchestrator assigns directions, parallel provers draft arguments, adversarial verifiers assume every proof is wrong, and only checked lemmas enter a shared ledger later rounds build on. It then walks through five earlier results in learning theory and auction design, each solved from the bare problem statement with a few hundred to a few thousand Gemini calls and checked by human experts, and closes on the real bottleneck: such systems produce results faster than people can read them. Short, first-hand and readable, the best way to understand how AI mathematics is now done.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-10-01",
+   "added": "2026-11-26",
+   "impact": 7,
+   "minutes": 20
   }
  ],
  "history": [

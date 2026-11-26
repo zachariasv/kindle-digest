@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-26",
+  "title": "Morning Digest, Thursday 26 November 2026",
+  "intro": "AI labs post a burst of claimed breakthroughs in core algorithms, Washington readies new tariffs on China and the EU, a US jury convicts Huawei, the Centre Party leader is reported to see only Kristersson or a snap election, and EU leaders meet on the budget and Ukraine.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "AI systems claim results at the heart of computer science",
+          "body": "Google Research's multi-agent system Cogentic, running on Gemini models, posted six papers on Wednesday, among them an unconditional integer-factoring algorithm and faster discrete logarithms in some finite fields; OpenAI's repository added claims of a strongly polynomial algorithm for linear programming (Smale's ninth problem) and a disproof of the polynomial Hirsch conjecture on polytope diameters. None is peer reviewed yet: Google says its earlier results were checked by human experts, and OpenAI withdrew three of its own preprints in October. Commenters note the factoring result does not threaten RSA in practice. Scott Aaronson called the pace a turning point in his field.",
+          "source": "Google Research GitHub via deniz.in and daily.dev; Snape Report; Shtetl-Optimized; 24-25 Nov (claims unverified)"
+        },
+        {
+          "title": "US prepares new tariffs on China, the EU and 14 others",
+          "body": "After an inquiry into foreign overcapacity, trade representative Jamieson Greer is readying duties of up to 20 percent on China and 15 percent or less on the EU, Japan and South Korea, rebuilding the tariff regime the Supreme Court struck down in February. Legal challenges are expected.",
+          "source": "WSJ and Politico via 10 Things Global News, 25 Nov (reported)"
+        },
+        {
+          "title": "Huawei convicted on 10 of 12 counts in New York",
+          "body": "A Brooklyn federal jury found the company guilty of bank fraud, wire fraud, sanctions violations and conspiring to steal trade secrets, over misleading banks about its Iran business; it was acquitted of racketeering and obstruction conspiracy. Huawei plans to appeal; sentencing is set for 14 September 2027.",
+          "source": "Reuters, CNN, SCMP, 24-25 Nov"
+        },
+        {
+          "title": "Houthis hit Saudi Arabia's sovereign fund headquarters again",
+          "body": "A second strike in under a week on the Public Investment Fund's tower in Riyadh's financial district injured 11 people and led most international flights to Riyadh to be cancelled. The Houthis warned that Saudi Red Sea ports could be next; the Saudi-led coalition promised a firm response.",
+          "source": "Al Jazeera, WSJ via 10 Things Global News, 25 Nov"
+        },
+        {
+          "title": "Shanghai's party chief placed under investigation",
+          "body": "Chen Jining is the fourth of the 24 Politburo members appointed in 2022 to be probed for discipline violations, leaving 19 active members, the fewest since 1999, a year before the next party congress.",
+          "source": "Bloomberg, SCMP via 10 Things Global News, 25 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "EU leaders meet on the 2028-34 budget and Ukraine's 2027 money",
+          "body": "The two-day special summit opening today weighs Costa's compromise budget and a 45 billion euro Ukraine package for 2027 (20 billion budget support, 25 billion military). Friedrich Merz has reportedly threatened to block the budget unless countries that stayed out of joint EU loans help pay the interest.",
+          "source": "Interfax-Ukraine, 24 Nov; Kyiv Independent via Particle, 25 Nov"
+        },
+        {
+          "title": "Venezuela discloses 237.5 billion dollars of public debt",
+          "body": "The first official figures in years, published ahead of a sovereign restructuring, put debt at 242 percent of GDP, including 110 billion in defaulted bonds and interest; China and Russia hold about 22 billion.",
+          "source": "FT, Bloomberg via 10 Things Global News, 25 Nov"
+        },
+        {
+          "title": "Ebola responders trapped by fighting in eastern Congo",
+          "body": "WHO staff are sheltering in a hospital maternity ward in Ituri as clashes continue; the Bundibugyo-strain outbreak that began in May has passed 11,600 confirmed cases and 5,600 deaths.",
+          "source": "UN News, 24 Nov"
+        },
+        {
+          "title": "China launches its first foreign astronaut to Tiangong",
+          "body": "Shenzhou-24 lifted off on Wednesday carrying two Chinese crew and Pakistan's Muhammad Zeeshan Ali, the first foreign visitor expected on the Chinese station.",
+          "source": "AP, DW via 10 Things Global News, 25 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Thand Ringqvist reportedly frames the choice as Kristersson or a snap election",
+          "body": "At Tuesday evening's digital meeting with the party board and Riksdag group, the Centre Party leader is said to have argued that an Andersson-led government cannot take office because the Left Party will not drop its demand for cabinet seats, that abstaining to let the right through then sitting in opposition makes no sense when C is itself in the proposed government, and that C would be blamed for a snap election. No decision was taken. The Riksdag holds the first reading of Kristersson's nomination today, ahead of Monday's vote.",
+          "source": "SVT, 24-25 Nov (based on unnamed sources)"
+        },
+        {
+          "title": "Resistance inside C, and S rules out budget help",
+          "body": "The Centre women's federation joined the youth wing in rejecting a Kristersson government, citing Sweden Democrat influence. Magdalena Andersson said S will not make budget deals with a four-party alliance government, and Justice Minister Gunnar Strömmer said such a government would need SD's tolerance, with support sought issue by issue.",
+          "source": "TV4 via Metro Mode, 25 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Thursday 26 November: first reading of the prime-minister nomination in the Riksdag; special EU summit on the 2028-34 budget and Ukraine's 2027 funding opens, continuing Friday; US Thanksgiving, markets closed.",
+            "Friday 27 November: second reading of the nomination.",
+            "Sunday 29 November: snap general election in Spain.",
+            "Monday 30 November: Riksdag votes on Kristersson as prime minister at 13:00; appeal verdict in Sarkozy's Libyan campaign-financing case; AWS re:Invent opens in Las Vegas.",
+            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires; Estonia closes its land border with Russia.",
+            "Thursday 3 December: Jensen Huang testifies to the US Senate Banking Committee."
+          ],
+          "source": "Riksdagen; SVT; Interfax-Ukraine; Le Monde; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "1Password breached through an employee's GitHub account",
+          "body": "An attacker used the account to copy source code, push code into internal systems and take customer names, emails and account metadata for a subset of users; the company says vaults and the keys protecting them were never reachable and customers need only watch for phishing.",
+          "source": "TechCrunch, 25 Nov; The Hacker News, 26 Nov"
+        },
+        {
+          "title": "Tidal removes millions of fully AI-generated tracks",
+          "body": "The streaming service says 43 percent of uploads over 90 days were made entirely by AI and will remove such tracks, millions in all, while still accepting music made with AI help.",
+          "source": "The Guardian, TechCrunch, 24-25 Nov"
+        },
+        {
+          "title": "New York bans AI chatbot toys for five years",
+          "body": "Governor Kathy Hochul signed the ban, which takes effect in 90 days with fines of up to 15,000 dollars a day.",
+          "source": "Office of the Governor of New York, 25 Nov"
+        },
+        {
+          "title": "Amazon says an open-source agent exploited an unknown flaw on its own",
+          "body": "Amazon reports catching an attack in which an open-source AI agent found and used a zero-day vulnerability with little human direction.",
+          "source": "Gizmodo, 25 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Loom attention (Beijing University of Posts and Telecommunications, ColorfulClouds): lets each attention head choose, token by token, which earlier heads to read from via a small per-token matrix memory; for 2-3 percent extra compute a 2.8B model trained on 300B tokens matches Pythia-12B on ten benchmarks (arXiv 2611.30634, high on Hugging Face).",
+            "RL with Verifiable Beliefs (Nanyang Technological University): agents that guess before they have enough evidence are trained with a reward computed from the simulator's exact posterior, so a lucky guess earns nothing; accuracy rises 17 percent on average across three benchmarks, where plain outcome-reward GRPO and PPO fall below the untrained model (arXiv 2611.32884).",
+            "Recursive Collective Intelligence (Stanford, Berkeley, NVIDIA): judges agent teams against compute-matched voting rather than a single agent, finds that only passing information between agents beats it, and shows label-free training on a group's own outputs improving it for four to six generations (arXiv 2611.32606, top of alphaXiv)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face, 24-25 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
