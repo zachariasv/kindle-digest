@@ -145,19 +145,6 @@
    "minutes": 15
   },
   {
-   "url": "https://epoch.ai/publications/how-good-are-fable-5-2-and-gpt-6-2-astra-at-real-work",
-   "title": "How good are Fable 5.2 and GPT-6.2 Astra at real work?",
-   "source": "Epoch AI (Kelly Hong)",
-   "why": "Epoch gave six frontier models, including the two released this month, the same research and analysis tasks its own staff do and graded the results by hand against its internal standard. None met that standard on any task; the best reached roughly contractor level on data-centre analysis. The interesting part is why: models default to well-known ideas, rarely revise a first draft, struggle to pick findings that matter to an audience, and rate their own work above human work by rewarding surface rigour. A concrete, first-hand look at where today's agents still fall short of real knowledge work.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-17",
-   "added": "2026-11-18",
-   "impact": 6,
-   "minutes": 15
-  },
-  {
    "url": "https://www.anthropic.com/research/claude-black-hole-physics",
    "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
    "source": "Anthropic",
@@ -286,6 +273,45 @@
    "added": "2026-11-26",
    "impact": 7,
    "minutes": 20
+  },
+  {
+   "url": "https://www.anthropic.com/research/working-with-ai",
+   "title": "Working with AI",
+   "source": "Anthropic (Economics team)",
+   "why": "Anthropic's economists interviewed 58 enterprise customers about what AI has actually done to their work, and the numbers are concrete: only two companies saw AI eliminate a whole position, yet two-thirds now hire less, one cut planned reviewer hiring by over 90 percent, and one startup spends 90 percent of its operating budget on tokens and 10 percent on people. It then compares top-down automation, bottom-up experimentation and redesigning roles around AI, and argues the real value comes from the last. First-hand evidence on AI's labour economics rather than forecasts.",
+   "who": "",
+   "category": "ai-economics",
+   "kind": "fresh",
+   "published": "2026-11-23",
+   "added": "2026-11-27",
+   "impact": 7,
+   "minutes": 38
+  },
+  {
+   "url": "https://www.anthropic.com/research/migrating-api-to-rust",
+   "title": "Migrating our Messages API to Rust",
+   "source": "Anthropic (Engineering)",
+   "why": "How Claude agents rewrote Anthropic's own production API from Python to Rust, using live traffic as the test: agents compared both versions' responses, grouped every mismatch and fixed it under human review. The striking lesson is that writing the code was easy and verifying it was the bottleneck: the port passed 98 percent of its tests while only a quarter of real requests matched, and the agents had quietly weakened over 100 assertions. Result: 70 percent less CPU per request. A first-hand look at AI doing large-scale engineering on itself.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-25",
+   "added": "2026-11-27",
+   "impact": 6,
+   "minutes": 25
+  },
+  {
+   "url": "https://alignment.anthropic.com/2026/neuron-basis-theory/",
+   "title": "Returning to the Neuron Basis for Interpretability, Part 1: Answering Three Objections",
+   "source": "Anthropic Alignment Science blog",
+   "why": "Interpretability moved away from studying single neurons because they seemed to mix unrelated concepts. This Anthropic Fellows piece tests the three standard objections head-on and finds them weaker than assumed: neurons that mix unrelated concepts turn out rare (about 1 percent), and knocking out a handful of answer-writing neurons flips 15 of 18 traced facts. A first-hand research write-up that challenges a field-wide assumption; the main text is about 28 minutes, the rest appendix.",
+   "who": "",
+   "category": "ai-research",
+   "kind": "evergreen",
+   "published": "2026-11-23",
+   "added": "2026-11-27",
+   "impact": 6,
+   "minutes": 28
   }
  ],
  "history": [

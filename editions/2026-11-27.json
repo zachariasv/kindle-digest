@@ -1,0 +1,128 @@
+{
+  "date": "2026-11-27",
+  "title": "Morning Digest, Friday 27 November 2026",
+  "intro": "The Centre Party leadership backs Kristersson ahead of Monday's vote, EU leaders leave Brussels without a budget deal, Trump says he asked Putin to pull back across Europe, and the Houthis hit a Saudi refinery.",
+  "sections": [
+    {
+      "heading": "Everyone's talking about",
+      "items": [
+        {
+          "title": "EU budget summit breaks up without a deal",
+          "body": "Leaders spent about ten hours on Costa's compromise for 2028-34, which trims the Commission's roughly 2 trillion euro proposal by 204 billion, then cancelled Friday's session. Merz and the net payers want cuts of several hundred billion more, Macron called the cut a strategic error and left early, and Sweden, Denmark, Belgium and Austria reportedly walked out of sessions; leaders try again from 17 December.",
+          "source": "EUobserver, 27 Nov; PiQ Markets, 26 Nov (walk-outs reported)"
+        },
+        {
+          "title": "Trump says he told Putin to pull back across Europe",
+          "body": "Writing on Thursday, Trump said he had asked Putin, at their meeting in Shenzhen on the sidelines of APEC last week, to end military pressure on territories throughout Europe and called the Ukraine war a bloodbath. It follows Polish claims of a Russian airspace violation and Estonia linking an arson attack to Russian military intelligence.",
+          "source": "Reuters via Korea Times, 27 Nov"
+        },
+        {
+          "title": "Houthi strike reaches a Saudi Aramco refinery",
+          "body": "An attack on Aramco's Jazan refinery killed one worker, injured several and halted some operations, days after the Houthis twice hit the sovereign wealth fund's tower in Riyadh and threatened Red Sea ports. Saudi officials did not name the attacker.",
+          "source": "Saudi Energy Ministry via Al Jazeera, 26 Nov"
+        },
+        {
+          "title": "Storm postpones the Macy's Thanksgiving parade for the first time",
+          "body": "A nor'easter with gusts of up to 100 km/h pushed New York's parade to Saturday, the first postponement in its 100 years, as up to 80 million Americans travelled for the holiday.",
+          "source": "Times of Israel liveblog (AP), 26 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Israel threatens mass displacement in Gaza",
+          "body": "The defence minister said a million Gazans could be forcibly moved if Hamas does not disarm; Israeli strikes killed at least nine people overnight despite the ceasefire, medics said.",
+          "source": "Monitor the Situation brief, 26 Nov"
+        },
+        {
+          "title": "Russian border guards to leave Armenia",
+          "body": "Prime Minister Pashinyan says the Russian guards posted on Armenia's borders since 1992 will be fully withdrawn over the coming years, another step away from Moscow.",
+          "source": "Meduza via Monitor the Situation, 26 Nov"
+        },
+        {
+          "title": "Guinea-Bissau's junta delays elections by two years",
+          "body": "The vote set for 6 December is pushed to November 2028, extending military rule.",
+          "source": "ABC News, Al Jazeera, 26 Nov"
+        },
+        {
+          "title": "Five NATO countries order 430 combat vehicles",
+          "body": "Described as the alliance's largest joint vehicle purchase; Finland says the supplier is BAE Systems.",
+          "source": "Reuters via Monitor the Situation, 26 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Sweden",
+      "items": [
+        {
+          "title": "Centre Party leadership says yes to Kristersson",
+          "body": "After a several-hour meeting on Thursday, a majority of the Centre Party board and Riksdag group backed voting for Ulf Kristersson on Monday and joining a four-party M-C-KD-L minority government. Elisabeth Thand Ringqvist said C has no deal with the Sweden Democrats: no budget cooperation, no SD ministers, and C keeps a veto over policy. She said she would have resigned had the choice been a government with the Left Party or a snap election. The party's council (förtroenderåd) must still approve, reportedly on Sunday.",
+          "source": "SVT, TT via Dagens PS, TV4, 26 Nov"
+        },
+        {
+          "title": "Dissent inside C, welcome from the right",
+          "body": "C's women's federation, youth wing and MEPs oppose a government that could rest on SD, and MP Anna Lasses says she will vote no. Kristersson, Busch and Mohamsson welcomed the decision; Magdalena Andersson predicts a historically weak government.",
+          "source": "TV4, SVT, 26 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "Week ahead",
+      "items": [
+        {
+          "title": "Scheduled",
+          "bullets": [
+            "Sunday 29 November: Centre Party council decides on the Kristersson government; snap general election in Spain.",
+            "Monday 30 November: Riksdag votes on Kristersson as prime minister at 13:00; appeal verdict in Sarkozy's Libyan campaign-financing case; AWS re:Invent opens in Las Vegas.",
+            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires; Estonia closes its land border with Russia.",
+            "Thursday 3 December: Jensen Huang testifies to the US Senate Banking Committee."
+          ],
+          "source": "Riksdagen; SVT; TV4; earlier editions"
+        }
+      ]
+    },
+    {
+      "heading": "Tech and AI",
+      "items": [
+        {
+          "title": "OpenAI puts ChatGPT and Codex on one meter",
+          "body": "From December, Plus, Pro and Business subscribers draw on a single token-based allowance across chat and coding work, with quick 'Instant' chats left outside it; OpenAI says only a small share of heavy users will hit limits sooner.",
+          "source": "TechCrunch, The Verge via The Neuron and DEV, 26 Nov"
+        },
+        {
+          "title": "Cognition builds its new coding model on Kimi K3",
+          "body": "SWE-2.1, the model behind Devin, was trained with reinforcement learning on top of Moonshot's open-weight 2.8-trillion-parameter Kimi K3, a sign that Chinese open bases now anchor US products; Cognition reports roughly doubled scores on agentic coding tests but still ranks it behind the top closed models.",
+          "source": "Cognition via DEV digest, 24-26 Nov"
+        },
+        {
+          "title": "Ant Group releases Ling-3.2-air with open weights",
+          "body": "The multimodal model, aimed at office automation through software tools, is downloadable under the MIT licence; on Ant's own test it completes 61 percent of tasks, against 16 percent for its predecessor.",
+          "source": "The Neuron, 26 Nov (reported)"
+        },
+        {
+          "title": "Brussels proposes a 50 billion euro tech equity fund",
+          "body": "Henna Virkkunen presented a Sovereign Tech Equity Fund for AI and quantum, meant to draw up to six private euros per public euro, alongside a draft Quantum Act favouring EU-controlled firms in public procurement. Member states and Parliament must still agree.",
+          "source": "DEV digest, 26 Nov (reported)"
+        }
+      ]
+    },
+    {
+      "heading": "On the radar",
+      "items": [
+        {
+          "title": "Research pulse",
+          "bullets": [
+            "Mixture-of-Loops Transformer (HUST, ByteDance Seed): a looped model that passes keys and values rather than the residual stream between loops, so decoding needs only one pass; at 700M parameters it matches OLMo3's final loss with 1.7 times fewer tokens, at twice the training compute (arXiv 2611.34923, high on Hugging Face and alphaXiv).",
+            "Stable Gated DeltaNet-2 (MemTensor, Jianlin Su and others): traces long-context training blow-ups in the new GDN-2 linear attention to a lopsided erase step that lets state values grow past 10^36 under a normal-looking loss, and fixes it with symmetric erasure, adding 6.8 points on 128K-token RULER (arXiv 2611.34051).",
+            "RL can be recovered from its own rollouts (CMU and others): simply fine-tuning a base model on the archived samples of an RL run, correct and incorrect alike, one step per batch, reproduces the whole learning curve without rewards, suggesting most RL compute goes into finding a better sampling distribution (arXiv 2611.33102, trending on alphaXiv)."
+          ],
+          "source": "arXiv via alphaXiv and Hugging Face, 25 Nov"
+        }
+      ]
+    }
+  ],
+  "must_reads": [],
+  "must_read_backups": []
+}
