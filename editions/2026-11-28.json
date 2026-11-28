@@ -1,50 +1,20 @@
 {
   "date": "2026-11-28",
   "title": "Morning Digest, Saturday 28 November 2026",
-  "intro": "The Centre Party's council meets tomorrow with its leader's job reportedly on the line, a drone strike in Kuwait kills two Italian technicians, eurozone governments pick Spain's Pablo Hernández de Cos to run the ECB, and OpenAI countersues Apple.",
+  "intro": "The Centre Party's council meets tomorrow with its leader's job reportedly on the line, a drone strike in Kuwait kills two Italian technicians, eurozone leaders pick Spain's Pablo Hernández de Cos to run the ECB, and OpenAI countersues Apple.",
   "sections": [
     {
       "heading": "Everyone's talking about",
       "items": [
         {
           "title": "Drone strike in Kuwait kills two Italian defence technicians",
-          "body": "Two Rheinmetall Italia employees servicing an air-defence radar site died on Thursday and two other workers were injured. Kuwait and Italy blame Iran, and Rome says the drone was Iranian-made; Tehran calls it a false-flag operation and offers to help trace its origin, while indirect US-Iran talks remain stalled.",
-          "source": "Al Jazeera, 27 Nov; 10 Things (AP, Reuters), 27 Nov"
+          "body": "Two Rheinmetall Italia employees maintaining an air-defence radar site died on Thursday and a Kuwaiti and a Pakistani worker were injured. Kuwait and Italy blame Iran; Tehran denies it and calls the attack a false flag, while indirect US-Iran talks remain stalled.",
+          "source": "Al Jazeera, 27 Nov"
         },
         {
-          "title": "Eurozone picks Hernández de Cos to lead the ECB",
-          "body": "Finance ministers recommended the former Bank of Spain governor, now head of the Bank for International Settlements, to succeed Christine Lagarde, who leaves on 7 February; he would be the first Spaniard in the post. France's Laurence Boone and Germany's Markus Brunnermeier were put forward for the executive board, and EU leaders are expected to make the formal appointment in December after consulting Parliament.",
-          "source": "Xinhua, Copenhagen Post, 27 Nov"
-        },
-        {
-          "title": "Trading partners reject Washington's case for new tariffs",
-          "body": "China, Japan, the EU, Singapore and Malaysia disputed the US finding of excess manufacturing capacity that underpins planned duties on 14 economies, a move to restore tariffs the Supreme Court struck down in February. China faces 20 percent, possibly doubling to 40, and reserves the right to retaliate; the current US-China truce runs to 10 January.",
-          "source": "10 Things (Reuters, FT), 27 Nov"
-        },
-        {
-          "title": "Wall Street has its best week since spring 2025",
-          "body": "The S&P 500 rose about 5.6 percent over the holiday-shortened week and the Nasdaq about 6.7 percent. Anthropic's shares jumped 11 percent on Friday, their best day since listing on 19 November.",
-          "source": "Longbridge (Zhitong), 27 Nov"
-        }
-      ]
-    },
-    {
-      "heading": "World",
-      "items": [
-        {
-          "title": "Trump says he can end the Iran war whenever he wants",
-          "body": "He also warned he could strike Iran's underground nuclear site again; Iran vowed to break the US naval blockade and threatened action at sea and in the air.",
-          "source": "SBS News (Seoul), 28 Nov"
-        },
-        {
-          "title": "Hamas weighs a response to continued Israeli strikes",
-          "body": "Its leader Khalil al-Hayya said the group would consult other factions, a rare hint of retaliation, after strikes killed at least ten people including a Hamas politburo member. Israel now holds about two-thirds of Gaza, up from just over half when the ceasefire began.",
-          "source": "10 Things (AP), 27 Nov"
-        },
-        {
-          "title": "Congo's Ebola outbreak passes 12,000 confirmed cases",
-          "body": "Official data show 12,021 cases and 5,904 deaths across 8 of 26 provinces since May; the Bundibugyo strain has no approved vaccine or treatment.",
-          "source": "10 Things (Reuters), 27 Nov"
+          "title": "Eurozone leaders pick Hernández de Cos to lead the ECB",
+          "body": "European Council President António Costa said on Thursday that eurozone states recommend the head of the Bank for International Settlements and former Bank of Spain governor to succeed Christine Lagarde in February; he would be the first Spaniard in the post. Laurence Boone and Markus Brunnermeier were recommended for the executive board. After the European Parliament and the ECB give their opinions, leaders are expected to make the formal appointment at the December summit.",
+          "source": "European Council, 26 Nov; Al Jazeera (AFP, Reuters), 26 Nov"
         }
       ]
     },
@@ -53,8 +23,8 @@
       "items": [
         {
           "title": "Centre Party council decides tomorrow, and Thand Ringqvist may go if it says no",
-          "body": "The 59-member förtroenderåd meets on Sunday to approve or reject the leadership's plan to vote Kristersson in on Monday and join an M-C-KD-L minority government. Expressen and SVT report the leader will resign if it says no, and that the party's executive committee had voted 3-2 against her line before Thursday's broader meeting. Birgitta Ohlsson and Muharrem Demirok say they will vote against Kristersson regardless; the leadership expects to win, critics a close vote. S, V and MP say their doors remain open if the council overrules her.",
-          "source": "TV4, SVT Text, 27 Nov; News55 (citing SVT, Expressen), 28 Nov (reported)"
+          "body": "The 59-member förtroenderåd is expected to vote on Sunday on the leadership's plan to let Kristersson through in Monday's 13:00 vote and join an M-C-KD-L minority government. SVT's sources say Elisabeth Thand Ringqvist will resign if the council says no; she has majorities in the party board and Riksdag group behind her. Birgitta Ohlsson says she will vote against Kristersson regardless, and council member Aida Karimli will vote no; S, V and MP say their doors remain open if the council overrules her. If Kristersson loses, a fourth vote is due before Christmas, and a fourth failure means a snap election.",
+          "source": "SVT, TV4, SVT Text, 26-27 Nov (resignation based on unnamed sources)"
         },
         {
           "title": "Vattenfall raises grid fees by 5 percent",
@@ -75,11 +45,11 @@
           "title": "Scheduled",
           "bullets": [
             "Sunday 29 November: Centre Party council decides on the Kristersson government; snap general election in Spain.",
-            "Monday 30 November: Riksdag votes on Kristersson as prime minister; appeal verdict in Sarkozy's Libyan campaign-financing case; AWS re:Invent opens in Las Vegas.",
-            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires; Estonia closes its land border with Russia; Jensen Huang begins two days of closed-door House committee interviews.",
-            "Thursday 3 December: Huang testifies to the Senate Banking Committee on export controls."
+            "Monday 30 November: Riksdag votes on Kristersson as prime minister at 13:00; appeal verdict in Sarkozy's Libyan campaign-financing case; AWS re:Invent opens in Las Vegas.",
+            "Tuesday 1 December: Senate Democrats choose between Schumer and Van Hollen; Sweden's temporary fuel-tax cut expires; Estonia closes its land border with Russia.",
+            "Thursday 3 December: Jensen Huang testifies to the US Senate Banking Committee."
           ],
-          "source": "SVT Text; Faithful Intelligence (AI News), 27 Nov; earlier editions"
+          "source": "SVT; Riksdagen; earlier editions"
         }
       ]
     },
@@ -88,23 +58,8 @@
       "items": [
         {
           "title": "OpenAI countersues Apple",
-          "body": "Its complaint, filed Friday in California, accuses Apple of stealing trade secrets, pressuring suppliers both companies use and abusing its market power. It answers Apple's July suit claiming former employees took secrets to OpenAI's hardware team.",
-          "source": "The Decoder (citing FT), 27 Nov"
-        },
-        {
-          "title": "Nvidia reportedly halts server shipments to four Southeast Asian countries",
-          "body": "Server partners were told to pause deliveries to Malaysia, Singapore, Thailand and Indonesia after new US Commerce rules that require permits for large clusters, even abroad, putting regional data-centre projects at risk; Nvidia has also warned cloud providers they may lose GPU access if they rent to Chinese firms.",
-          "source": "The Neuron, 27 Nov (reported)"
-        },
-        {
-          "title": "Chinese labs warn the export rules will slow their models",
-          "body": "Moonshot reportedly expects the gap between major releases to stretch from about six months to a year or more if it loses overseas compute, and Zhipu's next flagship, GLM-5.5, may slip into 2027.",
-          "source": "The Neuron, note.com digest (citing Reuters), 27 Nov (reported)"
-        },
-        {
-          "title": "Tencent open-sources a faster decoding method",
-          "body": "DFly2 drafts several tokens ahead for the main model to check, a form of speculative decoding; Tencent reports up to 81 percent higher throughput on DeepSeek-V4.1-Flash at long context.",
-          "source": "The Neuron, 27 Nov (company figures)"
+          "body": "OpenAI filed its own suit on Friday, escalating the trade-secrets fight that Apple started in July when it accused former employees of taking confidential hardware information to OpenAI.",
+          "source": "CNN, 27 Nov; Apple's original suit: Al Jazeera, 10 Jul"
         }
       ]
     },

@@ -119,6 +119,14 @@ A job in the private repo extracts the winner's full text and figures and falls 
 
 The digest is a quick scan: about **4-5 minutes, roughly 950-1,150 words** on weekdays including On the radar, up to ~1,300 on Sundays. Depth belongs in the must-read, not the digest. Before publishing, count the words and cut until it fits, removing whole items before trimming sentences.
 
+## Sources (strict, set by the reader in November 2026)
+
+Consult and cite only first-hand, trusted sources:
+- **Primary sources:** the organisation itself (government, parliament, EU institutions, central banks, courts, company and lab blogs, press releases, filings, papers on arXiv).
+- **Established news organisations:** wire services (Reuters, AP, AFP, Bloomberg, TT), major international outlets (FT, The Economist, NYT, WSJ, Washington Post, BBC, The Guardian, Al Jazeera, Politico, CNN, NPR, Le Monde, Der Spiegel), Swedish outlets (SVT, SR, TT, DN, SvD, Expressen, Aftonbladet, TV4, Altinget, Di, Breakit), and established tech and science outlets (The Verge, TechCrunch, Ars Technica, Wired, MIT Technology Review, Nature, Science, Quanta).
+
+Never consult or cite newsletters, aggregators and digests (The Neuron, 10 Things, DEV digests, Monitor the Situation, Substack roundups, 'AI news today' sites), AI-generated or auto-translated blogs, market-data or press-release mirror sites, or obscure local papers and blogs, not even for discovery. If a story can only be found in such places, leave it out. Hacker News and Hugging Face daily papers remain signals of what is being discussed, never sources: always go to the original. If the only reputable report is paywalled or unreachable, cite it only for what its own headline or a second reputable source confirms, or skip the story.
+
 ## Style
 
 - Clear, crisp and neutral, like a good briefing note. No casual or "cool" phrasing ("coin flip", "should own", "priced in").
