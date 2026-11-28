@@ -121,11 +121,18 @@ The digest is a quick scan: about **4-5 minutes, roughly 950-1,150 words** on we
 
 ## Sources (strict, set by the reader in November 2026)
 
-Consult and cite only first-hand, trusted sources:
+Cite only first-hand, trusted sources:
 - **Primary sources:** the organisation itself (government, parliament, EU institutions, central banks, courts, company and lab blogs, press releases, filings, papers on arXiv).
 - **Established news organisations:** wire services (Reuters, AP, AFP, Bloomberg, TT), major international outlets (FT, The Economist, NYT, WSJ, Washington Post, BBC, The Guardian, Al Jazeera, Politico, CNN, NPR, Le Monde, Der Spiegel), Swedish outlets (SVT, SR, TT, DN, SvD, Expressen, Aftonbladet, TV4, Altinget, Di, Breakit), and established tech and science outlets (The Verge, TechCrunch, Ars Technica, Wired, MIT Technology Review, Nature, Science, Quanta).
 
-Never consult or cite newsletters, aggregators and digests (The Neuron, 10 Things, DEV digests, Monitor the Situation, Substack roundups, 'AI news today' sites), AI-generated or auto-translated blogs, market-data or press-release mirror sites, or obscure local papers and blogs, not even for discovery. If a story can only be found in such places, leave it out. Hacker News and Hugging Face daily papers remain signals of what is being discussed, never sources: always go to the original. If the only reputable report is paywalled or unreachable, cite it only for what its own headline or a second reputable source confirms, or skip the story.
+Never cite newsletters, aggregators and digests (The Neuron, 10 Things, DEV digests, Monitor the Situation, Substack roundups, 'AI news today' sites), AI-generated or auto-translated blogs, market-data or press-release mirror sites, or obscure local papers and blogs. They may be used only as tip sheets to find stories. Every item must then be traced to the original reporting and written and cited from that, never from the tip sheet. Hacker News and Hugging Face daily papers work the same way: signals, never sources.
+
+**Tracing a story to its original is part of the job, and dropping stories is a last resort.** The edition should keep its full length with reputable sourcing. For each story found in a tip sheet:
+- Search for the story's specifics (names, numbers) together with the likely original outlet ("Reuters", "AP", "FT", the agency or company name).
+- Wire copy is often readable where the outlet's own site is not: AP stories on BNN Bloomberg, MPR, the Inquirer's wire pages, US News and local TV sites; Reuters stories on US News, Investing.com, Arab News and the Taipei Times. Cite them as AP or Reuters, with the date.
+- Look for the primary source itself: the government, ministry, court, regulator, company or lab statement.
+- If the original is paywalled or refuses fetches, a reputable outlet that reports it (e.g. TechCrunch citing WSJ) is fine; cite both. Otherwise use only what the original's own headline confirms.
+Leave a story out only when no reputable outlet or primary source has reported it after a real search. That is rare for any story that matters.
 
 ## Style
 

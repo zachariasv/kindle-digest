@@ -1,7 +1,7 @@
 {
   "date": "2026-11-28",
   "title": "Morning Digest, Saturday 28 November 2026",
-  "intro": "The Centre Party's council meets tomorrow with its leader's job reportedly on the line, a drone strike in Kuwait kills two Italian technicians, eurozone leaders pick Spain's Pablo Hernández de Cos to run the ECB, and OpenAI countersues Apple.",
+  "intro": "The Centre Party's council meets tomorrow with its leader's job reportedly on the line, a drone strike in Kuwait kills two Italian technicians, eurozone leaders pick Spain's Pablo Hernández de Cos to run the ECB, US trading partners push back on new tariffs, and OpenAI countersues Apple.",
   "sections": [
     {
       "heading": "Everyone's talking about",
@@ -15,6 +15,31 @@
           "title": "Eurozone leaders pick Hernández de Cos to lead the ECB",
           "body": "European Council President António Costa said on Thursday that eurozone states recommend the head of the Bank for International Settlements and former Bank of Spain governor to succeed Christine Lagarde in February; he would be the first Spaniard in the post. Laurence Boone and Markus Brunnermeier were recommended for the executive board. After the European Parliament and the ECB give their opinions, leaders are expected to make the formal appointment at the December summit.",
           "source": "European Council, 26 Nov; Al Jazeera (AFP, Reuters), 26 Nov"
+        },
+        {
+          "title": "Trading partners push back on Washington's new tariffs",
+          "body": "China called the US finding of excess factory capacity a pretext and vowed to defend its interests; Japan, Singapore, Malaysia, Vietnam and the EU also rejected it. The duties, likely from early 2027, would be 20 percent on China (possibly rising to 40), up to 15 percent on the EU and Japan and up to 35 percent on Vietnam; Washington and Beijing extended their trade truce by two months.",
+          "source": "AP, 26 Nov; CNBC, 25 Nov"
+        },
+        {
+          "title": "Wall Street has its best week since April 2025",
+          "body": "The S&P 500 gained 5.6 percent over the holiday-shortened week. Anthropic, the first frontier AI lab to list, rose 11 percent on Friday to $91.88, above its $83 offer price but well below its first-day high of about $115.",
+          "source": "AP, 27 Nov"
+        }
+      ]
+    },
+    {
+      "heading": "World",
+      "items": [
+        {
+          "title": "Hamas weighs a response to Israeli strikes",
+          "body": "Leader Khalil al-Hayya said the group cannot keep absorbing attacks and will discuss a response with other factions, after strikes killed at least ten people including Khaled Abu Nada of its political office. Israel now controls about two-thirds of Gaza, and at least 1,600 Palestinians have been killed since the October 2025 ceasefire.",
+          "source": "Reuters, 26 Nov"
+        },
+        {
+          "title": "Congo's Ebola outbreak passes 12,000 cases",
+          "body": "The Bundibugyo-strain outbreak, the country's worst, has crossed 12,000 confirmed cases, and some responders have been evacuated as fighting hampers the effort.",
+          "source": "Reuters, NPR, 26 Nov"
         }
       ]
     },
@@ -60,6 +85,16 @@
           "title": "OpenAI countersues Apple",
           "body": "OpenAI filed its own suit on Friday, escalating the trade-secrets fight that Apple started in July when it accused former employees of taking confidential hardware information to OpenAI.",
           "source": "CNN, 27 Nov; Apple's original suit: Al Jazeera, 10 Jul"
+        },
+        {
+          "title": "Nvidia pauses server shipments to four Southeast Asian countries",
+          "body": "It told partners including Dell and Super Micro to halt deliveries to Malaysia, Singapore, Thailand and Indonesia while it checks compliance with a new US rule closing the loophole that let Chinese firms rent Nvidia chips in data centres abroad, a source the Institute for Progress puts at about a quarter of China's AI compute.",
+          "source": "TechCrunch (citing WSJ), FT via Reuters, 26 Nov"
+        },
+        {
+          "title": "Chinese labs say the new rules will slow their next models",
+          "body": "Zhipu's roughly 3-trillion-parameter GLM-5.5, planned for November, may slip to 2027, and Moonshot expects the gap between major releases to stretch from six months to a year or more if it loses overseas compute, pushing Kimi K4 towards mid-2027.",
+          "source": "Reuters, 27 Nov (sources)"
         }
       ]
     },
