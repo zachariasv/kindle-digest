@@ -145,32 +145,6 @@
    "minutes": 15
   },
   {
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "title": "Claude Fable 5.2 solves two open problems in the physics of black holes",
-   "source": "Anthropic",
-   "why": "A first-hand account of a team of Claude agents working for about six weeks on a list of open problems in quantum gravity and closing two of them: whether the Hawking-Page transition (a hot gas turning into a black hole) stays abrupt at weak coupling in N=4 super-Yang-Mills, a calculation left unfinished since 2003, and an exact, provably optimal ceiling on the mass of the lightest black hole in 3D gravity via the modular bootstrap, found after the model spotted a pattern physicists had missed in earlier numerics. The results were checked in the Lean proof assistant and by a physicist. The piece shows how the agents split, cross-checked and wrote up the work, which is the concrete picture of AI as a working scientist.",
-   "who": "",
-   "category": "ai-research",
-   "kind": "fresh",
-   "published": "2026-11-17",
-   "added": "2026-11-19",
-   "impact": 7,
-   "minutes": 25
-  },
-  {
-   "url": "https://www.quantamagazine.org/what-makes-up-the-cosmos-a-20-year-survey-hints-that-something-is-missing-20261116/",
-   "title": "What Makes Up the Cosmos? A 20-Year Survey Hints That Something Is Missing.",
-   "source": "Quanta Magazine (Charlie Wood)",
-   "why": "The Dark Energy Survey's final results, combined with DESI, again lean toward dark energy weakening over time, a three-sigma tension with the standard Lambda-CDM model of cosmology. The feature explains what the survey measured, why three sigma is not yet a discovery, and what Rubin and DESI could settle next: a clear guide to the biggest open question in cosmology right now.",
-   "who": "",
-   "category": "science",
-   "kind": "fresh",
-   "published": "2026-11-16",
-   "added": "2026-11-19",
-   "impact": 6,
-   "minutes": 10
-  },
-  {
    "url": "https://www.anthropic.com/research/project-eve-claude-plays-mmorpgs",
    "title": "Project EVE: Claude plays MMORPGs",
    "source": "Anthropic (Frontier Red Team)",
